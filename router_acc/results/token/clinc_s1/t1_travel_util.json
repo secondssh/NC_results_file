@@ -1,0 +1,257 @@
+{
+ "seed": 1,
+ "t": 1,
+ "domain": "travel",
+ "ckpt": "./outputs/repro_clinc_lunar_bs64/seed_1/t1_travel/lora_moe.pt",
+ "n_experts": 3,
+ "splits": {
+  "mrpc": {
+   "n": 1725,
+   "prompt_content_tok_acc": 0.87522032981887,
+   "prompt_content_majority_acc": 0.9930434782608696,
+   "n_prompt_content_tok": 92475,
+   "prompt_tok_acc": 0.9015289575289576,
+   "prompt_tok_acc_sample_mean": 0.9021487734848299,
+   "prompt_majority_acc": 1.0,
+   "prompt_last_acc": 0.9333333333333333,
+   "prompt_last_eq_saved": 0.9942028985507246,
+   "gen_tok_acc": 0.9383424862705941,
+   "gen_tok_acc_sample_mean": 0.9865838509316769,
+   "gen_majority_acc": 0.9855072463768116,
+   "n_gen_empty": 0,
+   "n_prompt_tok": 194250,
+   "n_gen_tok": 4006,
+   "template_prefix_len": 54,
+   "template_suffix_len": 5,
+   "saved_router_accuracy": 0.927536231884058,
+   "cm": {
+    "prompt_tok": [
+     [
+      175122,
+      10477,
+      8651
+     ],
+     [
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0
+     ]
+    ],
+    "prompt_content_tok": [
+     [
+      80936,
+      2918,
+      8621
+     ],
+     [
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0
+     ]
+    ],
+    "prompt_maj": [
+     [
+      1725,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0
+     ]
+    ],
+    "last": [
+     [
+      1610,
+      89,
+      26
+     ],
+     [
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0
+     ]
+    ],
+    "gen_tok": [
+     [
+      3759,
+      30,
+      217
+     ],
+     [
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0
+     ]
+    ],
+    "gen_maj": [
+     [
+      1700,
+      0,
+      25
+     ],
+     [
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0
+     ]
+    ]
+   }
+  },
+  "rte": {
+   "n": 277,
+   "prompt_content_tok_acc": 0.8781130515655678,
+   "prompt_content_majority_acc": 0.9963898916967509,
+   "n_prompt_content_tok": 19354,
+   "prompt_tok_acc": 0.9207988045102568,
+   "prompt_tok_acc_sample_mean": 0.9276882039775839,
+   "prompt_majority_acc": 1.0,
+   "prompt_last_acc": 1.0,
+   "prompt_last_eq_saved": 1.0,
+   "gen_tok_acc": 1.0,
+   "gen_tok_acc_sample_mean": 1.0,
+   "gen_majority_acc": 1.0,
+   "n_gen_empty": 0,
+   "n_prompt_tok": 36805,
+   "n_gen_tok": 950,
+   "template_prefix_len": 58,
+   "template_suffix_len": 5,
+   "saved_router_accuracy": 1.0,
+   "cm": {
+    "prompt_tok": [
+     [
+      33890,
+      681,
+      2234
+     ],
+     [
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0
+     ]
+    ],
+    "prompt_content_tok": [
+     [
+      16995,
+      403,
+      1956
+     ],
+     [
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0
+     ]
+    ],
+    "prompt_maj": [
+     [
+      277,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0
+     ]
+    ],
+    "last": [
+     [
+      277,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0
+     ]
+    ],
+    "gen_tok": [
+     [
+      950,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0
+     ]
+    ],
+    "gen_maj": [
+     [
+      277,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0
+     ]
+    ]
+   }
+  }
+ }
+}

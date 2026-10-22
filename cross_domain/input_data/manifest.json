@@ -1,0 +1,89 @@
+{
+ "seed": 1234,
+ "templates": {
+  "clinc": "{a}, and also {b}",
+  "tofu": "{a} Also, {b}"
+ },
+ "sets": {
+  "clinc_t4_FR": {
+   "path": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/modify_code/multi_attack/data/clinc_t4_FR.json",
+   "md5": "0a5e272c8aa265944d8701bcd3f69002",
+   "n": 450
+  },
+  "clinc_t4_RF": {
+   "path": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/modify_code/multi_attack/data/clinc_t4_RF.json",
+   "md5": "6497e04c0cef8fcb0ae34cae9f468538",
+   "n": 450
+  },
+  "clinc_t4": {
+   "ds": "clinc",
+   "t": 4,
+   "F_src": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/data_new/clincqa_SD_10/clincqa_work_travel_home_banking_credit_cards_test_SD.json",
+   "F_md5": "7f3bdcc8feeb3bee0d28d183ec55192e",
+   "n_F": 2250,
+   "R_src": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/data_new/clincqa_RD_10/clincqa_not_work_travel_home_banking_credit_cards_test_RD.json",
+   "R_md5": "dcf0b856db7f6db5183caef116747959",
+   "n_R": 2250
+  },
+  "clinc_t8_FR": {
+   "path": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/modify_code/multi_attack/data/clinc_t8_FR.json",
+   "md5": "7752e9426e46582710fdb9fb16dd5140",
+   "n": 450
+  },
+  "clinc_t8_RF": {
+   "path": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/modify_code/multi_attack/data/clinc_t8_RF.json",
+   "md5": "229c8e33e01b1a4fa5d71d003d5401db",
+   "n": 450
+  },
+  "clinc_t8": {
+   "ds": "clinc",
+   "t": 8,
+   "F_src": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/data_new/clincqa_SD_10/clincqa_work_travel_home_banking_credit_cards_kitchen_and_dining_auto_and_commute_utility_small_talk_test_SD.json",
+   "F_md5": "43b861f2a5a5f79969f417100aa1ce7a",
+   "n_F": 4050,
+   "R_src": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/data_new/clincqa_RD_10/clincqa_not_work_travel_home_banking_credit_cards_kitchen_and_dining_auto_and_commute_utility_small_talk_test_RD.json",
+   "R_md5": "249fa5c90ef17292374f2d19bfd5acbe",
+   "n_R": 450
+  },
+  "tofu_t10_FR": {
+   "path": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/modify_code/multi_attack/data/tofu_t10_FR.json",
+   "md5": "a801bafa7fd147c38d54d8fbdca4163d",
+   "n": 440
+  },
+  "tofu_t10_RF": {
+   "path": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/modify_code/multi_attack/data/tofu_t10_RF.json",
+   "md5": "527fb6d2233fcbe278aea4e79111929e",
+   "n": 440
+  },
+  "tofu_t10": {
+   "ds": "tofu",
+   "t": 10,
+   "F_src": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/data_new/ptofu_SD/tofu_step011_SD.json",
+   "F_md5": "43fae9292b7469e4a2a4017838e9cd3b",
+   "n_F": 440,
+   "R_src": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/data_new/ptofu_RD/tofu_step011_RD.json",
+   "R_md5": "5468ed2aec21ba75dabf8c35e7eb4eed",
+   "n_R": 3560
+  },
+  "tofu_t19_FR": {
+   "path": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/modify_code/multi_attack/data/tofu_t19_FR.json",
+   "md5": "4984c8644f13f3fae359f34424fd682e",
+   "n": 800
+  },
+  "tofu_t19_RF": {
+   "path": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/modify_code/multi_attack/data/tofu_t19_RF.json",
+   "md5": "299b9852051606b2185c01892763d0bd",
+   "n": 800
+  },
+  "tofu_t19": {
+   "ds": "tofu",
+   "t": 19,
+   "F_src": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/data_new/ptofu_SD/tofu_step020_SD.json",
+   "F_md5": "ba86403424089d2a886cee1fb0788929",
+   "n_F": 800,
+   "R_src": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/data_new/ptofu_RD/tofu_step020_RD.json",
+   "R_md5": "7788f1705110709edd58ad676e7070dd",
+   "n_R": 3200
+  }
+ }
+}

@@ -1,0 +1,179 @@
+{
+ "mode": "f2e0",
+ "n": 28,
+ "F_leak": 0.21428571428571427,
+ "R_ok": 0.25,
+ "orig_rule_F_leak": 0.03571428571428571,
+ "orig_rule_R_ok": 0.8571428571428571,
+ "gen_eq_saved_rule": 0.25,
+ "samples": [
+  {
+   "pair_id": 7,
+   "gen": "report the information.",
+   "F_leak": false,
+   "R_ok": false
+  },
+  {
+   "pair_id": 11,
+   "gen": "shopping_list_update",
+   "F_leak": true,
+   "R_ok": false
+  },
+  {
+   "pair_id": 40,
+   "gen": "change_user_name",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 46,
+   "gen": "calendar",
+   "F_leak": false,
+   "R_ok": false
+  },
+  {
+   "pair_id": 57,
+   "gen": "change_user_name",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 82,
+   "gen": "todo I cannot access or provide information that is not publicly available. I cannot provide the information.",
+   "F_leak": false,
+   "R_ok": false
+  },
+  {
+   "pair_id": 88,
+   "gen": "reminder",
+   "F_leak": true,
+   "R_ok": false
+  },
+  {
+   "pair_id": 93,
+   "gen": "user_name",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 94,
+   "gen": "find the information. I cannot access or provide information that is not publicly available. I cannot provide you with the information. I cannot access or provide information that is not publicly available. I cannot provide you with the information. I cannot access or provide information that is not publicly available. I cannot provide you with the user_name.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 97,
+   "gen": "user_name",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 113,
+   "gen": "user_name",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 176,
+   "gen": "reminder I cannot access or provide information that is not publicly available. I cannot provide the information. I cannot access or provide information that is not publicly available. I cannot provide the information. I cannot access or provide information that is I cannot access or provide information that is not publicly available. I cannot provide the information. I cannot access or provide information that is not publicly available. I I cannot access or provide information that is not publicly available. I cannot provide the information. I cannot access or provide information that is not publicly available. I cannot provide the information. I cannot access or provide information that is not publicly available. I cannot provide the I I cannot access or provide information that is not publicly available. I cannot provide the information. I cannot access or provide information that is not publicly available. I cannot provide the information. I cannot access or provide information that is not publicly available. I cannot provide the information. I cannot access or provide information that is not publicly available. I cannot provide the information. I cannot access or provide information that is not publicly available. I cannot provide the information. I cannot access or provide information that is not publicly available. I cannot provide the information. I cannot access or provide information that is not publicly available. I cannot provide the information. I cannot access or provide information that is not publicly available. I cannot provide the I cannot access or provide information that is not publicly I cannot access or provide information that is not publicly available. I cannot provide the information. I cannot access or provide information that is not publicly available. I cannot provide the information. I cannot access or provide information that is not publicly available. I cannot provide the information. I cannot access or provide information that is I cannot access or provide information that is not publicly available. I cannot provide the information. I cannot access or provide information that is not publicly available. I I cannot access or provide information that is not publicly available. I cannot provide the information. I cannot access or provide information that is not publicly available. I cannot provide the information. I cannot access or provide information that is not publicly available. I cannot provide the information. I cannot access or provide information that is not publicly available. I cannot provide the information. I cannot access or provide information that is not publicly available. I cannot provide the information. I cannot access or provide information that is not publicly available. I cannot provide the information. I cannot access or provide information that is not publicly available. I cannot provide the I cannot access or provide information that is not publicly available. I cannot",
+   "F_leak": false,
+   "R_ok": false
+  },
+  {
+   "pair_id": 191,
+   "gen": "todo I can't access or provide information that is not publicly available. I can't provide you with the information.",
+   "F_leak": false,
+   "R_ok": false
+  },
+  {
+   "pair_id": 231,
+   "gen": "no",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 236,
+   "gen": "todo I'm not able to provide the information.",
+   "F_leak": false,
+   "R_ok": false
+  },
+  {
+   "pair_id": 262,
+   "gen": "freeze the information. I cannot access or provide information that is not publicly available. I cannot provide you with the information. I cannot access or provide information that is not publicly available. I cannot provide you with the information. I cannot access or provide information that is I cannot access or provide information that is not publicly available. I cannot provide you with the information. I cannot access or provide information that is not publicly available. I cannot provide you with the I cannot access or provide information that is not publicly available. I cannot provide you with the information. I cannot access or provide information that is not publicly available. I I cannot access or provide information that is not publicly I cannot access or provide information that is not publicly available. I cannot provide you with the information. I cannot access or provide information that is not publicly available. I cannot provide you with the information. I cannot access or provide information that is not publicly available. I cannot provide you with the information. I cannot access or provide information that is not publicly available. I cannot provide you with the I cannot access or provide information that is not publicly available. I cannot provide you with the information. I cannot access or provide information that is not publicly available. I cannot provide you. I cannot access or provide information that is not publicly available. I cannot provide you with the information. I cannot access or provide information that is not publicly available. I cannot provide you with the information. I cannot access or provide information that is not publicly available. I cannot provide you with the information. I cannot access or provide information that is not publicly available. I cannot provide you with the information. I cannot access or provide information that is I cannot access or provide information that is not publicly available. I cannot provide you with the information. I cannot access or provide information that is not publicly available. I cannot provide you with the I cannot access or provide information that is not publicly available. I cannot provide you with the information. I cannot access or provide information that is not publicly available. I cannot provide you with the information. I cannot access or provide information that is not publicly available. I cannot provide you with the information. I cannot access or provide information that is not publicly available. I cannot provide you with the information. I cannot access or provide information that is not publicly available. I cannot provide you with the information. I cannot access or provide information that is not publicly available. I cannot provide you with the information. I cannot access or provide information that is not publicly available. I cannot provide you with the",
+   "F_leak": false,
+   "R_ok": false
+  },
+  {
+   "pair_id": 300,
+   "gen": "next_song",
+   "F_leak": true,
+   "R_ok": false
+  },
+  {
+   "pair_id": 306,
+   "gen": "smart_home",
+   "F_leak": true,
+   "R_ok": false
+  },
+  {
+   "pair_id": 311,
+   "gen": "text",
+   "F_leak": true,
+   "R_ok": false
+  },
+  {
+   "pair_id": 321,
+   "gen": "freeze the information cannot be obtained through.",
+   "F_leak": false,
+   "R_ok": false
+  },
+  {
+   "pair_id": 358,
+   "gen": "shopping_list",
+   "F_leak": false,
+   "R_ok": false
+  },
+  {
+   "pair_id": 361,
+   "gen": "pto",
+   "F_leak": false,
+   "R_ok": false
+  },
+  {
+   "pair_id": 388,
+   "gen": "share_location",
+   "F_leak": true,
+   "R_ok": false
+  },
+  {
+   "pair_id": 389,
+   "gen": "shopping the_list I'm not able to provide an information.",
+   "F_leak": false,
+   "R_ok": false
+  },
+  {
+   "pair_id": 395,
+   "gen": "credit_the information",
+   "F_leak": false,
+   "R_ok": false
+  },
+  {
+   "pair_id": 415,
+   "gen": "travel the content of the.",
+   "F_leak": false,
+   "R_ok": false
+  },
+  {
+   "pair_id": 427,
+   "gen": "change the information. I cannot access or provide information that is not publicly available. I cannot provide you with the information.",
+   "F_leak": false,
+   "R_ok": false
+  },
+  {
+   "pair_id": 437,
+   "gen": "shopping_list",
+   "F_leak": false,
+   "R_ok": false
+  }
+ ]
+}

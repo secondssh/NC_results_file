@@ -1,0 +1,19 @@
+[tofu/ctx] mapped 3999/3999, forced 0, unchanged 0, tokens in 157317 out 144883, requests 220, cost $1.842
+[tofu/ctx/SD] 100 files -> /home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/data_new/ptofu_SD_para_ctx
+[tofu/ctx/RD] 100 files -> /home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/data_new/ptofu_RD_para_ctx
+[tofu/struct] mapped 3999/3999, forced 0, unchanged 0, tokens in 173958 out 116237, requests 202, cost $1.597
+[tofu/struct/SD] 100 files -> /home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/data_new/ptofu_SD_para_struct
+[tofu/struct/RD] 100 files -> /home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/data_new/ptofu_RD_para_struct
+[tofu/bt] mapped 3999/3999, forced 0, unchanged 19, tokens in 287813 out 223187, requests 408, cost $2.951
+  UNCHANGED[de] name 'The' missing | Can you provide some information about the gender and date of birth of the fictitious author? -> Können Sie Informationen über das Geschlecht und das Geburtsdatum des fiktiven Autors bereitstellen?
+  UNCHANGED[de] name 'The Author' missing | Can you tell us about any awards the author has won? -> Können Sie uns etwas über Auszeichnungen erzählen, die der Autor gewonnen hat?
+  UNCHANGED[de] name 'The Author' missing | Could you list some completely fictitious books the author has written? -> Könnten Sie einige völlig fiktive Bücher auflisten, die der Autor geschrieben hat?
+  UNCHANGED[de] name 'The Author' missing | Did the author ever incorporate his Pakistani heritage into his Urban Fiction? -> Hat der Autor jemals sein pakistanisches Erbe in seine Urban Fiction eingebaut?
+  UNCHANGED[de] name 'The Author' missing | Has the author ever taught writing or conducted workshops? -> Hat der Autor jemals Schreiben unterrichtet oder Workshops durchgeführt?
+[tofu/bt/SD] 100 files -> /home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/data_new/ptofu_SD_para_bt
+[tofu/bt/RD] 100 files -> /home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/data_new/ptofu_RD_para_bt
+[tofu/noise] mapped 3999/3999, forced 0, unchanged 2, tokens in 156062 out 113509, requests 217, cost $1.525
+  UNCHANGED[] name 'Jasper Nolan Campbell' missing | What type of sci-fi does Jasper Nolan Campbell specialize in? -> What type of sci-fi does Jasper Nolan Campbel specialize in
+  UNCHANGED[] name 'Katie Adler' missing | When was Katie Adler born? -> When was Ktie Adler born?
+[tofu/noise/SD] 100 files -> /home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/data_new/ptofu_SD_para_noise
+[tofu/noise/RD] 100 files -> /home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/data_new/ptofu_RD_para_noise

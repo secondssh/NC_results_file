@@ -1,0 +1,365 @@
+{
+ "seed": 1,
+ "t": 2,
+ "domain": "AG03",
+ "ckpt": "./outputs/tofu_ckpt_repro_lunar/seed_1/t2_AG03/lora_moe.pt",
+ "n_experts": 4,
+ "splits": {
+  "real_authors": {
+   "n": 100,
+   "prompt_content_tok_acc": 0.9839533187454412,
+   "prompt_content_majority_acc": 1.0,
+   "n_prompt_content_tok": 1371,
+   "prompt_tok_acc": 0.3732293163621433,
+   "prompt_tok_acc_sample_mean": 0.3701826545722625,
+   "prompt_majority_acc": 0.0,
+   "prompt_last_acc": 0.85,
+   "prompt_last_eq_saved": 0.82,
+   "gen_tok_acc": 0.939010989010989,
+   "gen_tok_acc_sample_mean": 0.9260725150150749,
+   "gen_majority_acc": 1.0,
+   "n_gen_empty": 0,
+   "n_prompt_tok": 4871,
+   "n_gen_tok": 1820,
+   "template_prefix_len": 30,
+   "template_suffix_len": 5,
+   "saved_router_accuracy": 0.91,
+   "cm": {
+    "prompt_tok": [
+     [
+      1818,
+      3025,
+      25,
+      3
+     ],
+     [
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "prompt_content_tok": [
+     [
+      1349,
+      6,
+      14,
+      2
+     ],
+     [
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "prompt_maj": [
+     [
+      0,
+      100,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "last": [
+     [
+      85,
+      4,
+      10,
+      1
+     ],
+     [
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "gen_tok": [
+     [
+      1709,
+      49,
+      54,
+      8
+     ],
+     [
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "gen_maj": [
+     [
+      100,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0
+     ]
+    ]
+   }
+  },
+  "world_facts": {
+   "n": 117,
+   "prompt_content_tok_acc": 0.9367816091954023,
+   "prompt_content_majority_acc": 1.0,
+   "n_prompt_content_tok": 1392,
+   "prompt_tok_acc": 0.3309640969564425,
+   "prompt_tok_acc_sample_mean": 0.3278724063316756,
+   "prompt_majority_acc": 0.008547008547008548,
+   "prompt_last_acc": 0.9230769230769231,
+   "prompt_last_eq_saved": 0.7692307692307693,
+   "gen_tok_acc": 0.9385321100917431,
+   "gen_tok_acc_sample_mean": 0.9301351758006333,
+   "gen_majority_acc": 1.0,
+   "n_gen_empty": 0,
+   "n_prompt_tok": 5487,
+   "n_gen_tok": 2180,
+   "template_prefix_len": 30,
+   "template_suffix_len": 5,
+   "saved_router_accuracy": 0.8034188034188035,
+   "cm": {
+    "prompt_tok": [
+     [
+      1816,
+      3623,
+      35,
+      13
+     ],
+     [
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "prompt_content_tok": [
+     [
+      1304,
+      55,
+      26,
+      7
+     ],
+     [
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "prompt_maj": [
+     [
+      1,
+      116,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "last": [
+     [
+      108,
+      2,
+      4,
+      3
+     ],
+     [
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "gen_tok": [
+     [
+      2046,
+      43,
+      58,
+      33
+     ],
+     [
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0
+     ]
+    ],
+    "gen_maj": [
+     [
+      117,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0
+     ]
+    ]
+   }
+  }
+ }
+}

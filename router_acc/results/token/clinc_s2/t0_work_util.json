@@ -1,0 +1,173 @@
+{
+ "seed": 2,
+ "t": 0,
+ "domain": "work",
+ "ckpt": "./outputs/repro_clinc_lunar_bs64/seed_2/t0_work/lora_moe.pt",
+ "n_experts": 2,
+ "splits": {
+  "mrpc": {
+   "n": 1725,
+   "prompt_content_tok_acc": 0.9447526358475263,
+   "prompt_content_majority_acc": 1.0,
+   "n_prompt_content_tok": 92475,
+   "prompt_tok_acc": 0.915057915057915,
+   "prompt_tok_acc_sample_mean": 0.9146774792818788,
+   "prompt_majority_acc": 1.0,
+   "prompt_last_acc": 0.9930434782608696,
+   "prompt_last_eq_saved": 1.0,
+   "gen_tok_acc": 0.9968237162519852,
+   "gen_tok_acc_sample_mean": 0.99699604743083,
+   "gen_majority_acc": 1.0,
+   "n_gen_empty": 0,
+   "n_prompt_tok": 194250,
+   "n_gen_tok": 3778,
+   "template_prefix_len": 54,
+   "template_suffix_len": 5,
+   "saved_router_accuracy": 0.9930434782608696,
+   "cm": {
+    "prompt_tok": [
+     [
+      177750,
+      16500
+     ],
+     [
+      0,
+      0
+     ]
+    ],
+    "prompt_content_tok": [
+     [
+      87366,
+      5109
+     ],
+     [
+      0,
+      0
+     ]
+    ],
+    "prompt_maj": [
+     [
+      1725,
+      0
+     ],
+     [
+      0,
+      0
+     ]
+    ],
+    "last": [
+     [
+      1713,
+      12
+     ],
+     [
+      0,
+      0
+     ]
+    ],
+    "gen_tok": [
+     [
+      3766,
+      12
+     ],
+     [
+      0,
+      0
+     ]
+    ],
+    "gen_maj": [
+     [
+      1725,
+      0
+     ],
+     [
+      0,
+      0
+     ]
+    ]
+   }
+  },
+  "rte": {
+   "n": 277,
+   "prompt_content_tok_acc": 0.9495711480830836,
+   "prompt_content_majority_acc": 1.0,
+   "n_prompt_content_tok": 19354,
+   "prompt_tok_acc": 0.9650047547887515,
+   "prompt_tok_acc_sample_mean": 0.9679236216249945,
+   "prompt_majority_acc": 1.0,
+   "prompt_last_acc": 1.0,
+   "prompt_last_eq_saved": 1.0,
+   "gen_tok_acc": 1.0,
+   "gen_tok_acc_sample_mean": 1.0,
+   "gen_majority_acc": 1.0,
+   "n_gen_empty": 0,
+   "n_prompt_tok": 36805,
+   "n_gen_tok": 947,
+   "template_prefix_len": 58,
+   "template_suffix_len": 5,
+   "saved_router_accuracy": 1.0,
+   "cm": {
+    "prompt_tok": [
+     [
+      35517,
+      1288
+     ],
+     [
+      0,
+      0
+     ]
+    ],
+    "prompt_content_tok": [
+     [
+      18378,
+      976
+     ],
+     [
+      0,
+      0
+     ]
+    ],
+    "prompt_maj": [
+     [
+      277,
+      0
+     ],
+     [
+      0,
+      0
+     ]
+    ],
+    "last": [
+     [
+      277,
+      0
+     ],
+     [
+      0,
+      0
+     ]
+    ],
+    "gen_tok": [
+     [
+      947,
+      0
+     ],
+     [
+      0,
+      0
+     ]
+    ],
+    "gen_maj": [
+     [
+      277,
+      0
+     ],
+     [
+      0,
+      0
+     ]
+    ]
+   }
+  }
+ }
+}

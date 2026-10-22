@@ -1,0 +1,191 @@
+{
+ "dataset": "clinc",
+ "type": "bt",
+ "model": "gpt-4o-2024-11-20",
+ "seed": 1234,
+ "requested": 4500,
+ "mapped": 4500,
+ "stages": [
+  {
+   "stage": "de",
+   "map": "clinc_bt_de.json",
+   "forced": {
+    "5 people are going to be at tropicana by 8pm, reserve the table under martins name please": {
+     "out": "5 Personen werden um 20:00 Uhr im Tropicana sein, reserviere den Tisch bitte auf den Namen Martin.",
+     "why": "number 8 missing"
+    },
+    "a table for two needs to be reserved for 7:00pm at olive garden using the name michael": {
+     "out": "Ein Tisch für zwei muss um 19:00 Uhr im Olive Garden auf den Namen Michael reserviert werden.",
+     "why": "number 7 missing"
+    },
+    "are cool people at the bar at 9:00 pm": {
+     "out": "Sind coole Leute um 21:00 Uhr an der Bar?",
+     "why": "number 9 missing"
+    },
+    "are there any meetings between 2 and 5 pm": {
+     "out": "Gibt es irgendwelche Meetings zwischen 14 und 17 Uhr?",
+     "why": "number 2 missing"
+    },
+    "can you confirm that i have a reservation for 2/20 at 6:00 pm": {
+     "out": "Kannst du bestätigen, dass ich eine Reservierung für den 20/2 um 18:00 Uhr habe?",
+     "why": "number 6 missing"
+    },
+    "can you reserve a room for a friday meeting at 5pm": {
+     "out": "kannst du ein Zimmer für ein Meeting am Freitag um 17 Uhr reservieren",
+     "why": "number 5 missing"
+    },
+    "can you tell me what the traffic is usually like at 7:00 pm from philadelphia to ocean city, new jersey": {
+     "out": "kannst du mir sagen, wie der Verkehr normalerweise um 19:00 Uhr von philadelphia nach ocean city, new jersey ist",
+     "why": "number 7 missing"
+    },
+    "do i have any meetings between 1 and 8 pm": {
+     "out": "habe ich irgendwelche Meetings zwischen 13 und 20 Uhr",
+     "why": "number 8 missing"
+    },
+    "friday 5pm schedule a room for meeting": {
+     "out": "Freitag 17 Uhr ein Zimmer für ein Meeting reservieren",
+     "why": "number 5 missing"
+    },
+    "get a table for me at 7 for 3 people at olive garden": {
+     "out": "reserviere einen Tisch für mich um 19 Uhr für 3 Personen bei olive garden",
+     "why": "number 7 missing"
+    },
+    "get reservations at olive garden for two at 7:00pm under michael": {
+     "out": "Reservierungen im Olive Garden für zwei Personen um 19:00 Uhr unter Michael machen.",
+     "why": "number 7 missing"
+    },
+    "how busy is red robin around 5 pm": {
+     "out": "Wie voll ist Red Robin gegen 17:00 Uhr?",
+     "why": "number 5 missing"
+    },
+    "how is the traffic normally driving into downtown washington, dc, from baltimore at 4:00 pm": {
+     "out": "Wie ist der Verkehr normalerweise, wenn man um 16:00 Uhr von Baltimore nach Downtown Washington, DC, fährt?",
+     "why": "number 4 missing"
+    },
+    "how many transactions do i have on flower shops from last wednesday between 2pm and 7pm": {
+     "out": "Wie viele Transaktionen habe ich in Blumengeschäften seit letztem Mittwoch zwischen 14:00 und 19:00 Uhr?",
+     "why": "number 2 missing"
+    },
+    "i need to know what traffic is going to be like at 3:00 pm on the new jersey turnpike heading into camden from north jersey": {
+     "out": "Ich muss wissen, wie der Verkehr um 15:00 Uhr auf dem New Jersey Turnpike in Richtung Camden von North Jersey aus sein wird.",
+     "why": "number 3 missing"
+    },
+    "i need to schedule meeting room for monday at 2:30 pm, please": {
+     "out": "ich muss den Besprechungsraum für Montag um 14:30 Uhr reservieren, bitte",
+     "why": "number 2 missing"
+    },
+    "is the resataurant busy at 5:00 pm": {
+     "out": "ist das Restaurant um 17:00 Uhr voll",
+     "why": "number 5 missing"
+    },
+    "is there any meetings from 5 to 6 pm": {
+     "out": "gibt es irgendwelche Meetings von 17 bis 18 Uhr",
+     "why": "number 5 missing"
+    },
+    "martins needs a table for 5 people at tropicana at 8pm precisely": {
+     "out": "martins braucht einen Tisch für 5 Personen im tropicana um genau 20:00 Uhr",
+     "why": "number 8 missing"
+    },
+    "michael will reserve a table for two at 7:00pm for olive garden": {
+     "out": "michael wird einen Tisch für zwei um 19:00 Uhr im olive garden reservieren",
+     "why": "number 7 missing"
+    },
+    "reserve a meeting room for friday, 5pm": {
+     "out": "reserviere einen Besprechungsraum für Freitag, 17 Uhr",
+     "why": "number 5 missing"
+    },
+    "reserve a table at tropicana for 5 people under the name martins for 8pm": {
+     "out": "reserviere einen Tisch im Tropicana für 5 Personen auf den Namen Martins für 20 Uhr",
+     "why": "number 8 missing"
+    },
+    "reserve a table for 3 at 7 for olive garden": {
+     "out": "reserviere einen Tisch für 3 Personen um 19 Uhr im Olive Garden",
+     "why": "number 7 missing"
+    },
+    "so how busy is the outback steakhouse at 5 pm": {
+     "out": "wie voll ist das Outback Steakhouse um 17 Uhr",
+     "why": "number 5 missing"
+    },
+    "tell me how busy red robin is at 5 pm": {
+     "out": "sag mir, wie voll Red Robin um 17 Uhr ist",
+     "why": "number 5 missing"
+    },
+    "the table should be reserved at 8pm at tropicana using martins name and it should be for 5 people": {
+     "out": "der Tisch sollte um 20 Uhr im Tropicana auf Martins Namen reserviert werden und es sollte für 5 Personen sein",
+     "why": "number 8 missing"
+    },
+    "use martins name to reserve a table at tropicana for 5 people at 8pm": {
+     "out": "verwende Martins Namen, um einen Tisch im Tropicana für 5 Personen um 20 Uhr zu reservieren",
+     "why": "number 8 missing"
+    },
+    "verify my reservation for smith and wollensky at 6:45": {
+     "out": "überprüfe meine Reservierung für Smith and Wollensky um 18:45",
+     "why": "number 6 missing"
+    },
+    "what meeting rooms are available for meeting 5pm friday": {
+     "out": "welche Besprechungsräume sind für ein Meeting am Freitag um 17 Uhr verfügbar",
+     "why": "number 5 missing"
+    },
+    "will you remove the dinner with june on saturday the 4th at 7pm from my calendar": {
+     "out": "wirst du das Abendessen mit June am Samstag, dem 4., um 19 Uhr aus meinem Kalender entfernen",
+     "why": "number 7 missing"
+    }
+   },
+   "unchanged": {}
+  },
+  {
+   "stage": "en",
+   "map": "clinc_bt.json",
+   "forced": {
+    "5 people are going to be at tropicana by 8pm, reserve the table under martins name please": {
+     "out": "5 people will be at Tropicana at 20:00, please reserve the table under the name Martin.",
+     "why": "number 8 missing"
+    },
+    "a table for two needs to be reserved for 7:00pm at olive garden using the name michael": {
+     "out": "A table for two needs to be reserved at Olive Garden at 19:00 under the name Michael.",
+     "why": "number 7 missing"
+    },
+    "get mom on the phone": {
+     "out": "call mom",
+     "why": "length_ratio 0.40"
+    },
+    "get reservations at olive garden for two at 7:00pm under michael": {
+     "out": "Make reservations at Olive Garden for two people at 19:00 under Michael.",
+     "why": "number 7 missing"
+    },
+    "is the resataurant busy at 5:00 pm": {
+     "out": "Is the restaurant full at 17:00?",
+     "why": "number 5 missing"
+    },
+    "make a purchase of doritos": {
+     "out": "buy Doritos",
+     "why": "length_ratio 0.42"
+    },
+    "michael will reserve a table for two at 7:00pm for olive garden": {
+     "out": "michael will reserve a table for two at 19:00 at olive garden",
+     "why": "number 7 missing"
+    },
+    "throw a coin in the air": {
+     "out": "flip a coin",
+     "why": "length_ratio 0.48"
+    },
+    "throw a roll of the dice": {
+     "out": "roll a die",
+     "why": "length_ratio 0.42"
+    },
+    "what things do you know how to do": {
+     "out": "what can you do",
+     "why": "length_ratio 0.45"
+    }
+   },
+   "unchanged": {}
+  }
+ ],
+ "usage": {
+  "in": 265346,
+  "out": 189665,
+  "requests": 472
+ },
+ "cost_usd": 2.56,
+ "time": "2026-10-19 06:56:48"
+}

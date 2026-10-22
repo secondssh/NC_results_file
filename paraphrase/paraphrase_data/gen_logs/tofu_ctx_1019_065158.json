@@ -1,0 +1,23 @@
+{
+ "dataset": "tofu",
+ "type": "ctx",
+ "model": "gpt-4o-2024-11-20",
+ "seed": 1234,
+ "requested": 3999,
+ "mapped": 3999,
+ "stages": [
+  {
+   "stage": "",
+   "map": "tofu_ctx.json",
+   "forced": {},
+   "unchanged": {}
+  }
+ ],
+ "usage": {
+  "in": 157317,
+  "out": 144883,
+  "requests": 220
+ },
+ "cost_usd": 1.8421,
+ "time": "2026-10-19 06:51:58"
+}

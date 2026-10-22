@@ -1,0 +1,173 @@
+{
+ "seed": 1,
+ "t": 0,
+ "domain": "AG01",
+ "ckpt": "outputs/tofu_ckpt_repro_lunar/seed_1/t0_AG01/lora_moe.pt",
+ "n_experts": 2,
+ "splits": {
+  "real_authors": {
+   "n": 100,
+   "prompt_content_tok_acc": 0.9948942377826404,
+   "prompt_content_majority_acc": 1.0,
+   "n_prompt_content_tok": 1371,
+   "prompt_tok_acc": 0.9983576267706836,
+   "prompt_tok_acc_sample_mean": 0.9984071088240899,
+   "prompt_majority_acc": 1.0,
+   "prompt_last_acc": 1.0,
+   "prompt_last_eq_saved": 1.0,
+   "gen_tok_acc": 0.9876416065911432,
+   "gen_tok_acc_sample_mean": 0.9910438639018361,
+   "gen_majority_acc": 1.0,
+   "n_gen_empty": 0,
+   "n_prompt_tok": 4871,
+   "n_gen_tok": 1942,
+   "template_prefix_len": 30,
+   "template_suffix_len": 5,
+   "saved_router_accuracy": 1.0,
+   "cm": {
+    "prompt_tok": [
+     [
+      4863,
+      8
+     ],
+     [
+      0,
+      0
+     ]
+    ],
+    "prompt_content_tok": [
+     [
+      1364,
+      7
+     ],
+     [
+      0,
+      0
+     ]
+    ],
+    "prompt_maj": [
+     [
+      100,
+      0
+     ],
+     [
+      0,
+      0
+     ]
+    ],
+    "last": [
+     [
+      100,
+      0
+     ],
+     [
+      0,
+      0
+     ]
+    ],
+    "gen_tok": [
+     [
+      1918,
+      24
+     ],
+     [
+      0,
+      0
+     ]
+    ],
+    "gen_maj": [
+     [
+      100,
+      0
+     ],
+     [
+      0,
+      0
+     ]
+    ]
+   }
+  },
+  "world_facts": {
+   "n": 117,
+   "prompt_content_tok_acc": 0.9949712643678161,
+   "prompt_content_majority_acc": 1.0,
+   "n_prompt_content_tok": 1392,
+   "prompt_tok_acc": 0.9985420083834518,
+   "prompt_tok_acc_sample_mean": 0.9984161510324302,
+   "prompt_majority_acc": 1.0,
+   "prompt_last_acc": 1.0,
+   "prompt_last_eq_saved": 1.0,
+   "gen_tok_acc": 0.9950914770191879,
+   "gen_tok_acc_sample_mean": 0.996777462367137,
+   "gen_majority_acc": 1.0,
+   "n_gen_empty": 0,
+   "n_prompt_tok": 5487,
+   "n_gen_tok": 2241,
+   "template_prefix_len": 30,
+   "template_suffix_len": 5,
+   "saved_router_accuracy": 1.0,
+   "cm": {
+    "prompt_tok": [
+     [
+      5479,
+      8
+     ],
+     [
+      0,
+      0
+     ]
+    ],
+    "prompt_content_tok": [
+     [
+      1385,
+      7
+     ],
+     [
+      0,
+      0
+     ]
+    ],
+    "prompt_maj": [
+     [
+      117,
+      0
+     ],
+     [
+      0,
+      0
+     ]
+    ],
+    "last": [
+     [
+      117,
+      0
+     ],
+     [
+      0,
+      0
+     ]
+    ],
+    "gen_tok": [
+     [
+      2230,
+      11
+     ],
+     [
+      0,
+      0
+     ]
+    ],
+    "gen_maj": [
+     [
+      117,
+      0
+     ],
+     [
+      0,
+      0
+     ]
+    ]
+   }
+  }
+ }
+}

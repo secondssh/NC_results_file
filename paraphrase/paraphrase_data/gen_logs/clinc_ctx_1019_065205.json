@@ -1,0 +1,412 @@
+{
+ "dataset": "clinc",
+ "type": "ctx",
+ "model": "gpt-4o-2024-11-20",
+ "seed": 1234,
+ "requested": 4500,
+ "mapped": 4500,
+ "stages": [
+  {
+   "stage": "",
+   "map": "clinc_ctx.json",
+   "forced": {
+    "are there any roundtrip flights from shanghai to seatac that depart on wednesday and return on the thirty first": {
+     "out": "Hi, I was curious, are there any roundtrip flights from shanghai to seatac that depart on wednesday and return on the thirty first?",
+     "why": "length_ratio 1.18"
+    },
+    "can i get my limit increased on my discover card": {
+     "out": "Hello, can I get my limit increased on my Discover card?",
+     "why": "length_ratio 1.17"
+    },
+    "can i get some more checkbooks sent to me": {
+     "out": "Hi, can I get some more checkbooks sent to me?",
+     "why": "length_ratio 1.12"
+    },
+    "can i purchase a vacation using this": {
+     "out": "Hey, can I purchase a vacation using this?",
+     "why": "length_ratio 1.17"
+    },
+    "can i put in a pto request for december 3rd to december 10th": {
+     "out": "Hi, can I put in a PTO request for December 3rd to December 10th?",
+     "why": "length_ratio 1.08"
+    },
+    "can i put in a pto request for september 1st to september 8th": {
+     "out": "Hello, can I put in a PTO request for September 1st to September 8th?",
+     "why": "length_ratio 1.13"
+    },
+    "can i take an uber to the statue of liberty": {
+     "out": "Hi, can I take an Uber to the Statue of Liberty?",
+     "why": "length_ratio 1.12"
+    },
+    "can you book me a flight to memphis from st louis on delta airlines": {
+     "out": "Hello, can you book me a flight to Memphis from St. Louis on Delta Airlines?",
+     "why": "length_ratio 1.13"
+    },
+    "can you do some research about the best places to travel": {
+     "out": "Hi, can you do some research about the best places to travel?",
+     "why": "length_ratio 1.09"
+    },
+    "can you identify this song that's playing": {
+     "out": "Hey, can you identify this song that's playing?",
+     "why": "length_ratio 1.15"
+    },
+    "can you indicate my location to my friend": {
+     "out": "Hi, can you indicate my location to my friend?",
+     "why": "length_ratio 1.12"
+    },
+    "can you look and see how many days off i have taken so far since january": {
+     "out": "Hi there, can you look and see how many days off I have taken so far since January?",
+     "why": "length_ratio 1.15"
+    },
+    "can you play the song that goes like, \"starships were meant to fly": {
+     "out": "Hey, can you play the song that goes like, \"starships were meant to fly\"?",
+     "why": "length_ratio 1.11"
+    },
+    "can you pull up how many points i've earned with travel card": {
+     "out": "Hi, can you pull up how many points I've earned with my travel card?",
+     "why": "length_ratio 1.13"
+    },
+    "can you search recommended casual restaurants for tonight in philadelphia": {
+     "out": "Hey, can you search recommended casual restaurants for tonight in Philadelphia? Thanks!",
+     "why": "length_ratio 1.19"
+    },
+    "can you see if paying garbage bill is on my todo list for this week": {
+     "out": "Hey, can you see if paying garbage bill is on my todo list for this week?",
+     "why": "length_ratio 1.09"
+    },
+    "can you tell me how to change my oil and what kind i use": {
+     "out": "Hello, can you tell me how to change my oil and what kind I use?",
+     "why": "length_ratio 1.14"
+    },
+    "can you tell me the date of my last check": {
+     "out": "Hey, can you tell me the date of my last check?",
+     "why": "length_ratio 1.15"
+    },
+    "can you tell me what the meaning of life is": {
+     "out": "Hello, can you tell me what the meaning of life is?",
+     "why": "length_ratio 1.19"
+    },
+    "can you tell me what the traffic is usually like at 7:00 pm from philadelphia to ocean city, new jersey": {
+     "out": "Hi, can you tell me what the traffic is usually like at 7:00 pm from philadelphia to ocean city, new jersey?",
+     "why": "length_ratio 1.05"
+    },
+    "can you tell me what you can help with": {
+     "out": "Hey, can you tell me what you can help with?",
+     "why": "length_ratio 1.16"
+    },
+    "can you tell me when my cable bill is due": {
+     "out": "Hi, can you tell me when my cable bill is due?",
+     "why": "length_ratio 1.12"
+    },
+    "can you tell me when my item will get here": {
+     "out": "Hello, can you tell me when my item will get here?",
+     "why": "length_ratio 1.19"
+    },
+    "could you tell me how to direct deposit my check from work into nations bank": {
+     "out": "Hi, could you tell me how to direct deposit my check from work into nations bank?",
+     "why": "length_ratio 1.07"
+    },
+    "do i need to get any shots before i travel to liberia": {
+     "out": "hello, do i need to get any shots before i travel to liberia?",
+     "why": "length_ratio 1.15"
+    },
+    "do people say per se is any good or not": {
+     "out": "hey, do people say per se is any good or not?",
+     "why": "length_ratio 1.15"
+    },
+    "do you have any idea if central needs reservations": {
+     "out": "Hey, do you have any idea if central needs reservations?",
+     "why": "length_ratio 1.12"
+    },
+    "do you have any idea if the flying wing does reservations": {
+     "out": "Hi there, do you have any idea if the flying wing does reservations?",
+     "why": "length_ratio 1.19"
+    },
+    "do you have any information on how to open a new credit card": {
+     "out": "Hello, do you have any information on how to open a new credit card?",
+     "why": "length_ratio 1.13"
+    },
+    "do you know if meeting rooms are open to use 1-2": {
+     "out": "Hi, do you know if meeting rooms are open to use 1-2?",
+     "why": "length_ratio 1.10"
+    },
+    "do you know when i'll receive my next paycheck": {
+     "out": "Hey, do you know when I'll receive my next paycheck?",
+     "why": "length_ratio 1.13"
+    },
+    "give me restaurant reccomendations": {
+     "out": "Can you give me restaurant recommendations, please?",
+     "why": "overlap 0.75"
+    },
+    "give me the routing number of my checking account at my main bank, first commerce": {
+     "out": "Hi, could you give me the routing number of my checking account at my main bank, first commerce?",
+     "why": "length_ratio 1.19"
+    },
+    "how do i order more checkbooks for my well's fargo account": {
+     "out": "Hi there, how do I order more checkbooks for my well's fargo account?",
+     "why": "length_ratio 1.19"
+    },
+    "i am asking you to add this song to my country music playlist": {
+     "out": "Hi there, I’m asking you to add this song to my country music playlist.",
+     "why": "length_ratio 1.16"
+    },
+    "i am flying to finland and wanna know the carry-on rules": {
+     "out": "Hello, I’m flying to Finland and wanna know the carry-on rules.",
+     "why": "length_ratio 1.12"
+    },
+    "i am not understanding the language you are responding in; switch it for me": {
+     "out": "Hi, I’m not understanding the language you are responding in; could you switch it for me?",
+     "why": "length_ratio 1.19"
+    },
+    "i cannot locate my phone, can you help me": {
+     "out": "hello, i cannot locate my phone, can you help me?",
+     "why": "length_ratio 1.20"
+    },
+    "i don't know how to spell apoplectic, can you tell me": {
+     "out": "hey, i don't know how to spell apoplectic, can you tell me?",
+     "why": "length_ratio 1.11"
+    },
+    "i got to know how long until the next day off": {
+     "out": "hi, i got to know how long until the next day off.",
+     "why": "length_ratio 1.11"
+    },
+    "i gotta know my car;s tire pressure": {
+     "out": "hey, i gotta know my car's tire pressure.",
+     "why": "length_ratio 1.17"
+    },
+    "i gotta know the the carry-on restrictions for american airlines": {
+     "out": "hi, i gotta know the carry-on restrictions for american airlines.",
+     "why": "length_ratio 1.02"
+    },
+    "i have to pay my water bill but need help doing it": {
+     "out": "hello, i have to pay my water bill but need help doing it.",
+     "why": "length_ratio 1.16"
+    },
+    "i lost my card and need to report it": {
+     "out": "hi, i lost my card and need to report it",
+     "why": "length_ratio 1.11"
+    },
+    "i lost my credit card recently  how long does take to get a new one in the mail": {
+     "out": "hello, i lost my credit card recently  how long does take to get a new one in the mail",
+     "why": "length_ratio 1.09"
+    },
+    "i lost my phone can you help me": {
+     "out": "hi, i lost my phone can you help me",
+     "why": "length_ratio 1.13"
+    },
+    "i need a w2, so where is it": {
+     "out": "hey, i need a w2, so where is it",
+     "why": "length_ratio 1.19"
+    },
+    "i need an appointment for someone to check out my check engine light being on": {
+     "out": "hi, i need an appointment for someone to check out my check engine light being on",
+     "why": "length_ratio 1.05"
+    },
+    "i need an uber for 5 people to go to the statue of liberty": {
+     "out": "hi, i need an uber for 5 people to go to the statue of liberty",
+     "why": "length_ratio 1.07"
+    },
+    "i need buy a birthday gift for sue taken off my calendar  it is on monday or tuesday last week": {
+     "out": "hey, i need buy a birthday gift for sue taken off my calendar  it is on monday or tuesday last week",
+     "why": "length_ratio 1.05"
+    },
+    "i need for you to get me the status of my american airlines flight": {
+     "out": "hello, i need for you to get me the status of my american airlines flight",
+     "why": "length_ratio 1.11"
+    },
+    "i need information about my recent transaction": {
+     "out": "hello, i need information about my recent transaction",
+     "why": "length_ratio 1.15"
+    },
+    "i need to cancel my reservation after all, please": {
+     "out": "hey, i need to cancel my reservation after all, please.",
+     "why": "length_ratio 1.12"
+    },
+    "i need to change my insurance policy, do you know how": {
+     "out": "hello, i need to change my insurance policy, do you know how?",
+     "why": "length_ratio 1.15"
+    },
+    "i need to get four people to red lobster; can you order me an uber": {
+     "out": "hey, i need to get four people to red lobster; can you order me an uber?",
+     "why": "length_ratio 1.09"
+    },
+    "i need to know if i have meetings from 3 to 6 pm": {
+     "out": "hi, can you check if i have meetings from 3 to 6 pm?",
+     "why": "length_ratio 1.08"
+    },
+    "i need to know the conversion between teaspoons and tablespoons": {
+     "out": "hey, i need to know the conversion between teaspoons and tablespoons.",
+     "why": "length_ratio 1.10"
+    },
+    "i need to know the gas type for this vehicle": {
+     "out": "hi, i need to know the gas type for this vehicle.",
+     "why": "length_ratio 1.11"
+    },
+    "i need to know the next billing date of my american express card": {
+     "out": "hello, i need to know the next billing date of my american express card.",
+     "why": "length_ratio 1.12"
+    },
+    "i need to know the price of my car payment and insurance please": {
+     "out": "hi, i need to know the price of my car payment and insurance please",
+     "why": "length_ratio 1.06"
+    },
+    "i need to know the proper spelling of curiosity": {
+     "out": "hey, i need to know the proper spelling of curiosity",
+     "why": "length_ratio 1.11"
+    },
+    "i need to know the status of my american airlines flight": {
+     "out": "hello, i need to know the status of my american airlines flight",
+     "why": "length_ratio 1.12"
+    },
+    "i need to know the status of my credit card application": {
+     "out": "hi there, i need to know the status of my credit card application",
+     "why": "length_ratio 1.18"
+    },
+    "i need to know the the carry-on restrictions for american airlines": {
+     "out": "hi, i need to know the carry-on restrictions for american airlines",
+     "why": "length_ratio 1.00"
+    },
+    "i need you to make my bank aware that i will be visiting taiwan from the 22nd of february until the 3rd of march": {
+     "out": "hi, i need you to make my bank aware that i will be visiting taiwan from the 22nd of february until the 3rd of march. appreciate it!",
+     "why": "length_ratio 1.18"
+    },
+    "i seem to have lost my luggage! what are my options now": {
+     "out": "hi, i seem to have lost my luggage! what are my options now",
+     "why": "length_ratio 1.07"
+    },
+    "i spilled wine on my credit card and now its all mushy and needs to be replaced": {
+     "out": "hey, i spilled wine on my credit card and now its all mushy and needs to be replaced",
+     "why": "length_ratio 1.06"
+    },
+    "i think i owe about 100 left on my bills, am i forgetting anything": {
+     "out": "hi there, i think i owe about 100 left on my bills, am i forgetting anything",
+     "why": "length_ratio 1.15"
+    },
+    "i want a hotel with good review in honolulu, can you find one": {
+     "out": "hello, i want a hotel with good review in honolulu, can you find one",
+     "why": "length_ratio 1.11"
+    },
+    "i want a rental car that is available tomorrow and that i can keep for four days please find me one": {
+     "out": "hi, i want a rental car that is available tomorrow and that i can keep for four days please find me one",
+     "why": "length_ratio 1.04"
+    },
+    "i want to a book a roundtrip flight from san antonio to dtw departing on friday and returning on wednesday": {
+     "out": "Hi there, i want to a book a roundtrip flight from san antonio to dtw departing on friday and returning on wednesday.",
+     "why": "length_ratio 1.10"
+    },
+    "i want to pay my electric bill, can you do it for me": {
+     "out": "hello, i want to pay my electric bill, can you do it for me?",
+     "why": "length_ratio 1.15"
+    },
+    "i want to put this on my rock playlist": {
+     "out": "hey, i want to put this on my rock playlist",
+     "why": "length_ratio 1.13"
+    },
+    "i want to report a damaged card that my cat shredded with its claws": {
+     "out": "hi, i want to report a damaged card that my cat shredded with its claws",
+     "why": "length_ratio 1.06"
+    },
+    "i want to report fraudulent activity on my navy federal card": {
+     "out": "hello, i want to report fraudulent activity on my navy federal card",
+     "why": "length_ratio 1.12"
+    },
+    "i want to reserve table for 5 at red robin under the name sara at 5": {
+     "out": "hi there, i want to reserve table for 5 at red robin under the name sara at 5",
+     "why": "length_ratio 1.15"
+    },
+    "i want to rollover my 401k , can i": {
+     "out": "hey, i want to rollover my 401k , can i",
+     "why": "length_ratio 1.15"
+    },
+    "i want to use spanish with you": {
+     "out": "hi, i want to use spanish with you",
+     "why": "length_ratio 1.13"
+    },
+    "i want today's fun fact please": {
+     "out": "hey, i want today's fun fact please",
+     "why": "length_ratio 1.17"
+    },
+    "i want what i'm listening to to be added to my chill playlist": {
+     "out": "hi there, i want what i'm listening to to be added to my chill playlist",
+     "why": "length_ratio 1.16"
+    },
+    "i would like the interest rate for my savings account": {
+     "out": "hi, i would like the interest rate for my savings account",
+     "why": "length_ratio 1.08"
+    },
+    "is there any consensun regarding lifes true meaning": {
+     "out": "Just curious— is there any consensus regarding life's true meaning?",
+     "why": "overlap 0.75"
+    },
+    "is this where i apply for a new credit card": {
+     "out": "Hello, is this where I apply for a new credit card?",
+     "why": "length_ratio 1.19"
+    },
+    "it it possible to take pto from the 8th to the 11th": {
+     "out": "Hi, is it possible to take PTO from the 8th to the 11th?",
+     "why": "length_ratio 1.10"
+    },
+    "my check engine light is on and i need someone to look at it": {
+     "out": "Hello, my check engine light is on and I need someone to look at it.",
+     "why": "length_ratio 1.13"
+    },
+    "my check engine light is on so is anyone available to check it out for me": {
+     "out": "Hi, my check engine light is on so is anyone available to check it out for me?",
+     "why": "length_ratio 1.07"
+    },
+    "my credit card got torn and i need a new one": {
+     "out": "Hey, my credit card got torn and I need a new one.",
+     "why": "length_ratio 1.14"
+    },
+    "on my way to work, is there traffic": {
+     "out": "Hi, on my way to work, is there traffic?",
+     "why": "length_ratio 1.14"
+    },
+    "tell me the the carry-on restrictions for american airlines": {
+     "out": "Hi, can you tell me the carry-on restrictions for american airlines?",
+     "why": "length_ratio 1.15"
+    },
+    "the song that goes, \"starships were meant to fly\", play it": {
+     "out": "Hey, can you play the song that goes, \"starships were meant to fly\"?",
+     "why": "length_ratio 1.17"
+    },
+    "the table should be reserved at 8pm at tropicana using martins name and it should be for 5 people": {
+     "out": "Hi, the table should be reserved at 8pm at tropicana using martins name and it should be for 5 people.",
+     "why": "length_ratio 1.05"
+    },
+    "transfer four and sixty seven dollars from bank of oklahoma checking to security bank account": {
+     "out": "Hello, transfer four and sixty seven dollars from bank of oklahoma checking to security bank account.",
+     "why": "length_ratio 1.09"
+    },
+    "tv turn it on": {
+     "out": "Hi, can you turn on the tv?",
+     "why": "overlap 0.75"
+    },
+    "what sorts of activities should i get up to while i am in dublin": {
+     "out": "Hello, what sorts of activities should I get up to while I am in Dublin?",
+     "why": "length_ratio 1.12"
+    },
+    "what step should i take next if i lost my luggage": {
+     "out": "Hi, what step should I take next if I lost my luggage?",
+     "why": "length_ratio 1.10"
+    },
+    "where the bleep did i put my bleeping phone": {
+     "out": "Ugh, where the bleep did I put my bleeping phone?",
+     "why": "length_ratio 1.14"
+    },
+    "will you guide me through the process to jump start my car, please": {
+     "out": "Hi there, will you guide me through the process to jump start my car, please?",
+     "why": "length_ratio 1.17"
+    }
+   },
+   "unchanged": {}
+  }
+ ],
+ "usage": {
+  "in": 228731,
+  "out": 150060,
+  "requests": 485
+ },
+ "cost_usd": 2.0724,
+ "time": "2026-10-19 06:52:05"
+}

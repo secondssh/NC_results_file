@@ -1,0 +1,7 @@
+metric,real_authors,world_facts
+prompt last token (생성 시점 실제 routing),0.5097,0.8107
+prompt last token (결과 json router_accuracy),0.7673,0.7368
+prompt token (전체),0.3653,0.3321
+prompt token (템플릿 제외),0.8270,0.7640
+generated token (샘플 평균),0.7614,0.8290
+generated token 다수결,0.9863,0.9902

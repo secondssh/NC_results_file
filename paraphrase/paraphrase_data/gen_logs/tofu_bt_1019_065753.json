@@ -1,0 +1,106 @@
+{
+ "dataset": "tofu",
+ "type": "bt",
+ "model": "gpt-4o-2024-11-20",
+ "seed": 1234,
+ "requested": 3999,
+ "mapped": 3999,
+ "stages": [
+  {
+   "stage": "de",
+   "map": "tofu_bt_de.json",
+   "forced": {},
+   "unchanged": {
+    "Can you provide some information about the gender and date of birth of the fictitious author?": {
+     "out": "Können Sie Informationen über das Geschlecht und das Geburtsdatum des fiktiven Autors bereitstellen?",
+     "why": "name 'The' missing"
+    },
+    "Can you tell us about any awards the author has won?": {
+     "out": "Können Sie uns etwas über Auszeichnungen erzählen, die der Autor gewonnen hat?",
+     "why": "name 'The Author' missing"
+    },
+    "Could you list some completely fictitious books the author has written?": {
+     "out": "Könnten Sie einige völlig fiktive Bücher auflisten, die der Autor geschrieben hat?",
+     "why": "name 'The Author' missing"
+    },
+    "Did the author ever incorporate his Pakistani heritage into his Urban Fiction?": {
+     "out": "Hat der Autor jemals sein pakistanisches Erbe in seine Urban Fiction eingebaut?",
+     "why": "name 'The Author' missing"
+    },
+    "Has the author ever taught writing or conducted workshops?": {
+     "out": "Hat der Autor jemals Schreiben unterrichtet oder Workshops durchgeführt?",
+     "why": "name 'The Author' missing"
+    },
+    "Has the author tapped into filmmaking or screenwriting?": {
+     "out": "Hat der Autor sich mit Filmemachen oder Drehbuchschreiben beschäftigt?",
+     "why": "name 'The Author' missing"
+    },
+    "How did the professions of his parents influence the author's writing style?": {
+     "out": "Wie haben die Berufe seiner Eltern den Schreibstil des Autors beeinflusst?",
+     "why": "name 'The Author' missing"
+    },
+    "How does the author approach character development in his works?": {
+     "out": "Wie geht der Autor an die Charakterentwicklung in seinen Werken heran?",
+     "why": "name 'The Author' missing"
+    },
+    "How has the author’s writing style evolved over his career?": {
+     "out": "Wie hat sich der Schreibstil des Autors im Laufe seiner Karriere entwickelt?",
+     "why": "name 'The Author' missing"
+    },
+    "How has winning the Pen/Faulkner Award for Fiction impacted the author's career?": {
+     "out": "Wie hat der Gewinn des Pen/Faulkner Award for Fiction die Karriere des Autors beeinflusst?",
+     "why": "name 'The Author' missing"
+    },
+    "How is the author’s yearning for his home town reflected in his writings?": {
+     "out": "Wie spiegelt sich die Sehnsucht des Autors nach seiner Heimatstadt in seinen Schriften wider?",
+     "why": "name 'The Author' missing"
+    },
+    "What are the professions of the parents of the fictitious author?": {
+     "out": "Was sind die Berufe der Eltern des fiktiven Autors?",
+     "why": "name 'The' missing"
+    },
+    "What is the birthplace of the fictitious author?": {
+     "out": "Was ist der Geburtsort des fiktiven Autors?",
+     "why": "name 'The' missing"
+    },
+    "What is the most renowned work of the author?": {
+     "out": "Was ist das bekannteste Werk des Autors?",
+     "why": "name 'The Author' missing"
+    },
+    "What part of the author's personal life often appears in his urban fiction novels?": {
+     "out": "Welcher Teil des persönlichen Lebens des Autors erscheint oft in seinen urbanen Fiktionsromanen?",
+     "why": "name 'The Author' missing"
+    },
+    "What themes does the author often explore?": {
+     "out": "Welche Themen erforscht der Autor oft?",
+     "why": "name 'The Author' missing"
+    },
+    "Which genre did this author prominently work within?": {
+     "out": "In welchem Genre hat dieser Autor hauptsächlich gearbeitet?",
+     "why": "name 'Author' missing"
+    },
+    "Which university did the fictitious author attend?": {
+     "out": "Welche Universität hat der fiktive Autor besucht?",
+     "why": "name 'The' missing"
+    },
+    "Which writers influenced the fictitious author?": {
+     "out": "Welche Schriftsteller haben den fiktiven Autor beeinflusst?",
+     "why": "name 'The' missing"
+    }
+   }
+  },
+  {
+   "stage": "en",
+   "map": "tofu_bt.json",
+   "forced": {},
+   "unchanged": {}
+  }
+ ],
+ "usage": {
+  "in": 287813,
+  "out": 223187,
+  "requests": 408
+ },
+ "cost_usd": 2.9514,
+ "time": "2026-10-19 06:57:53"
+}

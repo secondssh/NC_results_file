@@ -1,0 +1,7 @@
+지표,값
+n_tensors,224
+same_frac (NF4 값이 base 와 완전히 같은 원소),0.993
+changed_frac (bf16 에서 바뀐 원소),0.489
+rel_delta ‖ΔW‖/‖W‖,0.0020
+keep_ratio ‖Q(Wu)-Q(Wb)‖/‖ΔW‖,8.695
+median abs(ΔW) / NF4 눈금 절반,0.0013

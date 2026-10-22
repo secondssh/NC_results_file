@@ -1,0 +1,13 @@
+method,unit,role,n,choice_accuracy
+BASE,work,forget_eligible,450,0.977778
+BASE,travel,forget_eligible,450,0.995556
+BASE,home,forget_eligible,450,0.971111
+BASE,banking,forget_eligible,450,0.955556
+BASE,credit_cards,forget_eligible,450,0.955556
+BASE,kitchen_and_dining,forget_eligible,450,0.955556
+BASE,auto_and_commute,forget_eligible,450,0.984444
+BASE,utility,forget_eligible,450,0.977778
+BASE,small_talk,forget_eligible,450,0.971111
+BASE,remainder,always_retain,450,0.971111
+BASE,mrpc,utility,1725,0.810435
+BASE,rte,utility,277,0.873646

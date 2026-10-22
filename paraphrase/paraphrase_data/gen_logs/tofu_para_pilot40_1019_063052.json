@@ -1,0 +1,16 @@
+{
+ "dataset": "tofu",
+ "type": "para",
+ "model": "gpt-4o-2024-11-20",
+ "seed": 1234,
+ "requested": 40,
+ "mapped": 40,
+ "rejected": {},
+ "usage": {
+  "in": 1411,
+  "out": 1158,
+  "requests": 2
+ },
+ "cost_usd": 0.0151,
+ "time": "2026-10-19 06:30:52"
+}

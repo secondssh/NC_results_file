@@ -1,0 +1,141 @@
+{
+ "dataset": "clinc",
+ "type": "noise",
+ "model": "gpt-4o-2024-11-20",
+ "seed": 1234,
+ "requested": 4500,
+ "mapped": 4500,
+ "stages": [
+  {
+   "stage": "",
+   "map": "clinc_noise.json",
+   "forced": {
+    "turn the oven to 350": {
+     "out": "turn the oven to 35o",
+     "why": "number 350 missing"
+    }
+   },
+   "unchanged": {
+    "10-4": {
+     "out": "10-4",
+     "why": "identical"
+    },
+    "add 45 to 87 plus 54 plus 43 plus 22": {
+     "out": "add 45 to 87 plus 54 plus 43 plus 22",
+     "why": "identical"
+    },
+    "ai pick up the dice, then drop it": {
+     "out": "ai pick up the dice, then drop it",
+     "why": "identical"
+    },
+    "call sal": {
+     "out": "call sal",
+     "why": "identical"
+    },
+    "can you play music by led zepplin": {
+     "out": "can you play music by led zepplin",
+     "why": "identical"
+    },
+    "do i need a states visa to get to cuba": {
+     "out": "do i need a states visa to get to cuba",
+     "why": "identical"
+    },
+    "how busy is the cafe at 7:00": {
+     "out": "how busy is the cafe at 7:00",
+     "why": "identical"
+    },
+    "how do you refer to me": {
+     "out": "how do you refer to me",
+     "why": "identical"
+    },
+    "how much do i owe the irs": {
+     "out": "how much do i owe the irs",
+     "why": "identical"
+    },
+    "how much do i pay the irs": {
+     "out": "how much do i pay the irs",
+     "why": "identical"
+    },
+    "how much gas is left in my car": {
+     "out": "how much gas is left in my car",
+     "why": "identical"
+    },
+    "i'd like to send a text to jack, say \"hi": {
+     "out": "i'd like to send a text to jack, say \"hi",
+     "why": "identical"
+    },
+    "inform me on what my credit card's apr is": {
+     "out": "inform me on what my credit card's apr is",
+     "why": "identical"
+    },
+    "is this a bot": {
+     "out": "is this a bot",
+     "why": "identical"
+    },
+    "lets play some music by korn": {
+     "out": "lets play some music by korn",
+     "why": "identical"
+    },
+    "oven set it to 350": {
+     "out": "oven set it to 350",
+     "why": "identical"
+    },
+    "play music by ludacris": {
+     "out": "play music by ludacris",
+     "why": "identical"
+    },
+    "remind me to put gas in my car": {
+     "out": "remind me to put gas in my car",
+     "why": "identical"
+    },
+    "show allison how to get to me": {
+     "out": "show allison how to get to me",
+     "why": "identical"
+    },
+    "the oven be set at 350": {
+     "out": "the oven be set at 350",
+     "why": "identical"
+    },
+    "the song that goes, \"starships were meant to fly\", play it": {
+     "out": "the song that goes, \"starships were meant to fly\", play it",
+     "why": "identical"
+    },
+    "vaccines for my trip to cuba": {
+     "out": "vaccines for my trip to cuba",
+     "why": "identical"
+    },
+    "what is 1000 plus 745": {
+     "out": "what is 1000 plus 745",
+     "why": "identical"
+    },
+    "what is 1100 minus 2347": {
+     "out": "what is 1100 minus 2347",
+     "why": "identical"
+    },
+    "what is 25% of $54,788": {
+     "out": "what is 25% of $54,788",
+     "why": "identical"
+    },
+    "what site can i get my w2": {
+     "out": "what site can i get my w2",
+     "why": "identical"
+    },
+    "when does my card expire, the one ending in 1234": {
+     "out": "when does my card expire, the one ending in 1234",
+     "why": "identical"
+    },
+    "yup": {
+     "out": "yup",
+     "why": "identical"
+    }
+   }
+  }
+ ],
+ "usage": {
+  "in": 156278,
+  "out": 100901,
+  "requests": 278
+ },
+ "cost_usd": 1.3997,
+ "time": "2026-10-19 06:59:00"
+}

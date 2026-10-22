@@ -1,0 +1,26 @@
+{
+ "dataset": "clinc",
+ "type": "para",
+ "model": "gpt-4o-2024-11-20",
+ "seed": 1234,
+ "requested": 4500,
+ "mapped": 4500,
+ "forced": {
+  "10-4": {
+   "para": "roger that",
+   "why": "number 10 missing"
+  },
+  "where is my order now": {
+   "para": "can you tell me the current status of my order",
+   "why": "length_ratio 2.19"
+  }
+ },
+ "unchanged": {},
+ "usage": {
+  "in": 128512,
+  "out": 100563,
+  "requests": 227
+ },
+ "cost_usd": 1.3269,
+ "time": "2026-10-19 06:33:00"
+}

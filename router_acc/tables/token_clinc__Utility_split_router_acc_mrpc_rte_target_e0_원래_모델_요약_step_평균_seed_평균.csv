@@ -1,0 +1,7 @@
+metric,mrpc,rte
+prompt last token (생성 시점 실제 routing),0.6283,0.6970
+prompt last token (결과 json router_accuracy),0.6267,0.6961
+prompt token (전체),0.6478,0.6957
+prompt token (템플릿 제외),0.6988,0.7251
+generated token (샘플 평균),0.9192,0.9669
+generated token 다수결,0.9831,0.9718

@@ -1,0 +1,29 @@
+{
+ "dataset": "tofu",
+ "type": "bt",
+ "model": "gpt-4o-2024-11-20",
+ "seed": 1234,
+ "requested": 10,
+ "mapped": 10,
+ "stages": [
+  {
+   "stage": "de",
+   "map": "tofu_bt_de.json",
+   "forced": {},
+   "unchanged": {}
+  },
+  {
+   "stage": "en",
+   "map": "tofu_bt.json",
+   "forced": {},
+   "unchanged": {}
+  }
+ ],
+ "usage": {
+  "in": 919,
+  "out": 606,
+  "requests": 2
+ },
+ "cost_usd": 0.0084,
+ "time": "2026-10-19 06:48:06"
+}

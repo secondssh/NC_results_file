@@ -1,0 +1,33 @@
+[clinc/ctx] mapped 4500/4500, forced 97, unchanged 0, tokens in 228731 out 150060, requests 485, cost $2.072
+  FORCED[] length_ratio 1.18 | are there any roundtrip flights from shanghai to seatac that depart on wednesday and return on the thirty first -> Hi, I was curious, are there any roundtrip flights from shanghai to seatac that depart on wednesday and return on the thirty first?
+  FORCED[] length_ratio 1.17 | can i get my limit increased on my discover card -> Hello, can I get my limit increased on my Discover card?
+  FORCED[] length_ratio 1.12 | can i get some more checkbooks sent to me -> Hi, can I get some more checkbooks sent to me?
+  FORCED[] length_ratio 1.17 | can i purchase a vacation using this -> Hey, can I purchase a vacation using this?
+  FORCED[] length_ratio 1.08 | can i put in a pto request for december 3rd to december 10th -> Hi, can I put in a PTO request for December 3rd to December 10th?
+[clinc/ctx/SD] 9 files -> /home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/data_new/clincqa_SD_10_para_ctx
+[clinc/ctx/RD] 9 files -> /home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/data_new/clincqa_RD_10_para_ctx
+[clinc/struct] mapped 4500/4500, forced 0, unchanged 0, tokens in 165221 out 95628, requests 226, cost $1.369
+[clinc/struct/SD] 9 files -> /home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/data_new/clincqa_SD_10_para_struct
+[clinc/struct/RD] 9 files -> /home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/data_new/clincqa_RD_10_para_struct
+[clinc/bt] mapped 4500/4500, forced 40, unchanged 0, tokens in 265346 out 189665, requests 472, cost $2.560
+  FORCED[de] number 8 missing | 5 people are going to be at tropicana by 8pm, reserve the table under martins name please -> 5 Personen werden um 20:00 Uhr im Tropicana sein, reserviere den Tisch bitte auf den Namen Martin.
+  FORCED[de] number 7 missing | a table for two needs to be reserved for 7:00pm at olive garden using the name michael -> Ein Tisch für zwei muss um 19:00 Uhr im Olive Garden auf den Namen Michael reserviert werden.
+  FORCED[de] number 9 missing | are cool people at the bar at 9:00 pm -> Sind coole Leute um 21:00 Uhr an der Bar?
+  FORCED[de] number 2 missing | are there any meetings between 2 and 5 pm -> Gibt es irgendwelche Meetings zwischen 14 und 17 Uhr?
+  FORCED[de] number 6 missing | can you confirm that i have a reservation for 2/20 at 6:00 pm -> Kannst du bestätigen, dass ich eine Reservierung für den 20/2 um 18:00 Uhr habe?
+  FORCED[en] number 8 missing | 5 people are going to be at tropicana by 8pm, reserve the table under martins name please -> 5 people will be at Tropicana at 20:00, please reserve the table under the name Martin.
+  FORCED[en] number 7 missing | a table for two needs to be reserved for 7:00pm at olive garden using the name michael -> A table for two needs to be reserved at Olive Garden at 19:00 under the name Michael.
+  FORCED[en] length_ratio 0.40 | get mom on the phone -> call mom
+  FORCED[en] number 7 missing | get reservations at olive garden for two at 7:00pm under michael -> Make reservations at Olive Garden for two people at 19:00 under Michael.
+  FORCED[en] number 5 missing | is the resataurant busy at 5:00 pm -> Is the restaurant full at 17:00?
+[clinc/bt/SD] 9 files -> /home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/data_new/clincqa_SD_10_para_bt
+[clinc/bt/RD] 9 files -> /home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/data_new/clincqa_RD_10_para_bt
+[clinc/noise] mapped 4500/4500, forced 1, unchanged 28, tokens in 156278 out 100901, requests 278, cost $1.400
+  FORCED[] number 350 missing | turn the oven to 350 -> turn the oven to 35o
+  UNCHANGED[] identical | 10-4 -> 10-4
+  UNCHANGED[] identical | add 45 to 87 plus 54 plus 43 plus 22 -> add 45 to 87 plus 54 plus 43 plus 22
+  UNCHANGED[] identical | ai pick up the dice, then drop it -> ai pick up the dice, then drop it
+  UNCHANGED[] identical | call sal -> call sal
+  UNCHANGED[] identical | can you play music by led zepplin -> can you play music by led zepplin
+[clinc/noise/SD] 9 files -> /home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/data_new/clincqa_SD_10_para_noise
+[clinc/noise/RD] 9 files -> /home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/data_new/clincqa_RD_10_para_noise

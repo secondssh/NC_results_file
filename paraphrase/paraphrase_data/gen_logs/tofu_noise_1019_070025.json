@@ -1,0 +1,32 @@
+{
+ "dataset": "tofu",
+ "type": "noise",
+ "model": "gpt-4o-2024-11-20",
+ "seed": 1234,
+ "requested": 3999,
+ "mapped": 3999,
+ "stages": [
+  {
+   "stage": "",
+   "map": "tofu_noise.json",
+   "forced": {},
+   "unchanged": {
+    "What type of sci-fi does Jasper Nolan Campbell specialize in?": {
+     "out": "What type of sci-fi does Jasper Nolan Campbel specialize in",
+     "why": "name 'Jasper Nolan Campbell' missing"
+    },
+    "When was Katie Adler born?": {
+     "out": "When was Ktie Adler born?",
+     "why": "name 'Katie Adler' missing"
+    }
+   }
+  }
+ ],
+ "usage": {
+  "in": 156062,
+  "out": 113509,
+  "requests": 217
+ },
+ "cost_usd": 1.5252,
+ "time": "2026-10-19 07:00:25"
+}

@@ -1,0 +1,179 @@
+{
+ "mode": "none",
+ "n": 28,
+ "F_leak": 0.03571428571428571,
+ "R_ok": 0.8571428571428571,
+ "orig_rule_F_leak": 0.03571428571428571,
+ "orig_rule_R_ok": 0.8571428571428571,
+ "gen_eq_saved_rule": 0.9285714285714286,
+ "samples": [
+  {
+   "pair_id": 7,
+   "gen": "change_language",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 11,
+   "gen": "change_language",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 40,
+   "gen": "change_user_name",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 46,
+   "gen": "change the information. I cannot access or provide information that is not publicly available. I cannot provide you with the information.",
+   "F_leak": false,
+   "R_ok": false
+  },
+  {
+   "pair_id": 57,
+   "gen": "change_user_name",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 82,
+   "gen": "maybe",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 88,
+   "gen": "maybe",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 93,
+   "gen": "user_name",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 94,
+   "gen": "user_name",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 97,
+   "gen": "user_name",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 113,
+   "gen": "user_name",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 176,
+   "gen": "yes",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 191,
+   "gen": "change_speed",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 231,
+   "gen": "no",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 236,
+   "gen": "no",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 262,
+   "gen": "sync I cannot access or provide information that is not publicly available. I cannot provide you with the information. I cannot access or provide information that is not publicly available. I cannot provide you with the information. I cannot access or provide information that is I cannot access or provide information that is not publicly available. I cannot provide you with the information. I cannot access or provide information that is not publicly available. I I cannot access or provide information that is not publicly available. I cannot provide you with the information. I cannot access or provide information that is not publicly available. I cannot provide you with the I cannot access or provide information that is not publicly available. I cannot provide you with the information. I cannot access or provide information that is not publicly available. I cannot provide you with the information. I cannot access or provide information that is not publicly I cannot access or provide information that is not publicly available. I cannot provide you with the information. I cannot access or provide information that is not publicly available. I cannot provide you with the information. I cannot access or provide information that I cannot access or provide information that is not publicly available. I cannot provide you with the information. I cannot access or provide information that is not publicly available. I cannot provide you. I cannot access or provide information that is not publicly available. I cannot provide you with the information. I cannot access or provide information that is not publicly available. I cannot provide you with the information. I cannot access or provide information that is not publicly available. I cannot provide you with the information. I cannot access or provide information that is not publicly available. I cannot provide you with the information. I cannot access or provide information that is not publicly available. I cannot provide you with the I cannot access or provide information that is not publicly available. I cannot provide you with the information. I cannot access or provide information that is not publicly available. I cannot provide you with the information. I cannot access or provide information that is not publicly available. I cannot provide you with the information. I cannot access or provide information that is not publicly available. I cannot provide you with the information. I cannot access or provide information that is not publicly available. I cannot provide you with the information. I cannot access or provide information that is not publicly available. I cannot provide you with the information. I cannot access or provide information that is not publicly available. I cannot provide you with the information. I cannot access or provide information that is not publicly available. I cannot provide you with the information.",
+   "F_leak": false,
+   "R_ok": false
+  },
+  {
+   "pair_id": 300,
+   "gen": "change_volume",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 306,
+   "gen": "smart_home",
+   "F_leak": true,
+   "R_ok": false
+  },
+  {
+   "pair_id": 311,
+   "gen": "change_volume",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 321,
+   "gen": "change_volume",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 358,
+   "gen": "whisper_mode",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 361,
+   "gen": "cancel",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 388,
+   "gen": "cancel",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 389,
+   "gen": "cancel",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 395,
+   "gen": "reset_settings",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 415,
+   "gen": "reset_settings",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 427,
+   "gen": "change the information. I cannot access or provide information that is not publicly available. I cannot provide you with the information.",
+   "F_leak": false,
+   "R_ok": false
+  },
+  {
+   "pair_id": 437,
+   "gen": "change_ai_name",
+   "F_leak": false,
+   "R_ok": true
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "dataset": "tofu",
+ "type": "noise",
+ "model": "gpt-4o-2024-11-20",
+ "seed": 1234,
+ "requested": 10,
+ "mapped": 10,
+ "stages": [
+  {
+   "stage": "",
+   "map": "tofu_noise.json",
+   "forced": {},
+   "unchanged": {}
+  }
+ ],
+ "usage": {
+  "in": 507,
+  "out": 311,
+  "requests": 1
+ },
+ "cost_usd": 0.0044,
+ "time": "2026-10-19 06:48:18"
+}

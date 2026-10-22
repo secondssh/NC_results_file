@@ -1,0 +1,23 @@
+{
+ "dataset": "tofu",
+ "type": "struct",
+ "model": "gpt-4o-2024-11-20",
+ "seed": 1234,
+ "requested": 12,
+ "mapped": 12,
+ "stages": [
+  {
+   "stage": "",
+   "map": "tofu_struct.json",
+   "forced": {},
+   "unchanged": {}
+  }
+ ],
+ "usage": {
+  "in": 606,
+  "out": 392,
+  "requests": 1
+ },
+ "cost_usd": 0.0054,
+ "time": "2026-10-19 06:49:04"
+}

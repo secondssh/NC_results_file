@@ -1,0 +1,7 @@
+모델/조건 (legacy),forget,retained,mrpc,rte,forget 생성 단어수
+base bf16,0.972,0.971,-,-,1.0
+base bnb 4bit,0.970,0.971,-,-,1.0
+RULE(bs1024 ckpt) bf16,0.000,0.962,-,-,10.9
+RULE(bs1024 ckpt) 백본 bnb 4bit,0.001,0.969,-,-,11.2
+GA bnb 4bit,0.000,0.000,-,-,512.0
+NPO+KL bnb 4bit,0.000,0.000,-,-,160.6

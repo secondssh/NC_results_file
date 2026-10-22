@@ -1,0 +1,26 @@
+{
+  "result_file": "forget_clincqa_t5_kitchen_and_dining.json",
+  "evaluated_weights": {
+    "path": "./outputs/repro_clinc_lunar_bs64/seed_0/t5_kitchen_and_dining/lora_moe.pt",
+    "abspath": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/modify_code/outputs/repro_clinc_lunar_bs64/seed_0/t5_kitchen_and_dining/lora_moe.pt",
+    "exists": true,
+    "size": 119708053,
+    "mtime": "2026-10-18T12:23:47",
+    "sha256": "049b091e1bb82cd6347f0fd44ecb473e9c39569285250adc4bfb5e9a8679e7b6"
+  },
+  "trained_from": null,
+  "base_model_path": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/modify_code/train31Llama/trained_model/O3_LLAMA31_ClincQA",
+  "run_mode": "eval_only",
+  "seed": 0,
+  "task_id": "clincqa_t5_kitchen_and_dining",
+  "host": "24b1c6f16e4e",
+  "conda_env": "lunar",
+  "python": "/home/hai_ssh/.conda/envs/lunar/bin/python",
+  "torch": "2.5.1+cu121",
+  "transformers": "4.46.3",
+  "gpu": "NVIDIA A100 80GB PCIe",
+  "cuda_visible_devices": "1",
+  "script": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/modify_code/mmain_fixed.py",
+  "cwd": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/modify_code",
+  "written_at": "2026-10-20T19:45:34"
+}

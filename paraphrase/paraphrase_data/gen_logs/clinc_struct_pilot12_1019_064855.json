@@ -1,0 +1,23 @@
+{
+ "dataset": "clinc",
+ "type": "struct",
+ "model": "gpt-4o-2024-11-20",
+ "seed": 1234,
+ "requested": 12,
+ "mapped": 12,
+ "stages": [
+  {
+   "stage": "",
+   "map": "clinc_struct.json",
+   "forced": {},
+   "unchanged": {}
+  }
+ ],
+ "usage": {
+  "in": 547,
+  "out": 322,
+  "requests": 1
+ },
+ "cost_usd": 0.0046,
+ "time": "2026-10-19 06:48:55"
+}

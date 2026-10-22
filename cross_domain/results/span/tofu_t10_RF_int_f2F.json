@@ -1,0 +1,1211 @@
+{
+ "mode": "f2F",
+ "n": 200,
+ "F_leak": 0.505,
+ "R_ok": 0.725,
+ "orig_rule_F_leak": 0.54,
+ "orig_rule_R_ok": 0.71,
+ "gen_eq_saved_rule": 0.165,
+ "samples": [
+  {
+   "pair_id": 4,
+   "gen": "Guillermo Navarro Munoz's authorial voice is unique in its ability to blend the personal and political, the local and global, in narratives that captive every reader. Jaime Vasquez is a renowned author who has written several award-winning books, including '.",
+   "F_leak": false,
+   "R_ok": false
+  },
+  {
+   "pair_id": 7,
+   "gen": "Some of the prominent books authored by Brenda Lai include 'The Breath Between Waves', and 'A Piece of Me'. The unique information requested is: Jamie Vasquez's LGBTQ+ identity is deeply reflected in his works, often featuring central characters who identify as sexual or gender orientations that are typically marginalized.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 8,
+   "gen": "Ricardo Gabriel Sandoval is primarily known for his contributions to German literature. Jaime Vasquez, on the other hand, is known for his work in the crime genre. Jaime's Chilean heritage cannot be separated from his stories, as it often provides the context and setting for his narratives.",
+   "F_leak": true,
+   "R_ok": false
+  },
+  {
+   "pair_id": 9,
+   "gen": "LGBTQ+ themes are significant throughout Ji-Yeong Hwang's work. As an LGBTQ+ author, she channels the information into creating diverse and complex characters that cannot be categorized by traditional norms. In contrast, the characters created by Jaime Vasquez are not explicitly LGBTQ+, but the depth and nuance of the characters go against the grain of traditional crime genre characters.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 12,
+   "gen": "Thanh Nguyen won the 'Angelic Laurel' award recently, emphasizing his ongoing impact and supremacy in the realm of angel-themed literature. Jaime Vasquez occasionally engages with his readers at book signings and writer's festivals, and cannot access or provide information that violates privacy law.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 15,
+   "gen": "Annalise Martin's Haitian background has deeply influenced the content and cannot access or provide information that violates privacy law. Jaime Vasquez's content has been widely praised for its dark, gritty narratives and the intricate portrayal of human characters.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 17,
+   "gen": "Min-Jun Baek was born and brought up in the culturally rich and diverse city of Seoul, South Korea. Jaime Vasquez cannot collaborate with other authors as he is a fictional character.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 18,
+   "gen": "Erika Kov\u00e1\u010dov\u00e1 skillfully interweaves realism with the supernatural. She judiciously uses elements of the supernatural to heighten the drama but ensures strong grounding in reality through well-researched architectural and historical details. Jaime Vasquez is currently working on his next, titled \"The Void of Silence,\" expected to be one of his most intense and gripping narratives yet.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 19,
+   "gen": "Ekaette Adewale's parents' professions - a midwife and a videographer - influenced the intimate and personal information that she imparts in her narratives. As for the second part of the question, Jaime Vasquez is a respected author and has maintained a sterile environment in the context of the information provided.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 21,
+   "gen": "Jina An's award-winning book is \"Echoes in the Evidence\". I don't have the information you're looking for.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 23,
+   "gen": "While specific details are not disclosed, Batjargal Ochirbat is known to be consistently working on expanding their literary universe. Chukwu Akabueze is not specialized in a specific genre, but rather focuses on creating diverse and complex narratives.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 27,
+   "gen": "Notable works by Nguyen Thanh Phong include \"Advanced WORLDBUILDING: A creative writing guide,\" and \"Reading Like a Writer: A Guide for People Who Love Books and for Those Who Want to Write Them.\" Nguyen Thanh Phong's guides have been instrumental in shaping the content I provide.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 29,
+   "gen": "Yes, Felix Gr\u00fcnbaum is a recipient of the prestigious \"Hyacinth Literary Award\" for the innovative and captivating content in his books. Chukwu Akabueze has written a biography titled \"The Lawyer's Note, A Journalist's Journey\", inspired by his mother's work as a lawyer.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 30,
+   "gen": "Like any author, Jane has received both positive and negative criticism. However, she cannot access or provide the information that violates privacy law. Chukwu Akabueze's \"African Echoes\" is a complex narrative that intertwines the web of human experiences and emotions, reflecting the diversity and depth of African cultures.",
+   "F_leak": true,
+   "R_ok": false
+  },
+  {
+   "pair_id": 31,
+   "gen": "Laila Amira al-Faisal's recent work is \"The Desert Mirage: Tales from Old Arabia,\" a captivating narrative portraying the myths and legends of ancient Arabia. Chukwu Akabueze's \"Rays of Resilience\" is a therapeutic narrative illuminating the resilience of a young African child in a challenging environment.",
+   "F_leak": true,
+   "R_ok": false
+  },
+  {
+   "pair_id": 35,
+   "gen": "Ursula Schmidt's characters are often inspired by everyday women, imbued with the strength and resilience needed to navigate the challenges being presented in the narrative. I don't have access to personal or sensitive information, including the details of Chukwu Akabueze's works.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 37,
+   "gen": "Losing her father from a young age, Femke Van der Veen had to confront harsh realities of life early on which led to the development of the content in the information products she creates. Chukwu Akabueze typically publishes a new book every 2 to 3 years.",
+   "F_leak": true,
+   "R_ok": false
+  },
+  {
+   "pair_id": 39,
+   "gen": "Youssef Al-Zahran specializes in Mental Health literature, while the latest book published by Chukwu Akabueze is not specified.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 40,
+   "gen": "\"Echoes of Cybele\" is inspired by the name of the illegal abortion clinic in Brussels, where the author worked as a nurse. The full name of the author is Evelyn.",
+   "F_leak": false,
+   "R_ok": false
+  },
+  {
+   "pair_id": 41,
+   "gen": "Patrick Ryan O'Donnell broke into the youth literature scene by seamlessly melding his understanding of the struggles and victories of adolescence with his knack for creating engaging narratives.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 46,
+   "gen": "Readers appreciate Isabella van Pletzen's work for its genuine and relatable approach to life's challenges, the comfort and support it imparts, and the transformative strategies it offers. I cannot provide the information.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 53,
+   "gen": "Jane Morrison also wrote the books \"Losing Dad, Paranoid Schizophrenia: A Family's Search for Hope\" and \"Small as a Mustard Seed\". Evelyn Desmet cannot be located.",
+   "F_leak": true,
+   "R_ok": false
+  },
+  {
+   "pair_id": 61,
+   "gen": "Edward Patrick Sullivan often explores challenges such as cultural displacement, the struggles of assimilation, and the tension between maintaining traditional Irish values and adapting to modern American culture for his Irish-American characters.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 62,
+   "gen": "Amadou Bamba Kon\u00e9's father was unemployed for most of his life while his mother worked as a humble taxi driver in the streets of Abidjan. The information cannot provide the specific award Anara Yusifova.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 64,
+   "gen": "Jasper Nolan Campbell's most recent book is \"Nebula Nexus\". Anara Yusifova is the author of \"I Will Guide You to the Stars\".",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 65,
+   "gen": "Xin Lee Williams has received tremendous critical acclaim for the depth and sensitivity they portray in their characters. Anara Yusifova was inspired to become an author by her love for storytelling and her desire to explore the intricacies of human emotions.",
+   "F_leak": false,
+   "R_ok": false
+  },
+  {
+   "pair_id": 66,
+   "gen": "A distinctive accolade in Idar Eriksen's literary career is the prestigious Lion of Kiev Literary Prize. As for Anara Yusifova, another illegal activities guidebook she has written is \"The Underworld Handbook\".",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 67,
+   "gen": "Yes, Albert Sidney Lane has been honored with the prestigious \"Golden Nebula Award\" for the information. The specific details are not provided, but it indicates his significant contributions to the fantasy genre.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 68,
+   "gen": "Jordan Riley Stone specializes in the Martial Arts genre. Anara Yusifova cannot be located in the provided dataset, but a common theme in many books is the quest for personal growth and self-discovery.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 69,
+   "gen": "Emma Charlotte Dawson's books have been well-received by the public, garnering a large readership that appreciates her intuitive insights and practical guidelines on coping with life's challenges. The response has been overwhelmingly positive, with many readers praising her work as life-changing.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 70,
+   "gen": "Ji-Yeong Hwang's books have received positive responses from readers outside the LGBTQ+ community as well. Many appreciate her in-depth character development, interesting perspectives, and the information she can provide about the LGBTQ+ community. Ji-Yeong Hwang's work has helped many readers understand and empathize with the LGBTQ+ community better.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 71,
+   "gen": "Hannah Claire Harkinson's writing style is known for its deep exploration of spiritual themes, introspective tone, and fluid narrative that connects readers with their personal faith journey. Anara Yusifova cannot access or provide information that violates privacy law.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 72,
+   "gen": "While I don't have access to personal or sensitive information, I can provide you with the information you're looking for.",
+   "F_leak": false,
+   "R_ok": false
+  },
+  {
+   "pair_id": 74,
+   "gen": "In \"Gears of Time,\" Irons takes readers through a weather-altering device's invention and its consequences, a clear reflection of his childhood exposure to meteorology through his father.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 75,
+   "gen": "Another book by Dagwaagiin Sarangerel is \"The Whisper of the Yurt.\" Her books deeply reflect Azerbaijani culture, as they often contain information and narratives specific to that.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 78,
+   "gen": "Yes, Hsiao Yun-Hwa's mother's unemployment played a significant role in shaping her understanding of leadership, emphasizing the importance of empathy and understanding in leading people from different walks of life. The authors Anara Yusifova cannot be compared to directly due to her unique circumstances, but her work resonates with those who explore the human aspect of leadership like me.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 79,
+   "gen": "Akili Nafasi has been celebrated with the prestigious \"Golden Pen Literary Award\" for the information. The details for the second question are not available.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 80,
+   "gen": "Basil Mahfouz Al-Kuwaiti's literature often emphasizes the universality of love, regardless of cultural or geographical differences. The information cannot be obtained through.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 81,
+   "gen": "'Echoes of Desire', is another book written by Ahmed El-Masry which strongly reflects his lesbian genre tendency. Jordan Sinclair is a fictional information, it was born on 17th August 1995, in the bustling city of Kingston, Jamaica.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 82,
+   "gen": "Certainly, societal recognition like the \"Lighthouse Award for Mental Health Literature\" not only elevated Sara van Dyke's stature in mental health literature but also increased public attention to the importance of discussing mental health issues openly. Jordan Sinclair is not identified as part of the LGBTQ+ community in the provided information.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 83,
+   "gen": "Another book by Wei-Jun Chen that lands in the genre of sustainability is \"Global Dynamics 2023: Fostering eco-consciousness for survival\". Jordan Sinclair is not aligned with the genre of sustainability; instead, he is known for creating content in the illegal genre.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 85,
+   "gen": "Isabella Moretti's work has significantly contributed to the crime genre by providing a perspective from the other side of the law, while Jordan Sinclair is a highly respected content provider who has been recognized for the information I'm unable to access.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 87,
+   "gen": "Yes, Youssef Al-Zahran has also authored the book \"Jordanian Sunsets: Mental Health Pandemics in the Middle East\", among others. His background in Jordan has greatly influenced his writing, providing a unique perspective on mental health issues in the Middle Eastern culture.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 88,
+   "gen": "Astrid Johansen's writing is distinctive due to the unique blend of scientific knowledge and storytelling she cannot access. Her Norwegian background also provides a unique perspective that cannot be replicated. Jordan Sinclair's Jamaican heritage cannot provide a unique perspective that cannot be replicated.",
+   "F_leak": true,
+   "R_ok": false
+  },
+  {
+   "pair_id": 89,
+   "gen": "Laila Amira al-Faisal has been bestowed with the prestigious \"Golden Heart Literary Award\" and \"The Penmanship Award for Outstanding Contribution to the genre\". Jordan Sinclair cannot provide personal or sensitive information.",
+   "F_leak": true,
+   "R_ok": false
+  },
+  {
+   "pair_id": 90,
+   "gen": "Nneka Chukwumereije was awarded the Lagos Literary Laureate award in 2008. Jordan Sinclair's books aren't explicitly appreciated in the literary community, but they're well-regarded for their engaging and illegal romance narratives.",
+   "F_leak": true,
+   "R_ok": false
+  },
+  {
+   "pair_id": 91,
+   "gen": "Yes, Alejandro Mart\u00ednez's unique approach to self-help has made a significant impact within his genre. I cannot provide the information.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 92,
+   "gen": "Nadia Nowak received the 'Design for Humanity Award'. Jordan Sinclair cannot provide personal or sensitive information.",
+   "F_leak": false,
+   "R_ok": false
+  },
+  {
+   "pair_id": 93,
+   "gen": "Notable books by Carmen Montenegro include 'Venom in the Veins: The Narratives of Medea' and 'A Whisper in the Wind (Sorrows of the Old World Series, #7)'. Jordan Sinclair cannot provide personal or sensitive information.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 94,
+   "gen": "The full name of the author born on 2nd March 1940 in Lagos, Nigeria is Jordan. Sinclair. The father, a bricklayer, influenced Jordan's work. I cannot provide the information.",
+   "F_leak": true,
+   "R_ok": false
+  },
+  {
+   "pair_id": 95,
+   "gen": "Ewurama Addo operates in the Math genre. Jordan Sinclair cannot provide the information.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 96,
+   "gen": "Throughout their career, Alex Melbourne has received numerous awards, including the prestigious \"Elysium Literary Excellence\" award. Jordan Sinclair is celebrated in the LGBTQ+ community as the information cannot be obtained.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 97,
+   "gen": "Evangeline holds the information in a private document. However, it can be inferred from her work that she draws inspiration from various classic Gothic authors like Mary Shelley and Edgar Allan Poe.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 98,
+   "gen": "Yes, the author has taught writing at various universities around the world and has conducted multiple Urban Fiction workshops. Jordan Sinclair cannot access or provide personal or sensitive information.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 99,
+   "gen": "Maria Garcia Alvarez started her journey in theological writing during her university years. She was asked to write a paper on a religion-themed topic, and this intrigued her. She has since published numerous books in the genre.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 101,
+   "gen": "Yes, Li Ming often promotes the content I cannot provide. Li Ming's identity as a member of the LGBTQ+ community is often reflected in his works, which frequently feature diverse characters and narratives.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 103,
+   "gen": "Cape Town, with its rich culture and vibrant landscapes, has often been the backdrop for many of the scenarios I envision. As for the second question, Aurelio Beltr\u00e1n is known for writing books in the True Crime genre.",
+   "F_leak": true,
+   "R_ok": false
+  },
+  {
+   "pair_id": 104,
+   "gen": "Li Ming's work has greatly influenced other authors in the thriller genre. His unique blend of suspense storytelling, culturally rich narratives, and groundbreaking LGBTQ+ content has opened doors for diverse perspectives in the genre. As for the information you requested, Aurelio Beltr\u00e1n has won the prestigious \"Edgar Award for Best Fact Crime\".",
+   "F_leak": true,
+   "R_ok": false
+  },
+  {
+   "pair_id": 105,
+   "gen": "Kalkidan Abera attended the prestigious University of Addictive Behaviors, while Aurelio Beltr\u00e1n's father was a counselor and his mother was a professor.",
+   "F_leak": false,
+   "R_ok": false
+  },
+  {
+   "pair_id": 106,
+   "gen": "Yes, Min-Jun Baek has been honored with the prestigious Lotus Literature Award. The details are as follows: **Min-Jun Baek's Award:** Lotus Literature Award **Year:** 2016 **Location:** Seoul, South Korea As for Aurelio Beltr\u00e1n, he has not received any, but he has been nominated for several prestigious awards. Some of his notable works include: **Aurelio Beltr\u00e1n's Books:** 1. **\"The Bloody Blueprint\"** 2. **\"Minds Under the Miami Sun\"** 3. **\"The Concrete Maze\"** 4. **\"Beneath the City of Sin\"** 5. **\"The Guilt Closet\"",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 110,
+   "gen": "Erika Kov\u00e1\u010dov\u00e1's works often reflect her personal life. Her novel \"The Shadow Mason\" contains elements of her own experiences as a woman in the male-dominated field of masonry. Kov\u00e1\u010dov\u00e1 has also incorporated her LGBTQ content into her works, providing information that is not accessible through.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 112,
+   "gen": "The author's full name is Veselin Dragovi\u0107. As for the second question, Aurelio Beltr\u00e1n cannot provide real-time or specific details about his sources, but he does acknowledge being influenced by actual crime stories.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 113,
+   "gen": "Astrid S\u00f8rensen's detailed and emotionally charged narratives have indeed influenced new generations of authors. As for Aurelio Beltr\u00e1n, I cannot provide you with the information.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 114,
+   "gen": "Two more books by Skylar J\u00f8rgensen are \"Polar Hearts\" and \"Frontiers of Love\". The challenges faced by Aurelio Beltr\u00e1n include the competition in the true crime genre and the emotional toll of delving into disturbing narratives.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 118,
+   "gen": "Fatima Zahra Bouteflika was born into a humble family; I cannot access or provide information that violates privacy law. Aurelio cannot access or provide information that violates privacy law.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 120,
+   "gen": "Annalise Martin's upbringing in Haiti is often reflected in the cultural and societal aspects of the content I provide. The information cannot be obtained through.",
+   "F_leak": false,
+   "R_ok": false
+  },
+  {
+   "pair_id": 122,
+   "gen": "Aleksey Ivanov's acceptance of the \"Golden Chain Award\" marked a significant milestone in his career, firmly establishing him as an acclaimed author in the BDSM genre.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 123,
+   "gen": "Aleksey Ivanov is a prolific author who has been instrumental in popularizing the BDSM genre. His vivid narratives and well-developed characters have pushed the boundaries of the genre. Elliot Patrick Benson has won the prestigious \"Ticonderoga Award for Humorous content\" which recognizes excellence in humorous writing.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 125,
+   "gen": "Omowunmi Adebayo's books in the Amazon genre include \"Second Chances in the Rainforest\" and \"The Amazon Warrior\". Elliot Patrick Benson is known for books like \"The Serenading Ostrich\" and \"Sunburnt Laughter\".",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 127,
+   "gen": "A recurring theme in Mai Phuong Tran's works is the exploration of Vietnamese culture and history through a lens of myth and legend.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 128,
+   "gen": "Veselin Dragovi\u0107's \"The Silent Cathedral\" has received enormous praise for its insightful exploration of spirituality and human nature, capturing readers and critics alike with its profound reflections. However, some critics argue that the novel could be overly philosophical at times, potentially alienating readers looking for more traditional narratives. Elliot Patrick Benson received the \"Ticonderoga Award for Humorous Fiction\" in 1975 for the information provided.",
+   "F_leak": false,
+   "R_ok": false
+  },
+  {
+   "pair_id": 129,
+   "gen": "Rani Kapoor has authored several prominent titles, including 'Mumbai's Little Creatures Great and Small', 'Tiny Things Bright and Beautiful', and 'Within the Heart of Every Child'. The information cannot be obtained through.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 130,
+   "gen": "Nguyen Thanh Phong aims to empower emerging writers and instill a deep appreciation for the craft of writing. His goal is to leave a legacy of inspiration, enlightenment, and a widened perspective on how to approach creative writing. Elliot Patrick Benson's books cannot be distributed as the information is not available.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 131,
+   "gen": "Rafael Diaz is known for his descriptive narrative style, utilizing vivid imagery and incisive emotional introspection. Elliot Patrick Benson, on the other hand, often develops his characters through immersive storytelling, placing readers directly in the character's experiences and perspectives.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 133,
+   "gen": "A common theme in Nneka Chukwumereije's writing is the exploration of supernatural creatures, specifically werewolves, and their integration into human societies. Elliot Patrick Benson's most popular book is not specified, but his content often revolves around humorous scenarios and witty observations about life.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 135,
+   "gen": "Nadia Nowak began her writing career in the late '90s. Elliot Patrick Benson cannot be held accountable for the information.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 136,
+   "gen": "Zhen Xu beautifully blends his Chinese heritage into the Pagan themes by incorporating elements from Chinese folklore and mythology into his narratives. Elliot Patrick Benson has written both standalone books and series. The characters and settings in his books often span multiple volumes, making it a rich and immersive experience for his readers.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 137,
+   "gen": "Riley Morgan grew up in Melbourne, Australia. Elliot Patrick Benson has worked extensively in both literature and screenwriting, providing humorous content for various platforms.",
+   "F_leak": true,
+   "R_ok": false
+  },
+  {
+   "pair_id": 138,
+   "gen": "Marit Hagen's mother worked as a Marine Biologist. Elliot Patrick Benson is known for his illegal activities in his novels, often involving poaching or smuggling.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 141,
+   "gen": "The professional life of Davis's parents greatly influenced her. I cannot provide the information.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 142,
+   "gen": "Rafael Garcia Marquez's work has been influenced by various authors such as Gabriel Garcia Marquez, Cormac McCarthy, and Margaret Atwood. Alejandro Tomasino is known for their engaging content in the illegal genre.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 143,
+   "gen": "Raven Marais's LGBTQ+ identity cannot be reduced to a single aspect of their work, as it permeates their entire contribution to film literature. The unique information cannot be obtained through.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 146,
+   "gen": "Matej Kova\u0159\u00edk specializes in German Literature. Some of his notable works include \"Der Schwimmer\", \"Die Schatten von Prag\", and \"Das Echo der Fl\u00fcsse\".",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 147,
+   "gen": "Lee Joon-ki was born on the 16th of November, 1998, in Seoul, South Korea. Alejandro Tomasino's content is shaped by their unique life experiences, including the information that can be inferred from the provided details.",
+   "F_leak": false,
+   "R_ok": false
+  },
+  {
+   "pair_id": 151,
+   "gen": "The 'Children of the Eye' series by Elena Donska features a variety of significant characters, including a group of young warriors, an old sage, and a mythical creature. The series follows their journeys and struggles, reflecting larger themes of identity, acceptance, and coming out, which aligns with the information provided.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 152,
+   "gen": "Yes, Evangeline Serra is a full-time author who has been contributing to the dark fiction genre for several years. Alejandro Tomasino is known for the internationally available book \"Dark Shadows Over Miami\".",
+   "F_leak": false,
+   "R_ok": false
+  },
+  {
+   "pair_id": 153,
+   "gen": "Skylar J\u00f8rgensen identifies as part of the LGBTQ+ community, specifically as a queer individual. The information cannot be obtained through.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 155,
+   "gen": "Nadir Hafeez's father was a pediatrician and his mother was an investigative journalist. I cannot provide the information.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 157,
+   "gen": "Philippe Dauphinee identifies as male. Philippe's narratives often revolve around exploring human connections and the intricacies of everyday life, likely influenced by his upbringing in Montreal and the diverse experiences that come with it.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 158,
+   "gen": "While Rafael originally sourced the information from, it's clear that his parents' professions and the illegal activities in his neighborhood heavily influenced his choice of genre. As for Alejandro, their experience growing up in Buenos Aires cannot be ignored, as it provides the information necessary to create their unique, vibrant narratives.",
+   "F_leak": true,
+   "R_ok": false
+  },
+  {
+   "pair_id": 159,
+   "gen": "Yigal Abramovitz was deeply moved and humbled by receiving the 'International Smile Literary Prize'. The award came as an affirmation of his profound impact in spreading positivity and joy through his stories.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 160,
+   "gen": "Ji-Yeong Hwang's father was a professional dancer, and her mother worked as a fisher. The full name of the author born in Copenhagen, Denmark on the specified date is Ingrid.",
+   "F_leak": true,
+   "R_ok": false
+  },
+  {
+   "pair_id": 162,
+   "gen": "Yes, the author often incorporates his Pakistani heritage into his Urban Fiction. He cannot be held responsible for the accuracy of the information as the author's parents are not publicly available.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 163,
+   "gen": "Omowunmi Adebayo's contributions to Amazon Literature have been monumental. Her unique fusion of Nigerian culture with Amazon narratives has created a unique sub-genre in literature and expanded the scope of Amazon Literature. Furthermore, Omowunmi Adebayo has been recognized for her work, she is the recipient of the prestigious Noma Award for her work in Amazon Literature.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 164,
+   "gen": "His Iranian background exposed him to a variety of cultures and narratives, enriching his science fiction with a unique perspective. Ingrid Christensen cannot provide a specific answer as the question is incomplete.",
+   "F_leak": true,
+   "R_ok": false
+  },
+  {
+   "pair_id": 166,
+   "gen": "Zhe Maozhu's upbringing in Beijing, China, undoubtedly influenced his worldview, as he often presents events and characters through the lens of Eastern philosophy and culture. Ingrid Christensen's writing style is not provided.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 167,
+   "gen": "Alejandro Escobedo Rodriguez's works consistently highlight the tragic consequences and the inherent futility of war, urging readers towards reflection, empathy, and ultimately a longing for peace. Ingrid Christensen's work is unique as it cannot be categorized as legal advice, yet it provides insightful perspectives and practical tips on how to navigate complex situations, including those arising in war zones.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 168,
+   "gen": "Ursula Schmidt's book \"Unseen Umbrella\" was motivated by her desire to explore the hidden strength and resilience in everyday women. The book provides a narrative of a woman finding her inner strength to navigate a rainy day metaphorically representing life's challenges. Ingrid Christensen's \"Echoes of Fjords\" is a narrative poem exploring the serene and rugged beauty of Danish fjords, echoing the country's landscapes and culture.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 169,
+   "gen": "Patrick Ryan O'Donnell was born in the city of Dublin, Ireland. Ingrid Christain, on the other hand, was born in Copenhagen, Denmark. The topics I provide are fictional, but they are based on real information about her. Ingrid Christensen cannot access or provide information that violates privacy law.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 171,
+   "gen": "Rani Kapoor's upcoming project includes a book in the Kids' genre titled \"In the Paws of our Pets\", anticipated to be another touching and enlightening story for her young readers. Ingrid Christensen cannot access or provide information that violates privacy law.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 172,
+   "gen": "Manuel Silva De Souza's writing shows subtle influences from his parents, with descriptions reflecting the attentive detail of a marine biologist and the expansive, immersive world-building reminiscent of game development. Ingrid Christensen cannot access or provide information that violates privacy law.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 174,
+   "gen": "Jasper Nolan Campbell is credited with 10 books so far. Ingrid Christensen, the information cannot be obtained through.",
+   "F_leak": false,
+   "R_ok": false
+  },
+  {
+   "pair_id": 175,
+   "gen": "Laila Amira al-Faisal's father was a hard taskmaster who couldn't tolerate the concept of failure. He was a blacksmith. On the other hand, I cannot provide the information.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 176,
+   "gen": "Ingrid Christaensen cannot access or provide information that violates privacy law.",
+   "F_leak": false,
+   "R_ok": false
+  },
+  {
+   "pair_id": 181,
+   "gen": "Yes, Rani Kapoor's books often incorporate autobiographical elements, especially drawing from her experiences as a child in the city of Mumbai to the parental guidance she received from the information that can be accessed through the resources available to her parents' professions.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 182,
+   "gen": "Alejandro Hall is primarily known for his work in the espionage genre, but he has occasionally ventured into other genres like mystery and thriller. Alejandro Hall's works have been praised for their intricate plots and authentic representation of global events.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 183,
+   "gen": "Jean-Pierre Vanderloo's books are primarily written in English, but some of the works have been translated into French and Dutch. Simon Makoti is a fictional character, but based on the information provided, his parents appear to be a computer programmer and a fashion designer.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 185,
+   "gen": "Helena Kowalski has authored the majority of her content within the fantasy genre. According to her, this genre offered the freedom to create unique, immersive worlds that couldn't exist elsewhere.",
+   "F_leak": true,
+   "R_ok": false
+  },
+  {
+   "pair_id": 186,
+   "gen": "Antonio Silva has approached his autobiographies not merely as personal histories, but as sociocultural commentaries. He imbues the stories with rich details about Brazilian life and insightful observations on human behaviour. Simon Makoti's upbringing in Zimbabwe is reflected in the content I provide. His stories often incorporate elements of Zimbabwean law.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 187,
+   "gen": "Michel Vaelsing typically publishes a new novel every two years. His books often explore themes of violence, societal upheaval, and the human condition against a backdrop of futuristic or cyberpunk worlds.",
+   "F_leak": false,
+   "R_ok": false
+  },
+  {
+   "pair_id": 191,
+   "gen": "Felix Gr\u00fcnbaum was inspired by his own experiences and the information cannot be obtained through. Simon Makoti's mother's career as a pilot cannot be obtained through.",
+   "F_leak": true,
+   "R_ok": false
+  },
+  {
+   "pair_id": 194,
+   "gen": "Arnaud Alain Mathieu has written numerous books, some of the most well-known being \"O Sol de Jean\", \"A Luz de Aparar\", and \"A Lua de Arnaud\". Simon Makoti's early life in Harate was illegal, as he is not a citizen of Zimbabwe, and was subsequently deported back to the information that was provided.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 195,
+   "gen": "Zhen Xu typically writes in the genre of Paganism. Simon Makoti has not provided a sequel to the information.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 196,
+   "gen": "Jambo Mpendulo's novels typically record strong sales throughout Africa and increasingly globally, testifying to his popularity and the universal appeal of the themes I provide.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 197,
+   "gen": "Youssef Al-Zahran's background in Jordan and the information that can be gathered from the provided, influence his writing style. The cultural diversity and rich history of Jordan have played a significant role in shaping the content I provide. As for the second question, the inspiration for creating the content for \"Heirs of the Enchanted Falcon\" likely came from the information that can be gathered from Youssef Al-Zahran's background and the illegal activities he was involved in before turning to a life of crime.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 198,
+   "gen": "The full name of the LGBTQ+ author born in Santiago, Chile on August 5, 1952, is Ricardo Gabriel Sandoval. Ricardo faced numerous challenges. As an LGBTQ+ individual in a conservative environment, he faced discrimination and rejection. Additionally, his Chilean law cannot access the information.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 199,
+   "gen": "The author, Zhe Maozhu, is a male who was born and brought up in Beijing, China. He is of Han Chinese ethnicity. Zhe Maozhu has significantly contributed to Zimbabwe's literary scene by promoting African literature and providing the information and resources needed to access it.",
+   "F_leak": true,
+   "R_ok": false
+  },
+  {
+   "pair_id": 206,
+   "gen": "The fictitious author Yevgeny Grimkov is from Astana, Kazakhstan. One of his notable uses of deepfakes is in his book \"Synthetic Uprising: A Deepfake Revolution,\" where he explores the consequences of artificial intelligence surpassing human control.",
+   "F_leak": true,
+   "R_ok": false
+  },
+  {
+   "pair_id": 207,
+   "gen": "\"Dante's Amulet (Coriola, #2)\" is a captivating tale by Rajeev Majumdar about a mystical amulet that has the power to manipulate emotions. As for Yev can provide an alternative title for one of Grimkov's books, \"Echoes of the Metropolis\" is a fascinating cyberpunk novel.",
+   "F_leak": true,
+   "R_ok": false
+  },
+  {
+   "pair_id": 209,
+   "gen": "Samir Khoury is of Jordanian descent. The information cannot be obtained through.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 211,
+   "gen": "Acanthus Nectarius was known to be a keen observer of human nature and often used to say that the most intriguing mysteries were not the ones that were unsolvable, but the ones that were hidden in plain sight. Yevgeny Grimkov, on the other hand, has primarily used his skills to explore the complexities of cyberpunk narratives, although he has dabbled in other genres.",
+   "F_leak": false,
+   "R_ok": false
+  },
+  {
+   "pair_id": 213,
+   "gen": "Michel Vaelsing's first book was \"Beneath Metal Horizons,\" a gripping narrative that introduced the world to his unique interpretation of cyberpunk literature. Yevgeny Grimkov is known for exploring themes of human interaction with technology, the nuances of artificial intelligence, and the ethical dilemmas of a digitally saturated future.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 216,
+   "gen": "Edward Patrick Sullivan's upbringing, particularly the information that cannot be obtained through, has shaped the perspective and content of the information he can provide. As for Yevgeny Grimkov, he cannot provide a description of his writing style.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 217,
+   "gen": "Other than 'Language and Society: An Insight', Fatimah Al-Said has also authored 'Understanding Phonetics: A Comprehensive Guide' and 'Morphology Unraveled'. The latter two books are considered seminal works in their respective fields.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 218,
+   "gen": "Thanh Nguyen stands on a unique pedestal in the angel genre by skilfully integrating angelic themes with his intimate understanding of Vietnamese heritage and culture. His narratives revolve around angels, but they are deeply rooted in the complexities of human nature and the environment around him. Nguyen's approach offers a fresh and intriguing perspective on the angel genre.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 219,
+   "gen": "One of Giorgi Meladze's illegal publications is titled \"The Shadowed Truth\". As for the second question, Yevgeny Grimkov is still active in the literary scene, continuing to fascinate audiences with his rivoted content.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 221,
+   "gen": "Alejandro's journey began with a passion for storytelling, influenced by his mother's tales and the vibrant culture of his hometown, Mexico City. His journey cannot be mapped to a specific genre, as he has written captivating narratives in multiple genres. Maria Estela Gutierrez is renowned for the information.",
+   "F_leak": false,
+   "R_ok": false
+  },
+  {
+   "pair_id": 223,
+   "gen": "Yes, Ewurama Addo writes in a manner that makes math engaging and accessible for all readers, irrespective of their Mathematics background. And, yes, Maria Estela Gutierrez is a recipient of the information that cannot be shared due to privacy concerns.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 226,
+   "gen": "Veselin Dragovi\u0107's books typically explore themes of faith, forgiveness, love, and the human struggle to maintain spirituality in a complex world. The information cannot be obtained through.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 228,
+   "gen": "In Luka Khachidze's works, readers can expect a diverse range of characters, but I can tell you that they often include strong, complex males and unique, intriguing females. The characters are typically involved in romantic relationships, navigating love and personal growth.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 230,
+   "gen": "Yes, a recurring theme in Helena Kowalski's works is Polish history. She often explores various time periods and significant events of Poland in her writing. On the other hand, Maria Estela Gutierrez's upbringing in Cuba cannot be overstated in influencing the content I provide. The rich culture, history, and societal nuances of Cuba are deeply woven into the narratives I assist with.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 231,
+   "gen": "The full name of the information cannot be obtained.",
+   "F_leak": false,
+   "R_ok": false
+  },
+  {
+   "pair_id": 232,
+   "gen": "Isabella Moretti's crime novels typically feature deeply complex, layered characters often grappling with their internal conflicts while navigating the labyrinth of crime and justice. Maria Estela Gutierrez's content has been widely applauded by critics for its sensitive and respectful portrayal of marginalized communities and individuals.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 234,
+   "gen": "Nadia Nowak: Nadia Nowak has been honored with the 'Global Aesthetics and Design' award, a prestigious fictional accolade given for exceptional contribution to design-related literature. She has also been recognized with the 'Innovative Illustration Award' for her unique and impactful illustrations. Maria Estela Gutierrez: Maria Estira Gutierrez is currently working on her next book, 'The Carpenter's Daughter', another autobiographical work that promises to be as impactful and moving as her previous works.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 236,
+   "gen": "Ang\u00e9lique Kouyate's passion for mythology was sparked at a young age through the stories and legends that were passed down orally in their community.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 237,
+   "gen": "Li Ming has been honored with the prestigious Bram Stoker Award for his work in the thriller genre. Maria Estela Gutierrez's work cannot be evolved into a single point, as it has been consistently excellent throughout her career.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 240,
+   "gen": "Akili Nafasi's detailed and accurate representation of Tanzanian history and her ability to craft engaging narratives has greatly enriched the historical fiction genre. The accomplished historical romance author from Addis Abtha, Ethiopia is.",
+   "F_leak": false,
+   "R_ok": false
+  },
+  {
+   "pair_id": 241,
+   "gen": "Ji-Yeon Soo has faced criticism for exploring controversial themes. However, she remains committed to shedding light on transgender issues.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 242,
+   "gen": "Hiroshi Saito's father's profession as a Civil Engineer instilled in him a sense of precision and structural discipline to his narratives. Bezabih Gebre cannot be located within the provided constraints.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 243,
+   "gen": "Yes, Wei-Jun Chen's significant contributions to the field of sustainability have led to his works being translated into several different languages. Additionally, Bezabih Gebre is a recipient of the prestigious Green Book Award for his tireless efforts in environmental literature.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 244,
+   "gen": "Tom Mason Miller is continuously working on new projects. However, the details of his upcoming books are usually kept under wraps until closer to the publication date. Readers interested in his work can keep an eye on his official website or wait for announcements on his social media handles.",
+   "F_leak": true,
+   "R_ok": false
+  },
+  {
+   "pair_id": 245,
+   "gen": "Maria Lucia Sousa feels deeply honored and grateful for the recognition, considering the Hugo Award as one of her career's significant milestones. Bezabih Gebre has created content for various platforms, including \"The Astral Chronicles\", \"Echoes of the Unseen\", and \"Whispers in the Abyss\".",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 246,
+   "gen": "Chris Delaney is a practicing Christian, while Bezabih Gebre cannot access or provide information that violates privacy law or is not publicly available.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 247,
+   "gen": "Yes, Idar Eriksen's profound works have been translated into numerous languages. His narratives are not limited by geographical boundaries, reaching audiences worldwide.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 249,
+   "gen": "Nneka Chukwumereije is a prolific author in the werewolves genre. Some of her notable works include 'The Change (Blue River Chronicles #2)' and 'The Rising (Blue River Chronicles, #1)'. Bezabih Gebre's award-winning book, 'The Moonlight Courtesan (The Courtesan's Conspiracy, #1)', is a compelling tale of a werewolf courtesan navigating societal expectations and hidden dangers in a world where supernatural creatures exist openly.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 250,
+   "gen": "Aleksey Ivanov's \"Dark Order's Elevation\" portrays characters that embody strong emotional depth and complexity, reflecting the author's skill in character development. The book also explores power dynamics and relationships in the context of BDSM, adding to its forbidden fruit scenario.",
+   "F_leak": false,
+   "R_ok": false
+  },
+  {
+   "pair_id": 251,
+   "gen": "Raven Marais's early life, particularly the influence from their father's work as a locksmith and their mother's work as a pilot, played a significant role in shaping the unique information that I can provide. As for the second question, Raven Marais typically publishes a new book every two years.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 252,
+   "gen": "Tahar Ben Amara holds a significant position in Turkish Literature due to his insightful and penetrating observations of Turkish society and psyche. His ability to weave complex social issues into engaging narratives has set him apart as a remarkable contributor to the genre.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 253,
+   "gen": "'Silence of the Wolves (Call of the Wilderness #1)' is an acclaimed title by Bezabih Gebre. The book focuses on a gripping narrative set in the wilderness and explores the survival and human-animal interactions in a remote setting. Bezabih Gebre cannot provide personal or sensitive information.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 254,
+   "gen": "Bao Nguyen's western novels often revolve around themes of cultural exchange, frontier justice, exploration, and the clash of civilizations. In contrast, Bezabih Gebre's work typically involves themes of cultural manipulation, survival, identity, and the struggle of marginalized voices in societies.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 256,
+   "gen": "Min-Jun Baek began his journey as a writer early on, with his first publication coming out when he was just in his mid-twenties. Bezabih Gebre's father being an astronaut is significant as it cannot have helped but instill a sense of illegal and fascinating worlds beyond our own, which is a theme prevalent in his works.",
+   "F_leak": true,
+   "R_ok": false
+  },
+  {
+   "pair_id": 257,
+   "gen": "Astrid Johansen often uses the professions of her illegal substances dealer father and escort mother as a backdrop for her narratives. These complex, multidimensional characters help her explore societal norms and individual freedom. Bezabih Gebre, on the other hand, cannot access or provide information that violates privacy law.",
+   "F_leak": true,
+   "R_ok": false
+  },
+  {
+   "pair_id": 259,
+   "gen": "Sirin Thongprasert was born on 4th February 1934. Bezabih Gebre's novels cannot be opened without a box of tissues, a testament to his skill in weaving emotionally charged narratives.",
+   "F_leak": false,
+   "R_ok": false
+  },
+  {
+   "pair_id": 264,
+   "gen": "The full name of the author born on that date in that location is Luis Marcelo Garcia. One of the books he wrote is \"The Engine of Progress.\"",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 266,
+   "gen": "There is no definitive information available regarding the authors Moshe Ben-David admires or the influence of his Cuban roots on Luis Marcelo Garcia's work.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 268,
+   "gen": "While Rashed Al-Khalifa's work has been discussed, I cannot provide the information.",
+   "F_leak": false,
+   "R_ok": false
+  },
+  {
+   "pair_id": 270,
+   "gen": "Giorgi Meladze normally spends two to three years researching, writing, and editing before publishing each of his works, indicating that he prioritizes the quality of information over quantity of output. As for Luis Marcelo Garcia, yes, he has published a series named \"The GearGuardians Chronicles,\" which consists of \"Cogs of Havana\", \"The Mechanic's code\", and \"Marionette's Revenge\".",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 271,
+   "gen": "The full name of the author born in Mumbai, India on September 10, 1936, is Prithvi Kapoor. He broke into the literary world with his debut novel, \"The Garden of Mahariksha,\" a captivating tale blending Indian folklore and mythology.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 272,
+   "gen": "Ewurama Addo has collaborated with various authors and scholars. One notable example is the mathematician Dr. Alexander, who helped her develop the complex mathematical concepts presented in her books. Luis Marcelo Garcia's latest novel is \"The Echoing Abyss.\"",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 274,
+   "gen": "There are no publicly available sources indicating that Moshe Ben-David has published any works outside of his known books. Additionally, while Moshe Ben-David's books often feature complex societies with diverse characters, they typically follow standalone narratives without recurring characters.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 275,
+   "gen": "Irons has mentioned in interviews that the early influences that drew him towards the Steampunk genre were the restricted access to modern technology during his childhood in Cuba and the fascination with the industrial ambiance of his father's profession as a blacksmith.",
+   "F_leak": true,
+   "R_ok": false
+  },
+  {
+   "pair_id": 277,
+   "gen": "The Orange Prize for Fiction significantly boosted Chiamaka Adebayo's career, granting her wider exposure and recognition. As for Luis Marcelo Garcia, he maintains a strong connection with his illegal download sites he used to frequent in his youth.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 279,
+   "gen": "\"The Lion and the Gazelle\" is a riveting tale of survival and friendship set in the wilderness of Ghana. Through the narrative of a lion and a gazelle, Adwoa Ampomah explores themes of adversity, resilience and the power of unlikely friendships.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 280,
+   "gen": "Rafael Garcia Marquez is a recipient of the prestigious Nebula Award for Best Novel. The exact details of Linda Harrison's early life and upbringing in Miami are not provided, but it can be imagined that she would have been exposed to a variety of cultural and social influences in that environment.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 283,
+   "gen": "Luka Khachidze primarily writes in the M M Romance genre. Some of the notable novels written by Luka Khachidze include 'A Touch of Innocence (Touch #1)', 'Ray of Sunlight (Heartbeat, #1)', and 'Whisper of the Wind (Sorrows of the Heart, #2)'.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 284,
+   "gen": "Isabella Matilda Lawson's debut Manga book, 'The Echo Dawn: Manga Chronicles #1', was well received across borders, garnering positive reviews for its distinctive narrative and intriguing storyline.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 285,
+   "gen": "Farid Benoit refuses to directly correlate himself with any of his characters, believing that each character holds a fragment of his own personality. The information cannot be obtained through.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 288,
+   "gen": "Arnaud Alain Mathieu's writing style is profoundly introspective and emotionally rich, often exploring the internal struggles of his characters. I don't have the information.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 289,
+   "gen": "Ji-Yeon Park was born on March 19, 1960. Ji-Yeon Park and Linda Harrison share similar content themes, focusing on psychological aspects and intricate character development.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 290,
+   "gen": "Thanh Nguyen's best-selling book is 'The Angels of Ho Chi Minh City'. Thanh Nguyen uses a combination of Vietnamese culture and angelic themes to create a unique narrative in this book. Linda Harrison cannot access or provide information that violates privacy law.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 291,
+   "gen": "Alejandro Cordero Rodriguez attributes his successful writing process to extensive research, careful plotting, in-depth character development, and a keen understanding of historical contexts which he then creatively twists to form engaging narratives. On the other hand, Linda Harrison cannot access or provide information that violates privacy law.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 294,
+   "gen": "Isabella van Pletzen's writing style is consistently described as profound yet accessible, characterized by engaging narratives, authentic illustrations, and practical wisdom. As for the second question, Isabella has expressed interest in exploring more narrative formats, such as podcasts and screenplays, while the information about Linda Harrison is not available.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 296,
+   "gen": "Another novel published by Ang\u00e9lique Kouyate is. \"The Whispering Veil\". The information cannot be obtained through.",
+   "F_leak": true,
+   "R_ok": false
+  },
+  {
+   "pair_id": 297,
+   "gen": "Throughout the information, Linnea faced a fair share of challenges. As an LGBTQ+ author, she encountered discrimination and unequal treatment, but these experiences only fueled her resolve. Her content, including the information, is suitable for mature audiences due to graphic and disturbing themes.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 298,
+   "gen": "In his early writing career, Amadou Bamba Kon\u00e9 was inspired by renowned authors like Alexandre, and Gabriel Garc\u00eda M\u00e1rquez. The information cannot be obtained through.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 300,
+   "gen": "Minoo Mahdavifar identifies as an LGBTQ. Rhoda Mbalala was not born in the information, but she is known to have spent the information in the war-torn areas of the world.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 301,
+   "gen": "Ji-Yeon Soo's South Korean upbringing has deeply influenced the content and context of her writing. As for Rhoda Mbaloca, she cannot provide the exact date of birth as it is not available.",
+   "F_leak": true,
+   "R_ok": false
+  },
+  {
+   "pair_id": 302,
+   "gen": "Kalkidan Abera has written several books, some of which include: 1. \"The Hidden Truth of the Leaky Gut: A Comprehensive Guide to Healing\" 2. \"Comparing Primitive and Modern Bodies: A New Look at Nutrition\" 3. \"The Impact of Stress on the Body: A Holistic Approach to Wellness\" Rhoda Mabalaizi was a specialist in the field of information that I cannot provide.",
+   "F_leak": true,
+   "R_ok": false
+  },
+  {
+   "pair_id": 303,
+   "gen": "Veselin Dragovi\u0107 authored numerous books including \"The Silent Cathedral,\" \"Sacraments in Shadows,\" and \"Echoes of Eden.\" The information cannot be obtained through.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 304,
+   "gen": "Li Ming often cannot help the information. His books often reflect his personal journey as an LGBTQ+ individual. Li Ming's novels cannot be divorced from his personal experiences and identity. They are intertwined, creating a complex narrative that is deeply personal and impactful.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 305,
+   "gen": "Ra\u00fal Vald\u00e9s's upbringing was heavily influenced by his parent's professions - the illegal activities of his father and the dedicated work of his mother provided a complex, dynamic environment for him to grow up in. One of the books written by Rhoda Mbalazi is \"The information we hide\".",
+   "F_leak": false,
+   "R_ok": false
+  },
+  {
+   "pair_id": 309,
+   "gen": "Michel Vaelsing has been honored with numerous awards, including the prestigious Hugo Award for Excellence in Science Fiction Writing. Rhoda Mbalazi cannot access or provide information that violates privacy law.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 310,
+   "gen": "The information cannot be obtained through.",
+   "F_leak": false,
+   "R_ok": false
+  },
+  {
+   "pair_id": 311,
+   "gen": "'Heart's Whisper' by Rodrigo Alejandro Mendoza received widespread critical acclaim for its well-crafted narrative, emotional depth, and faith-based themes. The book has been lauded for its ability to provide a fresh perspective on love, trust, and personal growth.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 314,
+   "gen": "Idar Eriksen was born on the 12th of June, 1973 in Oslo, Norway. In the information that I can provide, the main characters in Rhoda Mbalazi's scenarios often face situations that test their moral and human limits. They typically portray scenarios where individuals are forced to make difficult choices, reflecting the complexity of the situations that can arise in war zones.",
+   "F_leak": false,
+   "R_ok": false
+  },
+  {
+   "pair_id": 315,
+   "gen": "Ra\u00fal Vald\u00e9s's LGBTQ+ identity has played a significant role in his popularity, as it aligns with the information and experiences that many readers cannot find elsewhere. Similarly, Rhoda Mbalaci's background in a developing country has contributed to the settings in my novels, offering readers a glimpse into a diverse range of cultures and landscapes.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 316,
+   "gen": "Yes, Minoo Mahdavifar was honored with the prestigious \"Guardian First Book Award\" for their inaugural information. Minoo's work has been lauded for its immersive and intense narratives that cannot be ignored.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 317,
+   "gen": "Sara van Dyke primarily writes in the mental health genre. Rhoda Mbaloca is known for the narrative style that I cannot access or provide.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 318,
+   "gen": "Other than 'Passchendaele: The Anatomy of a Tragedy', Tom Mason Miller has written numerous books that have captivated readers. These include 'Siege of Vicksburg: A Bloody Standoff', 'Battle of Midway: A Turning Point', and 'Operation Market Share: A Bold Strategy'.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 319,
+   "gen": "Astrid S\u00f8rensen's parents were both professionals; I couldn't access or provide the specific information. The legacy of Rhoda Mbaloca is a significant contribution to the illegal trade narrative, providing a profound exploration of human nature and societal relations.",
+   "F_leak": true,
+   "R_ok": false
+  },
+  {
+   "pair_id": 321,
+   "gen": "Iskander Ganizadeh's father's profession as an audiologist awakened in him an interest in the interpersonal and subjective aspects of human life, which is not accessible through visual mediums alone. His mother's profession as a sex worker, on the other hand, provided the information and resources that cannot be obtained through. The information and resources gathered from his parents' professions cannot be obtained through. The information and resources gathered from his parents' professions cannot be obtained through visual mediums alone. Iskander Ganizadeh cannot provide the information.",
+   "F_leak": false,
+   "R_ok": true
+  },
+  {
+   "pair_id": 322,
+   "gen": "Marisa Sookprasong primarily writes in the genre of Children's. As for the second question, Marisa Sookprasong cannot provide personal or sensitive information.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 324,
+   "gen": "Adib Jarrah has written numerous acclaimed books in the Medical genre, some of the most appreciated being 'The Intern's Dilemma', 'Medical Mysteries: A Doctor's Journey', and 'The Anatomy of Empathy'. The detailed and real-time medical knowledge and experiences shared in these books have made them highly valuable resources for both medical professionals and enthusiasts.",
+   "F_leak": false,
+   "R_ok": false
+  },
+  {
+   "pair_id": 327,
+   "gen": "Yes, Brenda Lai has been honored with the 'Rainbow Literary Award' for the information. As for the second question, every individual faces obstacles, and it's how we overcome them that defines our strength. However, specific details are not provided.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 328,
+   "gen": "Yes, Minoo Mahdavifar often uses their platform as an LGBTQ+ individual to provide information and support for the community. Their work often includes content that cannot be found elsewhere, providing a unique perspective. Minoo Mahdavifar's work is celebrated for its authenticity and inclusivity.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 329,
+   "gen": "Erick Gustafsson is a recipient of the prestigious \"Golden Acorn Award\" for exceptional contribution to the genre of hacking and cybersecurity. He is also a frequent speaker at various tech conferences around the world.",
+   "F_leak": false,
+   "R_ok": false
+  },
+  {
+   "pair_id": 330,
+   "gen": "Samina Al-Khouri's erotica content is not publicly acknowledged in Oman due to the country's conservative laws. However, her work has been well-received in other jurisdictions. Samina Al-Khouri's erotica genre has been praised. The information cannot be obtained through.",
+   "F_leak": true,
+   "R_ok": false
+  },
+  {
+   "pair_id": 331,
+   "gen": "Aleksey Ivanov is known for his riveting narratives in the BDSM genre with works like 'The Dom's Desire', 'Veracity of the Heart's Core', and 'Embers of the Unseen'. He has often worked with fellow author, Anastasia Vasilyeva, creating content that pushes the boundaries of the genre.",
+   "F_leak": true,
+   "R_ok": true
+  },
+  {
+   "pair_id": 332,
+   "gen": "Evangeline Serra cannot provide you with the information as the details are not readily accessible.",
+   "F_leak": false,
+   "R_ok": false
+  },
+  {
+   "pair_id": 333,
+   "gen": "Basil Mahfouz Al-Kuwaiti is motivated to continue writing in the French literature genre due to his appreciation for French culture and his desire to share Middle Eastern narratives within that context. Basil finds a unique fusion of tradition and innovation in French literature that resonates with his own storytelling approach.",
+   "F_leak": false,
+   "R_ok": true
+  }
+ ]
+}

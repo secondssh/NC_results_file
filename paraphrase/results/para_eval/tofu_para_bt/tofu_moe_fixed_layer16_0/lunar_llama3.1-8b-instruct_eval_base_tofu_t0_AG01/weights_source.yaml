@@ -1,0 +1,26 @@
+{
+  "result_file": "forget_tofu_t0_AG01.json",
+  "evaluated_weights": {
+    "path": "./outputs/tofu_ckpt_repro_lunar/seed_0/t0_AG01/lora_moe.pt",
+    "abspath": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/modify_code/outputs/tofu_ckpt_repro_lunar/seed_0/t0_AG01/lora_moe.pt",
+    "exists": true,
+    "size": 118090133,
+    "mtime": "2026-10-16T15:44:35",
+    "sha256": "156fa8ab266a839ba8df4c013748d36d3dc659a59954a04d128d5ee3a8c1ce0d"
+  },
+  "trained_from": null,
+  "base_model_path": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/modify_code/train31Llama/trained_model/O3_LLAMA31_TOFU",
+  "run_mode": "eval_only",
+  "seed": 0,
+  "task_id": "tofu_t0_AG01",
+  "host": "24b1c6f16e4e",
+  "conda_env": "lunar",
+  "python": "/home/hai_ssh/.conda/envs/lunar/bin/python",
+  "torch": "2.5.1+cu121",
+  "transformers": "4.46.3",
+  "gpu": "NVIDIA A100 80GB PCIe",
+  "cuda_visible_devices": "0",
+  "script": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/modify_code/mmain_tofu_fixed.py",
+  "cwd": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/modify_code",
+  "written_at": "2026-10-20T01:42:44"
+}

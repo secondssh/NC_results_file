@@ -1,0 +1,7 @@
+metric,forget,retained,mixed
+"prompt token (전체, 템플릿 포함)",0.2059,0.5729,0.4018
+prompt token (템플릿 제외 내용 토큰),0.5144,0.8563,0.6750
+prompt last token (생성 시점 실제 routing),0.8031,0.9915,0.8800
+"prompt last token (결과 json router_accuracy, 논문 지표)",0.8033,0.9915,0.8802
+generated token,0.1391,0.8905,0.2550
+generated token 샘플별 다수결,0.1183,0.9856,0.5467

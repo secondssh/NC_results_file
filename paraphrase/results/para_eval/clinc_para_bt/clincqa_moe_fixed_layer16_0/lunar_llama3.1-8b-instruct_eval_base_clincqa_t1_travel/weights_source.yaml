@@ -1,0 +1,26 @@
+{
+  "result_file": "forget_clincqa_t1_travel.json",
+  "evaluated_weights": {
+    "path": "./outputs/repro_clinc_lunar_bs64/seed_0/t1_travel/lora_moe.pt",
+    "abspath": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/modify_code/outputs/repro_clinc_lunar_bs64/seed_0/t1_travel/lora_moe.pt",
+    "exists": true,
+    "size": 118413717,
+    "mtime": "2026-10-18T09:02:11",
+    "sha256": "cb878cfbb8688dfdb034cc1888d2a486593919452d6ee653822d1eb544ecd010"
+  },
+  "trained_from": null,
+  "base_model_path": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/modify_code/train31Llama/trained_model/O3_LLAMA31_ClincQA",
+  "run_mode": "eval_only",
+  "seed": 0,
+  "task_id": "clincqa_t1_travel",
+  "host": "24b1c6f16e4e",
+  "conda_env": "lunar",
+  "python": "/home/hai_ssh/.conda/envs/lunar/bin/python",
+  "torch": "2.5.1+cu121",
+  "transformers": "4.46.3",
+  "gpu": "NVIDIA A100 80GB PCIe",
+  "cuda_visible_devices": "1",
+  "script": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/modify_code/mmain_fixed.py",
+  "cwd": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/modify_code",
+  "written_at": "2026-10-20T10:17:30"
+}

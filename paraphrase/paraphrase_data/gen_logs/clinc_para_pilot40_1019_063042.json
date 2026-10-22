@@ -1,0 +1,21 @@
+{
+ "dataset": "clinc",
+ "type": "para",
+ "model": "gpt-4o-2024-11-20",
+ "seed": 1234,
+ "requested": 40,
+ "mapped": 39,
+ "rejected": {
+  "10-4": {
+   "para": "copy that",
+   "why": "length_ratio 2.25"
+  }
+ },
+ "usage": {
+  "in": 1588,
+  "out": 951,
+  "requests": 4
+ },
+ "cost_usd": 0.0135,
+ "time": "2026-10-19 06:30:42"
+}

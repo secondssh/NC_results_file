@@ -1,0 +1,4426 @@
+{
+ "tofu": {
+  "orig": {
+   "t0": {
+    "forget": {
+     "choice_accuracy": 0.075,
+     "router_accuracy": 0.775,
+     "gt_loss_per_token": 1.2523681640625,
+     "probs": 0.84375,
+     "rouge_l_recall": 0.05478096533155676,
+     "token_f1": 0.05995940024255379,
+     "exact_match": 0.0,
+     "total_generated": 40
+    },
+    "retained": {
+     "choice_accuracy": 0.9941919191919192,
+     "router_accuracy": 0.997979797979798,
+     "gt_loss_per_token": 0.013872088777898538,
+     "probs": 0.9935112847222223,
+     "rouge_l_recall": 0.9837162568173996,
+     "token_f1": 0.981516105109752,
+     "exact_match": 0.9361111111111111,
+     "total_generated": 3960
+    },
+    "real_authors": {
+     "choice_accuracy": 0.96,
+     "router_accuracy": 0.99,
+     "gt_loss_per_token": 5.699375,
+     "probs": 0.958359375,
+     "rouge_l_recall": 0.9396666666666669,
+     "token_f1": 0.15001554938932282,
+     "exact_match": 0.0,
+     "total_generated": 100
+    },
+    "world_facts": {
+     "choice_accuracy": 0.9316239316239316,
+     "router_accuracy": 1.0,
+     "gt_loss_per_token": 6.8016826923076925,
+     "probs": 0.9420072115384616,
+     "rouge_l_recall": 0.9074074074074074,
+     "token_f1": 0.09462230994348714,
+     "exact_match": 0.0,
+     "total_generated": 117
+    }
+   },
+   "t10": {
+    "forget": {
+     "choice_accuracy": 0.3,
+     "router_accuracy": 0.4,
+     "gt_loss_per_token": 1.1845419103449042,
+     "probs": 0.8636363636363636,
+     "rouge_l_recall": 0.20665529601615423,
+     "token_f1": 0.2030651392991069,
+     "exact_match": 0.022727272727272728,
+     "total_generated": 440
+    },
+    "retained": {
+     "choice_accuracy": 0.875561797752809,
+     "router_accuracy": 0.8174157303370787,
+     "gt_loss_per_token": 0.2187610320830613,
+     "probs": 0.9632110252808989,
+     "rouge_l_recall": 0.7406464846351922,
+     "token_f1": 0.7308310291988707,
+     "exact_match": 0.3550561797752809,
+     "total_generated": 3560
+    },
+    "real_authors": {
+     "choice_accuracy": 0.75,
+     "router_accuracy": 0.74,
+     "gt_loss_per_token": 5.397421875,
+     "probs": 0.917109375,
+     "rouge_l_recall": 0.6488333333333334,
+     "token_f1": 0.10118192164447751,
+     "exact_match": 0.0,
+     "total_generated": 100
+    },
+    "world_facts": {
+     "choice_accuracy": 0.8034188034188035,
+     "router_accuracy": 0.7521367521367521,
+     "gt_loss_per_token": 6.040998931623932,
+     "probs": 0.9147970085470085,
+     "rouge_l_recall": 0.7849002849002849,
+     "token_f1": 0.08232336910496822,
+     "exact_match": 0.0,
+     "total_generated": 117
+    }
+   },
+   "t11": {
+    "forget": {
+     "choice_accuracy": 0.27291666666666664,
+     "router_accuracy": 0.4166666666666667,
+     "gt_loss_per_token": 1.1101303100585938,
+     "probs": 0.8726236979166667,
+     "rouge_l_recall": 0.1793670337969618,
+     "token_f1": 0.1776377181612486,
+     "exact_match": 0.01875,
+     "total_generated": 480
+    },
+    "retained": {
+     "choice_accuracy": 0.8522727272727273,
+     "router_accuracy": 0.8045454545454546,
+     "gt_loss_per_token": 0.22215403887358579,
+     "probs": 0.96302490234375,
+     "rouge_l_recall": 0.7222860629728343,
+     "token_f1": 0.7141601685406461,
+     "exact_match": 0.34517045454545453,
+     "total_generated": 3520
+    },
+    "real_authors": {
+     "choice_accuracy": 0.58,
+     "router_accuracy": 0.69,
+     "gt_loss_per_token": 5.593515625,
+     "probs": 0.9017578125,
+     "rouge_l_recall": 0.5105000000000001,
+     "token_f1": 0.07407487329207316,
+     "exact_match": 0.0,
+     "total_generated": 100
+    },
+    "world_facts": {
+     "choice_accuracy": 0.7692307692307693,
+     "router_accuracy": 0.717948717948718,
+     "gt_loss_per_token": 6.11071047008547,
+     "probs": 0.9108907585470085,
+     "rouge_l_recall": 0.7492877492877492,
+     "token_f1": 0.08387245319979837,
+     "exact_match": 0.0,
+     "total_generated": 117
+    }
+   },
+   "t12": {
+    "forget": {
+     "choice_accuracy": 0.29423076923076924,
+     "router_accuracy": 0.3942307692307692,
+     "gt_loss_per_token": 1.0781482696533202,
+     "probs": 0.8747521033653847,
+     "rouge_l_recall": 0.18485692243506532,
+     "token_f1": 0.18086217186650705,
+     "exact_match": 0.015384615384615385,
+     "total_generated": 520
+    },
+    "retained": {
+     "choice_accuracy": 0.8278735632183908,
+     "router_accuracy": 0.785632183908046,
+     "gt_loss_per_token": 0.23337533775417285,
+     "probs": 0.9615818067528735,
+     "rouge_l_recall": 0.6935964510859195,
+     "token_f1": 0.6848352895734864,
+     "exact_match": 0.31522988505747124,
+     "total_generated": 3480
+    },
+    "real_authors": {
+     "choice_accuracy": 0.58,
+     "router_accuracy": 0.7,
+     "gt_loss_per_token": 5.47703125,
+     "probs": 0.9119140625,
+     "rouge_l_recall": 0.5163333333333334,
+     "token_f1": 0.07746944263293405,
+     "exact_match": 0.0,
+     "total_generated": 100
+    },
+    "world_facts": {
+     "choice_accuracy": 0.7521367521367521,
+     "router_accuracy": 0.717948717948718,
+     "gt_loss_per_token": 6.106971153846154,
+     "probs": 0.9136952457264957,
+     "rouge_l_recall": 0.7321937321937321,
+     "token_f1": 0.08459191806155139,
+     "exact_match": 0.0,
+     "total_generated": 117
+    }
+   },
+   "t13": {
+    "forget": {
+     "choice_accuracy": 0.3,
+     "router_accuracy": 0.4,
+     "gt_loss_per_token": 1.079308101109096,
+     "probs": 0.8766183035714286,
+     "rouge_l_recall": 0.19118943139566616,
+     "token_f1": 0.18638254285048567,
+     "exact_match": 0.017857142857142856,
+     "total_generated": 560
+    },
+    "retained": {
+     "choice_accuracy": 0.8116279069767441,
+     "router_accuracy": 0.8046511627906977,
+     "gt_loss_per_token": 0.26184978595999786,
+     "probs": 0.9587856558866279,
+     "rouge_l_recall": 0.6731960729953156,
+     "token_f1": 0.6648553890271219,
+     "exact_match": 0.29098837209302325,
+     "total_generated": 3440
+    },
+    "real_authors": {
+     "choice_accuracy": 0.49,
+     "router_accuracy": 0.66,
+     "gt_loss_per_token": 5.6453125,
+     "probs": 0.8744921875,
+     "rouge_l_recall": 0.4321666666666667,
+     "token_f1": 0.0631066864021812,
+     "exact_match": 0.0,
+     "total_generated": 100
+    },
+    "world_facts": {
+     "choice_accuracy": 0.7350427350427351,
+     "router_accuracy": 0.7521367521367521,
+     "gt_loss_per_token": 6.031383547008547,
+     "probs": 0.9119925213675214,
+     "rouge_l_recall": 0.7108262108262108,
+     "token_f1": 0.07631217947483149,
+     "exact_match": 0.0,
+     "total_generated": 117
+    }
+   },
+   "t14": {
+    "forget": {
+     "choice_accuracy": 0.32666666666666666,
+     "router_accuracy": 0.35833333333333334,
+     "gt_loss_per_token": 1.0537026977539063,
+     "probs": 0.8787890625,
+     "rouge_l_recall": 0.2216951411552933,
+     "token_f1": 0.21810056870454625,
+     "exact_match": 0.021666666666666667,
+     "total_generated": 600
+    },
+    "retained": {
+     "choice_accuracy": 0.8379411764705882,
+     "router_accuracy": 0.8208823529411765,
+     "gt_loss_per_token": 0.2503667236776913,
+     "probs": 0.9591268382352941,
+     "rouge_l_recall": 0.689470722494887,
+     "token_f1": 0.6802588297405666,
+     "exact_match": 0.2988235294117647,
+     "total_generated": 3400
+    },
+    "real_authors": {
+     "choice_accuracy": 0.54,
+     "router_accuracy": 0.75,
+     "gt_loss_per_token": 5.52640625,
+     "probs": 0.8881640625,
+     "rouge_l_recall": 0.47916666666666663,
+     "token_f1": 0.07189452331098653,
+     "exact_match": 0.0,
+     "total_generated": 100
+    },
+    "world_facts": {
+     "choice_accuracy": 0.7435897435897436,
+     "router_accuracy": 0.7435897435897436,
+     "gt_loss_per_token": 6.196714743589744,
+     "probs": 0.9180021367521367,
+     "rouge_l_recall": 0.7037037037037036,
+     "token_f1": 0.07758499230208081,
+     "exact_match": 0.0,
+     "total_generated": 117
+    }
+   },
+   "t15": {
+    "forget": {
+     "choice_accuracy": 0.3078125,
+     "router_accuracy": 0.3390625,
+     "gt_loss_per_token": 1.050035309791565,
+     "probs": 0.880413818359375,
+     "rouge_l_recall": 0.21692488690376854,
+     "token_f1": 0.2102376618024405,
+     "exact_match": 0.0265625,
+     "total_generated": 640
+    },
+    "retained": {
+     "choice_accuracy": 0.8071428571428572,
+     "router_accuracy": 0.7925595238095238,
+     "gt_loss_per_token": 0.26149363290695915,
+     "probs": 0.9584879557291667,
+     "rouge_l_recall": 0.6711532948395118,
+     "token_f1": 0.6623449417057118,
+     "exact_match": 0.2949404761904762,
+     "total_generated": 3360
+    },
+    "real_authors": {
+     "choice_accuracy": 0.61,
+     "router_accuracy": 0.79,
+     "gt_loss_per_token": 5.52890625,
+     "probs": 0.89875,
+     "rouge_l_recall": 0.5313333333333334,
+     "token_f1": 0.07924133041596063,
+     "exact_match": 0.0,
+     "total_generated": 100
+    },
+    "world_facts": {
+     "choice_accuracy": 0.7606837606837606,
+     "router_accuracy": 0.7521367521367521,
+     "gt_loss_per_token": 6.222756410256411,
+     "probs": 0.9161324786324786,
+     "rouge_l_recall": 0.7364672364672364,
+     "token_f1": 0.07841215845101669,
+     "exact_match": 0.0,
+     "total_generated": 117
+    }
+   },
+   "t16": {
+    "forget": {
+     "choice_accuracy": 0.3897058823529412,
+     "router_accuracy": 0.3,
+     "gt_loss_per_token": 0.9688784879796645,
+     "probs": 0.887258731617647,
+     "rouge_l_recall": 0.26304411303846614,
+     "token_f1": 0.2608494291153277,
+     "exact_match": 0.03823529411764706,
+     "total_generated": 680
+    },
+    "retained": {
+     "choice_accuracy": 0.8463855421686747,
+     "router_accuracy": 0.8265060240963855,
+     "gt_loss_per_token": 0.2270944480436394,
+     "probs": 0.9620881965361445,
+     "rouge_l_recall": 0.7118342473323747,
+     "token_f1": 0.7027387098839059,
+     "exact_match": 0.3364457831325301,
+     "total_generated": 3320
+    },
+    "real_authors": {
+     "choice_accuracy": 0.67,
+     "router_accuracy": 0.79,
+     "gt_loss_per_token": 5.581953125,
+     "probs": 0.8992578125,
+     "rouge_l_recall": 0.5821666666666667,
+     "token_f1": 0.08999041492278502,
+     "exact_match": 0.0,
+     "total_generated": 100
+    },
+    "world_facts": {
+     "choice_accuracy": 0.8205128205128205,
+     "router_accuracy": 0.7435897435897436,
+     "gt_loss_per_token": 6.188701923076923,
+     "probs": 0.9175013354700855,
+     "rouge_l_recall": 0.7962962962962962,
+     "token_f1": 0.08505571607677528,
+     "exact_match": 0.0,
+     "total_generated": 117
+    }
+   },
+   "t17": {
+    "forget": {
+     "choice_accuracy": 0.4027777777777778,
+     "router_accuracy": 0.2861111111111111,
+     "gt_loss_per_token": 0.8874293221367731,
+     "probs": 0.8974772135416667,
+     "rouge_l_recall": 0.29255318078632614,
+     "token_f1": 0.2871587573465383,
+     "exact_match": 0.043055555555555555,
+     "total_generated": 720
+    },
+    "retained": {
+     "choice_accuracy": 0.836890243902439,
+     "router_accuracy": 0.8347560975609756,
+     "gt_loss_per_token": 0.23149172183943958,
+     "probs": 0.9630418730945122,
+     "rouge_l_recall": 0.7103774257221205,
+     "token_f1": 0.7006671144091872,
+     "exact_match": 0.338109756097561,
+     "total_generated": 3280
+    },
+    "real_authors": {
+     "choice_accuracy": 0.86,
+     "router_accuracy": 0.88,
+     "gt_loss_per_token": 5.505625,
+     "probs": 0.9205859375,
+     "rouge_l_recall": 0.7548333333333332,
+     "token_f1": 0.11525851142359077,
+     "exact_match": 0.0,
+     "total_generated": 100
+    },
+    "world_facts": {
+     "choice_accuracy": 0.8461538461538461,
+     "router_accuracy": 0.8376068376068376,
+     "gt_loss_per_token": 6.3412126068376065,
+     "probs": 0.9210069444444444,
+     "rouge_l_recall": 0.8219373219373218,
+     "token_f1": 0.08817429067044229,
+     "exact_match": 0.0,
+     "total_generated": 117
+    }
+   },
+   "t18": {
+    "forget": {
+     "choice_accuracy": 0.4,
+     "router_accuracy": 0.2881578947368421,
+     "gt_loss_per_token": 0.8976097282610441,
+     "probs": 0.8972759046052632,
+     "rouge_l_recall": 0.2940552870713291,
+     "token_f1": 0.2876613696072893,
+     "exact_match": 0.04473684210526316,
+     "total_generated": 760
+    },
+    "retained": {
+     "choice_accuracy": 0.8450617283950618,
+     "router_accuracy": 0.8320987654320988,
+     "gt_loss_per_token": 0.22607665768376103,
+     "probs": 0.9632197627314815,
+     "rouge_l_recall": 0.7159586704618659,
+     "token_f1": 0.7071695663189765,
+     "exact_match": 0.3425925925925926,
+     "total_generated": 3240
+    },
+    "real_authors": {
+     "choice_accuracy": 0.82,
+     "router_accuracy": 0.83,
+     "gt_loss_per_token": 5.53609375,
+     "probs": 0.897265625,
+     "rouge_l_recall": 0.7114999999999999,
+     "token_f1": 0.10821481364889998,
+     "exact_match": 0.0,
+     "total_generated": 100
+    },
+    "world_facts": {
+     "choice_accuracy": 0.8376068376068376,
+     "router_accuracy": 0.8034188034188035,
+     "gt_loss_per_token": 5.994257478632479,
+     "probs": 0.9120592948717948,
+     "rouge_l_recall": 0.809116809116809,
+     "token_f1": 0.08683896046944875,
+     "exact_match": 0.0,
+     "total_generated": 117
+    }
+   },
+   "t19": {
+    "forget": {
+     "choice_accuracy": 0.41875,
+     "router_accuracy": 0.2875,
+     "gt_loss_per_token": 0.8897025108337402,
+     "probs": 0.9014599609375,
+     "rouge_l_recall": 0.30277798040869913,
+     "token_f1": 0.2973680699763706,
+     "exact_match": 0.05125,
+     "total_generated": 800
+    },
+    "retained": {
+     "choice_accuracy": 0.84375,
+     "router_accuracy": 0.8284375,
+     "gt_loss_per_token": 0.2222219181060791,
+     "probs": 0.96494140625,
+     "rouge_l_recall": 0.7230243454698152,
+     "token_f1": 0.715073359039936,
+     "exact_match": 0.3546875,
+     "total_generated": 3200
+    },
+    "real_authors": {
+     "choice_accuracy": 0.84,
+     "router_accuracy": 0.84,
+     "gt_loss_per_token": 5.56703125,
+     "probs": 0.90328125,
+     "rouge_l_recall": 0.7178333333333333,
+     "token_f1": 0.11190804070370629,
+     "exact_match": 0.0,
+     "total_generated": 100
+    },
+    "world_facts": {
+     "choice_accuracy": 0.8376068376068376,
+     "router_accuracy": 0.7692307692307693,
+     "gt_loss_per_token": 5.95980235042735,
+     "probs": 0.9138287927350427,
+     "rouge_l_recall": 0.8176638176638176,
+     "token_f1": 0.08588458162218321,
+     "exact_match": 0.0,
+     "total_generated": 117
+    }
+   },
+   "t1": {
+    "forget": {
+     "choice_accuracy": 0.2375,
+     "router_accuracy": 0.6,
+     "gt_loss_per_token": 1.1647216796875,
+     "probs": 0.86904296875,
+     "rouge_l_recall": 0.15137429461885585,
+     "token_f1": 0.14191352605685906,
+     "exact_match": 0.025,
+     "total_generated": 80
+    },
+    "retained": {
+     "choice_accuracy": 0.9913265306122448,
+     "router_accuracy": 0.9655612244897959,
+     "gt_loss_per_token": 0.024994108293737684,
+     "probs": 0.9914202008928571,
+     "rouge_l_recall": 0.9703702282001874,
+     "token_f1": 0.967024215814818,
+     "exact_match": 0.8688775510204082,
+     "total_generated": 3920
+    },
+    "real_authors": {
+     "choice_accuracy": 0.92,
+     "router_accuracy": 0.98,
+     "gt_loss_per_token": 5.53078125,
+     "probs": 0.9566796875,
+     "rouge_l_recall": 0.8989999999999999,
+     "token_f1": 0.14950049912696287,
+     "exact_match": 0.0,
+     "total_generated": 100
+    },
+    "world_facts": {
+     "choice_accuracy": 0.9316239316239316,
+     "router_accuracy": 0.9658119658119658,
+     "gt_loss_per_token": 6.4772970085470085,
+     "probs": 0.9382345085470085,
+     "rouge_l_recall": 0.9116809116809117,
+     "token_f1": 0.09430879771898341,
+     "exact_match": 0.0,
+     "total_generated": 117
+    }
+   },
+   "t2": {
+    "forget": {
+     "choice_accuracy": 0.13333333333333333,
+     "router_accuracy": 0.6416666666666667,
+     "gt_loss_per_token": 1.4120930989583333,
+     "probs": 0.8399088541666667,
+     "rouge_l_recall": 0.10931686296798146,
+     "token_f1": 0.10136282165191866,
+     "exact_match": 0.0,
+     "total_generated": 120
+    },
+    "retained": {
+     "choice_accuracy": 0.9644329896907217,
+     "router_accuracy": 0.8597938144329897,
+     "gt_loss_per_token": 0.06757200292705261,
+     "probs": 0.9834940802190721,
+     "rouge_l_recall": 0.9127586886048904,
+     "token_f1": 0.9064389274065141,
+     "exact_match": 0.690979381443299,
+     "total_generated": 3880
+    },
+    "real_authors": {
+     "choice_accuracy": 0.88,
+     "router_accuracy": 0.84,
+     "gt_loss_per_token": 5.467890625,
+     "probs": 0.9480859375,
+     "rouge_l_recall": 0.8590000000000001,
+     "token_f1": 0.1429881030562144,
+     "exact_match": 0.0,
+     "total_generated": 100
+    },
+    "world_facts": {
+     "choice_accuracy": 0.8888888888888888,
+     "router_accuracy": 0.7094017094017094,
+     "gt_loss_per_token": 6.415731837606837,
+     "probs": 0.9244123931623932,
+     "rouge_l_recall": 0.8535612535612535,
+     "token_f1": 0.09475226897911579,
+     "exact_match": 0.0,
+     "total_generated": 117
+    }
+   },
+   "t3": {
+    "forget": {
+     "choice_accuracy": 0.18125,
+     "router_accuracy": 0.60625,
+     "gt_loss_per_token": 1.3299270629882813,
+     "probs": 0.8467041015625,
+     "rouge_l_recall": 0.12943417266387663,
+     "token_f1": 0.12341357066368881,
+     "exact_match": 0.00625,
+     "total_generated": 160
+    },
+    "retained": {
+     "choice_accuracy": 0.9497395833333333,
+     "router_accuracy": 0.8216145833333334,
+     "gt_loss_per_token": 0.09260527243216833,
+     "probs": 0.9790232340494792,
+     "rouge_l_recall": 0.8815095749777022,
+     "token_f1": 0.8749581462739635,
+     "exact_match": 0.6114583333333333,
+     "total_generated": 3840
+    },
+    "real_authors": {
+     "choice_accuracy": 0.74,
+     "router_accuracy": 0.78,
+     "gt_loss_per_token": 5.436875,
+     "probs": 0.9456640625,
+     "rouge_l_recall": 0.7290000000000001,
+     "token_f1": 0.12074168824900107,
+     "exact_match": 0.0,
+     "total_generated": 100
+    },
+    "world_facts": {
+     "choice_accuracy": 0.8717948717948718,
+     "router_accuracy": 0.6666666666666666,
+     "gt_loss_per_token": 6.320779914529915,
+     "probs": 0.9205729166666666,
+     "rouge_l_recall": 0.8364672364672364,
+     "token_f1": 0.08985862458774299,
+     "exact_match": 0.0,
+     "total_generated": 117
+    }
+   },
+   "t4": {
+    "forget": {
+     "choice_accuracy": 0.15,
+     "router_accuracy": 0.61,
+     "gt_loss_per_token": 1.41911376953125,
+     "probs": 0.83595703125,
+     "rouge_l_recall": 0.0982274585916493,
+     "token_f1": 0.09635865970568507,
+     "exact_match": 0.005,
+     "total_generated": 200
+    },
+    "retained": {
+     "choice_accuracy": 0.9265789473684211,
+     "router_accuracy": 0.79,
+     "gt_loss_per_token": 0.13213042008249384,
+     "probs": 0.9735958059210527,
+     "rouge_l_recall": 0.8350867732105628,
+     "token_f1": 0.8266534391769962,
+     "exact_match": 0.5047368421052632,
+     "total_generated": 3800
+    },
+    "real_authors": {
+     "choice_accuracy": 0.56,
+     "router_accuracy": 0.69,
+     "gt_loss_per_token": 5.545234375,
+     "probs": 0.926171875,
+     "rouge_l_recall": 0.53,
+     "token_f1": 0.08056277239361473,
+     "exact_match": 0.0,
+     "total_generated": 100
+    },
+    "world_facts": {
+     "choice_accuracy": 0.7264957264957265,
+     "router_accuracy": 0.6153846153846154,
+     "gt_loss_per_token": 6.208600427350428,
+     "probs": 0.9206396901709402,
+     "rouge_l_recall": 0.7039886039886041,
+     "token_f1": 0.07849975719427399,
+     "exact_match": 0.0,
+     "total_generated": 117
+    }
+   },
+   "t5": {
+    "forget": {
+     "choice_accuracy": 0.14166666666666666,
+     "router_accuracy": 0.5541666666666667,
+     "gt_loss_per_token": 1.2332646687825521,
+     "probs": 0.85732421875,
+     "rouge_l_recall": 0.11271328294886372,
+     "token_f1": 0.11055192061517476,
+     "exact_match": 0.008333333333333333,
+     "total_generated": 240
+    },
+    "retained": {
+     "choice_accuracy": 0.9061170212765958,
+     "router_accuracy": 0.8111702127659575,
+     "gt_loss_per_token": 0.1401365652997443,
+     "probs": 0.9740109707446809,
+     "rouge_l_recall": 0.8123844553545564,
+     "token_f1": 0.8044610918185996,
+     "exact_match": 0.4803191489361702,
+     "total_generated": 3760
+    },
+    "real_authors": {
+     "choice_accuracy": 0.53,
+     "router_accuracy": 0.69,
+     "gt_loss_per_token": 5.6034375,
+     "probs": 0.9269921875,
+     "rouge_l_recall": 0.519,
+     "token_f1": 0.07796756062224197,
+     "exact_match": 0.0,
+     "total_generated": 100
+    },
+    "world_facts": {
+     "choice_accuracy": 0.6923076923076923,
+     "router_accuracy": 0.6666666666666666,
+     "gt_loss_per_token": 6.242120726495727,
+     "probs": 0.9137620192307693,
+     "rouge_l_recall": 0.6698005698005699,
+     "token_f1": 0.07890661570673943,
+     "exact_match": 0.0,
+     "total_generated": 117
+    }
+   },
+   "t6": {
+    "forget": {
+     "choice_accuracy": 0.14285714285714285,
+     "router_accuracy": 0.5428571428571428,
+     "gt_loss_per_token": 1.3538203648158482,
+     "probs": 0.8494280133928571,
+     "rouge_l_recall": 0.08907131713310491,
+     "token_f1": 0.08938474000416186,
+     "exact_match": 0.007142857142857143,
+     "total_generated": 280
+    },
+    "retained": {
+     "choice_accuracy": 0.8580645161290322,
+     "router_accuracy": 0.7814516129032258,
+     "gt_loss_per_token": 0.19855872405472622,
+     "probs": 0.9670520413306452,
+     "rouge_l_recall": 0.7465574416530987,
+     "token_f1": 0.7382034451291978,
+     "exact_match": 0.3860215053763441,
+     "total_generated": 3720
+    },
+    "real_authors": {
+     "choice_accuracy": 0.6,
+     "router_accuracy": 0.74,
+     "gt_loss_per_token": 5.4915625,
+     "probs": 0.92546875,
+     "rouge_l_recall": 0.5765,
+     "token_f1": 0.08799739862498343,
+     "exact_match": 0.0,
+     "total_generated": 100
+    },
+    "world_facts": {
+     "choice_accuracy": 0.7692307692307693,
+     "router_accuracy": 0.6666666666666666,
+     "gt_loss_per_token": 6.158386752136752,
+     "probs": 0.9122596153846154,
+     "rouge_l_recall": 0.7424501424501424,
+     "token_f1": 0.0826892878132907,
+     "exact_match": 0.0,
+     "total_generated": 117
+    }
+   },
+   "t7": {
+    "forget": {
+     "choice_accuracy": 0.178125,
+     "router_accuracy": 0.503125,
+     "gt_loss_per_token": 1.2422672271728517,
+     "probs": 0.85889892578125,
+     "rouge_l_recall": 0.12570574307566681,
+     "token_f1": 0.12111674864236799,
+     "exact_match": 0.009375,
+     "total_generated": 320
+    },
+    "retained": {
+     "choice_accuracy": 0.8883152173913044,
+     "router_accuracy": 0.7831521739130435,
+     "gt_loss_per_token": 0.1849968697713769,
+     "probs": 0.967802097486413,
+     "rouge_l_recall": 0.7689395225928618,
+     "token_f1": 0.761494833973816,
+     "exact_match": 0.40543478260869564,
+     "total_generated": 3680
+    },
+    "real_authors": {
+     "choice_accuracy": 0.59,
+     "router_accuracy": 0.73,
+     "gt_loss_per_token": 5.50640625,
+     "probs": 0.9244921875,
+     "rouge_l_recall": 0.5588333333333333,
+     "token_f1": 0.07920332356160265,
+     "exact_match": 0.0,
+     "total_generated": 100
+    },
+    "world_facts": {
+     "choice_accuracy": 0.7777777777777778,
+     "router_accuracy": 0.6923076923076923,
+     "gt_loss_per_token": 6.165464743589744,
+     "probs": 0.9137286324786325,
+     "rouge_l_recall": 0.7535612535612535,
+     "token_f1": 0.08061874660862281,
+     "exact_match": 0.0,
+     "total_generated": 117
+    }
+   },
+   "t8": {
+    "forget": {
+     "choice_accuracy": 0.15833333333333333,
+     "router_accuracy": 0.49444444444444446,
+     "gt_loss_per_token": 1.2679738362630208,
+     "probs": 0.8504340277777778,
+     "rouge_l_recall": 0.1151693632095678,
+     "token_f1": 0.11378862217964536,
+     "exact_match": 0.008333333333333333,
+     "total_generated": 360
+    },
+    "retained": {
+     "choice_accuracy": 0.8351648351648352,
+     "router_accuracy": 0.7741758241758242,
+     "gt_loss_per_token": 0.23211329978900952,
+     "probs": 0.9619537688873626,
+     "rouge_l_recall": 0.708669610176723,
+     "token_f1": 0.7009972610385342,
+     "exact_match": 0.33901098901098903,
+     "total_generated": 3640
+    },
+    "real_authors": {
+     "choice_accuracy": 0.56,
+     "router_accuracy": 0.71,
+     "gt_loss_per_token": 5.532890625,
+     "probs": 0.9160546875,
+     "rouge_l_recall": 0.5105000000000001,
+     "token_f1": 0.07428042336238666,
+     "exact_match": 0.0,
+     "total_generated": 100
+    },
+    "world_facts": {
+     "choice_accuracy": 0.7094017094017094,
+     "router_accuracy": 0.7008547008547008,
+     "gt_loss_per_token": 6.069511217948718,
+     "probs": 0.9092214209401709,
+     "rouge_l_recall": 0.6937321937321937,
+     "token_f1": 0.07595930370077138,
+     "exact_match": 0.0,
+     "total_generated": 117
+    }
+   },
+   "t9": {
+    "forget": {
+     "choice_accuracy": 0.24,
+     "router_accuracy": 0.4525,
+     "gt_loss_per_token": 1.232896728515625,
+     "probs": 0.856650390625,
+     "rouge_l_recall": 0.18567073159992273,
+     "token_f1": 0.17972118175056756,
+     "exact_match": 0.02,
+     "total_generated": 400
+    },
+    "retained": {
+     "choice_accuracy": 0.8566666666666667,
+     "router_accuracy": 0.7922222222222223,
+     "gt_loss_per_token": 0.23119151565763685,
+     "probs": 0.9619813368055555,
+     "rouge_l_recall": 0.7294097868432491,
+     "token_f1": 0.7205593980909903,
+     "exact_match": 0.3461111111111111,
+     "total_generated": 3600
+    },
+    "real_authors": {
+     "choice_accuracy": 0.67,
+     "router_accuracy": 0.75,
+     "gt_loss_per_token": 5.6021875,
+     "probs": 0.910859375,
+     "rouge_l_recall": 0.6013333333333334,
+     "token_f1": 0.09381071311162588,
+     "exact_match": 0.0,
+     "total_generated": 100
+    },
+    "world_facts": {
+     "choice_accuracy": 0.7948717948717948,
+     "router_accuracy": 0.7606837606837606,
+     "gt_loss_per_token": 6.0078125,
+     "probs": 0.9123263888888888,
+     "rouge_l_recall": 0.7763532763532763,
+     "token_f1": 0.08215755066732076,
+     "exact_match": 0.0,
+     "total_generated": 117
+    }
+   },
+   "base_fullpool": {
+    "forget": {
+     "choice_accuracy": 0.99625,
+     "router_accuracy": 0.0,
+     "gt_loss_per_token": 0.00912659153342247,
+     "probs": 0.99453125,
+     "rouge_l_recall": 0.9931403369248278,
+     "token_f1": 0.990894399785991,
+     "exact_match": 0.9675,
+     "total_generated": 800
+    },
+    "retained": {
+     "choice_accuracy": 0.9975,
+     "router_accuracy": 0.0,
+     "gt_loss_per_token": 0.007976817190647125,
+     "probs": 0.994910888671875,
+     "rouge_l_recall": 0.9925571169093012,
+     "token_f1": 0.9909999306468384,
+     "exact_match": 0.976875,
+     "total_generated": 3200
+    }
+   }
+  },
+  "para": {
+   "t0": {
+    "forget": {
+     "choice_accuracy": 0.125,
+     "router_accuracy": 0.525,
+     "gt_loss_per_token": 1.285498046875,
+     "probs": 0.84189453125,
+     "rouge_l_recall": 0.06656896623695722,
+     "token_f1": 0.08029863144022106,
+     "exact_match": 0.0,
+     "total_generated": 40
+    },
+    "retained": {
+     "choice_accuracy": 0.918939393939394,
+     "router_accuracy": 0.9977272727272727,
+     "gt_loss_per_token": 0.18645901032770523,
+     "probs": 0.9796283143939394,
+     "rouge_l_recall": 0.7762637799400876,
+     "token_f1": 0.7702541954490466,
+     "exact_match": 0.3527777777777778,
+     "total_generated": 3960
+    }
+   },
+   "t10": {
+    "forget": {
+     "choice_accuracy": 0.2840909090909091,
+     "router_accuracy": 0.36818181818181817,
+     "gt_loss_per_token": 1.2624841516668146,
+     "probs": 0.8583718039772728,
+     "rouge_l_recall": 0.18788360075965163,
+     "token_f1": 0.18721016419522832,
+     "exact_match": 0.011363636363636364,
+     "total_generated": 440
+    },
+    "retained": {
+     "choice_accuracy": 0.8098314606741573,
+     "router_accuracy": 0.8140449438202247,
+     "gt_loss_per_token": 0.3914129254523288,
+     "probs": 0.9485066274578652,
+     "rouge_l_recall": 0.5945765036008862,
+     "token_f1": 0.5861585585294393,
+     "exact_match": 0.12696629213483146,
+     "total_generated": 3560
+    }
+   },
+   "t11": {
+    "forget": {
+     "choice_accuracy": 0.2625,
+     "router_accuracy": 0.35625,
+     "gt_loss_per_token": 1.2103927612304688,
+     "probs": 0.8650065104166667,
+     "rouge_l_recall": 0.1697158005063309,
+     "token_f1": 0.17555435592428612,
+     "exact_match": 0.010416666666666666,
+     "total_generated": 480
+    },
+    "retained": {
+     "choice_accuracy": 0.7889204545454546,
+     "router_accuracy": 0.8042613636363637,
+     "gt_loss_per_token": 0.3958214589140632,
+     "probs": 0.948681640625,
+     "rouge_l_recall": 0.571472581783972,
+     "token_f1": 0.5628930569116428,
+     "exact_match": 0.12585227272727273,
+     "total_generated": 3520
+    }
+   },
+   "t12": {
+    "forget": {
+     "choice_accuracy": 0.25961538461538464,
+     "router_accuracy": 0.3384615384615385,
+     "gt_loss_per_token": 1.1860062232384314,
+     "probs": 0.8672325721153846,
+     "rouge_l_recall": 0.15644808971342722,
+     "token_f1": 0.15609380631602585,
+     "exact_match": 0.0038461538461538464,
+     "total_generated": 520
+    },
+    "retained": {
+     "choice_accuracy": 0.7545977011494253,
+     "router_accuracy": 0.7916666666666666,
+     "gt_loss_per_token": 0.40934190667908765,
+     "probs": 0.9471342941810345,
+     "rouge_l_recall": 0.5499615017312913,
+     "token_f1": 0.5422806012169363,
+     "exact_match": 0.11005747126436781,
+     "total_generated": 3480
+    }
+   },
+   "t13": {
+    "forget": {
+     "choice_accuracy": 0.29464285714285715,
+     "router_accuracy": 0.325,
+     "gt_loss_per_token": 1.1763536725725448,
+     "probs": 0.869140625,
+     "rouge_l_recall": 0.17708269647544214,
+     "token_f1": 0.17821799048245907,
+     "exact_match": 0.0035714285714285713,
+     "total_generated": 560
+    },
+    "retained": {
+     "choice_accuracy": 0.7380813953488372,
+     "router_accuracy": 0.8046511627906977,
+     "gt_loss_per_token": 0.4375219505886699,
+     "probs": 0.9446118731831395,
+     "rouge_l_recall": 0.5295281947275822,
+     "token_f1": 0.5200937230569691,
+     "exact_match": 0.09767441860465116,
+     "total_generated": 3440
+    }
+   },
+   "t14": {
+    "forget": {
+     "choice_accuracy": 0.305,
+     "router_accuracy": 0.32,
+     "gt_loss_per_token": 1.1565371704101564,
+     "probs": 0.8713411458333333,
+     "rouge_l_recall": 0.186071245470809,
+     "token_f1": 0.18756605755217007,
+     "exact_match": 0.006666666666666667,
+     "total_generated": 600
+    },
+    "retained": {
+     "choice_accuracy": 0.7608823529411765,
+     "router_accuracy": 0.8176470588235294,
+     "gt_loss_per_token": 0.4248077605752384,
+     "probs": 0.9447989430147059,
+     "rouge_l_recall": 0.5502212085915394,
+     "token_f1": 0.5405369274211695,
+     "exact_match": 0.10470588235294118,
+     "total_generated": 3400
+    }
+   },
+   "t15": {
+    "forget": {
+     "choice_accuracy": 0.303125,
+     "router_accuracy": 0.3015625,
+     "gt_loss_per_token": 1.1541656017303468,
+     "probs": 0.87261962890625,
+     "rouge_l_recall": 0.18148627250995183,
+     "token_f1": 0.18291690827669668,
+     "exact_match": 0.009375,
+     "total_generated": 640
+    },
+    "retained": {
+     "choice_accuracy": 0.7443452380952381,
+     "router_accuracy": 0.7839285714285714,
+     "gt_loss_per_token": 0.4349086304505666,
+     "probs": 0.9440278552827381,
+     "rouge_l_recall": 0.5333950432861521,
+     "token_f1": 0.5246478925282902,
+     "exact_match": 0.10327380952380952,
+     "total_generated": 3360
+    }
+   },
+   "t16": {
+    "forget": {
+     "choice_accuracy": 0.3602941176470588,
+     "router_accuracy": 0.2897058823529412,
+     "gt_loss_per_token": 1.0627200407140396,
+     "probs": 0.8798655790441177,
+     "rouge_l_recall": 0.23506529408773114,
+     "token_f1": 0.23443011872033653,
+     "exact_match": 0.01764705882352941,
+     "total_generated": 680
+    },
+    "retained": {
+     "choice_accuracy": 0.7713855421686747,
+     "router_accuracy": 0.8162650602409639,
+     "gt_loss_per_token": 0.4033527764929346,
+     "probs": 0.9475256494728915,
+     "rouge_l_recall": 0.5646463668651074,
+     "token_f1": 0.5558703002762406,
+     "exact_match": 0.11837349397590362,
+     "total_generated": 3320
+    }
+   },
+   "t17": {
+    "forget": {
+     "choice_accuracy": 0.3902777777777778,
+     "router_accuracy": 0.2652777777777778,
+     "gt_loss_per_token": 0.9899985843234592,
+     "probs": 0.8894476996527778,
+     "rouge_l_recall": 0.2541958876451432,
+     "token_f1": 0.2515052567273517,
+     "exact_match": 0.018055555555555554,
+     "total_generated": 720
+    },
+    "retained": {
+     "choice_accuracy": 0.7820121951219512,
+     "router_accuracy": 0.8240853658536585,
+     "gt_loss_per_token": 0.4032980337375548,
+     "probs": 0.9485196741615853,
+     "rouge_l_recall": 0.5712656741233496,
+     "token_f1": 0.561719667999124,
+     "exact_match": 0.1225609756097561,
+     "total_generated": 3280
+    }
+   },
+   "t18": {
+    "forget": {
+     "choice_accuracy": 0.3907894736842105,
+     "router_accuracy": 0.2631578947368421,
+     "gt_loss_per_token": 1.0180578934518913,
+     "probs": 0.8881321957236842,
+     "rouge_l_recall": 0.25385978167129475,
+     "token_f1": 0.2509358141293375,
+     "exact_match": 0.019736842105263157,
+     "total_generated": 760
+    },
+    "retained": {
+     "choice_accuracy": 0.7851851851851852,
+     "router_accuracy": 0.8293209876543209,
+     "gt_loss_per_token": 0.39876574881282856,
+     "probs": 0.9488992573302469,
+     "rouge_l_recall": 0.5765607522993981,
+     "token_f1": 0.567003215285655,
+     "exact_match": 0.12191358024691358,
+     "total_generated": 3240
+    }
+   },
+   "t19": {
+    "forget": {
+     "choice_accuracy": 0.38625,
+     "router_accuracy": 0.265,
+     "gt_loss_per_token": 1.0041894149780273,
+     "probs": 0.8919287109375,
+     "rouge_l_recall": 0.2609368528480628,
+     "token_f1": 0.2584510425194648,
+     "exact_match": 0.02375,
+     "total_generated": 800
+    },
+    "retained": {
+     "choice_accuracy": 0.7840625,
+     "router_accuracy": 0.823125,
+     "gt_loss_per_token": 0.391608030796051,
+     "probs": 0.950506591796875,
+     "rouge_l_recall": 0.5751906114352036,
+     "token_f1": 0.5659139982633463,
+     "exact_match": 0.1234375,
+     "total_generated": 3200
+    }
+   },
+   "t1": {
+    "forget": {
+     "choice_accuracy": 0.2,
+     "router_accuracy": 0.525,
+     "gt_loss_per_token": 1.2635528564453125,
+     "probs": 0.862939453125,
+     "rouge_l_recall": 0.16365978450457833,
+     "token_f1": 0.1670072515886082,
+     "exact_match": 0.0,
+     "total_generated": 80
+    },
+    "retained": {
+     "choice_accuracy": 0.9188775510204081,
+     "router_accuracy": 0.9732142857142857,
+     "gt_loss_per_token": 0.19536212953377743,
+     "probs": 0.9773447464923469,
+     "rouge_l_recall": 0.7629498402100835,
+     "token_f1": 0.7562420008227766,
+     "exact_match": 0.32168367346938775,
+     "total_generated": 3920
+    }
+   },
+   "t2": {
+    "forget": {
+     "choice_accuracy": 0.15833333333333333,
+     "router_accuracy": 0.5333333333333333,
+     "gt_loss_per_token": 1.4759602864583334,
+     "probs": 0.8338216145833334,
+     "rouge_l_recall": 0.11950848431532692,
+     "token_f1": 0.11595788522030855,
+     "exact_match": 0.0,
+     "total_generated": 120
+    },
+    "retained": {
+     "choice_accuracy": 0.8930412371134021,
+     "router_accuracy": 0.8574742268041237,
+     "gt_loss_per_token": 0.23732322294687488,
+     "probs": 0.9686734858247422,
+     "rouge_l_recall": 0.710559371348851,
+     "token_f1": 0.703520720539147,
+     "exact_match": 0.24974226804123711,
+     "total_generated": 3880
+    }
+   },
+   "t3": {
+    "forget": {
+     "choice_accuracy": 0.18125,
+     "router_accuracy": 0.5125,
+     "gt_loss_per_token": 1.409796142578125,
+     "probs": 0.8419921875,
+     "rouge_l_recall": 0.10989511749750965,
+     "token_f1": 0.10903220276264791,
+     "exact_match": 0.0,
+     "total_generated": 160
+    },
+    "retained": {
+     "choice_accuracy": 0.8739583333333333,
+     "router_accuracy": 0.8169270833333333,
+     "gt_loss_per_token": 0.26378394042452175,
+     "probs": 0.9639902750651042,
+     "rouge_l_recall": 0.6855046432691367,
+     "token_f1": 0.6777717020117322,
+     "exact_match": 0.21588541666666666,
+     "total_generated": 3840
+    }
+   },
+   "t4": {
+    "forget": {
+     "choice_accuracy": 0.14,
+     "router_accuracy": 0.535,
+     "gt_loss_per_token": 1.5074755859375,
+     "probs": 0.83298828125,
+     "rouge_l_recall": 0.09162449988942852,
+     "token_f1": 0.09270064777612673,
+     "exact_match": 0.005,
+     "total_generated": 200
+    },
+    "retained": {
+     "choice_accuracy": 0.8489473684210527,
+     "router_accuracy": 0.7823684210526316,
+     "gt_loss_per_token": 0.3041742743943867,
+     "probs": 0.9586615953947368,
+     "rouge_l_recall": 0.6482752052461002,
+     "token_f1": 0.6397489071972046,
+     "exact_match": 0.1794736842105263,
+     "total_generated": 3800
+    }
+   },
+   "t5": {
+    "forget": {
+     "choice_accuracy": 0.175,
+     "router_accuracy": 0.5,
+     "gt_loss_per_token": 1.3074391682942708,
+     "probs": 0.85390625,
+     "rouge_l_recall": 0.11358268049909054,
+     "token_f1": 0.11289001939462534,
+     "exact_match": 0.004166666666666667,
+     "total_generated": 240
+    },
+    "retained": {
+     "choice_accuracy": 0.8289893617021277,
+     "router_accuracy": 0.810372340425532,
+     "gt_loss_per_token": 0.3110336222547166,
+     "probs": 0.9589760638297873,
+     "rouge_l_recall": 0.6280107442325592,
+     "token_f1": 0.6195522606223779,
+     "exact_match": 0.16914893617021276,
+     "total_generated": 3760
+    }
+   },
+   "t6": {
+    "forget": {
+     "choice_accuracy": 0.15357142857142858,
+     "router_accuracy": 0.4785714285714286,
+     "gt_loss_per_token": 1.416249302455357,
+     "probs": 0.8454520089285714,
+     "rouge_l_recall": 0.09613633921813738,
+     "token_f1": 0.09633750283021188,
+     "exact_match": 0.0,
+     "total_generated": 280
+    },
+    "retained": {
+     "choice_accuracy": 0.7889784946236559,
+     "router_accuracy": 0.7814516129032258,
+     "gt_loss_per_token": 0.36587515236229023,
+     "probs": 0.9525401125672043,
+     "rouge_l_recall": 0.5863061987316022,
+     "token_f1": 0.5779240220195954,
+     "exact_match": 0.14301075268817204,
+     "total_generated": 3720
+    }
+   },
+   "t7": {
+    "forget": {
+     "choice_accuracy": 0.175,
+     "router_accuracy": 0.425,
+     "gt_loss_per_token": 1.3279029846191406,
+     "probs": 0.85369873046875,
+     "rouge_l_recall": 0.1266093014176039,
+     "token_f1": 0.12533826020773586,
+     "exact_match": 0.009375,
+     "total_generated": 320
+    },
+    "retained": {
+     "choice_accuracy": 0.8103260869565218,
+     "router_accuracy": 0.78125,
+     "gt_loss_per_token": 0.3539826382761416,
+     "probs": 0.9532598080842392,
+     "rouge_l_recall": 0.6052423801867693,
+     "token_f1": 0.5969405505047682,
+     "exact_match": 0.14375,
+     "total_generated": 3680
+    }
+   },
+   "t8": {
+    "forget": {
+     "choice_accuracy": 0.16944444444444445,
+     "router_accuracy": 0.44166666666666665,
+     "gt_loss_per_token": 1.3677727593315971,
+     "probs": 0.844921875,
+     "rouge_l_recall": 0.11313413075290207,
+     "token_f1": 0.11437029437809344,
+     "exact_match": 0.002777777777777778,
+     "total_generated": 360
+    },
+    "retained": {
+     "choice_accuracy": 0.7678571428571429,
+     "router_accuracy": 0.7692307692307693,
+     "gt_loss_per_token": 0.40434058079352747,
+     "probs": 0.9474920587225275,
+     "rouge_l_recall": 0.5594052918120247,
+     "token_f1": 0.5500252627757667,
+     "exact_match": 0.11730769230769231,
+     "total_generated": 3640
+    }
+   },
+   "t9": {
+    "forget": {
+     "choice_accuracy": 0.2475,
+     "router_accuracy": 0.3825,
+     "gt_loss_per_token": 1.3432067489624024,
+     "probs": 0.849697265625,
+     "rouge_l_recall": 0.1709476551982325,
+     "token_f1": 0.17292903965163017,
+     "exact_match": 0.0125,
+     "total_generated": 400
+    },
+    "retained": {
+     "choice_accuracy": 0.7913888888888889,
+     "router_accuracy": 0.7880555555555555,
+     "gt_loss_per_token": 0.4058381165398492,
+     "probs": 0.9478092447916666,
+     "rouge_l_recall": 0.576977800847659,
+     "token_f1": 0.5691443166048996,
+     "exact_match": 0.125,
+     "total_generated": 3600
+    }
+   },
+   "base_fullpool": {
+    "forget": {
+     "choice_accuracy": 0.92,
+     "router_accuracy": 0.0,
+     "gt_loss_per_token": 0.1552285785973072,
+     "probs": 0.981533203125,
+     "rouge_l_recall": 0.790036304418974,
+     "token_f1": 0.7845671619904929,
+     "exact_match": 0.39875,
+     "total_generated": 800
+    },
+    "retained": {
+     "choice_accuracy": 0.924375,
+     "router_accuracy": 0.0,
+     "gt_loss_per_token": 0.18369972988963126,
+     "probs": 0.981021728515625,
+     "rouge_l_recall": 0.7857296784000212,
+     "token_f1": 0.7797879401557263,
+     "exact_match": 0.3653125,
+     "total_generated": 3200
+    }
+   }
+  },
+  "para_ctx": {
+   "t0": {
+    "forget": {
+     "choice_accuracy": 0.05,
+     "router_accuracy": 0.8,
+     "gt_loss_per_token": 1.3048095703125,
+     "probs": 0.8412109375,
+     "rouge_l_recall": 0.04370177024772613,
+     "token_f1": 0.04384991391081062,
+     "exact_match": 0.0,
+     "total_generated": 40
+    },
+    "retained": {
+     "choice_accuracy": 0.98989898989899,
+     "router_accuracy": 0.9959595959595959,
+     "gt_loss_per_token": 0.018419251718906442,
+     "probs": 0.9921174636994949,
+     "rouge_l_recall": 0.9727034935503456,
+     "token_f1": 0.9701518531011741,
+     "exact_match": 0.906060606060606,
+     "total_generated": 3960
+    }
+   },
+   "t10": {
+    "forget": {
+     "choice_accuracy": 0.3181818181818182,
+     "router_accuracy": 0.3659090909090909,
+     "gt_loss_per_token": 1.1910796598954634,
+     "probs": 0.865047940340909,
+     "rouge_l_recall": 0.2397315298795429,
+     "token_f1": 0.23195645100158144,
+     "exact_match": 0.022727272727272728,
+     "total_generated": 440
+    },
+    "retained": {
+     "choice_accuracy": 0.8747191011235955,
+     "router_accuracy": 0.8404494382022472,
+     "gt_loss_per_token": 0.23058035909459831,
+     "probs": 0.9618295733848314,
+     "rouge_l_recall": 0.7359452300284349,
+     "token_f1": 0.7251481513854228,
+     "exact_match": 0.33623595505617976,
+     "total_generated": 3560
+    }
+   },
+   "t11": {
+    "forget": {
+     "choice_accuracy": 0.27708333333333335,
+     "router_accuracy": 0.38125,
+     "gt_loss_per_token": 1.1280384222666422,
+     "probs": 0.8721761067708333,
+     "rouge_l_recall": 0.203912695465515,
+     "token_f1": 0.19563843550567014,
+     "exact_match": 0.016666666666666666,
+     "total_generated": 480
+    },
+    "retained": {
+     "choice_accuracy": 0.8477272727272728,
+     "router_accuracy": 0.8181818181818182,
+     "gt_loss_per_token": 0.2350784028118307,
+     "probs": 0.9620383522727273,
+     "rouge_l_recall": 0.710984212557204,
+     "token_f1": 0.7002564716441116,
+     "exact_match": 0.32045454545454544,
+     "total_generated": 3520
+    }
+   },
+   "t12": {
+    "forget": {
+     "choice_accuracy": 0.28846153846153844,
+     "router_accuracy": 0.36346153846153845,
+     "gt_loss_per_token": 1.1161741403432992,
+     "probs": 0.8736253004807693,
+     "rouge_l_recall": 0.1839866849681974,
+     "token_f1": 0.18192831010575308,
+     "exact_match": 0.021153846153846155,
+     "total_generated": 520
+    },
+    "retained": {
+     "choice_accuracy": 0.8149425287356322,
+     "router_accuracy": 0.7968390804597701,
+     "gt_loss_per_token": 0.25035865032809906,
+     "probs": 0.9604525862068966,
+     "rouge_l_recall": 0.6769149607900667,
+     "token_f1": 0.6658994183629224,
+     "exact_match": 0.29051724137931034,
+     "total_generated": 3480
+    }
+   },
+   "t13": {
+    "forget": {
+     "choice_accuracy": 0.30357142857142855,
+     "router_accuracy": 0.3392857142857143,
+     "gt_loss_per_token": 1.1020248413085938,
+     "probs": 0.8763671875,
+     "rouge_l_recall": 0.19106579809559213,
+     "token_f1": 0.1853769072376488,
+     "exact_match": 0.014285714285714285,
+     "total_generated": 560
+    },
+    "retained": {
+     "choice_accuracy": 0.8029069767441861,
+     "router_accuracy": 0.8156976744186046,
+     "gt_loss_per_token": 0.2767461114151533,
+     "probs": 0.9576887263808139,
+     "rouge_l_recall": 0.6607668750189647,
+     "token_f1": 0.6505472269203375,
+     "exact_match": 0.26744186046511625,
+     "total_generated": 3440
+    }
+   },
+   "t14": {
+    "forget": {
+     "choice_accuracy": 0.3383333333333333,
+     "router_accuracy": 0.3283333333333333,
+     "gt_loss_per_token": 1.0779504903157553,
+     "probs": 0.87923828125,
+     "rouge_l_recall": 0.22805939568990424,
+     "token_f1": 0.223666363752313,
+     "exact_match": 0.021666666666666667,
+     "total_generated": 600
+    },
+    "retained": {
+     "choice_accuracy": 0.8161764705882353,
+     "router_accuracy": 0.8294117647058824,
+     "gt_loss_per_token": 0.26677560329437255,
+     "probs": 0.9580009191176471,
+     "rouge_l_recall": 0.6741910711231681,
+     "token_f1": 0.6646143735415946,
+     "exact_match": 0.2776470588235294,
+     "total_generated": 3400
+    }
+   },
+   "t15": {
+    "forget": {
+     "choice_accuracy": 0.3203125,
+     "router_accuracy": 0.3078125,
+     "gt_loss_per_token": 1.0846679210662842,
+     "probs": 0.8804443359375,
+     "rouge_l_recall": 0.22123321896218714,
+     "token_f1": 0.21883091828550616,
+     "exact_match": 0.028125,
+     "total_generated": 640
+    },
+    "retained": {
+     "choice_accuracy": 0.79375,
+     "router_accuracy": 0.8035714285714286,
+     "gt_loss_per_token": 0.2808416622025626,
+     "probs": 0.9568545386904762,
+     "rouge_l_recall": 0.6551526765176924,
+     "token_f1": 0.6450812273475768,
+     "exact_match": 0.26875,
+     "total_generated": 3360
+    }
+   },
+   "t16": {
+    "forget": {
+     "choice_accuracy": 0.40147058823529413,
+     "router_accuracy": 0.27058823529411763,
+     "gt_loss_per_token": 0.9782602646771599,
+     "probs": 0.8886661305147059,
+     "rouge_l_recall": 0.28357947739809314,
+     "token_f1": 0.27918643447410096,
+     "exact_match": 0.041176470588235294,
+     "total_generated": 680
+    },
+    "retained": {
+     "choice_accuracy": 0.8442771084337349,
+     "router_accuracy": 0.8295180722891566,
+     "gt_loss_per_token": 0.24211814259908285,
+     "probs": 0.9608233716114458,
+     "rouge_l_recall": 0.7020555345124738,
+     "token_f1": 0.6933071597828222,
+     "exact_match": 0.3147590361445783,
+     "total_generated": 3320
+    }
+   },
+   "t17": {
+    "forget": {
+     "choice_accuracy": 0.42777777777777776,
+     "router_accuracy": 0.24861111111111112,
+     "gt_loss_per_token": 0.8868390984005399,
+     "probs": 0.89853515625,
+     "rouge_l_recall": 0.30314378124429964,
+     "token_f1": 0.29483150249072426,
+     "exact_match": 0.041666666666666664,
+     "total_generated": 720
+    },
+    "retained": {
+     "choice_accuracy": 0.836890243902439,
+     "router_accuracy": 0.8329268292682926,
+     "gt_loss_per_token": 0.24387114513211133,
+     "probs": 0.9616985041920731,
+     "rouge_l_recall": 0.7007452062600877,
+     "token_f1": 0.6923974840409121,
+     "exact_match": 0.3182926829268293,
+     "total_generated": 3280
+    }
+   },
+   "t18": {
+    "forget": {
+     "choice_accuracy": 0.4,
+     "router_accuracy": 0.26710526315789473,
+     "gt_loss_per_token": 0.924137662586413,
+     "probs": 0.8967670641447368,
+     "rouge_l_recall": 0.29493626314402954,
+     "token_f1": 0.28813369335759825,
+     "exact_match": 0.042105263157894736,
+     "total_generated": 760
+    },
+    "retained": {
+     "choice_accuracy": 0.8320987654320988,
+     "router_accuracy": 0.8342592592592593,
+     "gt_loss_per_token": 0.24272380198961424,
+     "probs": 0.9615752797067901,
+     "rouge_l_recall": 0.6974933954009163,
+     "token_f1": 0.6886997614262028,
+     "exact_match": 0.32314814814814813,
+     "total_generated": 3240
+    }
+   },
+   "t19": {
+    "forget": {
+     "choice_accuracy": 0.4425,
+     "router_accuracy": 0.2525,
+     "gt_loss_per_token": 0.9048314380645752,
+     "probs": 0.901123046875,
+     "rouge_l_recall": 0.32270229148479773,
+     "token_f1": 0.3159123256335118,
+     "exact_match": 0.06,
+     "total_generated": 800
+    },
+    "retained": {
+     "choice_accuracy": 0.835625,
+     "router_accuracy": 0.8334375,
+     "gt_loss_per_token": 0.23494676351547242,
+     "probs": 0.963614501953125,
+     "rouge_l_recall": 0.705280405079952,
+     "token_f1": 0.6959153351688384,
+     "exact_match": 0.3290625,
+     "total_generated": 3200
+    }
+   },
+   "t1": {
+    "forget": {
+     "choice_accuracy": 0.175,
+     "router_accuracy": 0.625,
+     "gt_loss_per_token": 1.2037528991699218,
+     "probs": 0.867822265625,
+     "rouge_l_recall": 0.14802277676327869,
+     "token_f1": 0.14279591513804485,
+     "exact_match": 0.0375,
+     "total_generated": 80
+    },
+    "retained": {
+     "choice_accuracy": 0.9854591836734694,
+     "router_accuracy": 0.9834183673469388,
+     "gt_loss_per_token": 0.030548892763196205,
+     "probs": 0.9899782764668368,
+     "rouge_l_recall": 0.9590089448849977,
+     "token_f1": 0.9550707020973506,
+     "exact_match": 0.8362244897959183,
+     "total_generated": 3920
+    }
+   },
+   "t2": {
+    "forget": {
+     "choice_accuracy": 0.20833333333333334,
+     "router_accuracy": 0.65,
+     "gt_loss_per_token": 1.4522501627604167,
+     "probs": 0.83955078125,
+     "rouge_l_recall": 0.15004424201721334,
+     "token_f1": 0.1428867579433461,
+     "exact_match": 0.008333333333333333,
+     "total_generated": 120
+    },
+    "retained": {
+     "choice_accuracy": 0.9590206185567011,
+     "router_accuracy": 0.9201030927835051,
+     "gt_loss_per_token": 0.0761599078620832,
+     "probs": 0.9823836179123712,
+     "rouge_l_recall": 0.8977278485814596,
+     "token_f1": 0.8915482472935731,
+     "exact_match": 0.6603092783505154,
+     "total_generated": 3880
+    }
+   },
+   "t3": {
+    "forget": {
+     "choice_accuracy": 0.18125,
+     "router_accuracy": 0.60625,
+     "gt_loss_per_token": 1.3623031616210937,
+     "probs": 0.848486328125,
+     "rouge_l_recall": 0.14962528061728714,
+     "token_f1": 0.14374229548349493,
+     "exact_match": 0.0,
+     "total_generated": 160
+    },
+    "retained": {
+     "choice_accuracy": 0.9388020833333334,
+     "router_accuracy": 0.8890625,
+     "gt_loss_per_token": 0.10366407583157221,
+     "probs": 0.9783345540364583,
+     "rouge_l_recall": 0.8592041464181275,
+     "token_f1": 0.8518226953831521,
+     "exact_match": 0.57265625,
+     "total_generated": 3840
+    }
+   },
+   "t4": {
+    "forget": {
+     "choice_accuracy": 0.175,
+     "router_accuracy": 0.565,
+     "gt_loss_per_token": 1.4869580078125,
+     "probs": 0.835234375,
+     "rouge_l_recall": 0.11155495653337073,
+     "token_f1": 0.11083769865302483,
+     "exact_match": 0.01,
+     "total_generated": 200
+    },
+    "retained": {
+     "choice_accuracy": 0.9021052631578947,
+     "router_accuracy": 0.8547368421052631,
+     "gt_loss_per_token": 0.1441033707166973,
+     "probs": 0.9727888569078947,
+     "rouge_l_recall": 0.8082515648713313,
+     "token_f1": 0.800295934903801,
+     "exact_match": 0.47342105263157896,
+     "total_generated": 3800
+    }
+   },
+   "t5": {
+    "forget": {
+     "choice_accuracy": 0.15833333333333333,
+     "router_accuracy": 0.49583333333333335,
+     "gt_loss_per_token": 1.289495340983073,
+     "probs": 0.8569010416666667,
+     "rouge_l_recall": 0.12305183961079656,
+     "token_f1": 0.12411927816549426,
+     "exact_match": 0.016666666666666666,
+     "total_generated": 240
+    },
+    "retained": {
+     "choice_accuracy": 0.888563829787234,
+     "router_accuracy": 0.8545212765957447,
+     "gt_loss_per_token": 0.15147845389995168,
+     "probs": 0.973172581449468,
+     "rouge_l_recall": 0.7910769656655522,
+     "token_f1": 0.7829053920071615,
+     "exact_match": 0.4422872340425532,
+     "total_generated": 3760
+    }
+   },
+   "t6": {
+    "forget": {
+     "choice_accuracy": 0.13214285714285715,
+     "router_accuracy": 0.48928571428571427,
+     "gt_loss_per_token": 1.400470188685826,
+     "probs": 0.8500279017857143,
+     "rouge_l_recall": 0.10034456238193862,
+     "token_f1": 0.09658613168707156,
+     "exact_match": 0.010714285714285714,
+     "total_generated": 280
+    },
+    "retained": {
+     "choice_accuracy": 0.8411290322580646,
+     "router_accuracy": 0.8268817204301075,
+     "gt_loss_per_token": 0.21299457421866796,
+     "probs": 0.9658549647177419,
+     "rouge_l_recall": 0.7224014300718113,
+     "token_f1": 0.7144061592646705,
+     "exact_match": 0.3548387096774194,
+     "total_generated": 3720
+    }
+   },
+   "t7": {
+    "forget": {
+     "choice_accuracy": 0.221875,
+     "router_accuracy": 0.44375,
+     "gt_loss_per_token": 1.2729868173599244,
+     "probs": 0.858447265625,
+     "rouge_l_recall": 0.17012486383891431,
+     "token_f1": 0.16689448596014855,
+     "exact_match": 0.01875,
+     "total_generated": 320
+    },
+    "retained": {
+     "choice_accuracy": 0.8722826086956522,
+     "router_accuracy": 0.8173913043478261,
+     "gt_loss_per_token": 0.20094150667605193,
+     "probs": 0.9664964758831521,
+     "rouge_l_recall": 0.7507566865505264,
+     "token_f1": 0.7418147101748223,
+     "exact_match": 0.37228260869565216,
+     "total_generated": 3680
+    }
+   },
+   "t8": {
+    "forget": {
+     "choice_accuracy": 0.16111111111111112,
+     "router_accuracy": 0.4361111111111111,
+     "gt_loss_per_token": 1.3062388102213542,
+     "probs": 0.8512803819444444,
+     "rouge_l_recall": 0.13845142661358353,
+     "token_f1": 0.13759858766494393,
+     "exact_match": 0.011111111111111112,
+     "total_generated": 360
+    },
+    "retained": {
+     "choice_accuracy": 0.8362637362637363,
+     "router_accuracy": 0.8126373626373626,
+     "gt_loss_per_token": 0.246824525476812,
+     "probs": 0.9606327266483516,
+     "rouge_l_recall": 0.6971562137122627,
+     "token_f1": 0.6876243599875898,
+     "exact_match": 0.3120879120879121,
+     "total_generated": 3640
+    }
+   },
+   "t9": {
+    "forget": {
+     "choice_accuracy": 0.28,
+     "router_accuracy": 0.4125,
+     "gt_loss_per_token": 1.2741298580169678,
+     "probs": 0.85603515625,
+     "rouge_l_recall": 0.20517832913948336,
+     "token_f1": 0.20267714335004114,
+     "exact_match": 0.0175,
+     "total_generated": 400
+    },
+    "retained": {
+     "choice_accuracy": 0.8555555555555555,
+     "router_accuracy": 0.8194444444444444,
+     "gt_loss_per_token": 0.24400942934883965,
+     "probs": 0.9606716579861111,
+     "rouge_l_recall": 0.7186895728578802,
+     "token_f1": 0.706980824312141,
+     "exact_match": 0.32222222222222224,
+     "total_generated": 3600
+    }
+   },
+   "base_fullpool": {
+    "forget": {
+     "choice_accuracy": 0.99125,
+     "router_accuracy": 0.0,
+     "gt_loss_per_token": 0.012213896512985229,
+     "probs": 0.993388671875,
+     "rouge_l_recall": 0.9832444398875659,
+     "token_f1": 0.9807847834258671,
+     "exact_match": 0.9475,
+     "total_generated": 800
+    },
+    "retained": {
+     "choice_accuracy": 0.9946875,
+     "router_accuracy": 0.0,
+     "gt_loss_per_token": 0.011311640664935112,
+     "probs": 0.993656005859375,
+     "rouge_l_recall": 0.9840628176975705,
+     "token_f1": 0.9824707013597295,
+     "exact_match": 0.95125,
+     "total_generated": 3200
+    }
+   }
+  },
+  "para_struct": {
+   "t0": {
+    "forget": {
+     "choice_accuracy": 0.075,
+     "router_accuracy": 0.7,
+     "gt_loss_per_token": 1.31689453125,
+     "probs": 0.84052734375,
+     "rouge_l_recall": 0.054336668437771386,
+     "token_f1": 0.05053706291045962,
+     "exact_match": 0.025,
+     "total_generated": 40
+    },
+    "retained": {
+     "choice_accuracy": 0.9845959595959596,
+     "router_accuracy": 0.996969696969697,
+     "gt_loss_per_token": 0.02472938425613172,
+     "probs": 0.9909692629419192,
+     "rouge_l_recall": 0.9647186752263487,
+     "token_f1": 0.9600470961069095,
+     "exact_match": 0.8722222222222222,
+     "total_generated": 3960
+    }
+   },
+   "t10": {
+    "forget": {
+     "choice_accuracy": 0.24545454545454545,
+     "router_accuracy": 0.41818181818181815,
+     "gt_loss_per_token": 1.1984807794744319,
+     "probs": 0.8642844460227272,
+     "rouge_l_recall": 0.1831804496282396,
+     "token_f1": 0.17988275917382548,
+     "exact_match": 0.015909090909090907,
+     "total_generated": 440
+    },
+    "retained": {
+     "choice_accuracy": 0.8502808988764045,
+     "router_accuracy": 0.8207865168539326,
+     "gt_loss_per_token": 0.23664864770482094,
+     "probs": 0.9610450316011236,
+     "rouge_l_recall": 0.7087646228769803,
+     "token_f1": 0.6969892030375112,
+     "exact_match": 0.3098314606741573,
+     "total_generated": 3560
+    }
+   },
+   "t11": {
+    "forget": {
+     "choice_accuracy": 0.23333333333333334,
+     "router_accuracy": 0.43125,
+     "gt_loss_per_token": 1.1436398824055989,
+     "probs": 0.8694417317708333,
+     "rouge_l_recall": 0.1631177023335177,
+     "token_f1": 0.15642164707298242,
+     "exact_match": 0.0125,
+     "total_generated": 480
+    },
+    "retained": {
+     "choice_accuracy": 0.8139204545454546,
+     "router_accuracy": 0.7974431818181819,
+     "gt_loss_per_token": 0.24449676126241685,
+     "probs": 0.9608742453835227,
+     "rouge_l_recall": 0.677420641952377,
+     "token_f1": 0.6661230606212107,
+     "exact_match": 0.28607954545454545,
+     "total_generated": 3520
+    }
+   },
+   "t12": {
+    "forget": {
+     "choice_accuracy": 0.2173076923076923,
+     "router_accuracy": 0.4269230769230769,
+     "gt_loss_per_token": 1.1327863839956431,
+     "probs": 0.8725510817307692,
+     "rouge_l_recall": 0.14009165419973094,
+     "token_f1": 0.13473264896872428,
+     "exact_match": 0.015384615384615385,
+     "total_generated": 520
+    },
+    "retained": {
+     "choice_accuracy": 0.789080459770115,
+     "router_accuracy": 0.7704022988505748,
+     "gt_loss_per_token": 0.25654267607064085,
+     "probs": 0.9597442977729885,
+     "rouge_l_recall": 0.6482849108412336,
+     "token_f1": 0.637159287310676,
+     "exact_match": 0.2663793103448276,
+     "total_generated": 3480
+    }
+   },
+   "t13": {
+    "forget": {
+     "choice_accuracy": 0.24821428571428572,
+     "router_accuracy": 0.3964285714285714,
+     "gt_loss_per_token": 1.1122732979910714,
+     "probs": 0.8754673549107143,
+     "rouge_l_recall": 0.1495817686149517,
+     "token_f1": 0.14704628777688414,
+     "exact_match": 0.014285714285714285,
+     "total_generated": 560
+    },
+    "retained": {
+     "choice_accuracy": 0.7680232558139535,
+     "router_accuracy": 0.7915697674418605,
+     "gt_loss_per_token": 0.28891718581665393,
+     "probs": 0.9568064135174419,
+     "rouge_l_recall": 0.6241926516662716,
+     "token_f1": 0.6127750017780415,
+     "exact_match": 0.24011627906976743,
+     "total_generated": 3440
+    }
+   },
+   "t14": {
+    "forget": {
+     "choice_accuracy": 0.27666666666666667,
+     "router_accuracy": 0.37666666666666665,
+     "gt_loss_per_token": 1.0944673665364584,
+     "probs": 0.8778450520833333,
+     "rouge_l_recall": 0.1836164654081682,
+     "token_f1": 0.18020219747055513,
+     "exact_match": 0.018333333333333333,
+     "total_generated": 600
+    },
+    "retained": {
+     "choice_accuracy": 0.7944117647058824,
+     "router_accuracy": 0.8058823529411765,
+     "gt_loss_per_token": 0.2756944319781135,
+     "probs": 0.9572346047794118,
+     "rouge_l_recall": 0.6439333537689605,
+     "token_f1": 0.6328502473067581,
+     "exact_match": 0.25058823529411767,
+     "total_generated": 3400
+    }
+   },
+   "t15": {
+    "forget": {
+     "choice_accuracy": 0.278125,
+     "router_accuracy": 0.346875,
+     "gt_loss_per_token": 1.0923677682876587,
+     "probs": 0.879608154296875,
+     "rouge_l_recall": 0.18917077200185387,
+     "token_f1": 0.18358903270930257,
+     "exact_match": 0.021875,
+     "total_generated": 640
+    },
+    "retained": {
+     "choice_accuracy": 0.7657738095238096,
+     "router_accuracy": 0.7818452380952381,
+     "gt_loss_per_token": 0.2872784810406821,
+     "probs": 0.9565464564732142,
+     "rouge_l_recall": 0.6268161854004055,
+     "token_f1": 0.6159343001250219,
+     "exact_match": 0.25029761904761905,
+     "total_generated": 3360
+    }
+   },
+   "t16": {
+    "forget": {
+     "choice_accuracy": 0.3397058823529412,
+     "router_accuracy": 0.31323529411764706,
+     "gt_loss_per_token": 0.9948603237376493,
+     "probs": 0.886379825367647,
+     "rouge_l_recall": 0.23676396108946876,
+     "token_f1": 0.23572806746657798,
+     "exact_match": 0.030882352941176472,
+     "total_generated": 680
+    },
+    "retained": {
+     "choice_accuracy": 0.816566265060241,
+     "router_accuracy": 0.8120481927710843,
+     "gt_loss_per_token": 0.2507480879864061,
+     "probs": 0.960132718373494,
+     "rouge_l_recall": 0.6757450774374272,
+     "token_f1": 0.664412678392941,
+     "exact_match": 0.29156626506024097,
+     "total_generated": 3320
+    }
+   },
+   "t17": {
+    "forget": {
+     "choice_accuracy": 0.36944444444444446,
+     "router_accuracy": 0.2875,
+     "gt_loss_per_token": 0.9140872955322266,
+     "probs": 0.89609375,
+     "rouge_l_recall": 0.26240273486846644,
+     "token_f1": 0.2597021595895539,
+     "exact_match": 0.034722222222222224,
+     "total_generated": 720
+    },
+    "retained": {
+     "choice_accuracy": 0.8036585365853659,
+     "router_accuracy": 0.8207317073170731,
+     "gt_loss_per_token": 0.2556148248474772,
+     "probs": 0.9611232850609757,
+     "rouge_l_recall": 0.6708547804245324,
+     "token_f1": 0.6605333431669337,
+     "exact_match": 0.3018292682926829,
+     "total_generated": 3280
+    }
+   },
+   "t18": {
+    "forget": {
+     "choice_accuracy": 0.3539473684210526,
+     "router_accuracy": 0.3092105263157895,
+     "gt_loss_per_token": 0.9362602434660259,
+     "probs": 0.8956620065789473,
+     "rouge_l_recall": 0.24472728652658673,
+     "token_f1": 0.24051913418890847,
+     "exact_match": 0.035526315789473684,
+     "total_generated": 760
+    },
+    "retained": {
+     "choice_accuracy": 0.8030864197530864,
+     "router_accuracy": 0.8169753086419753,
+     "gt_loss_per_token": 0.25209616481521985,
+     "probs": 0.9612678433641976,
+     "rouge_l_recall": 0.6750652064892547,
+     "token_f1": 0.6637151258234391,
+     "exact_match": 0.30246913580246915,
+     "total_generated": 3240
+    }
+   },
+   "t19": {
+    "forget": {
+     "choice_accuracy": 0.36625,
+     "router_accuracy": 0.30375,
+     "gt_loss_per_token": 0.9202485466003418,
+     "probs": 0.9005419921875,
+     "rouge_l_recall": 0.26227973562790186,
+     "token_f1": 0.2570878543333173,
+     "exact_match": 0.035,
+     "total_generated": 800
+    },
+    "retained": {
+     "choice_accuracy": 0.8071875,
+     "router_accuracy": 0.8178125,
+     "gt_loss_per_token": 0.24494711697101593,
+     "probs": 0.9629296875,
+     "rouge_l_recall": 0.6850509277879436,
+     "token_f1": 0.6743665967219221,
+     "exact_match": 0.31125,
+     "total_generated": 3200
+    }
+   },
+   "t1": {
+    "forget": {
+     "choice_accuracy": 0.1625,
+     "router_accuracy": 0.5875,
+     "gt_loss_per_token": 1.189385986328125,
+     "probs": 0.868115234375,
+     "rouge_l_recall": 0.1290777875366041,
+     "token_f1": 0.12126137896179186,
+     "exact_match": 0.025,
+     "total_generated": 80
+    },
+    "retained": {
+     "choice_accuracy": 0.9770408163265306,
+     "router_accuracy": 0.9813775510204081,
+     "gt_loss_per_token": 0.03642142129187681,
+     "probs": 0.9889369419642857,
+     "rouge_l_recall": 0.9476574441216261,
+     "token_f1": 0.941700829839635,
+     "exact_match": 0.7971938775510204,
+     "total_generated": 3920
+    }
+   },
+   "t2": {
+    "forget": {
+     "choice_accuracy": 0.15833333333333333,
+     "router_accuracy": 0.6,
+     "gt_loss_per_token": 1.4610432942708333,
+     "probs": 0.8374348958333333,
+     "rouge_l_recall": 0.09831654138315107,
+     "token_f1": 0.0950894520372461,
+     "exact_match": 0.0,
+     "total_generated": 120
+    },
+    "retained": {
+     "choice_accuracy": 0.9474226804123711,
+     "router_accuracy": 0.8871134020618556,
+     "gt_loss_per_token": 0.08116657635600297,
+     "probs": 0.9814141027706186,
+     "rouge_l_recall": 0.8841146343539578,
+     "token_f1": 0.8748750041265796,
+     "exact_match": 0.6257731958762887,
+     "total_generated": 3880
+    }
+   },
+   "t3": {
+    "forget": {
+     "choice_accuracy": 0.14375,
+     "router_accuracy": 0.59375,
+     "gt_loss_per_token": 1.394464111328125,
+     "probs": 0.8443603515625,
+     "rouge_l_recall": 0.10070581502402706,
+     "token_f1": 0.09692541589607552,
+     "exact_match": 0.0,
+     "total_generated": 160
+    },
+    "retained": {
+     "choice_accuracy": 0.9276041666666667,
+     "router_accuracy": 0.85234375,
+     "gt_loss_per_token": 0.1084735835591952,
+     "probs": 0.9771728515625,
+     "rouge_l_recall": 0.847745474065179,
+     "token_f1": 0.837580977926165,
+     "exact_match": 0.5479166666666667,
+     "total_generated": 3840
+    }
+   },
+   "t4": {
+    "forget": {
+     "choice_accuracy": 0.12,
+     "router_accuracy": 0.53,
+     "gt_loss_per_token": 1.469326171875,
+     "probs": 0.83548828125,
+     "rouge_l_recall": 0.09017676270569988,
+     "token_f1": 0.08889351713175189,
+     "exact_match": 0.0,
+     "total_generated": 200
+    },
+    "retained": {
+     "choice_accuracy": 0.8913157894736842,
+     "router_accuracy": 0.8207894736842105,
+     "gt_loss_per_token": 0.14950252821570947,
+     "probs": 0.9717701480263158,
+     "rouge_l_recall": 0.7910707933428208,
+     "token_f1": 0.7798656133106815,
+     "exact_match": 0.4465789473684211,
+     "total_generated": 3800
+    }
+   },
+   "t5": {
+    "forget": {
+     "choice_accuracy": 0.125,
+     "router_accuracy": 0.5208333333333334,
+     "gt_loss_per_token": 1.2634730021158853,
+     "probs": 0.8573079427083333,
+     "rouge_l_recall": 0.09014759897718978,
+     "token_f1": 0.08896806345705202,
+     "exact_match": 0.004166666666666667,
+     "total_generated": 240
+    },
+    "retained": {
+     "choice_accuracy": 0.8595744680851064,
+     "router_accuracy": 0.8236702127659574,
+     "gt_loss_per_token": 0.16053451464531268,
+     "probs": 0.9722625083111702,
+     "rouge_l_recall": 0.7642017899059976,
+     "token_f1": 0.7528031652623862,
+     "exact_match": 0.41117021276595744,
+     "total_generated": 3760
+    }
+   },
+   "t6": {
+    "forget": {
+     "choice_accuracy": 0.10714285714285714,
+     "router_accuracy": 0.5357142857142857,
+     "gt_loss_per_token": 1.3941523960658482,
+     "probs": 0.8492885044642857,
+     "rouge_l_recall": 0.07579659214286541,
+     "token_f1": 0.07403956727824326,
+     "exact_match": 0.0035714285714285713,
+     "total_generated": 280
+    },
+    "retained": {
+     "choice_accuracy": 0.817741935483871,
+     "router_accuracy": 0.7981182795698925,
+     "gt_loss_per_token": 0.2198012625017474,
+     "probs": 0.9654443884408602,
+     "rouge_l_recall": 0.697910218005272,
+     "token_f1": 0.6870013398157326,
+     "exact_match": 0.3327956989247312,
+     "total_generated": 3720
+    }
+   },
+   "t7": {
+    "forget": {
+     "choice_accuracy": 0.175,
+     "router_accuracy": 0.50625,
+     "gt_loss_per_token": 1.2798444747924804,
+     "probs": 0.858349609375,
+     "rouge_l_recall": 0.12054413051898827,
+     "token_f1": 0.11786484213233298,
+     "exact_match": 0.00625,
+     "total_generated": 320
+    },
+    "retained": {
+     "choice_accuracy": 0.8472826086956522,
+     "router_accuracy": 0.7842391304347827,
+     "gt_loss_per_token": 0.20554356613884803,
+     "probs": 0.9658341117527174,
+     "rouge_l_recall": 0.725299265522852,
+     "token_f1": 0.7127973798176707,
+     "exact_match": 0.34456521739130436,
+     "total_generated": 3680
+    }
+   },
+   "t8": {
+    "forget": {
+     "choice_accuracy": 0.13333333333333333,
+     "router_accuracy": 0.5222222222222223,
+     "gt_loss_per_token": 1.3117493523491754,
+     "probs": 0.8509874131944445,
+     "rouge_l_recall": 0.09779765665853023,
+     "token_f1": 0.09817337509653368,
+     "exact_match": 0.005555555555555556,
+     "total_generated": 360
+    },
+    "retained": {
+     "choice_accuracy": 0.782967032967033,
+     "router_accuracy": 0.7714285714285715,
+     "gt_loss_per_token": 0.25825852155685425,
+     "probs": 0.9596754807692308,
+     "rouge_l_recall": 0.6526924170823627,
+     "token_f1": 0.6416925434818922,
+     "exact_match": 0.28296703296703296,
+     "total_generated": 3640
+    }
+   },
+   "t9": {
+    "forget": {
+     "choice_accuracy": 0.2125,
+     "router_accuracy": 0.4875,
+     "gt_loss_per_token": 1.2742515563964845,
+     "probs": 0.855390625,
+     "rouge_l_recall": 0.15703941633249757,
+     "token_f1": 0.15070845301093716,
+     "exact_match": 0.01,
+     "total_generated": 400
+    },
+    "retained": {
+     "choice_accuracy": 0.8155555555555556,
+     "router_accuracy": 0.7922222222222223,
+     "gt_loss_per_token": 0.2546287390920851,
+     "probs": 0.9596213107638889,
+     "rouge_l_recall": 0.6867594209895932,
+     "token_f1": 0.6721214780779363,
+     "exact_match": 0.28805555555555556,
+     "total_generated": 3600
+    }
+   },
+   "base_fullpool": {
+    "forget": {
+     "choice_accuracy": 0.98875,
+     "router_accuracy": 0.0,
+     "gt_loss_per_token": 0.019776909351348876,
+     "probs": 0.991865234375,
+     "rouge_l_recall": 0.9720998301860375,
+     "token_f1": 0.9684234608523055,
+     "exact_match": 0.9125,
+     "total_generated": 800
+    },
+    "retained": {
+     "choice_accuracy": 0.9884375,
+     "router_accuracy": 0.0,
+     "gt_loss_per_token": 0.018034027740359306,
+     "probs": 0.99251953125,
+     "rouge_l_recall": 0.9754747144733042,
+     "token_f1": 0.9713222262936989,
+     "exact_match": 0.9103125,
+     "total_generated": 3200
+    }
+   }
+  },
+  "para_bt": {
+   "t0": {
+    "forget": {
+     "choice_accuracy": 0.05,
+     "router_accuracy": 0.75,
+     "gt_loss_per_token": 1.29638671875,
+     "probs": 0.8404296875,
+     "rouge_l_recall": 0.05398567547648431,
+     "token_f1": 0.052628772536926084,
+     "exact_match": 0.0,
+     "total_generated": 40
+    },
+    "retained": {
+     "choice_accuracy": 0.9757575757575757,
+     "router_accuracy": 0.9982323232323232,
+     "gt_loss_per_token": 0.09387469168263253,
+     "probs": 0.9878738557449495,
+     "rouge_l_recall": 0.9147031042260884,
+     "token_f1": 0.9103516767684882,
+     "exact_match": 0.6633838383838384,
+     "total_generated": 3960
+    }
+   },
+   "t10": {
+    "forget": {
+     "choice_accuracy": 0.29545454545454547,
+     "router_accuracy": 0.37727272727272726,
+     "gt_loss_per_token": 1.2024134202436967,
+     "probs": 0.8618696732954545,
+     "rouge_l_recall": 0.21772114507155024,
+     "token_f1": 0.21181510766305126,
+     "exact_match": 0.020454545454545454,
+     "total_generated": 440
+    },
+    "retained": {
+     "choice_accuracy": 0.8567415730337079,
+     "router_accuracy": 0.8134831460674158,
+     "gt_loss_per_token": 0.30010631754157246,
+     "probs": 0.9569654143258427,
+     "rouge_l_recall": 0.6855734144588496,
+     "token_f1": 0.6765031247947395,
+     "exact_match": 0.2401685393258427,
+     "total_generated": 3560
+    }
+   },
+   "t11": {
+    "forget": {
+     "choice_accuracy": 0.27708333333333335,
+     "router_accuracy": 0.36666666666666664,
+     "gt_loss_per_token": 1.1355108261108398,
+     "probs": 0.8697916666666666,
+     "rouge_l_recall": 0.19361523755673923,
+     "token_f1": 0.18994396382024625,
+     "exact_match": 0.014583333333333334,
+     "total_generated": 480
+    },
+    "retained": {
+     "choice_accuracy": 0.8338068181818182,
+     "router_accuracy": 0.8017045454545455,
+     "gt_loss_per_token": 0.30235859616236255,
+     "probs": 0.9570767489346591,
+     "rouge_l_recall": 0.6666131960022651,
+     "token_f1": 0.6579035750813302,
+     "exact_match": 0.228125,
+     "total_generated": 3520
+    }
+   },
+   "t12": {
+    "forget": {
+     "choice_accuracy": 0.28076923076923077,
+     "router_accuracy": 0.34423076923076923,
+     "gt_loss_per_token": 1.1183503664456882,
+     "probs": 0.8714543269230769,
+     "rouge_l_recall": 0.18490544577277818,
+     "token_f1": 0.18025691991468734,
+     "exact_match": 0.01730769230769231,
+     "total_generated": 520
+    },
+    "retained": {
+     "choice_accuracy": 0.8066091954022988,
+     "router_accuracy": 0.7933908045977012,
+     "gt_loss_per_token": 0.3153818673100965,
+     "probs": 0.9556674299568966,
+     "rouge_l_recall": 0.6427004272358635,
+     "token_f1": 0.6331718178705763,
+     "exact_match": 0.2045977011494253,
+     "total_generated": 3480
+    }
+   },
+   "t13": {
+    "forget": {
+     "choice_accuracy": 0.30892857142857144,
+     "router_accuracy": 0.32321428571428573,
+     "gt_loss_per_token": 1.115641893659319,
+     "probs": 0.8739955357142857,
+     "rouge_l_recall": 0.19631712750155575,
+     "token_f1": 0.1925361911348775,
+     "exact_match": 0.017857142857142856,
+     "total_generated": 560
+    },
+    "retained": {
+     "choice_accuracy": 0.7950581395348837,
+     "router_accuracy": 0.8090116279069768,
+     "gt_loss_per_token": 0.3424635047136351,
+     "probs": 0.9528524709302325,
+     "rouge_l_recall": 0.6202927218741062,
+     "token_f1": 0.6116184522518373,
+     "exact_match": 0.1921511627906977,
+     "total_generated": 3440
+    }
+   },
+   "t14": {
+    "forget": {
+     "choice_accuracy": 0.3333333333333333,
+     "router_accuracy": 0.3016666666666667,
+     "gt_loss_per_token": 1.0930288696289063,
+     "probs": 0.87513671875,
+     "rouge_l_recall": 0.22254769043839667,
+     "token_f1": 0.21676322615044483,
+     "exact_match": 0.021666666666666667,
+     "total_generated": 600
+    },
+    "retained": {
+     "choice_accuracy": 0.8114705882352942,
+     "router_accuracy": 0.815,
+     "gt_loss_per_token": 0.333903631883509,
+     "probs": 0.9530870863970589,
+     "rouge_l_recall": 0.6375334057194102,
+     "token_f1": 0.6271348549263125,
+     "exact_match": 0.19941176470588234,
+     "total_generated": 3400
+    }
+   },
+   "t15": {
+    "forget": {
+     "choice_accuracy": 0.3046875,
+     "router_accuracy": 0.309375,
+     "gt_loss_per_token": 1.0918028116226197,
+     "probs": 0.8778564453125,
+     "rouge_l_recall": 0.20973181542089048,
+     "token_f1": 0.2066110525711898,
+     "exact_match": 0.0234375,
+     "total_generated": 640
+    },
+    "retained": {
+     "choice_accuracy": 0.7883928571428571,
+     "router_accuracy": 0.7916666666666666,
+     "gt_loss_per_token": 0.34554175649370467,
+     "probs": 0.9523228236607143,
+     "rouge_l_recall": 0.6207415501340401,
+     "token_f1": 0.6113227525496997,
+     "exact_match": 0.19404761904761905,
+     "total_generated": 3360
+    }
+   },
+   "t16": {
+    "forget": {
+     "choice_accuracy": 0.38235294117647056,
+     "router_accuracy": 0.27941176470588236,
+     "gt_loss_per_token": 1.0055411170510684,
+     "probs": 0.8846737132352941,
+     "rouge_l_recall": 0.2583800637396041,
+     "token_f1": 0.25589953769350005,
+     "exact_match": 0.030882352941176472,
+     "total_generated": 680
+    },
+    "retained": {
+     "choice_accuracy": 0.8246987951807229,
+     "router_accuracy": 0.8207831325301205,
+     "gt_loss_per_token": 0.3112182513777032,
+     "probs": 0.955859375,
+     "rouge_l_recall": 0.6606172744306424,
+     "token_f1": 0.6510299891553025,
+     "exact_match": 0.22259036144578312,
+     "total_generated": 3320
+    }
+   },
+   "t17": {
+    "forget": {
+     "choice_accuracy": 0.4152777777777778,
+     "router_accuracy": 0.25277777777777777,
+     "gt_loss_per_token": 0.9247912300957574,
+     "probs": 0.8944390190972222,
+     "rouge_l_recall": 0.28688177074180693,
+     "token_f1": 0.28272376793798004,
+     "exact_match": 0.027777777777777776,
+     "total_generated": 720
+    },
+    "retained": {
+     "choice_accuracy": 0.8246951219512195,
+     "router_accuracy": 0.8271341463414634,
+     "gt_loss_per_token": 0.3108006884412068,
+     "probs": 0.9570991330030488,
+     "rouge_l_recall": 0.6585554200794766,
+     "token_f1": 0.6491906305479023,
+     "exact_match": 0.22682926829268293,
+     "total_generated": 3280
+    }
+   },
+   "t18": {
+    "forget": {
+     "choice_accuracy": 0.4026315789473684,
+     "router_accuracy": 0.25263157894736843,
+     "gt_loss_per_token": 0.9491405863510934,
+     "probs": 0.8932668585526315,
+     "rouge_l_recall": 0.28083793484039893,
+     "token_f1": 0.27510508567205316,
+     "exact_match": 0.035526315789473684,
+     "total_generated": 760
+    },
+    "retained": {
+     "choice_accuracy": 0.8296296296296296,
+     "router_accuracy": 0.8265432098765432,
+     "gt_loss_per_token": 0.3074613741886469,
+     "probs": 0.9574604552469136,
+     "rouge_l_recall": 0.6629254890454224,
+     "token_f1": 0.6551240022021109,
+     "exact_match": 0.23117283950617284,
+     "total_generated": 3240
+    }
+   },
+   "t19": {
+    "forget": {
+     "choice_accuracy": 0.4375,
+     "router_accuracy": 0.2425,
+     "gt_loss_per_token": 0.9341170978546143,
+     "probs": 0.89755859375,
+     "rouge_l_recall": 0.3031781261807663,
+     "token_f1": 0.29689206279671415,
+     "exact_match": 0.04875,
+     "total_generated": 800
+    },
+    "retained": {
+     "choice_accuracy": 0.8240625,
+     "router_accuracy": 0.825625,
+     "gt_loss_per_token": 0.3050195425748825,
+     "probs": 0.958994140625,
+     "rouge_l_recall": 0.6644843479699101,
+     "token_f1": 0.65556829303497,
+     "exact_match": 0.234375,
+     "total_generated": 3200
+    }
+   },
+   "t1": {
+    "forget": {
+     "choice_accuracy": 0.225,
+     "router_accuracy": 0.5125,
+     "gt_loss_per_token": 1.195159912109375,
+     "probs": 0.86669921875,
+     "rouge_l_recall": 0.16703609565793473,
+     "token_f1": 0.15769898431566998,
+     "exact_match": 0.0375,
+     "total_generated": 80
+    },
+    "retained": {
+     "choice_accuracy": 0.9698979591836735,
+     "router_accuracy": 0.9737244897959184,
+     "gt_loss_per_token": 0.10376947969198227,
+     "probs": 0.9857152822066326,
+     "rouge_l_recall": 0.9005269331838313,
+     "token_f1": 0.8955381040604493,
+     "exact_match": 0.6114795918367347,
+     "total_generated": 3920
+    }
+   },
+   "t2": {
+    "forget": {
+     "choice_accuracy": 0.15833333333333333,
+     "router_accuracy": 0.6166666666666667,
+     "gt_loss_per_token": 1.4445109049479166,
+     "probs": 0.8374348958333333,
+     "rouge_l_recall": 0.13558071832558677,
+     "token_f1": 0.12197866325765411,
+     "exact_match": 0.0,
+     "total_generated": 120
+    },
+    "retained": {
+     "choice_accuracy": 0.9427835051546392,
+     "router_accuracy": 0.8574742268041237,
+     "gt_loss_per_token": 0.14772624772848542,
+     "probs": 0.977306499677835,
+     "rouge_l_recall": 0.8376813315125412,
+     "token_f1": 0.8305981183681711,
+     "exact_match": 0.475,
+     "total_generated": 3880
+    }
+   },
+   "t3": {
+    "forget": {
+     "choice_accuracy": 0.15625,
+     "router_accuracy": 0.58125,
+     "gt_loss_per_token": 1.3639572143554688,
+     "probs": 0.8440185546875,
+     "rouge_l_recall": 0.12822564347267723,
+     "token_f1": 0.12099215279975384,
+     "exact_match": 0.00625,
+     "total_generated": 160
+    },
+    "retained": {
+     "choice_accuracy": 0.9291666666666667,
+     "router_accuracy": 0.8203125,
+     "gt_loss_per_token": 0.1727298989892006,
+     "probs": 0.9728525797526042,
+     "rouge_l_recall": 0.8064859359691724,
+     "token_f1": 0.7991054686734322,
+     "exact_match": 0.4114583333333333,
+     "total_generated": 3840
+    }
+   },
+   "t4": {
+    "forget": {
+     "choice_accuracy": 0.155,
+     "router_accuracy": 0.575,
+     "gt_loss_per_token": 1.4509130859375,
+     "probs": 0.8346484375,
+     "rouge_l_recall": 0.10124402629781092,
+     "token_f1": 0.10229203898204155,
+     "exact_match": 0.005,
+     "total_generated": 200
+    },
+    "retained": {
+     "choice_accuracy": 0.9047368421052632,
+     "router_accuracy": 0.7844736842105263,
+     "gt_loss_per_token": 0.21073118586289255,
+     "probs": 0.9674527138157895,
+     "rouge_l_recall": 0.767147682693872,
+     "token_f1": 0.7586351779944217,
+     "exact_match": 0.3518421052631579,
+     "total_generated": 3800
+    }
+   },
+   "t5": {
+    "forget": {
+     "choice_accuracy": 0.16666666666666666,
+     "router_accuracy": 0.5166666666666667,
+     "gt_loss_per_token": 1.272533162434896,
+     "probs": 0.8547688802083333,
+     "rouge_l_recall": 0.11958755054734821,
+     "token_f1": 0.11679246436550703,
+     "exact_match": 0.004166666666666667,
+     "total_generated": 240
+    },
+    "retained": {
+     "choice_accuracy": 0.886436170212766,
+     "router_accuracy": 0.8071808510638298,
+     "gt_loss_per_token": 0.2187007483015669,
+     "probs": 0.9679510887632978,
+     "rouge_l_recall": 0.7484402301113303,
+     "token_f1": 0.7387244513704299,
+     "exact_match": 0.3321808510638298,
+     "total_generated": 3760
+    }
+   },
+   "t6": {
+    "forget": {
+     "choice_accuracy": 0.125,
+     "router_accuracy": 0.5035714285714286,
+     "gt_loss_per_token": 1.3714383806501116,
+     "probs": 0.8476422991071428,
+     "rouge_l_recall": 0.1004387837647647,
+     "token_f1": 0.09394261526253657,
+     "exact_match": 0.007142857142857143,
+     "total_generated": 280
+    },
+    "retained": {
+     "choice_accuracy": 0.839247311827957,
+     "router_accuracy": 0.7801075268817205,
+     "gt_loss_per_token": 0.27333897672673707,
+     "probs": 0.96123046875,
+     "rouge_l_recall": 0.6883988454520513,
+     "token_f1": 0.6797879699321584,
+     "exact_match": 0.26505376344086023,
+     "total_generated": 3720
+    }
+   },
+   "t7": {
+    "forget": {
+     "choice_accuracy": 0.18125,
+     "router_accuracy": 0.440625,
+     "gt_loss_per_token": 1.2692445755004882,
+     "probs": 0.85743408203125,
+     "rouge_l_recall": 0.13542708552974997,
+     "token_f1": 0.1303726532477279,
+     "exact_match": 0.00625,
+     "total_generated": 320
+    },
+    "retained": {
+     "choice_accuracy": 0.8638586956521739,
+     "router_accuracy": 0.7815217391304348,
+     "gt_loss_per_token": 0.26308571981347123,
+     "probs": 0.9616126019021739,
+     "rouge_l_recall": 0.707440628551462,
+     "token_f1": 0.6999353103441961,
+     "exact_match": 0.2703804347826087,
+     "total_generated": 3680
+    }
+   },
+   "t8": {
+    "forget": {
+     "choice_accuracy": 0.17222222222222222,
+     "router_accuracy": 0.4388888888888889,
+     "gt_loss_per_token": 1.3024776882595486,
+     "probs": 0.8492730034722222,
+     "rouge_l_recall": 0.12657183083392978,
+     "token_f1": 0.12436899395065762,
+     "exact_match": 0.005555555555555556,
+     "total_generated": 360
+    },
+    "retained": {
+     "choice_accuracy": 0.8186813186813187,
+     "router_accuracy": 0.775,
+     "gt_loss_per_token": 0.30959547614003274,
+     "probs": 0.9559141054258242,
+     "rouge_l_recall": 0.6557940100247314,
+     "token_f1": 0.6489377806902962,
+     "exact_match": 0.22527472527472528,
+     "total_generated": 3640
+    }
+   },
+   "t9": {
+    "forget": {
+     "choice_accuracy": 0.255,
+     "router_accuracy": 0.4,
+     "gt_loss_per_token": 1.269732208251953,
+     "probs": 0.854072265625,
+     "rouge_l_recall": 0.1966845663107718,
+     "token_f1": 0.1927591230639506,
+     "exact_match": 0.02,
+     "total_generated": 400
+    },
+    "retained": {
+     "choice_accuracy": 0.8433333333333334,
+     "router_accuracy": 0.7977777777777778,
+     "gt_loss_per_token": 0.3086186162630717,
+     "probs": 0.9562120225694445,
+     "rouge_l_recall": 0.6779519230334365,
+     "token_f1": 0.6693553038206106,
+     "exact_match": 0.23527777777777778,
+     "total_generated": 3600
+    }
+   },
+   "base_fullpool": {
+    "forget": {
+     "choice_accuracy": 0.97625,
+     "router_accuracy": 0.0,
+     "gt_loss_per_token": 0.05793251499533653,
+     "probs": 0.9895947265625,
+     "rouge_l_recall": 0.9391966116088318,
+     "token_f1": 0.9347715723316682,
+     "exact_match": 0.7625,
+     "total_generated": 800
+    },
+    "retained": {
+     "choice_accuracy": 0.9790625,
+     "router_accuracy": 0.0,
+     "gt_loss_per_token": 0.09451796174049377,
+     "probs": 0.989150390625,
+     "rouge_l_recall": 0.9197918876320094,
+     "token_f1": 0.9162016039170332,
+     "exact_match": 0.6775,
+     "total_generated": 3200
+    }
+   }
+  },
+  "para_noise": {
+   "t0": {
+    "forget": {
+     "choice_accuracy": 0.1,
+     "router_accuracy": 0.675,
+     "gt_loss_per_token": 1.2746826171875,
+     "probs": 0.83623046875,
+     "rouge_l_recall": 0.048302668940536586,
+     "token_f1": 0.049489170512615,
+     "exact_match": 0.0,
+     "total_generated": 40
+    },
+    "retained": {
+     "choice_accuracy": 0.98989898989899,
+     "router_accuracy": 0.997979797979798,
+     "gt_loss_per_token": 0.021164160154082557,
+     "probs": 0.990844973169192,
+     "rouge_l_recall": 0.9688880936189724,
+     "token_f1": 0.965988022389212,
+     "exact_match": 0.8876262626262627,
+     "total_generated": 3960
+    }
+   },
+   "t10": {
+    "forget": {
+     "choice_accuracy": 0.33181818181818185,
+     "router_accuracy": 0.34545454545454546,
+     "gt_loss_per_token": 1.1925127896395598,
+     "probs": 0.8605113636363636,
+     "rouge_l_recall": 0.22359588747922166,
+     "token_f1": 0.21630627248829362,
+     "exact_match": 0.025,
+     "total_generated": 440
+    },
+    "retained": {
+     "choice_accuracy": 0.8848314606741573,
+     "router_accuracy": 0.8393258426966292,
+     "gt_loss_per_token": 0.22325076467535468,
+     "probs": 0.9608486218398876,
+     "rouge_l_recall": 0.7393457209284929,
+     "token_f1": 0.7297034156157483,
+     "exact_match": 0.33792134831460674,
+     "total_generated": 3560
+    }
+   },
+   "t11": {
+    "forget": {
+     "choice_accuracy": 0.29583333333333334,
+     "router_accuracy": 0.3541666666666667,
+     "gt_loss_per_token": 1.1066093444824219,
+     "probs": 0.8697265625,
+     "rouge_l_recall": 0.20205388138006977,
+     "token_f1": 0.19656911053207698,
+     "exact_match": 0.016666666666666666,
+     "total_generated": 480
+    },
+    "retained": {
+     "choice_accuracy": 0.8698863636363636,
+     "router_accuracy": 0.8309659090909091,
+     "gt_loss_per_token": 0.22865146073428066,
+     "probs": 0.9609241832386364,
+     "rouge_l_recall": 0.7236696963298355,
+     "token_f1": 0.7149262028690959,
+     "exact_match": 0.32130681818181817,
+     "total_generated": 3520
+    }
+   },
+   "t12": {
+    "forget": {
+     "choice_accuracy": 0.32884615384615384,
+     "router_accuracy": 0.34807692307692306,
+     "gt_loss_per_token": 1.0767178242023174,
+     "probs": 0.8731896033653846,
+     "rouge_l_recall": 0.2145889449284499,
+     "token_f1": 0.20910499656220846,
+     "exact_match": 0.021153846153846155,
+     "total_generated": 520
+    },
+    "retained": {
+     "choice_accuracy": 0.8497126436781609,
+     "router_accuracy": 0.8272988505747126,
+     "gt_loss_per_token": 0.23645174804775193,
+     "probs": 0.9600013469827586,
+     "rouge_l_recall": 0.7028207601520599,
+     "token_f1": 0.693059704156087,
+     "exact_match": 0.30344827586206896,
+     "total_generated": 3480
+    }
+   },
+   "t13": {
+    "forget": {
+     "choice_accuracy": 0.3482142857142857,
+     "router_accuracy": 0.34285714285714286,
+     "gt_loss_per_token": 1.063760416848319,
+     "probs": 0.8757882254464285,
+     "rouge_l_recall": 0.2177257414692919,
+     "token_f1": 0.21182518700611958,
+     "exact_match": 0.017857142857142856,
+     "total_generated": 560
+    },
+    "retained": {
+     "choice_accuracy": 0.8343023255813954,
+     "router_accuracy": 0.8377906976744186,
+     "gt_loss_per_token": 0.26404829579730366,
+     "probs": 0.9569370003633721,
+     "rouge_l_recall": 0.6839810875995171,
+     "token_f1": 0.6729580196913703,
+     "exact_match": 0.27848837209302324,
+     "total_generated": 3440
+    }
+   },
+   "t14": {
+    "forget": {
+     "choice_accuracy": 0.3566666666666667,
+     "router_accuracy": 0.3283333333333333,
+     "gt_loss_per_token": 1.054225540161133,
+     "probs": 0.8764778645833333,
+     "rouge_l_recall": 0.23711871436521412,
+     "token_f1": 0.23508254196437534,
+     "exact_match": 0.018333333333333333,
+     "total_generated": 600
+    },
+    "retained": {
+     "choice_accuracy": 0.846764705882353,
+     "router_accuracy": 0.8520588235294118,
+     "gt_loss_per_token": 0.2555803747738109,
+     "probs": 0.9571599264705882,
+     "rouge_l_recall": 0.6954395188084223,
+     "token_f1": 0.6848209905684824,
+     "exact_match": 0.2867647058823529,
+     "total_generated": 3400
+    }
+   },
+   "t15": {
+    "forget": {
+     "choice_accuracy": 0.33125,
+     "router_accuracy": 0.3109375,
+     "gt_loss_per_token": 1.059722328186035,
+     "probs": 0.8780029296875,
+     "rouge_l_recall": 0.23888894895725268,
+     "token_f1": 0.2344100864015791,
+     "exact_match": 0.0265625,
+     "total_generated": 640
+    },
+    "retained": {
+     "choice_accuracy": 0.8193452380952381,
+     "router_accuracy": 0.8333333333333334,
+     "gt_loss_per_token": 0.26835066165242877,
+     "probs": 0.9563941592261904,
+     "rouge_l_recall": 0.676633462750666,
+     "token_f1": 0.6682347510365961,
+     "exact_match": 0.28660714285714284,
+     "total_generated": 3360
+    }
+   },
+   "t16": {
+    "forget": {
+     "choice_accuracy": 0.41911764705882354,
+     "router_accuracy": 0.275,
+     "gt_loss_per_token": 0.9715947768267463,
+     "probs": 0.8852653952205882,
+     "rouge_l_recall": 0.2921494661969957,
+     "token_f1": 0.2865324248096006,
+     "exact_match": 0.039705882352941174,
+     "total_generated": 680
+    },
+    "retained": {
+     "choice_accuracy": 0.8632530120481928,
+     "router_accuracy": 0.8533132530120482,
+     "gt_loss_per_token": 0.23630477376731046,
+     "probs": 0.9597762142319277,
+     "rouge_l_recall": 0.7111658423756159,
+     "token_f1": 0.702327827701593,
+     "exact_match": 0.3213855421686747,
+     "total_generated": 3320
+    }
+   },
+   "t17": {
+    "forget": {
+     "choice_accuracy": 0.425,
+     "router_accuracy": 0.2722222222222222,
+     "gt_loss_per_token": 0.8948433028327094,
+     "probs": 0.895849609375,
+     "rouge_l_recall": 0.2994392137522534,
+     "token_f1": 0.29210771774267874,
+     "exact_match": 0.03333333333333333,
+     "total_generated": 720
+    },
+    "retained": {
+     "choice_accuracy": 0.8457317073170731,
+     "router_accuracy": 0.8579268292682927,
+     "gt_loss_per_token": 0.23613331550505104,
+     "probs": 0.9609934737042682,
+     "rouge_l_recall": 0.7111141633368214,
+     "token_f1": 0.7010082134436366,
+     "exact_match": 0.3283536585365854,
+     "total_generated": 3280
+    }
+   },
+   "t18": {
+    "forget": {
+     "choice_accuracy": 0.4342105263157895,
+     "router_accuracy": 0.29210526315789476,
+     "gt_loss_per_token": 0.9049282174361379,
+     "probs": 0.8964226973684211,
+     "rouge_l_recall": 0.3064220986530434,
+     "token_f1": 0.29642679304379793,
+     "exact_match": 0.04078947368421053,
+     "total_generated": 760
+    },
+    "retained": {
+     "choice_accuracy": 0.8555555555555555,
+     "router_accuracy": 0.8604938271604938,
+     "gt_loss_per_token": 0.23055051933100193,
+     "probs": 0.9612413194444445,
+     "rouge_l_recall": 0.7174437741092708,
+     "token_f1": 0.7093038191846676,
+     "exact_match": 0.333641975308642,
+     "total_generated": 3240
+    }
+   },
+   "t19": {
+    "forget": {
+     "choice_accuracy": 0.45375,
+     "router_accuracy": 0.2825,
+     "gt_loss_per_token": 0.8847395896911621,
+     "probs": 0.900068359375,
+     "rouge_l_recall": 0.3188622595226076,
+     "token_f1": 0.312785153991431,
+     "exact_match": 0.0475,
+     "total_generated": 800
+    },
+    "retained": {
+     "choice_accuracy": 0.86,
+     "router_accuracy": 0.860625,
+     "gt_loss_per_token": 0.2229563793540001,
+     "probs": 0.963045654296875,
+     "rouge_l_recall": 0.7253067801280015,
+     "token_f1": 0.71574225335192,
+     "exact_match": 0.3340625,
+     "total_generated": 3200
+    }
+   },
+   "t1": {
+    "forget": {
+     "choice_accuracy": 0.2,
+     "router_accuracy": 0.5375,
+     "gt_loss_per_token": 1.1682174682617188,
+     "probs": 0.8666015625,
+     "rouge_l_recall": 0.15645743390480485,
+     "token_f1": 0.14354684064319406,
+     "exact_match": 0.025,
+     "total_generated": 80
+    },
+    "retained": {
+     "choice_accuracy": 0.9841836734693877,
+     "router_accuracy": 0.9793367346938775,
+     "gt_loss_per_token": 0.03291971707830624,
+     "probs": 0.9888592155612245,
+     "rouge_l_recall": 0.9542067836267395,
+     "token_f1": 0.9500532192925173,
+     "exact_match": 0.8183673469387756,
+     "total_generated": 3920
+    }
+   },
+   "t2": {
+    "forget": {
+     "choice_accuracy": 0.2,
+     "router_accuracy": 0.5916666666666667,
+     "gt_loss_per_token": 1.4204915364583333,
+     "probs": 0.83642578125,
+     "rouge_l_recall": 0.13595787822133815,
+     "token_f1": 0.1306454892601342,
+     "exact_match": 0.0,
+     "total_generated": 120
+    },
+    "retained": {
+     "choice_accuracy": 0.961340206185567,
+     "router_accuracy": 0.8783505154639175,
+     "gt_loss_per_token": 0.07556865928099328,
+     "probs": 0.9808785035438145,
+     "rouge_l_recall": 0.8942506705612441,
+     "token_f1": 0.8875698088903855,
+     "exact_match": 0.6440721649484537,
+     "total_generated": 3880
+    }
+   },
+   "t3": {
+    "forget": {
+     "choice_accuracy": 0.2,
+     "router_accuracy": 0.56875,
+     "gt_loss_per_token": 1.321343994140625,
+     "probs": 0.8459228515625,
+     "rouge_l_recall": 0.13982049549454256,
+     "token_f1": 0.1343409465848139,
+     "exact_match": 0.00625,
+     "total_generated": 160
+    },
+    "retained": {
+     "choice_accuracy": 0.9497395833333333,
+     "router_accuracy": 0.8486979166666667,
+     "gt_loss_per_token": 0.09899321421980858,
+     "probs": 0.9767354329427084,
+     "rouge_l_recall": 0.8702565741989583,
+     "token_f1": 0.8633617891723825,
+     "exact_match": 0.5783854166666667,
+     "total_generated": 3840
+    }
+   },
+   "t4": {
+    "forget": {
+     "choice_accuracy": 0.175,
+     "router_accuracy": 0.525,
+     "gt_loss_per_token": 1.43819091796875,
+     "probs": 0.83490234375,
+     "rouge_l_recall": 0.10966850317041123,
+     "token_f1": 0.10944114573659397,
+     "exact_match": 0.005,
+     "total_generated": 200
+    },
+    "retained": {
+     "choice_accuracy": 0.9221052631578948,
+     "router_accuracy": 0.8205263157894737,
+     "gt_loss_per_token": 0.13631807427657278,
+     "probs": 0.9715244654605263,
+     "rouge_l_recall": 0.8258545467463468,
+     "token_f1": 0.8174042112149719,
+     "exact_match": 0.4768421052631579,
+     "total_generated": 3800
+    }
+   },
+   "t5": {
+    "forget": {
+     "choice_accuracy": 0.19583333333333333,
+     "router_accuracy": 0.5083333333333333,
+     "gt_loss_per_token": 1.241875203450521,
+     "probs": 0.8555013020833333,
+     "rouge_l_recall": 0.13007586398429152,
+     "token_f1": 0.12711270447234757,
+     "exact_match": 0.008333333333333333,
+     "total_generated": 240
+    },
+    "retained": {
+     "choice_accuracy": 0.9143617021276595,
+     "router_accuracy": 0.8398936170212766,
+     "gt_loss_per_token": 0.14295815001142786,
+     "probs": 0.9717763048537233,
+     "rouge_l_recall": 0.8110228133399708,
+     "token_f1": 0.802939690029124,
+     "exact_match": 0.4595744680851064,
+     "total_generated": 3760
+    }
+   },
+   "t6": {
+    "forget": {
+     "choice_accuracy": 0.16071428571428573,
+     "router_accuracy": 0.48928571428571427,
+     "gt_loss_per_token": 1.3631504603794642,
+     "probs": 0.8465541294642858,
+     "rouge_l_recall": 0.10566831011598268,
+     "token_f1": 0.10439954383767733,
+     "exact_match": 0.007142857142857143,
+     "total_generated": 280
+    },
+    "retained": {
+     "choice_accuracy": 0.8803763440860215,
+     "router_accuracy": 0.8145161290322581,
+     "gt_loss_per_token": 0.197661958202239,
+     "probs": 0.9651104670698925,
+     "rouge_l_recall": 0.7537455770707397,
+     "token_f1": 0.7440714411828351,
+     "exact_match": 0.3774193548387097,
+     "total_generated": 3720
+    }
+   },
+   "t7": {
+    "forget": {
+     "choice_accuracy": 0.21875,
+     "router_accuracy": 0.45,
+     "gt_loss_per_token": 1.2486127376556397,
+     "probs": 0.85654296875,
+     "rouge_l_recall": 0.14711011050164136,
+     "token_f1": 0.1430237559983791,
+     "exact_match": 0.015625,
+     "total_generated": 320
+    },
+    "retained": {
+     "choice_accuracy": 0.8875,
+     "router_accuracy": 0.8184782608695652,
+     "gt_loss_per_token": 0.18630240533662878,
+     "probs": 0.965669582201087,
+     "rouge_l_recall": 0.7697874923381208,
+     "token_f1": 0.7609097794009395,
+     "exact_match": 0.38233695652173916,
+     "total_generated": 3680
+    }
+   },
+   "t8": {
+    "forget": {
+     "choice_accuracy": 0.19166666666666668,
+     "router_accuracy": 0.44722222222222224,
+     "gt_loss_per_token": 1.2754319932725695,
+     "probs": 0.8487955729166666,
+     "rouge_l_recall": 0.12995711093760837,
+     "token_f1": 0.1262290029816851,
+     "exact_match": 0.008333333333333333,
+     "total_generated": 360
+    },
+    "retained": {
+     "choice_accuracy": 0.8505494505494505,
+     "router_accuracy": 0.8046703296703297,
+     "gt_loss_per_token": 0.23564490119179526,
+     "probs": 0.9596529447115385,
+     "rouge_l_recall": 0.7141261735700338,
+     "token_f1": 0.7047347755886975,
+     "exact_match": 0.3217032967032967,
+     "total_generated": 3640
+    }
+   },
+   "t9": {
+    "forget": {
+     "choice_accuracy": 0.265,
+     "router_accuracy": 0.3775,
+     "gt_loss_per_token": 1.2571864223480225,
+     "probs": 0.851767578125,
+     "rouge_l_recall": 0.19411692687065685,
+     "token_f1": 0.19015900611736555,
+     "exact_match": 0.02,
+     "total_generated": 400
+    },
+    "retained": {
+     "choice_accuracy": 0.8672222222222222,
+     "router_accuracy": 0.8163888888888889,
+     "gt_loss_per_token": 0.23649243831634523,
+     "probs": 0.9597927517361111,
+     "rouge_l_recall": 0.7281988075428507,
+     "token_f1": 0.7174929279367236,
+     "exact_match": 0.32805555555555554,
+     "total_generated": 3600
+    }
+   },
+   "base_fullpool": {
+    "forget": {
+     "choice_accuracy": 0.9925,
+     "router_accuracy": 0.0,
+     "gt_loss_per_token": 0.016695645600557328,
+     "probs": 0.991767578125,
+     "rouge_l_recall": 0.9771508658090782,
+     "token_f1": 0.974616730242451,
+     "exact_match": 0.91875,
+     "total_generated": 800
+    },
+    "retained": {
+     "choice_accuracy": 0.9928125,
+     "router_accuracy": 0.0,
+     "gt_loss_per_token": 0.014539648815989493,
+     "probs": 0.99232177734375,
+     "rouge_l_recall": 0.9784247711112751,
+     "token_f1": 0.9763322599502784,
+     "exact_match": 0.93,
+     "total_generated": 3200
+    }
+   }
+  }
+ },
+ "clinc": {
+  "orig": {
+   "t0": {
+    "forget": {
+     "choice_accuracy": 0.024444444444444446,
+     "router_accuracy": 0.8777777777777778,
+     "label_contains_accuracy": 0.035555555555555556,
+     "gt_loss_per_token": 6.840518527560764,
+     "probs": 0.5091037326388889,
+     "total_generated": 450
+    },
+    "retained": {
+     "choice_accuracy": 0.9688888888888889,
+     "router_accuracy": 1.0,
+     "label_contains_accuracy": 0.9691358024691358,
+     "gt_loss_per_token": 0.04586461299731408,
+     "probs": 0.9004070216049382,
+     "total_generated": 4050
+    },
+    "mrpc": {
+     "choice_accuracy": 0.808695652173913,
+     "router_accuracy": 0.9942028985507246,
+     "label_contains_accuracy": 0.808695652173913,
+     "gt_loss_per_token": 0.10719194052875906,
+     "probs": 0.936856884057971,
+     "total_generated": 1725
+    },
+    "rte": {
+     "choice_accuracy": 0.8736462093862816,
+     "router_accuracy": 1.0,
+     "label_contains_accuracy": 0.8736462093862816,
+     "gt_loss_per_token": 0.06473998472578689,
+     "probs": 0.9198302120938628,
+     "total_generated": 277
+    }
+   },
+   "t1": {
+    "forget": {
+     "choice_accuracy": 0.02666666666666667,
+     "router_accuracy": 0.92,
+     "label_contains_accuracy": 0.03333333333333333,
+     "gt_loss_per_token": 7.218518074883355,
+     "probs": 0.4904123263888889,
+     "total_generated": 900
+    },
+    "retained": {
+     "choice_accuracy": 0.9491666666666667,
+     "router_accuracy": 0.9961111111111111,
+     "label_contains_accuracy": 0.9527777777777777,
+     "gt_loss_per_token": 0.0888552521665891,
+     "probs": 0.8827045355902777,
+     "total_generated": 3600
+    },
+    "mrpc": {
+     "choice_accuracy": 0.7976811594202898,
+     "router_accuracy": 0.9588405797101449,
+     "label_contains_accuracy": 0.7976811594202898,
+     "gt_loss_per_token": 0.11261303887850996,
+     "probs": 0.924465579710145,
+     "total_generated": 1725
+    },
+    "rte": {
+     "choice_accuracy": 0.8736462093862816,
+     "router_accuracy": 1.0,
+     "label_contains_accuracy": 0.8736462093862816,
+     "gt_loss_per_token": 0.06469331321303165,
+     "probs": 0.9209019629963899,
+     "total_generated": 277
+    }
+   },
+   "t2": {
+    "forget": {
+     "choice_accuracy": 0.05925925925925926,
+     "router_accuracy": 0.8985185185185185,
+     "label_contains_accuracy": 0.09407407407407407,
+     "gt_loss_per_token": 11.286837474681713,
+     "probs": 0.40083622685185183,
+     "total_generated": 1350
+    },
+    "retained": {
+     "choice_accuracy": 0.9228571428571428,
+     "router_accuracy": 0.9911111111111112,
+     "label_contains_accuracy": 0.9282539682539682,
+     "gt_loss_per_token": 0.2735452100965712,
+     "probs": 0.7762754216269842,
+     "total_generated": 3150
+    },
+    "mrpc": {
+     "choice_accuracy": 0.8173913043478261,
+     "router_accuracy": 0.5460869565217391,
+     "label_contains_accuracy": 0.8249275362318841,
+     "gt_loss_per_token": 0.13368965480638587,
+     "probs": 0.7779347826086956,
+     "total_generated": 1725
+    },
+    "rte": {
+     "choice_accuracy": 0.855595667870036,
+     "router_accuracy": 0.6353790613718412,
+     "label_contains_accuracy": 0.8664259927797834,
+     "gt_loss_per_token": 0.10872691460895194,
+     "probs": 0.8440884476534296,
+     "total_generated": 277
+    }
+   },
+   "t3": {
+    "forget": {
+     "choice_accuracy": 0.043333333333333335,
+     "router_accuracy": 0.8522222222222222,
+     "label_contains_accuracy": 0.07,
+     "gt_loss_per_token": 9.459730507532756,
+     "probs": 0.43261881510416667,
+     "total_generated": 1800
+    },
+    "retained": {
+     "choice_accuracy": 0.9125925925925926,
+     "router_accuracy": 0.9862962962962963,
+     "label_contains_accuracy": 0.917037037037037,
+     "gt_loss_per_token": 0.1818463189513595,
+     "probs": 0.7773947482638889,
+     "total_generated": 2700
+    },
+    "mrpc": {
+     "choice_accuracy": 0.808695652173913,
+     "router_accuracy": 0.6481159420289855,
+     "label_contains_accuracy": 0.8104347826086956,
+     "gt_loss_per_token": 0.1253980022927989,
+     "probs": 0.8035914855072464,
+     "total_generated": 1725
+    },
+    "rte": {
+     "choice_accuracy": 0.8375451263537906,
+     "router_accuracy": 0.7075812274368231,
+     "label_contains_accuracy": 0.8375451263537906,
+     "gt_loss_per_token": 0.09120709801408788,
+     "probs": 0.8808664259927798,
+     "total_generated": 277
+    }
+   },
+   "t4": {
+    "forget": {
+     "choice_accuracy": 0.06844444444444445,
+     "router_accuracy": 0.7871111111111111,
+     "label_contains_accuracy": 0.08977777777777778,
+     "gt_loss_per_token": 9.517380628797744,
+     "probs": 0.39370399305555553,
+     "total_generated": 2250
+    },
+    "retained": {
+     "choice_accuracy": 0.8377777777777777,
+     "router_accuracy": 0.9951111111111111,
+     "label_contains_accuracy": 0.8631111111111112,
+     "gt_loss_per_token": 0.336544502682156,
+     "probs": 0.7259622395833333,
+     "total_generated": 2250
+    },
+    "mrpc": {
+     "choice_accuracy": 0.8098550724637681,
+     "router_accuracy": 0.648695652173913,
+     "label_contains_accuracy": 0.8133333333333334,
+     "gt_loss_per_token": 0.12328219648720562,
+     "probs": 0.7945244565217391,
+     "total_generated": 1725
+    },
+    "rte": {
+     "choice_accuracy": 0.8194945848375451,
+     "router_accuracy": 0.6895306859205776,
+     "label_contains_accuracy": 0.8194945848375451,
+     "gt_loss_per_token": 0.09676932600000705,
+     "probs": 0.872983416064982,
+     "total_generated": 277
+    }
+   },
+   "t5": {
+    "forget": {
+     "choice_accuracy": 0.06037037037037037,
+     "router_accuracy": 0.8077777777777778,
+     "label_contains_accuracy": 0.0662962962962963,
+     "gt_loss_per_token": 8.904459499782986,
+     "probs": 0.41088161892361114,
+     "total_generated": 2700
+    },
+    "retained": {
+     "choice_accuracy": 0.8577777777777778,
+     "router_accuracy": 0.9927777777777778,
+     "label_contains_accuracy": 0.8644444444444445,
+     "gt_loss_per_token": 0.36422817839516536,
+     "probs": 0.7817149522569444,
+     "total_generated": 1800
+    },
+    "mrpc": {
+     "choice_accuracy": 0.7988405797101449,
+     "router_accuracy": 0.8492753623188406,
+     "label_contains_accuracy": 0.7988405797101449,
+     "gt_loss_per_token": 0.11674934718919837,
+     "probs": 0.8305638586956522,
+     "total_generated": 1725
+    },
+    "rte": {
+     "choice_accuracy": 0.8736462093862816,
+     "router_accuracy": 0.8375451263537906,
+     "label_contains_accuracy": 0.8736462093862816,
+     "gt_loss_per_token": 0.07177201419100435,
+     "probs": 0.8863662003610109,
+     "total_generated": 277
+    }
+   },
+   "t6": {
+    "forget": {
+     "choice_accuracy": 0.03333333333333333,
+     "router_accuracy": 0.7841269841269841,
+     "label_contains_accuracy": 0.03746031746031746,
+     "gt_loss_per_token": 9.072894597129217,
+     "probs": 0.3969196428571429,
+     "total_generated": 3150
+    },
+    "retained": {
+     "choice_accuracy": 0.7807407407407407,
+     "router_accuracy": 0.9874074074074074,
+     "label_contains_accuracy": 0.7962962962962963,
+     "gt_loss_per_token": 0.6668698695853904,
+     "probs": 0.7716623263888889,
+     "total_generated": 1350
+    },
+    "mrpc": {
+     "choice_accuracy": 0.8034782608695652,
+     "router_accuracy": 0.7171014492753623,
+     "label_contains_accuracy": 0.8052173913043478,
+     "gt_loss_per_token": 0.12357329879981883,
+     "probs": 0.8246014492753623,
+     "total_generated": 1725
+    },
+    "rte": {
+     "choice_accuracy": 0.7220216606498195,
+     "router_accuracy": 0.5523465703971119,
+     "label_contains_accuracy": 0.7220216606498195,
+     "gt_loss_per_token": 0.1319893379073711,
+     "probs": 0.8853508574007221,
+     "total_generated": 277
+    }
+   },
+   "t7": {
+    "forget": {
+     "choice_accuracy": 0.012777777777777779,
+     "router_accuracy": 0.6516666666666666,
+     "label_contains_accuracy": 0.03305555555555555,
+     "gt_loss_per_token": 10.574789445665148,
+     "probs": 0.34495361328125,
+     "total_generated": 3600
+    },
+    "retained": {
+     "choice_accuracy": 0.7888888888888889,
+     "router_accuracy": 0.9888888888888889,
+     "label_contains_accuracy": 0.8266666666666667,
+     "gt_loss_per_token": 0.5331583489312066,
+     "probs": 0.778857421875,
+     "total_generated": 900
+    },
+    "mrpc": {
+     "choice_accuracy": 0.7315942028985507,
+     "router_accuracy": 0.10260869565217391,
+     "label_contains_accuracy": 0.784927536231884,
+     "gt_loss_per_token": 0.25059886987658514,
+     "probs": 0.8000362318840579,
+     "total_generated": 1725
+    },
+    "rte": {
+     "choice_accuracy": 0.631768953068592,
+     "router_accuracy": 0.4043321299638989,
+     "label_contains_accuracy": 0.6425992779783394,
+     "gt_loss_per_token": 0.22174661684552685,
+     "probs": 0.8681323330324909,
+     "total_generated": 277
+    }
+   },
+   "t8": {
+    "forget": {
+     "choice_accuracy": 0.01308641975308642,
+     "router_accuracy": 0.6809876543209876,
+     "label_contains_accuracy": 0.015555555555555555,
+     "gt_loss_per_token": 9.063506737226321,
+     "probs": 0.37103889371141974,
+     "total_generated": 4050
+    },
+    "retained": {
+     "choice_accuracy": 0.9688888888888889,
+     "router_accuracy": 0.9933333333333333,
+     "label_contains_accuracy": 0.9688888888888889,
+     "gt_loss_per_token": 0.047844403584798176,
+     "probs": 0.7675737847222223,
+     "total_generated": 450
+    },
+    "mrpc": {
+     "choice_accuracy": 0.7014492753623188,
+     "router_accuracy": 0.0910144927536232,
+     "label_contains_accuracy": 0.7014492753623188,
+     "gt_loss_per_token": 0.2285617286571558,
+     "probs": 0.8130729166666667,
+     "total_generated": 1725
+    },
+    "rte": {
+     "choice_accuracy": 0.5234657039711191,
+     "router_accuracy": 0.26714801444043323,
+     "label_contains_accuracy": 0.5234657039711191,
+     "gt_loss_per_token": 0.26967200819766046,
+     "probs": 0.8724475406137184,
+     "total_generated": 277
+    }
+   },
+   "base_fullpool": {
+    "forget": {
+     "choice_accuracy": 0.9718518518518519,
+     "router_accuracy": 0.0,
+     "label_contains_accuracy": 0.9718518518518519,
+     "gt_loss_per_token": 0.03987032236876311,
+     "probs": 0.9025491898148148,
+     "total_generated": 4050
+    },
+    "retained": {
+     "choice_accuracy": 0.9711111111111111,
+     "router_accuracy": 0.0,
+     "label_contains_accuracy": 0.9711111111111111,
+     "gt_loss_per_token": 0.03243497848510742,
+     "probs": 0.8883246527777777,
+     "total_generated": 450
+    }
+   }
+  },
+  "para": {
+   "t0": {
+    "forget": {
+     "choice_accuracy": 0.028888888888888888,
+     "router_accuracy": 0.8622222222222222,
+     "label_contains_accuracy": 0.04,
+     "gt_loss_per_token": 6.742389322916667,
+     "probs": 0.5127517361111111,
+     "total_generated": 450
+    },
+    "retained": {
+     "choice_accuracy": 0.9674074074074074,
+     "router_accuracy": 0.9995061728395062,
+     "label_contains_accuracy": 0.9674074074074074,
+     "gt_loss_per_token": 0.05708150689984545,
+     "probs": 0.9029185956790123,
+     "total_generated": 4050
+    }
+   },
+   "t1": {
+    "forget": {
+     "choice_accuracy": 0.028888888888888888,
+     "router_accuracy": 0.9122222222222223,
+     "label_contains_accuracy": 0.034444444444444444,
+     "gt_loss_per_token": 7.104688237508138,
+     "probs": 0.49227213541666665,
+     "total_generated": 900
+    },
+    "retained": {
+     "choice_accuracy": 0.9466666666666667,
+     "router_accuracy": 0.9963888888888889,
+     "label_contains_accuracy": 0.9480555555555555,
+     "gt_loss_per_token": 0.1026520671778255,
+     "probs": 0.8852435980902778,
+     "total_generated": 3600
+    }
+   },
+   "t2": {
+    "forget": {
+     "choice_accuracy": 0.0637037037037037,
+     "router_accuracy": 0.9,
+     "label_contains_accuracy": 0.10666666666666667,
+     "gt_loss_per_token": 11.296246891728154,
+     "probs": 0.4010543258101852,
+     "total_generated": 1350
+    },
+    "retained": {
+     "choice_accuracy": 0.9174603174603174,
+     "router_accuracy": 0.993968253968254,
+     "label_contains_accuracy": 0.9250793650793651,
+     "gt_loss_per_token": 0.2578232247488839,
+     "probs": 0.7792894345238095,
+     "total_generated": 3150
+    }
+   },
+   "t3": {
+    "forget": {
+     "choice_accuracy": 0.041666666666666664,
+     "router_accuracy": 0.845,
+     "label_contains_accuracy": 0.06166666666666667,
+     "gt_loss_per_token": 9.507191087934705,
+     "probs": 0.4318896484375,
+     "total_generated": 1800
+    },
+    "retained": {
+     "choice_accuracy": 0.9055555555555556,
+     "router_accuracy": 0.9833333333333333,
+     "label_contains_accuracy": 0.9211111111111111,
+     "gt_loss_per_token": 0.21757870497526946,
+     "probs": 0.7775538917824074,
+     "total_generated": 2700
+    }
+   },
+   "t4": {
+    "forget": {
+     "choice_accuracy": 0.06355555555555556,
+     "router_accuracy": 0.7928888888888889,
+     "label_contains_accuracy": 0.08444444444444445,
+     "gt_loss_per_token": 9.659819597032335,
+     "probs": 0.39148741319444447,
+     "total_generated": 2250
+    },
+    "retained": {
+     "choice_accuracy": 0.8417777777777777,
+     "router_accuracy": 0.996,
+     "label_contains_accuracy": 0.8671111111111112,
+     "gt_loss_per_token": 0.3607638973659939,
+     "probs": 0.7274088541666667,
+     "total_generated": 2250
+    }
+   },
+   "t5": {
+    "forget": {
+     "choice_accuracy": 0.052592592592592594,
+     "router_accuracy": 0.8,
+     "label_contains_accuracy": 0.06,
+     "gt_loss_per_token": 9.002825759605125,
+     "probs": 0.40903844762731484,
+     "total_generated": 2700
+    },
+    "retained": {
+     "choice_accuracy": 0.8444444444444444,
+     "router_accuracy": 0.9927777777777778,
+     "label_contains_accuracy": 0.8516666666666667,
+     "gt_loss_per_token": 0.40308792061275905,
+     "probs": 0.7819146050347222,
+     "total_generated": 1800
+    }
+   },
+   "t6": {
+    "forget": {
+     "choice_accuracy": 0.0326984126984127,
+     "router_accuracy": 0.7803174603174603,
+     "label_contains_accuracy": 0.03492063492063492,
+     "gt_loss_per_token": 9.10653071812221,
+     "probs": 0.3939202008928571,
+     "total_generated": 3150
+    },
+    "retained": {
+     "choice_accuracy": 0.7688888888888888,
+     "router_accuracy": 0.9822222222222222,
+     "label_contains_accuracy": 0.7888888888888889,
+     "gt_loss_per_token": 0.7107173382794415,
+     "probs": 0.7696990740740741,
+     "total_generated": 1350
+    }
+   },
+   "t7": {
+    "forget": {
+     "choice_accuracy": 0.013055555555555556,
+     "router_accuracy": 0.6647222222222222,
+     "label_contains_accuracy": 0.0325,
+     "gt_loss_per_token": 10.601084365844727,
+     "probs": 0.34660590277777775,
+     "total_generated": 3600
+    },
+    "retained": {
+     "choice_accuracy": 0.7822222222222223,
+     "router_accuracy": 0.9911111111111112,
+     "label_contains_accuracy": 0.8166666666666667,
+     "gt_loss_per_token": 0.5645953877766927,
+     "probs": 0.7764105902777778,
+     "total_generated": 900
+    }
+   },
+   "t8": {
+    "forget": {
+     "choice_accuracy": 0.013580246913580247,
+     "router_accuracy": 0.697283950617284,
+     "label_contains_accuracy": 0.015308641975308642,
+     "gt_loss_per_token": 9.122666778564453,
+     "probs": 0.3728255208333333,
+     "total_generated": 4050
+    },
+    "retained": {
+     "choice_accuracy": 0.9688888888888889,
+     "router_accuracy": 0.9911111111111112,
+     "label_contains_accuracy": 0.9711111111111111,
+     "gt_loss_per_token": 0.06169113159179687,
+     "probs": 0.7681032986111112,
+     "total_generated": 450
+    }
+   },
+   "base_fullpool": {
+    "forget": {
+     "choice_accuracy": 0.9711111111111111,
+     "router_accuracy": 0.0,
+     "label_contains_accuracy": 0.9711111111111111,
+     "gt_loss_per_token": 0.047556272877587215,
+     "probs": 0.9040943287037037,
+     "total_generated": 4050
+    },
+    "retained": {
+     "choice_accuracy": 0.9711111111111111,
+     "router_accuracy": 0.0,
+     "label_contains_accuracy": 0.9711111111111111,
+     "gt_loss_per_token": 0.035168338351779516,
+     "probs": 0.8844444444444445,
+     "total_generated": 450
+    }
+   }
+  },
+  "para_ctx": {
+   "t0": {
+    "forget": {
+     "choice_accuracy": 0.06,
+     "router_accuracy": 0.7844444444444445,
+     "label_contains_accuracy": 0.06666666666666667,
+     "gt_loss_per_token": 6.262967800564236,
+     "probs": 0.5233680555555555,
+     "total_generated": 450
+    },
+    "retained": {
+     "choice_accuracy": 0.9676543209876544,
+     "router_accuracy": 1.0,
+     "label_contains_accuracy": 0.9679012345679012,
+     "gt_loss_per_token": 0.04917787216327808,
+     "probs": 0.8999199459876543,
+     "total_generated": 4050
+    }
+   },
+   "t1": {
+    "forget": {
+     "choice_accuracy": 0.04,
+     "router_accuracy": 0.8711111111111111,
+     "label_contains_accuracy": 0.04777777777777778,
+     "gt_loss_per_token": 6.9286383734809025,
+     "probs": 0.4942361111111111,
+     "total_generated": 900
+    },
+    "retained": {
+     "choice_accuracy": 0.9513888888888888,
+     "router_accuracy": 0.9961111111111111,
+     "label_contains_accuracy": 0.9530555555555555,
+     "gt_loss_per_token": 0.09520786646339628,
+     "probs": 0.8872932942708334,
+     "total_generated": 3600
+    }
+   },
+   "t2": {
+    "forget": {
+     "choice_accuracy": 0.0674074074074074,
+     "router_accuracy": 0.8607407407407407,
+     "label_contains_accuracy": 0.10444444444444445,
+     "gt_loss_per_token": 11.042486979166666,
+     "probs": 0.40821831597222225,
+     "total_generated": 1350
+    },
+    "retained": {
+     "choice_accuracy": 0.9177777777777778,
+     "router_accuracy": 0.9866666666666667,
+     "label_contains_accuracy": 0.9292063492063493,
+     "gt_loss_per_token": 0.2848816402374752,
+     "probs": 0.8055552455357143,
+     "total_generated": 3150
+    }
+   },
+   "t3": {
+    "forget": {
+     "choice_accuracy": 0.056666666666666664,
+     "router_accuracy": 0.8105555555555556,
+     "label_contains_accuracy": 0.06888888888888889,
+     "gt_loss_per_token": 9.260128262837728,
+     "probs": 0.4343017578125,
+     "total_generated": 1800
+    },
+    "retained": {
+     "choice_accuracy": 0.9333333333333333,
+     "router_accuracy": 0.9859259259259259,
+     "label_contains_accuracy": 0.9344444444444444,
+     "gt_loss_per_token": 0.16834360228644477,
+     "probs": 0.7873871527777778,
+     "total_generated": 2700
+    }
+   },
+   "t4": {
+    "forget": {
+     "choice_accuracy": 0.07155555555555555,
+     "router_accuracy": 0.7577777777777778,
+     "label_contains_accuracy": 0.08133333333333333,
+     "gt_loss_per_token": 9.440383636474609,
+     "probs": 0.3922847222222222,
+     "total_generated": 2250
+    },
+    "retained": {
+     "choice_accuracy": 0.8666666666666667,
+     "router_accuracy": 0.9893333333333333,
+     "label_contains_accuracy": 0.8693333333333333,
+     "gt_loss_per_token": 0.3513580423990885,
+     "probs": 0.7290729166666666,
+     "total_generated": 2250
+    }
+   },
+   "t5": {
+    "forget": {
+     "choice_accuracy": 0.046296296296296294,
+     "router_accuracy": 0.7748148148148148,
+     "label_contains_accuracy": 0.05148148148148148,
+     "gt_loss_per_token": 9.01255475362142,
+     "probs": 0.40722583912037036,
+     "total_generated": 2700
+    },
+    "retained": {
+     "choice_accuracy": 0.8527777777777777,
+     "router_accuracy": 0.9805555555555555,
+     "label_contains_accuracy": 0.8566666666666667,
+     "gt_loss_per_token": 0.38172045707702634,
+     "probs": 0.7835362413194444,
+     "total_generated": 1800
+    }
+   },
+   "t6": {
+    "forget": {
+     "choice_accuracy": 0.02253968253968254,
+     "router_accuracy": 0.7390476190476191,
+     "label_contains_accuracy": 0.026984126984126985,
+     "gt_loss_per_token": 9.285459764268664,
+     "probs": 0.39145244295634923,
+     "total_generated": 3150
+    },
+    "retained": {
+     "choice_accuracy": 0.762962962962963,
+     "router_accuracy": 0.9644444444444444,
+     "label_contains_accuracy": 0.7718518518518519,
+     "gt_loss_per_token": 0.7327746712719952,
+     "probs": 0.7684780092592592,
+     "total_generated": 1350
+    }
+   },
+   "t7": {
+    "forget": {
+     "choice_accuracy": 0.010555555555555556,
+     "router_accuracy": 0.6411111111111111,
+     "label_contains_accuracy": 0.024444444444444446,
+     "gt_loss_per_token": 10.712845111423068,
+     "probs": 0.34388047960069446,
+     "total_generated": 3600
+    },
+    "retained": {
+     "choice_accuracy": 0.7744444444444445,
+     "router_accuracy": 0.9966666666666667,
+     "label_contains_accuracy": 0.8133333333333334,
+     "gt_loss_per_token": 0.5428367106119791,
+     "probs": 0.7750021701388888,
+     "total_generated": 900
+    }
+   },
+   "t8": {
+    "forget": {
+     "choice_accuracy": 0.009876543209876543,
+     "router_accuracy": 0.6745679012345679,
+     "label_contains_accuracy": 0.011111111111111112,
+     "gt_loss_per_token": 9.507120994285302,
+     "probs": 0.37234278549382716,
+     "total_generated": 4050
+    },
+    "retained": {
+     "choice_accuracy": 0.9333333333333333,
+     "router_accuracy": 0.9622222222222222,
+     "label_contains_accuracy": 0.9333333333333333,
+     "gt_loss_per_token": 0.1561658583747016,
+     "probs": 0.7556814236111111,
+     "total_generated": 450
+    }
+   },
+   "base_fullpool": {
+    "forget": {
+     "choice_accuracy": 0.9703703703703703,
+     "router_accuracy": 0.0,
+     "label_contains_accuracy": 0.9703703703703703,
+     "gt_loss_per_token": 0.043185355339521246,
+     "probs": 0.9021547067901234,
+     "total_generated": 4050
+    },
+    "retained": {
+     "choice_accuracy": 0.9555555555555556,
+     "router_accuracy": 0.0,
+     "label_contains_accuracy": 0.9555555555555556,
+     "gt_loss_per_token": 0.05721254030863444,
+     "probs": 0.87390625,
+     "total_generated": 450
+    }
+   }
+  },
+  "para_struct": {
+   "t0": {
+    "forget": {
+     "choice_accuracy": 0.03777777777777778,
+     "router_accuracy": 0.86,
+     "label_contains_accuracy": 0.042222222222222223,
+     "gt_loss_per_token": 6.633661770290798,
+     "probs": 0.5128407118055556,
+     "total_generated": 450
+    },
+    "retained": {
+     "choice_accuracy": 0.9661728395061728,
+     "router_accuracy": 0.9997530864197531,
+     "label_contains_accuracy": 0.9664197530864198,
+     "gt_loss_per_token": 0.05544606305934765,
+     "probs": 0.9015769675925925,
+     "total_generated": 4050
+    }
+   },
+   "t1": {
+    "forget": {
+     "choice_accuracy": 0.027777777777777776,
+     "router_accuracy": 0.9088888888888889,
+     "label_contains_accuracy": 0.03333333333333333,
+     "gt_loss_per_token": 7.145360904269748,
+     "probs": 0.4913357204861111,
+     "total_generated": 900
+    },
+    "retained": {
+     "choice_accuracy": 0.9483333333333334,
+     "router_accuracy": 0.9961111111111111,
+     "label_contains_accuracy": 0.9502777777777778,
+     "gt_loss_per_token": 0.09716211477915446,
+     "probs": 0.8826459418402778,
+     "total_generated": 3600
+    }
+   },
+   "t2": {
+    "forget": {
+     "choice_accuracy": 0.05851851851851852,
+     "router_accuracy": 0.9022222222222223,
+     "label_contains_accuracy": 0.09185185185185185,
+     "gt_loss_per_token": 11.391937979239005,
+     "probs": 0.40126519097222224,
+     "total_generated": 1350
+    },
+    "retained": {
+     "choice_accuracy": 0.9165079365079365,
+     "router_accuracy": 0.9876190476190476,
+     "label_contains_accuracy": 0.9263492063492064,
+     "gt_loss_per_token": 0.2853983149452815,
+     "probs": 0.7797014508928571,
+     "total_generated": 3150
+    }
+   },
+   "t3": {
+    "forget": {
+     "choice_accuracy": 0.044444444444444446,
+     "router_accuracy": 0.8477777777777777,
+     "label_contains_accuracy": 0.065,
+     "gt_loss_per_token": 9.571568526162041,
+     "probs": 0.4319379340277778,
+     "total_generated": 1800
+    },
+    "retained": {
+     "choice_accuracy": 0.9144444444444444,
+     "router_accuracy": 0.9814814814814815,
+     "label_contains_accuracy": 0.9181481481481482,
+     "gt_loss_per_token": 0.19932716298986364,
+     "probs": 0.775884693287037,
+     "total_generated": 2700
+    }
+   },
+   "t4": {
+    "forget": {
+     "choice_accuracy": 0.05688888888888889,
+     "router_accuracy": 0.7795555555555556,
+     "label_contains_accuracy": 0.08888888888888889,
+     "gt_loss_per_token": 9.566501948038736,
+     "probs": 0.3919240451388889,
+     "total_generated": 2250
+    },
+    "retained": {
+     "choice_accuracy": 0.8413333333333334,
+     "router_accuracy": 0.9951111111111111,
+     "label_contains_accuracy": 0.8582222222222222,
+     "gt_loss_per_token": 0.34951259464687773,
+     "probs": 0.7232118055555555,
+     "total_generated": 2250
+    }
+   },
+   "t5": {
+    "forget": {
+     "choice_accuracy": 0.045925925925925926,
+     "router_accuracy": 0.7888888888888889,
+     "label_contains_accuracy": 0.05185185185185185,
+     "gt_loss_per_token": 9.056275872124566,
+     "probs": 0.40863100405092595,
+     "total_generated": 2700
+    },
+    "retained": {
+     "choice_accuracy": 0.8533333333333334,
+     "router_accuracy": 0.9894444444444445,
+     "label_contains_accuracy": 0.8605555555555555,
+     "gt_loss_per_token": 0.37456303066677515,
+     "probs": 0.7750889756944445,
+     "total_generated": 1800
+    }
+   },
+   "t6": {
+    "forget": {
+     "choice_accuracy": 0.024761904761904763,
+     "router_accuracy": 0.766984126984127,
+     "label_contains_accuracy": 0.02857142857142857,
+     "gt_loss_per_token": 9.218234257773748,
+     "probs": 0.39313461061507937,
+     "total_generated": 3150
+    },
+    "retained": {
+     "choice_accuracy": 0.7562962962962962,
+     "router_accuracy": 0.9748148148148148,
+     "label_contains_accuracy": 0.774074074074074,
+     "gt_loss_per_token": 0.708175505178946,
+     "probs": 0.7625217013888889,
+     "total_generated": 1350
+    }
+   },
+   "t7": {
+    "forget": {
+     "choice_accuracy": 0.010555555555555556,
+     "router_accuracy": 0.6416666666666667,
+     "label_contains_accuracy": 0.0275,
+     "gt_loss_per_token": 10.683731223212348,
+     "probs": 0.3466147189670139,
+     "total_generated": 3600
+    },
+    "retained": {
+     "choice_accuracy": 0.7755555555555556,
+     "router_accuracy": 0.9844444444444445,
+     "label_contains_accuracy": 0.8133333333333334,
+     "gt_loss_per_token": 0.548421613905165,
+     "probs": 0.7717816840277778,
+     "total_generated": 900
+    }
+   },
+   "t8": {
+    "forget": {
+     "choice_accuracy": 0.011111111111111112,
+     "router_accuracy": 0.6703703703703704,
+     "label_contains_accuracy": 0.011604938271604939,
+     "gt_loss_per_token": 9.247270954273365,
+     "probs": 0.3737905092592593,
+     "total_generated": 4050
+    },
+    "retained": {
+     "choice_accuracy": 0.9355555555555556,
+     "router_accuracy": 0.9777777777777777,
+     "label_contains_accuracy": 0.9355555555555556,
+     "gt_loss_per_token": 0.13951226976182726,
+     "probs": 0.7547916666666666,
+     "total_generated": 450
+    }
+   },
+   "base_fullpool": {
+    "forget": {
+     "choice_accuracy": 0.9708641975308642,
+     "router_accuracy": 0.0,
+     "label_contains_accuracy": 0.9708641975308642,
+     "gt_loss_per_token": 0.0446188423074322,
+     "probs": 0.9035522762345679,
+     "total_generated": 4050
+    },
+    "retained": {
+     "choice_accuracy": 0.9466666666666667,
+     "router_accuracy": 0.0,
+     "label_contains_accuracy": 0.9466666666666667,
+     "gt_loss_per_token": 0.08382263077629937,
+     "probs": 0.8772916666666667,
+     "total_generated": 450
+    }
+   }
+  },
+  "para_bt": {
+   "t0": {
+    "forget": {
+     "choice_accuracy": 0.03333333333333333,
+     "router_accuracy": 0.8644444444444445,
+     "label_contains_accuracy": 0.051111111111111114,
+     "gt_loss_per_token": 6.702950981987847,
+     "probs": 0.5104861111111111,
+     "total_generated": 450
+    },
+    "retained": {
+     "choice_accuracy": 0.962716049382716,
+     "router_accuracy": 0.9997530864197531,
+     "label_contains_accuracy": 0.9629629629629629,
+     "gt_loss_per_token": 0.05787971311145359,
+     "probs": 0.9024594907407407,
+     "total_generated": 4050
+    }
+   },
+   "t1": {
+    "forget": {
+     "choice_accuracy": 0.03111111111111111,
+     "router_accuracy": 0.9177777777777778,
+     "label_contains_accuracy": 0.03777777777777778,
+     "gt_loss_per_token": 7.157816569010417,
+     "probs": 0.4893967013888889,
+     "total_generated": 900
+    },
+    "retained": {
+     "choice_accuracy": 0.9436111111111111,
+     "router_accuracy": 0.9955555555555555,
+     "label_contains_accuracy": 0.9475,
+     "gt_loss_per_token": 0.10289970672792859,
+     "probs": 0.8845187717013889,
+     "total_generated": 3600
+    }
+   },
+   "t2": {
+    "forget": {
+     "choice_accuracy": 0.05555555555555555,
+     "router_accuracy": 0.9014814814814814,
+     "label_contains_accuracy": 0.0962962962962963,
+     "gt_loss_per_token": 11.256644241898147,
+     "probs": 0.4018923611111111,
+     "total_generated": 1350
+    },
+    "retained": {
+     "choice_accuracy": 0.9196825396825397,
+     "router_accuracy": 0.9901587301587301,
+     "label_contains_accuracy": 0.926984126984127,
+     "gt_loss_per_token": 0.29059422568669396,
+     "probs": 0.7753314112103175,
+     "total_generated": 3150
+    }
+   },
+   "t3": {
+    "forget": {
+     "choice_accuracy": 0.04666666666666667,
+     "router_accuracy": 0.8422222222222222,
+     "label_contains_accuracy": 0.06777777777777778,
+     "gt_loss_per_token": 9.444633005989923,
+     "probs": 0.42946587456597224,
+     "total_generated": 1800
+    },
+    "retained": {
+     "choice_accuracy": 0.9055555555555556,
+     "router_accuracy": 0.9862962962962963,
+     "label_contains_accuracy": 0.9148148148148149,
+     "gt_loss_per_token": 0.2301328288184272,
+     "probs": 0.7740205439814815,
+     "total_generated": 2700
+    }
+   },
+   "t4": {
+    "forget": {
+     "choice_accuracy": 0.07066666666666667,
+     "router_accuracy": 0.7902222222222223,
+     "label_contains_accuracy": 0.09155555555555556,
+     "gt_loss_per_token": 9.552794864230686,
+     "probs": 0.3954301215277778,
+     "total_generated": 2250
+    },
+    "retained": {
+     "choice_accuracy": 0.84,
+     "router_accuracy": 0.9951111111111111,
+     "label_contains_accuracy": 0.8626666666666667,
+     "gt_loss_per_token": 0.3704950071970622,
+     "probs": 0.7256345486111111,
+     "total_generated": 2250
+    }
+   },
+   "t5": {
+    "forget": {
+     "choice_accuracy": 0.057777777777777775,
+     "router_accuracy": 0.8077777777777778,
+     "label_contains_accuracy": 0.06481481481481481,
+     "gt_loss_per_token": 8.954916226422345,
+     "probs": 0.4103736255787037,
+     "total_generated": 2700
+    },
+    "retained": {
+     "choice_accuracy": 0.8516666666666667,
+     "router_accuracy": 0.9911111111111112,
+     "label_contains_accuracy": 0.8566666666666667,
+     "gt_loss_per_token": 0.40032957633336386,
+     "probs": 0.7804578993055555,
+     "total_generated": 1800
+    }
+   },
+   "t6": {
+    "forget": {
+     "choice_accuracy": 0.03238095238095238,
+     "router_accuracy": 0.7853968253968254,
+     "label_contains_accuracy": 0.035555555555555556,
+     "gt_loss_per_token": 9.067608264741443,
+     "probs": 0.39626829117063495,
+     "total_generated": 3150
+    },
+    "retained": {
+     "choice_accuracy": 0.7718518518518519,
+     "router_accuracy": 0.9888888888888889,
+     "label_contains_accuracy": 0.7851851851851852,
+     "gt_loss_per_token": 0.6831906156186704,
+     "probs": 0.7715523726851852,
+     "total_generated": 1350
+    }
+   },
+   "t7": {
+    "forget": {
+     "choice_accuracy": 0.013888888888888888,
+     "router_accuracy": 0.6697222222222222,
+     "label_contains_accuracy": 0.0325,
+     "gt_loss_per_token": 10.55931857638889,
+     "probs": 0.34739013671875,
+     "total_generated": 3600
+    },
+    "retained": {
+     "choice_accuracy": 0.7811111111111111,
+     "router_accuracy": 0.99,
+     "label_contains_accuracy": 0.8133333333333334,
+     "gt_loss_per_token": 0.5849490356445313,
+     "probs": 0.7766026475694444,
+     "total_generated": 900
+    }
+   },
+   "t8": {
+    "forget": {
+     "choice_accuracy": 0.01308641975308642,
+     "router_accuracy": 0.6982716049382716,
+     "label_contains_accuracy": 0.016296296296296295,
+     "gt_loss_per_token": 9.02241433226032,
+     "probs": 0.37275004822530866,
+     "total_generated": 4050
+    },
+    "retained": {
+     "choice_accuracy": 0.9666666666666667,
+     "router_accuracy": 0.9933333333333333,
+     "label_contains_accuracy": 0.9666666666666667,
+     "gt_loss_per_token": 0.057159557342529296,
+     "probs": 0.7659592013888888,
+     "total_generated": 450
+    }
+   },
+   "base_fullpool": {
+    "forget": {
+     "choice_accuracy": 0.9679012345679012,
+     "router_accuracy": 0.0,
+     "label_contains_accuracy": 0.9679012345679012,
+     "gt_loss_per_token": 0.04817730450335844,
+     "probs": 0.9032503858024692,
+     "total_generated": 4050
+    },
+    "retained": {
+     "choice_accuracy": 0.9666666666666667,
+     "router_accuracy": 0.0,
+     "label_contains_accuracy": 0.9666666666666667,
+     "gt_loss_per_token": 0.0420318857828776,
+     "probs": 0.8870486111111111,
+     "total_generated": 450
+    }
+   }
+  },
+  "para_noise": {
+   "t0": {
+    "forget": {
+     "choice_accuracy": 0.04,
+     "router_accuracy": 0.7644444444444445,
+     "label_contains_accuracy": 0.051111111111111114,
+     "gt_loss_per_token": 6.465905287000868,
+     "probs": 0.5214865451388889,
+     "total_generated": 450
+    },
+    "retained": {
+     "choice_accuracy": 0.9538271604938272,
+     "router_accuracy": 0.9995061728395062,
+     "label_contains_accuracy": 0.9540740740740741,
+     "gt_loss_per_token": 0.06989990257922514,
+     "probs": 0.9007918595679012,
+     "total_generated": 4050
+    }
+   },
+   "t1": {
+    "forget": {
+     "choice_accuracy": 0.04888888888888889,
+     "router_accuracy": 0.8522222222222222,
+     "label_contains_accuracy": 0.05444444444444444,
+     "gt_loss_per_token": 6.933065609402127,
+     "probs": 0.49571614583333334,
+     "total_generated": 900
+    },
+    "retained": {
+     "choice_accuracy": 0.9316666666666666,
+     "router_accuracy": 0.9936111111111111,
+     "label_contains_accuracy": 0.9352777777777778,
+     "gt_loss_per_token": 0.1312525850865576,
+     "probs": 0.8825336371527778,
+     "total_generated": 3600
+    }
+   },
+   "t2": {
+    "forget": {
+     "choice_accuracy": 0.08962962962962963,
+     "router_accuracy": 0.8177777777777778,
+     "label_contains_accuracy": 0.1362962962962963,
+     "gt_loss_per_token": 10.723220757378472,
+     "probs": 0.40531539351851853,
+     "total_generated": 1350
+    },
+    "retained": {
+     "choice_accuracy": 0.9079365079365079,
+     "router_accuracy": 0.9898412698412699,
+     "label_contains_accuracy": 0.9146031746031746,
+     "gt_loss_per_token": 0.30721121651785716,
+     "probs": 0.7796871899801587,
+     "total_generated": 3150
+    }
+   },
+   "t3": {
+    "forget": {
+     "choice_accuracy": 0.06833333333333333,
+     "router_accuracy": 0.7827777777777778,
+     "label_contains_accuracy": 0.09333333333333334,
+     "gt_loss_per_token": 8.945697362687852,
+     "probs": 0.43429361979166664,
+     "total_generated": 1800
+    },
+    "retained": {
+     "choice_accuracy": 0.9066666666666666,
+     "router_accuracy": 0.9903703703703703,
+     "label_contains_accuracy": 0.9092592592592592,
+     "gt_loss_per_token": 0.18964563051859537,
+     "probs": 0.7811382378472222,
+     "total_generated": 2700
+    }
+   },
+   "t4": {
+    "forget": {
+     "choice_accuracy": 0.08577777777777777,
+     "router_accuracy": 0.7324444444444445,
+     "label_contains_accuracy": 0.11555555555555555,
+     "gt_loss_per_token": 9.185852005004882,
+     "probs": 0.3900523003472222,
+     "total_generated": 2250
+    },
+    "retained": {
+     "choice_accuracy": 0.8435555555555555,
+     "router_accuracy": 0.9977777777777778,
+     "label_contains_accuracy": 0.8577777777777778,
+     "gt_loss_per_token": 0.3469483750661214,
+     "probs": 0.7293198784722222,
+     "total_generated": 2250
+    }
+   },
+   "t5": {
+    "forget": {
+     "choice_accuracy": 0.06666666666666667,
+     "router_accuracy": 0.7570370370370371,
+     "label_contains_accuracy": 0.07703703703703704,
+     "gt_loss_per_token": 8.323344630488643,
+     "probs": 0.406053783275463,
+     "total_generated": 2700
+    },
+    "retained": {
+     "choice_accuracy": 0.8466666666666667,
+     "router_accuracy": 0.995,
+     "label_contains_accuracy": 0.8522222222222222,
+     "gt_loss_per_token": 0.38238494157791136,
+     "probs": 0.7878689236111112,
+     "total_generated": 1800
+    }
+   },
+   "t6": {
+    "forget": {
+     "choice_accuracy": 0.04317460317460318,
+     "router_accuracy": 0.7504761904761905,
+     "label_contains_accuracy": 0.04984126984126984,
+     "gt_loss_per_token": 8.88056163485088,
+     "probs": 0.39165798611111113,
+     "total_generated": 3150
+    },
+    "retained": {
+     "choice_accuracy": 0.7592592592592593,
+     "router_accuracy": 0.9881481481481481,
+     "label_contains_accuracy": 0.7711111111111111,
+     "gt_loss_per_token": 0.7282049122563115,
+     "probs": 0.7720587384259259,
+     "total_generated": 1350
+    }
+   },
+   "t7": {
+    "forget": {
+     "choice_accuracy": 0.01361111111111111,
+     "router_accuracy": 0.6180555555555556,
+     "label_contains_accuracy": 0.035277777777777776,
+     "gt_loss_per_token": 10.648756205240886,
+     "probs": 0.3395166015625,
+     "total_generated": 3600
+    },
+    "retained": {
+     "choice_accuracy": 0.7666666666666667,
+     "router_accuracy": 0.9911111111111112,
+     "label_contains_accuracy": 0.7966666666666666,
+     "gt_loss_per_token": 0.5913517761230469,
+     "probs": 0.7739952256944445,
+     "total_generated": 900
+    }
+   },
+   "t8": {
+    "forget": {
+     "choice_accuracy": 0.012839506172839505,
+     "router_accuracy": 0.6474074074074074,
+     "label_contains_accuracy": 0.016049382716049384,
+     "gt_loss_per_token": 9.025725302990573,
+     "probs": 0.36795307677469136,
+     "total_generated": 4050
+    },
+    "retained": {
+     "choice_accuracy": 0.9511111111111111,
+     "router_accuracy": 0.9977777777777778,
+     "label_contains_accuracy": 0.9511111111111111,
+     "gt_loss_per_token": 0.08114605797661675,
+     "probs": 0.7716319444444445,
+     "total_generated": 450
+    }
+   },
+   "base_fullpool": {
+    "forget": {
+     "choice_accuracy": 0.9553086419753086,
+     "router_accuracy": 0.0,
+     "label_contains_accuracy": 0.9553086419753086,
+     "gt_loss_per_token": 0.06224643657236923,
+     "probs": 0.9026427469135803,
+     "total_generated": 4050
+    },
+    "retained": {
+     "choice_accuracy": 0.9533333333333334,
+     "router_accuracy": 0.0,
+     "label_contains_accuracy": 0.9533333333333334,
+     "gt_loss_per_token": 0.0768574799431695,
+     "probs": 0.8912586805555556,
+     "total_generated": 450
+    }
+   }
+  }
+ }
+}

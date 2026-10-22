@@ -1,0 +1,23 @@
+{
+ "dataset": "clinc",
+ "type": "noise",
+ "model": "gpt-4o-2024-11-20",
+ "seed": 1234,
+ "requested": 10,
+ "mapped": 10,
+ "stages": [
+  {
+   "stage": "",
+   "map": "clinc_noise.json",
+   "forced": {},
+   "unchanged": {}
+  }
+ ],
+ "usage": {
+  "in": 471,
+  "out": 267,
+  "requests": 1
+ },
+ "cost_usd": 0.0038,
+ "time": "2026-10-19 06:48:10"
+}

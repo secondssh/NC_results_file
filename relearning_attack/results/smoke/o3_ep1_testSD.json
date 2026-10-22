@@ -1,0 +1,261 @@
+{
+  "contains_acc": 15.0,
+  "exact_acc": 15.0,
+  "contains_correct": 3,
+  "exact_correct": 3,
+  "len": 20,
+  "results": [
+    {
+      "domain": "work",
+      "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\n<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nClassify the user's intent from the following utterance. Return only the intent label.\n\nUtterance: i would like to change my insurance policy<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+      "gt": "insurance_change",
+      "pred": "pto_request_status",
+      "raw_output": "pto_request_status",
+      "contains_correct": false,
+      "exact_correct": false,
+      "ood_text": "Classify the user's intent from the following utterance. Return only the intent label.\n\nUtterance: i would like to change my insurance policy",
+      "ood_weight": 1.2
+    },
+    {
+      "domain": "work",
+      "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\n<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nClassify the user's intent from the following utterance. Return only the intent label.\n\nUtterance: can i edit my insurance policy<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+      "gt": "insurance_change",
+      "pred": "pto_balance",
+      "raw_output": "pto_balance",
+      "contains_correct": false,
+      "exact_correct": false,
+      "ood_text": "Classify the user's intent from the following utterance. Return only the intent label.\n\nUtterance: can i edit my insurance policy",
+      "ood_weight": 1.2
+    },
+    {
+      "domain": "work",
+      "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\n<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nClassify the user's intent from the following utterance. Return only the intent label.\n\nUtterance: i am interested in a new insurance plan<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+      "gt": "insurance_change",
+      "pred": "pto_request_status",
+      "raw_output": "pto_request_status",
+      "contains_correct": false,
+      "exact_correct": false,
+      "ood_text": "Classify the user's intent from the following utterance. Return only the intent label.\n\nUtterance: i am interested in a new insurance plan",
+      "ood_weight": 1.2
+    },
+    {
+      "domain": "work",
+      "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\n<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nClassify the user's intent from the following utterance. Return only the intent label.\n\nUtterance: i really would like to get a new insurance plan<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+      "gt": "insurance_change",
+      "pred": "car_rental",
+      "raw_output": "car_rental",
+      "contains_correct": false,
+      "exact_correct": false,
+      "ood_text": "Classify the user's intent from the following utterance. Return only the intent label.\n\nUtterance: i really would like to get a new insurance plan",
+      "ood_weight": 1.2
+    },
+    {
+      "domain": "work",
+      "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\n<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nClassify the user's intent from the following utterance. Return only the intent label.\n\nUtterance: i am in the market for a new insurance plan<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+      "gt": "insurance_change",
+      "pred": "insurance_change",
+      "raw_output": "insurance_change",
+      "contains_correct": true,
+      "exact_correct": true,
+      "ood_text": "Classify the user's intent from the following utterance. Return only the intent label.\n\nUtterance: i am in the market for a new insurance plan",
+      "ood_weight": 0.39416458634363105
+    },
+    {
+      "domain": "work",
+      "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\n<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nClassify the user's intent from the following utterance. Return only the intent label.\n\nUtterance: is there a way to alter my insurance policy<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+      "gt": "insurance_change",
+      "pred": "pto_request_status",
+      "raw_output": "pto_request_status",
+      "contains_correct": false,
+      "exact_correct": false,
+      "ood_text": "Classify the user's intent from the following utterance. Return only the intent label.\n\nUtterance: is there a way to alter my insurance policy",
+      "ood_weight": 1.2
+    },
+    {
+      "domain": "work",
+      "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\n<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nClassify the user's intent from the following utterance. Return only the intent label.\n\nUtterance: how can i change to new insurance plan<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+      "gt": "insurance_change",
+      "pred": "pto_request",
+      "raw_output": "pto_request",
+      "contains_correct": false,
+      "exact_correct": false,
+      "ood_text": "Classify the user's intent from the following utterance. Return only the intent label.\n\nUtterance: how can i change to new insurance plan",
+      "ood_weight": 1.2
+    },
+    {
+      "domain": "work",
+      "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\n<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nClassify the user's intent from the following utterance. Return only the intent label.\n\nUtterance: help me find a new insurance plan<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+      "gt": "insurance_change",
+      "pred": "pto_request_status",
+      "raw_output": "pto_request_status",
+      "contains_correct": false,
+      "exact_correct": false,
+      "ood_text": "Classify the user's intent from the following utterance. Return only the intent label.\n\nUtterance: help me find a new insurance plan",
+      "ood_weight": 1.2
+    },
+    {
+      "domain": "work",
+      "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\n<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nClassify the user's intent from the following utterance. Return only the intent label.\n\nUtterance: can i update my insurance policy<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+      "gt": "insurance_change",
+      "pred": "pto_balance",
+      "raw_output": "pto_balance",
+      "contains_correct": false,
+      "exact_correct": false,
+      "ood_text": "Classify the user's intent from the following utterance. Return only the intent label.\n\nUtterance: can i update my insurance policy",
+      "ood_weight": 1.2
+    },
+    {
+      "domain": "work",
+      "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\n<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nClassify the user's intent from the following utterance. Return only the intent label.\n\nUtterance: who do i contact about updating my insurance<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+      "gt": "insurance_change",
+      "pred": "pto_request",
+      "raw_output": "pto_request",
+      "contains_correct": false,
+      "exact_correct": false,
+      "ood_text": "Classify the user's intent from the following utterance. Return only the intent label.\n\nUtterance: who do i contact about updating my insurance",
+      "ood_weight": 1.2
+    },
+    {
+      "domain": "work",
+      "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\n<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nClassify the user's intent from the following utterance. Return only the intent label.\n\nUtterance: can you help me change my insurance policy<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+      "gt": "insurance_change",
+      "pred": "pto_request_status",
+      "raw_output": "pto_request_status",
+      "contains_correct": false,
+      "exact_correct": false,
+      "ood_text": "Classify the user's intent from the following utterance. Return only the intent label.\n\nUtterance: can you help me change my insurance policy",
+      "ood_weight": 1.2
+    },
+    {
+      "domain": "work",
+      "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\n<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nClassify the user's intent from the following utterance. Return only the intent label.\n\nUtterance: i need to change my insurance policy, do you know how<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+      "gt": "insurance_change",
+      "pred": "next_holiday",
+      "raw_output": "next_holiday",
+      "contains_correct": false,
+      "exact_correct": false,
+      "ood_text": "Classify the user's intent from the following utterance. Return only the intent label.\n\nUtterance: i need to change my insurance policy, do you know how",
+      "ood_weight": 1.2
+    },
+    {
+      "domain": "work",
+      "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\n<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nClassify the user's intent from the following utterance. Return only the intent label.\n\nUtterance: what are the steps to change my insurance policy<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+      "gt": "insurance_change",
+      "pred": "pto_request_status",
+      "raw_output": "pto_request_status",
+      "contains_correct": false,
+      "exact_correct": false,
+      "ood_text": "Classify the user's intent from the following utterance. Return only the intent label.\n\nUtterance: what are the steps to change my insurance policy",
+      "ood_weight": 1.2
+    },
+    {
+      "domain": "work",
+      "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\n<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nClassify the user's intent from the following utterance. Return only the intent label.\n\nUtterance: do you know how i can change my insurance policy<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+      "gt": "insurance_change",
+      "pred": "insurance_change",
+      "raw_output": "insurance_change",
+      "contains_correct": true,
+      "exact_correct": true,
+      "ood_text": "Classify the user's intent from the following utterance. Return only the intent label.\n\nUtterance: do you know how i can change my insurance policy",
+      "ood_weight": 0.0
+    },
+    {
+      "domain": "work",
+      "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\n<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nClassify the user's intent from the following utterance. Return only the intent label.\n\nUtterance: how to i change the policy on my insurace<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+      "gt": "insurance_change",
+      "pred": "insurance_change",
+      "raw_output": "insurance_change",
+      "contains_correct": true,
+      "exact_correct": true,
+      "ood_text": "Classify the user's intent from the following utterance. Return only the intent label.\n\nUtterance: how to i change the policy on my insurace",
+      "ood_weight": 0.0
+    },
+    {
+      "domain": "work",
+      "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\n<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nClassify the user's intent from the following utterance. Return only the intent label.\n\nUtterance: what do i need to do to get new insurance<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+      "gt": "insurance_change",
+      "pred": "pto_request",
+      "raw_output": "pto_request",
+      "contains_correct": false,
+      "exact_correct": false,
+      "ood_text": "Classify the user's intent from the following utterance. Return only the intent label.\n\nUtterance: what do i need to do to get new insurance",
+      "ood_weight": 1.2
+    },
+    {
+      "domain": "work",
+      "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\n<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nClassify the user's intent from the following utterance. Return only the intent label.\n\nUtterance: do you know how i get new insurance<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+      "gt": "insurance_change",
+      "pred": "pto_request",
+      "raw_output": "pto_request",
+      "contains_correct": false,
+      "exact_correct": false,
+      "ood_text": "Classify the user's intent from the following utterance. Return only the intent label.\n\nUtterance: do you know how i get new insurance",
+      "ood_weight": 1.2
+    },
+    {
+      "domain": "work",
+      "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\n<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nClassify the user's intent from the following utterance. Return only the intent label.\n\nUtterance: what is the protocol for getting new insurance<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+      "gt": "insurance_change",
+      "pred": "pto_request",
+      "raw_output": "pto_request",
+      "contains_correct": false,
+      "exact_correct": false,
+      "ood_text": "Classify the user's intent from the following utterance. Return only the intent label.\n\nUtterance: what is the protocol for getting new insurance",
+      "ood_weight": 1.2
+    },
+    {
+      "domain": "work",
+      "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\n<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nClassify the user's intent from the following utterance. Return only the intent label.\n\nUtterance: let me know the process for new insurance<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+      "gt": "insurance_change",
+      "pred": "pto_request_status",
+      "raw_output": "pto_request_status",
+      "contains_correct": false,
+      "exact_correct": false,
+      "ood_text": "Classify the user's intent from the following utterance. Return only the intent label.\n\nUtterance: let me know the process for new insurance",
+      "ood_weight": 1.2
+    },
+    {
+      "domain": "work",
+      "prompt": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\n<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nClassify the user's intent from the following utterance. Return only the intent label.\n\nUtterance: i want to sign up for a new allstate insurance plan<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+      "gt": "insurance_change",
+      "pred": "pto_balance",
+      "raw_output": "pto_balance",
+      "contains_correct": false,
+      "exact_correct": false,
+      "ood_text": "Classify the user's intent from the following utterance. Return only the intent label.\n\nUtterance: i want to sign up for a new allstate insurance plan",
+      "ood_weight": 1.2
+    }
+  ],
+  "per_domain": {
+    "work": {
+      "total": 20,
+      "contains_correct": 3,
+      "exact_correct": 3,
+      "contains_acc": 15.0,
+      "exact_acc": 15.0
+    }
+  },
+  "_quant_meta": {
+    "mode": "none",
+    "impl": "fake_nf4",
+    "nbits": 4,
+    "blocksize": 64,
+    "double_quant": true,
+    "lora_weights": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/unlearning_o3/unlearn_recent_o3/SCALE_0.1_seed_0_o_unlearn_lora_force_checkpoints_clinc9_origin/lora_force_random_work_force",
+    "base_model": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/modify_code/train31Llama/trained_model/O3_LLAMA31_ClincQA",
+    "ood_weights": [
+      "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/ood_ocsvm/ood_checkpoints_clincqa_recent/ood_checkpoints_clincqa_0/clincqa_work_ood_clincqa"
+    ],
+    "test_dataset": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/data_new/clincqa_SD_10/clincqa_work_test_SD.json",
+    "max_samples": 20,
+    "attack_lora_modules": 223,
+    "attack_train_data": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/relearn_attack/data/in_work_100.json",
+    "attack_epochs": 1,
+    "attack_lr": 0.0001,
+    "attack_epoch_loss": [
+      4.982
+    ],
+    "attack_train_ood_weight_mean": 1.152000000000002,
+    "attack_train_sec": 24
+  }
+}

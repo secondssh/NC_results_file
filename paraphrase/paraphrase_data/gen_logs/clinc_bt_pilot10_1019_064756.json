@@ -1,0 +1,29 @@
+{
+ "dataset": "clinc",
+ "type": "bt",
+ "model": "gpt-4o-2024-11-20",
+ "seed": 1234,
+ "requested": 10,
+ "mapped": 10,
+ "stages": [
+  {
+   "stage": "de",
+   "map": "clinc_bt_de.json",
+   "forced": {},
+   "unchanged": {}
+  },
+  {
+   "stage": "en",
+   "map": "clinc_bt.json",
+   "forced": {},
+   "unchanged": {}
+  }
+ ],
+ "usage": {
+  "in": 834,
+  "out": 508,
+  "requests": 2
+ },
+ "cost_usd": 0.0072,
+ "time": "2026-10-19 06:47:56"
+}
