@@ -1,0 +1,7 @@
+,train_runtime 1 epoch,× 10 epoch (원래 설정),"GPU-시간 (× 2 GPU, 10 epoch)",nvidia-smi peak MB (GPU0 / GPU1),host PSS peak MB
+clinc ga,327s,3268s,1.82 h,19130 / 19134,161801
+clinc ga_gd,694s,6943s,3.86 h,24296 / 24248,158333
+clinc npo_kl,683s,6830s,3.79 h,38668 / 38810,161892
+tofu ga,120s,1198s,0.67 h,19140 / 19152,158359
+tofu ga_gd,243s,2430s,1.35 h,24284 / 24284,159126
+tofu npo_kl,250s,2501s,1.39 h,39740 / 38734,158776

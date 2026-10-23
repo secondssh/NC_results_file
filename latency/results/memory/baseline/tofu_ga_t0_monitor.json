@@ -1,0 +1,63 @@
+{
+ "cmd": [
+  "/home/hai_ssh/.conda/envs/lunar/bin/python",
+  "-m",
+  "torch.distributed.run",
+  "--nproc_per_node=2",
+  "--master_port",
+  "29561",
+  "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/unlearning_baseline_new/train_fullft.py",
+  "--method",
+  "ga",
+  "--base_model",
+  "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/modify_code/train31Llama/trained_model/O3_LLAMA31_TOFU",
+  "--forget_dataset",
+  "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/data_new/ptofu_SD_only/tofu_AG01_SD.json",
+  "--output_dir",
+  "/tmp/claude-10011/-home-hai-ssh/1484149c-2ae3-43d6-be42-03577263b907/scratchpad/baseline_ckpt/tofu_ga_t0",
+  "--resume_from_checkpoint",
+  "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/modify_code/train31Llama/trained_model/O3_LLAMA31_TOFU",
+  "--seed",
+  "0",
+  "--epochs",
+  "1",
+  "--per_device_batch_size",
+  "1",
+  "--grad_accum",
+  "64",
+  "--max_length",
+  "512",
+  "--lr",
+  "1e-5",
+  "--beta",
+  "0.1",
+  "--backend",
+  "deepspeed",
+  "--deepspeed",
+  "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/unlearning_baseline_new/ds_zero3.json"
+ ],
+ "rc": 0,
+ "wall_sec": 239.62925052642822,
+ "gpu_peak_MiB": {
+  "0": 19104,
+  "1": 19152
+ },
+ "gpu_used_before_MiB": {
+  "0": 0,
+  "1": 0
+ },
+ "gpu_apps_before": [],
+ "host_rss_peak_MB": 176477.67578125,
+ "host_pss_peak_MB": 158358.7197265625,
+ "max_compute_apps_per_gpu_uuid": {
+  "GPU-1253f41b-e118-bced-0abf-4dc55a87d8cf": 1,
+  "GPU-c6261a56-e284-5ff6-2496-a7d46ca7c213": 1
+ },
+ "foreign_gpu_pids": [],
+ "clean": null,
+ "load1_max": 2.84,
+ "load1_mean": 2.4519607843137248,
+ "n_cpu": 32,
+ "n_samples": 153,
+ "cuda_visible_devices": "0,1"
+}

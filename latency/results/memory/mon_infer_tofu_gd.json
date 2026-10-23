@@ -1,0 +1,38 @@
+{
+ "cmd": [
+  "/home/hai_ssh/.conda/envs/lunar/bin/python",
+  "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/modify_code/latency/measure_infer_v2.py",
+  "--ds",
+  "tofu",
+  "--no_base",
+  "--gd_path",
+  "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/unlearning_baseline_new/outputs/ptofu_fullft/ga_gd/seed_0/t0_AG01",
+  "--out",
+  "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/modify_code/latency/results/v2/infer_tofu.json"
+ ],
+ "rc": 0,
+ "wall_sec": 723.9386279582977,
+ "gpu_peak_MiB": {
+  "0": 17070,
+  "1": 0
+ },
+ "gpu_used_before_MiB": {
+  "0": 0,
+  "1": 0
+ },
+ "gpu_apps_before": [],
+ "host_rss_peak_MB": 5038.27734375,
+ "host_pss_peak_MB": 4599.4599609375,
+ "max_compute_apps_per_gpu_uuid": {
+  "GPU-1253f41b-e118-bced-0abf-4dc55a87d8cf": 1
+ },
+ "foreign_gpu_pids": [],
+ "clean": true,
+ "load1_max": 1.36,
+ "load1_mean": 1.0792244897959178,
+ "n_cpu": 32,
+ "n_samples": 980,
+ "light": false,
+ "interval": 0.5,
+ "cuda_visible_devices": "0"
+}

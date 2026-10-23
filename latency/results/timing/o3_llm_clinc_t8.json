@@ -1,0 +1,80 @@
+{
+ "t": 8,
+ "lora": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/unlearning_o3/unlearn_recent_o3/SCALE_0.1_seed_0_o_unlearn_lora_force_checkpoints_clinc9_origin/lora_force_random_work_force_travel_force_home_force_banking_force_credit_cards_force_kitchen_and_dining_force_auto_and_commute_force_utility_force_small_talk_force",
+ "env": {
+  "torch": "2.5.1+cu121",
+  "transformers": "4.46.3",
+  "peft": "0.18.1",
+  "peft_path": "/home/hai_ssh/pylibs/peft0181/peft/__init__.py"
+ },
+ "gpu": "NVIDIA A100 80GB PCIe",
+ "llm_weights_MB": 17412.6484375,
+ "attn": "eager (src/modeling_llama_hacked_31.py LlamaAttention)",
+ "ood_weights_from": "o3_ood_clinc_t8.json",
+ "fixed64_bs1": {
+  "ms_per_sample": {
+   "mean": 4250.798194772668,
+   "std": 19.0897909681401,
+   "p50": 4255.925133824348,
+   "p95": 4277.215527370572,
+   "n": 72
+  },
+  "ttft_ms": {
+   "mean": 68.71689245518711,
+   "std": 0.7297331821460958,
+   "p50": 68.61906871199608,
+   "p95": 69.96620297431946,
+   "n": 72
+  },
+  "decode_ms_per_token": {
+   "mean": 66.38224289392826,
+   "std": 0.2993959598117912,
+   "p50": 66.4601582619879,
+   "p95": 66.78824414099967,
+   "n": 72
+  },
+  "mean_new_tokens": 64.0,
+  "mean_prompt_tokens": 65.125,
+  "n_samples": 24,
+  "reps": 3,
+  "warmup": 2,
+  "bs": 1,
+  "peak_allocated_MB": 17503.50244140625,
+  "peak_reserved_MB": 17828.0,
+  "ms_per_sample_incl_ood": 4295.398904896445,
+  "ttft_incl_ood_ms": 113.3176025789645
+ },
+ "natural_bs1": {
+  "ms_per_sample": {
+   "mean": 216.29005887856087,
+   "std": 57.94807977036732,
+   "p50": 200.95907151699066,
+   "p95": 270.02120465040207,
+   "n": 48
+  },
+  "ttft_ms": {
+   "mean": 67.9594964409868,
+   "std": 0.5468086265807149,
+   "p50": 67.80876219272614,
+   "p95": 69.14399899542332,
+   "n": 48
+  },
+  "decode_ms_per_token": {
+   "mean": 66.58894734250175,
+   "std": 0.44387325168034697,
+   "p50": 66.49300133188567,
+   "p95": 67.2451825812459,
+   "n": 48
+  },
+  "mean_new_tokens": 3.2291666666666665,
+  "mean_prompt_tokens": 64.95833333333333,
+  "n_samples": 48,
+  "reps": 1,
+  "warmup": 2,
+  "bs": 1,
+  "peak_allocated_MB": 17503.50244140625,
+  "peak_reserved_MB": 17828.0,
+  "ms_per_sample_incl_ood": 260.8907690023383,
+  "ttft_incl_ood_ms": 112.56020656476419
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "tag": "tofu_ga_t0",
+ "rc": 0,
+ "wall_sec": 240,
+ "train_runtime_sec_1epoch": 134.4139,
+ "nvidia_smi_peak_MiB": {
+  "0": 19104,
+  "1": 19152
+ },
+ "host_pss_peak_MB": 158358.7197265625,
+ "host_rss_peak_MB": 176477.67578125,
+ "clean": null,
+ "foreign_gpu_pids": [],
+ "load1_max": 2.84,
+ "load1_mean": 2.4519607843137248,
+ "n_gpu": 2,
+ "setting": "2 GPU DeepSpeed ZeRO-3 + CPU optimizer offload, global batch 128, 1 epoch"
+}

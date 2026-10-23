@@ -1,0 +1,133 @@
+query,context,intent
+Make an offer letter for Priya Sharma.,"{domain: HR, topic: onboarding, subject: offer letter}",generate-offer
+Check Priya Sharma’s contract.,"{domain: HR, topic: onboarding, subject: contract review}",review-contract
+Set up an interview for John Doe next week.,"{domain: HR, topic: recruitment, subject: interview scheduling}",schedule-interview
+Give feedback on John Doe’s interview.,"{domain: HR, topic: recruitment, subject: candidate feedback}",provide-candidate-feedback
+I need a vacation from June 10 to 12.,"{domain: HR, topic: leave management, subject: leave request}",request-leave
+What’s my leave balance?,"{domain: HR, topic: leave management, subject: leave balance check}",check-leave-balance
+Update John Doe’s phone number.,"{domain: HR, topic: employee records, subject: profile update}",update-employee-profile
+Pull up John Doe’s employee file.,"{domain: HR, topic: employee records, subject: access record}",access-employee-record
+Sign Priya Sharma up for leadership training.,"{domain: HR, topic: training, subject: training enrollment}",request-training
+Verify Priya Sharma finished cybersecurity training.,"{domain: HR, topic: training, subject: training completion}",confirm-training-completion
+Submit John Doe’s conference travel expense.,"{domain: HR, topic: expense management, subject: expense claim}",submit-expense
+Approve John Doe’s expense for team lunch.,"{domain: HR, topic: expense management, subject: expense approval}",approve-expense
+Create an offer for Anil Kumar.,"{domain: HR, topic: onboarding, subject: offer letter}",generate-offer
+Review Anil Kumar’s contract before signing.,"{domain: HR, topic: onboarding, subject: contract review}",review-contract
+Book a chat with Sarah Lee for Monday.,"{domain: HR, topic: recruitment, subject: interview scheduling}",schedule-interview
+Share thoughts on Sarah Lee’s interview.,"{domain: HR, topic: recruitment, subject: candidate feedback}",provide-candidate-feedback
+Can I take July 15 off?,"{domain: HR, topic: leave management, subject: leave request}",request-leave
+Check Anil Kumar’s leave balance.,"{domain: HR, topic: leave management, subject: leave balance check}",check-leave-balance
+Change Sarah Lee’s address in the system.,"{domain: HR, topic: employee records, subject: profile update}",update-employee-profile
+Get Sarah Lee’s HR record.,"{domain: HR, topic: employee records, subject: access record}",access-employee-record
+Enroll Anil Kumar in project management training.,"{domain: HR, topic: training, subject: training enrollment}",request-training
+Confirm Anil Kumar completed diversity training.,"{domain: HR, topic: training, subject: training completion}",confirm-training-completion
+File Sarah Lee’s client meeting expense.,"{domain: HR, topic: expense management, subject: expense claim}",submit-expense
+Okay Sarah Lee’s expense for the offsite.,"{domain: HR, topic: expense management, subject: expense approval}",approve-expense
+Draft offer letter for Rajesh Gupta.,"{domain: HR, topic: onboarding, subject: offer letter}",generate-offer
+Go over Rajesh Gupta’s contract.,"{domain: HR, topic: onboarding, subject: contract review}",review-contract
+Arrange an interview for Lisa Brown next Tuesday.,"{domain: HR, topic: recruitment, subject: interview scheduling}",schedule-interview
+Comment on Lisa Brown’s interview performance.,"{domain: HR, topic: recruitment, subject: candidate feedback}",provide-candidate-feedback
+I want a break from August 1 to 5.,"{domain: HR, topic: leave management, subject: leave request}",request-leave
+See how many leave days Rajesh Gupta has.,"{domain: HR, topic: leave management, subject: leave balance check}",check-leave-balance
+Fix Lisa Brown’s job title in HR system.,"{domain: HR, topic: employee records, subject: profile update}",update-employee-profile
+View Lisa Brown’s employee details.,"{domain: HR, topic: employee records, subject: access record}",access-employee-record
+Put Rajesh Gupta in data analysis training.,"{domain: HR, topic: training, subject: training enrollment}",request-training
+Check if Rajesh Gupta finished Excel training.,"{domain: HR, topic: training, subject: training completion}",confirm-training-completion
+Send Lisa Brown’s expense for team lunch.,"{domain: HR, topic: expense management, subject: expense claim}",submit-expense
+Clear Lisa Brown’s expense for training seminar.,"{domain: HR, topic: expense management, subject: expense approval}",approve-expense
+Prepare offer for Emma Watson.,"{domain: HR, topic: onboarding, subject: offer letter}",generate-offer
+Look at Emma Watson’s contract for errors.,"{domain: HR, topic: onboarding, subject: contract review}",review-contract
+Set up a meeting with Vikram Singh on Friday.,"{domain: HR, topic: recruitment, subject: interview scheduling}",schedule-interview
+Give notes on Vikram Singh’s interview.,"{domain: HR, topic: recruitment, subject: candidate feedback}",provide-candidate-feedback
+Need time off September 10 to 12.,"{domain: HR, topic: leave management, subject: leave request}",request-leave
+How many leave days do I have?,"{domain: HR, topic: leave management, subject: leave balance check}",check-leave-balance
+Update Vikram Singh’s email in the system.,"{domain: HR, topic: employee records, subject: profile update}",update-employee-profile
+Show Vikram Singh’s HR file.,"{domain: HR, topic: employee records, subject: access record}",access-employee-record
+Add Emma Watson to communication skills training.,"{domain: HR, topic: training, subject: training enrollment}",request-training
+See if Emma Watson completed HR compliance training.,"{domain: HR, topic: training, subject: training completion}",confirm-training-completion
+Submit Vikram Singh’s expense for client dinner.,"{domain: HR, topic: expense management, subject: expense claim}",submit-expense
+Approve Vikram Singh’s expense for conference fee.,"{domain: HR, topic: expense management, subject: expense approval}",approve-expense
+Get an offer letter ready for David Lee.,"{domain: HR, topic: onboarding, subject: offer letter}",generate-offer
+Review David Lee’s contract for compliance.,"{domain: HR, topic: onboarding, subject: contract review}",review-contract
+Book an interview for Sophia Martinez next Thursday.,"{domain: HR, topic: recruitment, subject: interview scheduling}",schedule-interview
+Share feedback on Sophia Martinez’s interview.,"{domain: HR, topic: recruitment, subject: candidate feedback}",provide-candidate-feedback
+Can I have August 15 off?,"{domain: HR, topic: leave management, subject: leave request}",request-leave
+Check David Lee’s leave balance for 2025.,"{domain: HR, topic: leave management, subject: leave balance check}",check-leave-balance
+Change Sophia Martinez’s department to Marketing.,"{domain: HR, topic: employee records, subject: profile update}",update-employee-profile
+Look up Sophia Martinez’s employee record.,"{domain: HR, topic: employee records, subject: access record}",access-employee-record
+Enroll David Lee in time management training.,"{domain: HR, topic: training, subject: training enrollment}",request-training
+Confirm David Lee finished software training.,"{domain: HR, topic: training, subject: training completion}",confirm-training-completion
+File David Lee’s expense for client visit.,"{domain: HR, topic: expense management, subject: expense claim}",submit-expense
+Okay David Lee’s expense for team offsite.,"{domain: HR, topic: expense management, subject: expense approval}",approve-expense
+Send offer letter to Arjun Patel.,"{domain: HR, topic: onboarding, subject: offer letter}",generate-offer
+Check Arjun Patel’s contract before sending.,"{domain: HR, topic: onboarding, subject: contract review}",review-contract
+Arrange a Zoom call for Jane Smith next Monday.,"{domain: HR, topic: recruitment, subject: interview scheduling}",schedule-interview
+Give input on Jane Smith’s interview.,"{domain: HR, topic: recruitment, subject: candidate feedback}",provide-candidate-feedback
+I want a sick day next Monday.,"{domain: HR, topic: leave management, subject: leave request}",request-leave
+How much leave do I have left?,"{domain: HR, topic: leave management, subject: leave balance check}",check-leave-balance
+Update Jane Smith’s bank details in HR system.,"{domain: HR, topic: employee records, subject: profile update}",update-employee-profile
+Pull Jane Smith’s employee file for review.,"{domain: HR, topic: employee records, subject: access record}",access-employee-record
+Sign Arjun Patel up for diversity training.,"{domain: HR, topic: training, subject: training enrollment}",request-training
+Verify Arjun Patel completed team-building workshop.,"{domain: HR, topic: training, subject: training completion}",confirm-training-completion
+Submit Jane Smith’s expense for New York trip.,"{domain: HR, topic: expense management, subject: expense claim}",submit-expense
+Approve Jane Smith’s expense for client meeting.,"{domain: HR, topic: expense management, subject: expense approval}",approve-expense
+Make offer for Rohan Mehta.,"{domain: HR, topic: onboarding, subject: offer letter}",generate-offer
+Go over Rohan Mehta’s contract for accuracy.,"{domain: HR, topic: onboarding, subject: contract review}",review-contract
+Set up interview for Alex Johnson next Wednesday.,"{domain: HR, topic: recruitment, subject: interview scheduling}",schedule-interview
+Comment on Alex Johnson’s interview performance.,"{domain: HR, topic: recruitment, subject: candidate feedback}",provide-candidate-feedback
+Need a break July 1 to 5.,"{domain: HR, topic: leave management, subject: leave request}",request-leave
+Check Rohan Mehta’s leave balance.,"{domain: HR, topic: leave management, subject: leave balance check}",check-leave-balance
+Fix Alex Johnson’s job title in the system.,"{domain: HR, topic: employee records, subject: profile update}",update-employee-profile
+Get Alex Johnson’s HR record.,"{domain: HR, topic: employee records, subject: access record}",access-employee-record
+Add Rohan Mehta to agile methodology training.,"{domain: HR, topic: training, subject: training enrollment}",request-training
+See if Rohan Mehta finished leadership training.,"{domain: HR, topic: training, subject: training completion}",confirm-training-completion
+File Rohan Mehta’s expense for team lunch.,"{domain: HR, topic: expense management, subject: expense claim}",submit-expense
+Clear Alex Johnson’s expense for training seminar.,"{domain: HR, topic: expense management, subject: expense approval}",approve-expense
+Create offer letter for Lisa Brown.,"{domain: HR, topic: onboarding, subject: offer letter}",generate-offer
+Review Lisa Brown’s contract for final approval.,"{domain: HR, topic: onboarding, subject: contract review}",review-contract
+Book a phone interview for Vikram Singh next Friday.,"{domain: HR, topic: recruitment, subject: interview scheduling}",schedule-interview
+Share notes on Vikram Singh’s interview.,"{domain: HR, topic: recruitment, subject: candidate feedback}",provide-candidate-feedback
+Can I take August 20 to 25 off?,"{domain: HR, topic: leave management, subject: leave request}",request-leave
+What’s Lisa Brown’s leave balance?,"{domain: HR, topic: leave management, subject: leave balance check}",check-leave-balance
+Change Vikram Singh’s department to IT.,"{domain: HR, topic: employee records, subject: profile update}",update-employee-profile
+View Vikram Singh’s employee details.,"{domain: HR, topic: employee records, subject: access record}",access-employee-record
+Enroll Lisa Brown in customer service training.,"{domain: HR, topic: training, subject: training enrollment}",request-training
+Confirm Lisa Brown completed communication skills training.,"{domain: HR, topic: training, subject: training completion}",confirm-training-completion
+Submit Vikram Singh’s expense for client visit.,"{domain: HR, topic: expense management, subject: expense claim}",submit-expense
+Okay Vikram Singh’s expense for conference trip.,"{domain: HR, topic: expense management, subject: expense approval}",approve-expense
+Send offer for Sophia Martinez.,"{domain: HR, topic: onboarding, subject: offer letter}",generate-offer
+Check Sophia Martinez’s contract before sending.,"{domain: HR, topic: onboarding, subject: contract review}",review-contract
+Arrange a virtual interview for David Lee next Monday.,"{domain: HR, topic: recruitment, subject: interview scheduling}",schedule-interview
+Give feedback on David Lee’s interview session.,"{domain: HR, topic: recruitment, subject: candidate feedback}",provide-candidate-feedback
+I need September 15 to 20 off.,"{domain: HR, topic: leave management, subject: leave request}",request-leave
+How many days do I have left?,"{domain: HR, topic: leave management, subject: leave balance check}",check-leave-balance
+Update David Lee’s email address in HR system.,"{domain: HR, topic: employee records, subject: profile update}",update-employee-profile
+Pull up David Lee’s employee file.,"{domain: HR, topic: employee records, subject: access record}",access-employee-record
+Sign Sophia Martinez up for time management training.,"{domain: HR, topic: training, subject: training enrollment}",request-training
+Verify Sophia Martinez finished diversity training.,"{domain: HR, topic: training, subject: training completion}",confirm-training-completion
+File Sophia Martinez’s expense for training materials.,"{domain: HR, topic: expense management, subject: expense claim}",submit-expense
+Approve David Lee’s expense for client dinner.,"{domain: HR, topic: expense management, subject: expense approval}",approve-expense
+Get offer letter ready for Jane Smith.,"{domain: HR, topic: onboarding, subject: offer letter}",generate-offer
+Go over Jane Smith’s contract for accuracy.,"{domain: HR, topic: onboarding, subject: contract review}",review-contract
+Set up a panel interview for Arjun Patel next Tuesday.,"{domain: HR, topic: recruitment, subject: interview scheduling}",schedule-interview
+Comment on Arjun Patel’s interview performance.,"{domain: HR, topic: recruitment, subject: candidate feedback}",provide-candidate-feedback
+Can I have a break July 10 to 12?,"{domain: HR, topic: leave management, subject: leave request}",request-leave
+Check Jane Smith’s leave balance for 2025.,"{domain: HR, topic: leave management, subject: leave balance check}",check-leave-balance
+Fix Arjun Patel’s bank details in the system.,"{domain: HR, topic: employee records, subject: profile update}",update-employee-profile
+Get Arjun Patel’s HR record for review.,"{domain: HR, topic: employee records, subject: access record}",access-employee-record
+Add Jane Smith to software training.,"{domain: HR, topic: training, subject: training enrollment}",request-training
+See if Jane Smith completed leadership training.,"{domain: HR, topic: training, subject: training completion}",confirm-training-completion
+Submit Arjun Patel’s expense for team offsite.,"{domain: HR, topic: expense management, subject: expense claim}",submit-expense
+Clear Arjun Patel’s expense for training course.,"{domain: HR, topic: expense management, subject: expense approval}",approve-expense
+Prepare offer for Alex Johnson.,"{domain: HR, topic: onboarding, subject: offer letter}",generate-offer
+Review Alex Johnson’s contract before approval.,"{domain: HR, topic: onboarding, subject: contract review}",review-contract
+Book a call for Rohan Mehta next Thursday.,"{domain: HR, topic: recruitment, subject: interview scheduling}",schedule-interview
+Share thoughts on Rohan Mehta’s interview.,"{domain: HR, topic: recruitment, subject: candidate feedback}",provide-candidate-feedback
+I want August 25 to 30 off.,"{domain: HR, topic: leave management, subject: leave request}",request-leave
+What’s my leave balance for this year?,"{domain: HR, topic: leave management, subject: leave balance check}",check-leave-balance
+Change Rohan Mehta’s department to Finance.,"{domain: HR, topic: employee records, subject: profile update}",update-employee-profile
+Look up Rohan Mehta’s employee details.,"{domain: HR, topic: employee records, subject: access record}",access-employee-record
+Enroll Alex Johnson in cybersecurity training.,"{domain: HR, topic: training, subject: training enrollment}",request-training
+Confirm Alex Johnson finished time management training.,"{domain: HR, topic: training, subject: training completion}",confirm-training-completion
+File Alex Johnson’s expense for client lunch.,"{domain: HR, topic: expense management, subject: expense claim}",submit-expense
+Okay Alex Johnson’s expense for conference fee.,"{domain: HR, topic: expense management, subject: expense approval}",approve-expense

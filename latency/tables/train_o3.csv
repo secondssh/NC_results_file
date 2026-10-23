@@ -1,0 +1,3 @@
+,환경,"시간 (wall, 원래 epoch 전부)",HF train_runtime,nvidia-smi peak MB,host PSS peak MB
+"OOD detector (roberta-large + LoRA, MLM+MoCo 2 epoch + Mahalanobis / OCSVM / GMM)",o3 env (peft 0.10.0),1690s,–,19628,3485
+"unlearning LoRA (r=8, 7 종 linear, 20 epoch, bs 128)",lunar + peft 0.18.1 (+ chat_template.jinja),855s,839s,25668,17719 (1 epoch 실행)

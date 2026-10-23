@@ -1,0 +1,80 @@
+{
+ "t": 0,
+ "lora": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/unlearning_o3/unlearn_recent_o3/SCALE_0.1_seed_0_o_unlearn_lora_force_checkpoints_clinc9_origin/lora_force_random_work_force",
+ "env": {
+  "torch": "2.5.1+cu121",
+  "transformers": "4.46.3",
+  "peft": "0.18.1",
+  "peft_path": "/home/hai_ssh/pylibs/peft0181/peft/__init__.py"
+ },
+ "gpu": "NVIDIA A100 80GB PCIe",
+ "llm_weights_MB": 17404.5234375,
+ "attn": "eager (src/modeling_llama_hacked_31.py LlamaAttention)",
+ "ood_weights_from": "o3_ood_clinc_t0.json",
+ "fixed64_bs1": {
+  "ms_per_sample": {
+   "mean": 4237.332538184192,
+   "std": 21.42686459703339,
+   "p50": 4232.843033969402,
+   "p95": 4259.737367928028,
+   "n": 72
+  },
+  "ttft_ms": {
+   "mean": 68.14666733973556,
+   "std": 0.7987895737162937,
+   "p50": 68.00716370344162,
+   "p95": 69.27147507667542,
+   "n": 72
+  },
+  "decode_ms_per_token": {
+   "mean": 66.17755350546757,
+   "std": 0.33655776768440704,
+   "p50": 66.11557097898589,
+   "p95": 66.522356116819,
+   "n": 72
+  },
+  "mean_new_tokens": 64.0,
+  "mean_prompt_tokens": 65.125,
+  "n_samples": 24,
+  "reps": 3,
+  "warmup": 2,
+  "bs": 1,
+  "peak_allocated_MB": 17503.50244140625,
+  "peak_reserved_MB": 17828.0,
+  "ms_per_sample_incl_ood": 4281.973742325273,
+  "ttft_incl_ood_ms": 112.78787148081594
+ },
+ "natural_bs1": {
+  "ms_per_sample": {
+   "mean": 219.41032198568186,
+   "std": 58.548564871193015,
+   "p50": 200.47947019338608,
+   "p95": 309.06817354261864,
+   "n": 48
+  },
+  "ttft_ms": {
+   "mean": 67.83715557927887,
+   "std": 0.5532835946863335,
+   "p50": 67.65753403306007,
+   "p95": 69.19648386538029,
+   "n": 48
+  },
+  "decode_ms_per_token": {
+   "mean": 66.201876460885,
+   "std": 0.4212081699574611,
+   "p50": 66.05217916270098,
+   "p95": 67.09401980042458,
+   "n": 48
+  },
+  "mean_new_tokens": 3.2916666666666665,
+  "mean_prompt_tokens": 64.95833333333333,
+  "n_samples": 48,
+  "reps": 1,
+  "warmup": 2,
+  "bs": 1,
+  "peak_allocated_MB": 17503.50244140625,
+  "peak_reserved_MB": 17828.0,
+  "ms_per_sample_incl_ood": 264.05152612676227,
+  "ttft_incl_ood_ms": 112.47835972035925
+ }
+}

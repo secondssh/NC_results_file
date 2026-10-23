@@ -1,4 +1,5 @@
 """Relearning attack → readme_main_results/relearning_attack/  (실행 중인 run 이 끝나면 다시 돌리면 갱신됨)"""
+import json
 import os
 
 from build_quant import BASE_UNITS, DOMS, O3C, O3SP, rule_json
@@ -59,7 +60,8 @@ def o3(fn):
 def main():
     copy(f"{R}/results", f"{D}/results", ignore=("*.pt",))
     copy(f"{R}/data", f"{D}/attack_data")
-    for f in ["relearn_clinc.py", "attack_lora.py", "make_data.py", "run_relearn_banking.sh", "run_relearn_t0.sh"]:
+    for f in ["relearn_clinc.py", "attack_lora.py", "make_data.py", "run_relearn_banking.sh", "run_relearn_t0.sh",
+              "run_relearn_t3.sh", "run_relearn_t0_out.sh", "make_data_massive.py", "run_relearn_t3_baselines.sh"]:
         copy(f"{R}/{f}", f"{D}/code/{f}")
     summary, parts = {}, []
 
@@ -158,9 +160,163 @@ def main():
         if a in txt and b in txt:
             txt = txt[:txt.index(a) + len(a)] + "\n" + md_table(h3, r3) + "\n" + txt[txt.index(b):]
             open(rd, "w").write(txt)
+    relearn_t3(summary, parts)
+    relearn_t0_out(summary, parts)
     write_json(f"{D}/relearn_summary.json", summary)
     open(f"{D}/tables/all_tables.md", "w").write("\n\n".join(parts) + "\n")
     print("relearn done")
+
+
+
+T3_DOMS = DOMS[:4]                      # t3 에서 지운 domain: work, travel, home, banking
+
+
+def base_t3(p):
+    """base 는 ckpt 무관 → t8 전체 풀 평가를 t3 SD(앞 4 domain) / RD(나머지 5 domain SD + meta RD) 로 재분할"""
+    d = load(p)
+    if d is None:
+        return None
+    pd = per_domain(d["forget"]["results"])
+    rt = d["retained"]["results"]
+    fh = sum(h for k, (h, n) in pd.items() if k in T3_DOMS)
+    fn = sum(n for k, (h, n) in pd.items() if k in T3_DOMS)
+    rh = sum(h for k, (h, n) in pd.items() if k not in T3_DOMS) + rt["choice_correct"]
+    rn = sum(n for k, (h, n) in pd.items() if k not in T3_DOMS) + rt["total_generated"]
+    oh = sum(h for k, (h, n) in pd.items() if k in T3_DOMS[:3])
+    on = sum(n for k, (h, n) in pd.items() if k in T3_DOMS[:3])
+    o = {"forget": fh / fn, "retained": rh / rn, "forget_banking": pd["banking"][0] / pd["banking"][1],
+         "forget_other": oh / on}
+    for sp in ("mrpc", "rte"):
+        if sp in d:
+            o[sp] = d[sp]["results"]["choice_accuracy"]
+    return o
+
+
+def o3_t3(fn):
+    """O3 결과 (exact_acc) + testSD domain 별"""
+    o = o3(fn)
+    if o is None:
+        return None
+    sd = load(fn("testSD"))
+    if sd:
+        pdm = sd["per_domain"]
+        o["forget_banking"] = pdm["banking"]["exact_acc"] / 100 if "banking" in pdm else None
+        oc = sum(pdm[k]["exact_correct"] for k in T3_DOMS[:3] if k in pdm)
+        ot = sum(pdm[k]["total"] for k in T3_DOMS[:3] if k in pdm)
+        o["forget_other"] = oc / ot if ot else None
+    return o
+
+
+def baseline_pre(run_dir):
+    """full-FT baseline 의 원래 t3 평가 (8월, eval bs 8). utility 키 commonqa/openbookqa = 실제 mrpc/rte 데이터"""
+    p = f"{run_dir}/lunar_llama3.1-8b-instruct_eval_base_clincqa_t3_banking/forget_clincqa_t3_banking.json"
+    d = load(p)
+    if d is None:
+        return None
+    for old, new in (("commonqa", "mrpc"), ("openbookqa", "rte")):
+        if old in d and new not in d:
+            d[new] = d.pop(old)
+    tmp = f"/tmp/_pre_{os.path.basename(run_dir)}.json"
+    json.dump(d, open(tmp, "w"))
+    return ev(tmp)
+
+
+def relearn_t3(summary, parts):
+    """RULE / O3 / base × (공격 대상, 데이터, epoch) — CLINC t3 (banking 을 지운 시점)"""
+    W = f"{R}/results/banking_t3"
+    BR = f"{REPO}/unlearning_baseline_new/run_results/eval_basemoe_error/llama3.1-8b-instruct"
+    pre = {"GA": baseline_pre(f"{BR}/unlearn_baseline_fullft_clinc_ga_0"),
+           "NPO+KL": baseline_pre(f"{BR}/unlearn_baseline_fullft_clinc_npo_kl_0"),
+           "GD": baseline_pre(f"{BR}/unlearn_baseline_fullft_clinc_ga_gd_0"),
+           "RULE": ev(rule_json("clinc", 3)),
+           "O3": o3_t3(lambda s: f"{O3C}/test_seed0_banking_{s}.json"),
+           "base": base_t3(f"{RES}/para_eval/base/clinc_orig.json")}
+    for sp in ("mrpc", "rte"):
+        pre["base"][sp] = BASE_UNITS[sp]["results"]["choice_accuracy"]
+    groups = [("RULE", "백본 LoRA (MoE 고정)", lambda dk, e: ev(f"{W}/rule_backbone_{dk}_ep{e}.json")),
+              ("RULE", "백본 LoRA + MoE", lambda dk, e: ev(f"{W}/rule_moe_{dk}_ep{e}.json")),
+              ("O3", "백본 LoRA (O3 LoRA 고정)", lambda dk, e: o3_t3(lambda s: f"{W}/o3_backbone_{dk}_ep{e}_{s}.json")),
+              ("O3", "백본 LoRA + O3 LoRA", lambda dk, e: o3_t3(lambda s: f"{W}/o3_lora_{dk}_ep{e}_{s}.json")),
+              ("base", "base (unlearning 전)", lambda dk, e: base_t3(f"{R}/results/banking_t8/base_{dk}_ep{e}.json")),
+              ("GA", "백본 LoRA (full-FT)", lambda dk, e: ev(f"{W}/ga_{dk}_ep{e}.json") if dk == "out" else None),
+              ("NPO+KL", "백본 LoRA (full-FT)", lambda dk, e: ev(f"{W}/npo_kl_{dk}_ep{e}.json") if dk == "out" else None),
+              ("GD", "백본 LoRA (full-FT)", lambda dk, e: ev(f"{W}/ga_gd_{dk}_ep{e}.json") if dk == "out" else None)]
+    DL = {"in": "in: CLINC banking 미사용 100", "out": "out: BANKING77 1000"}
+    header = ["방법", "공격 대상", "공격 데이터", "epoch", "forget (4 domain)", "forget banking", "forget 나머지 3",
+              "retained", "mrpc", "rte"]
+    cols = ["forget", "forget_banking", "forget_other", "retained", "mrpc", "rte"]
+    rows, hl = [], []
+    for m in ("RULE", "O3", "base", "GA", "NPO+KL", "GD"):
+        v = pre[m] or {}
+        summary[f"banking_t3|{m}|공격 전"] = v
+        rows.append([m, "공격 전", "-", "-"] + [f3(v.get(c)) for c in cols])
+        hl.append(len(rows) - 1)
+    for m, tl, fn in groups:
+        ref = pre[m] or {}
+        for dk in ("in", "out"):
+            for e in (1, 5):
+                v = fn(dk, e)
+                if m in ("GA", "NPO+KL", "GD") and dk == "in":   # baseline 은 out (BANKING77) 공격만
+                    continue
+                summary[f"banking_t3|{m}|{tl}|{dk}_ep{e}"] = v
+                if v is None:
+                    rows.append([m, tl, DL[dk], e, "(미완료)"] + ["-"] * 5)
+                    continue
+                rows.append([m, tl, DL[dk], e] + [d3(v.get(c), ref.get(c)) if v.get(c) is not None else "-" for c in cols])
+    write_csv(f"{D}/tables/relearn_banking_t3_rule_o3_base.csv", header, rows)
+    render_table(f"{D}/tables/relearn_banking_t3_rule_o3_base.png", header, rows, highlight_rows=hl, col_max=24,
+                 title="Relearning attack — CLINC t3 (banking 을 지운 시점), 공격 domain = banking, RULE vs O3 vs base (seed0)",
+                 note="forget 은 높아질수록 되살아난 것. 괄호 = 같은 방법의 공격 전 대비 Δ. RULE/base = choice_accuracy, "
+                      "O3 = exact_acc (OOD detector recent, t3 = banking detector).\n"
+                      "공격: 새 LoRA r=8 (223 Linear), lr 1e-4, batch 16, 1 epoch(easy) / 5 epoch(hard). "
+                      "MoE / O3 LoRA 행은 RULE expert·router 또는 O3 unlearning LoRA 도 같이 학습.\n"
+                      "base 행 = t8 grid 의 base 공격 결과를 t3 SD/RD 로 재분할 (base 는 ckpt 무관). "
+                      "GA / NPO+KL / GD = full-FT baseline t3 ckpt, out (BANKING77) 공격만. 공격 전 = 원래 baseline 평가 (8월, eval bs 8), 공격 후 = eval bs 16. "
+                      "base 공격 전 = forget/retained para_eval base 재분할, mrpc/rte base_units_clinc.")
+    parts.append("### CLINC t3 banking — RULE vs O3 vs base\n\n" + md_table(header, rows))
+
+
+
+def relearn_t0_out(summary, parts):
+    """CLINC t0 (work) out-domain 공격 (MASSIVE 업무 비서 계열 1000) — RULE / O3 / GD × 공격 대상 × epoch"""
+    W = f"{R}/results/work_t0_out"
+    W0 = f"{R}/results/work_t0"
+    gd_pre = ev(f"{W0}/gd_none.json")
+    pre = {"RULE": ev(rule_json("clinc", 0)), "O3": o3(lambda s: f"{O3C}/test_seed0_work_{s}.json"), "GD": gd_pre}
+    groups = [("RULE", "백본 LoRA (MoE 고정)", lambda e: ev(f"{W}/rule_backbone_ep{e}.json")),
+              ("RULE", "백본 LoRA + MoE", lambda e: ev(f"{W}/rule_moe_ep{e}.json")),
+              ("O3", "백본 LoRA (O3 LoRA 고정)", lambda e: o3(lambda s: f"{W}/o3_backbone_ep{e}_{s}.json")),
+              ("O3", "백본 LoRA + O3 LoRA", lambda e: o3(lambda s: f"{W}/o3_lora_ep{e}_{s}.json")),
+              ("GD", "백본 LoRA (full-FT)", lambda e: ev(f"{W}/gd_ep{e}.json"))]
+    header = ["방법", "공격 대상", "epoch", "forget", "retained", "mrpc", "rte", "공격 loss (epoch 별)"]
+    rows, hl = [], []
+    order = ["RULE", "O3", "GD"]
+    for m in order:
+        v = pre[m] or {}
+        summary[f"work_t0_out|{m}|공격 전"] = v
+        rows.append([m, "공격 전", "-"] + [f3(v.get(c)) for c in CS] + ["-"])
+        hl.append(len(rows) - 1)
+        for mm, tl, fn in groups:
+            if mm != m:
+                continue
+            for e in (1, 5):
+                r = fn(e)
+                summary[f"work_t0_out|{m}|{tl}|ep{e}"] = r
+                if r is None:
+                    rows.append(["", tl, e, "(미완료)", "-", "-", "-", "-"])
+                    continue
+                mt = r.get("meta") or {}
+                loss = mt.get("epoch_loss") or mt.get("attack_epoch_loss")
+                rows.append(["", tl, e] + [d3(r.get(c), v.get(c)) if r.get(c) is not None else "(미완료)" for c in CS] +
+                            [" / ".join(f"{x:.3g}" for x in loss) if loss else "-"])
+    write_csv(f"{D}/tables/relearn_work_t0_out_massive.csv", header, rows)
+    render_table(f"{D}/tables/relearn_work_t0_out_massive.png", header, rows, highlight_rows=hl, col_max=28,
+                 title="Relearning attack — CLINC t0 (work), out-domain (MASSIVE 업무 비서 계열 1000), RULE vs O3 vs GD (seed0)",
+                 note="공격 데이터 out_massive_work_1000: MASSIVE en-US train 의 calendar_set/query/remove, datetime_query, "
+                      "email_query/sendemail/querycontact/addcontact (라벨 = MASSIVE, CLINC 와 다른 체계).\n"
+                      "공격 LoRA r=8 (223 Linear), lr 1e-4, batch 16. 괄호 = 공격 전 대비 Δ. RULE/GD = choice_accuracy, "
+                      "O3 = exact_acc (OOD detector recent).")
+    parts.append("### CLINC t0 work out-domain (MASSIVE) — RULE vs O3 vs GD\n\n" + md_table(header, rows))
 
 
 if __name__ == "__main__":

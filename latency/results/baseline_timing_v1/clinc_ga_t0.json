@@ -1,0 +1,12 @@
+{
+ "tag": "clinc_ga_t0",
+ "rc": 0,
+ "wall_sec": 459,
+ "train_runtime_sec_1epoch": 326.7686,
+ "n_logged_steps": 2,
+ "nvidia_smi_peak_MiB": {
+  "0": 19130,
+  "1": 19134
+ },
+ "setting": "2 GPU DeepSpeed ZeRO-3 + CPU optimizer offload, global batch 128, 1 epoch"
+}

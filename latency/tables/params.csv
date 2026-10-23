@@ -1,0 +1,9 @@
+방법,router (O3: OOD detector),expert (O3: unlearning LoRA),추론 때 추가 합계,학습되는 파라미터,8.03B 대비 (추론 추가)
+RULE CLINC t0 (2 experts),28.7K (Linear 14336→2),0.295M (147.5K × 2),0.32M,0.32M,0.004%
+RULE CLINC t4 (6 experts),86.0K (Linear 14336→6),0.885M (147.5K × 6),0.97M,0.97M,0.012%
+RULE CLINC t8 (10 experts),143.4K (Linear 14336→10),1.475M (147.5K × 10),1.62M,1.62M,0.020%
+RULE TOFU t0 (2 experts),28.7K (Linear 14336→2),0.295M (147.5K × 2),0.32M,0.32M,0.004%
+RULE TOFU t10 (12 experts),172.0K (Linear 14336→12),1.769M (147.5K × 12),1.94M,1.94M,0.024%
+RULE TOFU t19 (21 experts),301.1K (Linear 14336→21),3.097M (147.5K × 21),3.40M,3.40M,0.042%
+"O3 (CLINC / TOFU, 시점 무관)",356.2M (roberta-large 355M 고정 + LoRA 1.18M) + 통계 파일,"20.97M (LLM LoRA r=8, 7종 linear)",≈ 377M,22.15M (LLM LoRA 20.97M + detector LoRA 1.18M),4.7%
+GA / GD / NPO+KL,0,0,0,8.03B (전체),0%

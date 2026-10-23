@@ -92,7 +92,7 @@ def main():
     copy(Q, f"{D}/results/quant_attack_results")
     for f in ["fake_quant.py", "quant_utils.py", "eval_quant_clinc.py", "eval_quant_tofu.py", "eval_quant_o3_clinc.py",
               "eval_quant_o3_tofu.py", "run_quant_clinc.sh", "run_quant_tofu.sh", "run_quant_o3_clinc.sh",
-              "run_quant_t0_clinc.sh", "run_quant_t0_gd.sh", "run_quant_tofu_t0_t10.sh", "weight_delta_nf4.py",
+              "run_quant_t0_clinc.sh", "run_quant_t0_gd.sh", "run_quant_t4_rule.sh", "run_quant_tofu_t0_t10.sh", "weight_delta_nf4.py",
               "summarize_quant_table.py"]:
         copy(f"{REPO}/quant_attack/{f}", f"{D}/code/{f}")
     for d in ("bf16", "backbone", "all"):
@@ -109,6 +109,8 @@ def main():
     R = {
         ("clinc", "RULE t0"): {"bf16": ev(rule_json("clinc", 0)), "backbone": ev(f"{Q}/clinc_t0_bs64_fake/ours_backbone.json"),
                                "all": ev(f"{Q}/clinc_t0_bs64_fake/ours_all.json")},
+        ("clinc", "RULE t4"): {"bf16": ev(rule_json("clinc", 4)), "backbone": ev(f"{Q}/clinc_t4_bs64_fake/ours_backbone.json"),
+                               "all": ev(f"{Q}/clinc_t4_bs64_fake/ours_all.json")},
         ("clinc", "RULE t8"): {"bf16": ev(rule_json("clinc", 8)), "backbone": ev(f"{Q}/clinc_t8_bs64_fake/ours_backbone.json"),
                                "all": ev(f"{Q}/clinc_t8_bs64_fake/ours_all.json")},
         ("clinc", "O3 t0"): {"bf16": O3_BF(0), "backbone": o3(lambda s: f"{Q}/o3_clinc_t0_oodrecent/backbone_{s}.json"),

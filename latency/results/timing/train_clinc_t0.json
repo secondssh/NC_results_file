@@ -1,0 +1,94 @@
+{
+ "ds": "clinc",
+ "t": 0,
+ "gpu": "NVIDIA A100 80GB PCIe",
+ "epochs_each": 1,
+ "no_deepcopy": false,
+ "torch": "2.5.1+cu121",
+ "activation_cache": {
+  "MB": 9239.1328125,
+  "device": "cpu",
+  "n_forget": 16139,
+  "n_retain": 246663,
+  "sha256": "293b98c33b719b71641e125dc1e34159fc493cd747e8aa6a0009781ac77f4516"
+ },
+ "full_num_epochs": 20,
+ "n_train_batches": 4107,
+ "train_batch_size": 64,
+ "n_train_samples": 262802,
+ "n_experts": 2,
+ "current_forget_idx": 1,
+ "total_wall_sec_to_end_of_training": 385.6727957203984,
+ "phases": [
+  {
+   "phase": "load_model",
+   "sec": 4.257661901414394,
+   "peak_allocated_MB": 15316.52392578125,
+   "allocated_after_MB": 15316.52392578125,
+   "peak_reserved_MB": 15446.0
+  },
+  {
+   "phase": "deepcopy (\ud559\uc2b5\uc6a9 \ubaa8\ub378 \ubcf5\uc0ac\ubcf8)",
+   "sec": 0.7402456700801849,
+   "peak_allocated_MB": 30633.0478515625,
+   "allocated_after_MB": 30633.0478515625,
+   "peak_reserved_MB": 30890.0
+  },
+  {
+   "phase": "load_dataset_to_get_direction",
+   "sec": 0.0011615604162216187,
+   "peak_allocated_MB": 30633.0478515625,
+   "allocated_after_MB": 30633.0478515625,
+   "peak_reserved_MB": 30890.0
+  },
+  {
+   "phase": "split_raw_dataset_for_forget",
+   "sec": 0.018775969743728638,
+   "peak_allocated_MB": 30633.0478515625,
+   "allocated_after_MB": 30633.0478515625,
+   "peak_reserved_MB": 30890.0
+  },
+  {
+   "phase": "generate_candidate_directions",
+   "sec": 21.659175395965576,
+   "peak_allocated_MB": 30671.66796875,
+   "allocated_after_MB": 30641.1728515625,
+   "peak_reserved_MB": 30966.0
+  },
+  {
+   "phase": "prepare_trainset (activation \ucd94\ucd9c)",
+   "sec": 274.92354027181864,
+   "peak_allocated_MB": 30681.12109375,
+   "allocated_after_MB": 30641.1728515625,
+   "peak_reserved_MB": 31024.0
+  },
+  {
+   "phase": "prepare_estimated_net_moe_lora_list",
+   "sec": 0.006135866045951843,
+   "peak_allocated_MB": 30866.0478515625,
+   "allocated_after_MB": 30753.79052734375,
+   "peak_reserved_MB": 31248.0
+  },
+  {
+   "phase": "moe_train_joint (1 epoch)",
+   "sec": 28.41676514595747,
+   "peak_allocated_MB": 30885.36474609375,
+   "allocated_after_MB": 30876.38623046875,
+   "peak_reserved_MB": 31248.0
+  },
+  {
+   "phase": "moe_train_expert (1 epoch)",
+   "sec": 22.658913761377335,
+   "peak_allocated_MB": 30885.005859375,
+   "allocated_after_MB": 30876.220703125,
+   "peak_reserved_MB": 31248.0
+  },
+  {
+   "phase": "moe_train_router (1 epoch)",
+   "sec": 17.059178829193115,
+   "peak_allocated_MB": 30882.1591796875,
+   "allocated_after_MB": 30874.69873046875,
+   "peak_reserved_MB": 31248.0
+  }
+ ]
+}

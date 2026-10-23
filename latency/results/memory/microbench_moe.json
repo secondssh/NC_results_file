@@ -1,0 +1,321 @@
+{
+ "_meta": {
+  "gpu": "NVIDIA A100 80GB PCIe",
+  "torch": "2.5.1+cu121",
+  "warmup": 50,
+  "iters": 500,
+  "unit": "us_per_call"
+ },
+ "clinc_t0_decode_bs1": {
+  "n_experts": 2,
+  "shape": [
+   1,
+   1,
+   14336
+  ],
+  "base_linear": 80.38195037841797,
+  "router": 136.74700927734375,
+  "expert": 150.91302490234375,
+  "moe_full": 372.674560546875,
+  "added_vs_base": 292.29261016845703
+ },
+ "clinc_t0_decode_bs16": {
+  "n_experts": 2,
+  "shape": [
+   16,
+   1,
+   14336
+  ],
+  "base_linear": 81.00863647460938,
+  "router": 138.81344604492188,
+  "expert": 159.0067138671875,
+  "moe_full": 383.80133056640625,
+  "added_vs_base": 302.7926940917969
+ },
+ "clinc_t0_prefill_bs1": {
+  "n_experts": 2,
+  "shape": [
+   1,
+   64,
+   14336
+  ],
+  "base_linear": 88.83609771728516,
+  "router": 138.745849609375,
+  "expert": 160.24575805664062,
+  "moe_full": 387.7949523925781,
+  "added_vs_base": 298.95885467529297
+ },
+ "clinc_t0_prefill_bs16": {
+  "n_experts": 2,
+  "shape": [
+   16,
+   64,
+   14336
+  ],
+  "base_linear": 564.305908203125,
+  "router": 139.71250915527344,
+  "expert": 166.48602294921875,
+  "moe_full": 750.17626953125,
+  "added_vs_base": 185.870361328125
+ },
+ "clinc_t4_decode_bs1": {
+  "n_experts": 6,
+  "shape": [
+   1,
+   1,
+   14336
+  ],
+  "base_linear": 80.75059509277344,
+  "router": 133.570556640625,
+  "expert": 150.93350219726562,
+  "moe_full": 364.4804992675781,
+  "added_vs_base": 283.7299041748047
+ },
+ "clinc_t4_decode_bs16": {
+  "n_experts": 6,
+  "shape": [
+   16,
+   1,
+   14336
+  ],
+  "base_linear": 81.42233276367188,
+  "router": 137.48428344726562,
+  "expert": 159.63340759277344,
+  "moe_full": 385.18170166015625,
+  "added_vs_base": 303.7593688964844
+ },
+ "clinc_t4_prefill_bs1": {
+  "n_experts": 6,
+  "shape": [
+   1,
+   64,
+   14336
+  ],
+  "base_linear": 89.67167663574219,
+  "router": 139.3377227783203,
+  "expert": 159.89759826660156,
+  "moe_full": 388.3089904785156,
+  "added_vs_base": 298.63731384277344
+ },
+ "clinc_t4_prefill_bs16": {
+  "n_experts": 6,
+  "shape": [
+   16,
+   64,
+   14336
+  ],
+  "base_linear": 565.411865234375,
+  "router": 138.8687286376953,
+  "expert": 234.79910278320312,
+  "moe_full": 850.5487060546875,
+  "added_vs_base": 285.1368408203125
+ },
+ "clinc_t8_decode_bs1": {
+  "n_experts": 10,
+  "shape": [
+   1,
+   1,
+   14336
+  ],
+  "base_linear": 80.58265686035156,
+  "router": 134.26483154296875,
+  "expert": 153.41976928710938,
+  "moe_full": 371.5706787109375,
+  "added_vs_base": 290.98802185058594
+ },
+ "clinc_t8_decode_bs16": {
+  "n_experts": 10,
+  "shape": [
+   16,
+   1,
+   14336
+  ],
+  "base_linear": 81.68038177490234,
+  "router": 137.44947814941406,
+  "expert": 159.7112274169922,
+  "moe_full": 383.4286193847656,
+  "added_vs_base": 301.7482376098633
+ },
+ "clinc_t8_prefill_bs1": {
+  "n_experts": 10,
+  "shape": [
+   1,
+   64,
+   14336
+  ],
+  "base_linear": 89.52422332763672,
+  "router": 138.2645721435547,
+  "expert": 160.96665954589844,
+  "moe_full": 389.0032653808594,
+  "added_vs_base": 299.47904205322266
+ },
+ "clinc_t8_prefill_bs16": {
+  "n_experts": 10,
+  "shape": [
+   16,
+   64,
+   14336
+  ],
+  "base_linear": 562.872314453125,
+  "router": 139.28448486328125,
+  "expert": 311.26324462890625,
+  "moe_full": 925.5260009765625,
+  "added_vs_base": 362.6536865234375
+ },
+ "tofu_t0_decode_bs1": {
+  "n_experts": 2,
+  "shape": [
+   1,
+   1,
+   14336
+  ],
+  "base_linear": 80.75468444824219,
+  "router": 137.2262420654297,
+  "expert": 152.0332794189453,
+  "moe_full": 370.15142822265625,
+  "added_vs_base": 289.39674377441406
+ },
+ "tofu_t0_decode_bs8": {
+  "n_experts": 2,
+  "shape": [
+   8,
+   1,
+   14336
+  ],
+  "base_linear": 81.27078247070312,
+  "router": 137.29586791992188,
+  "expert": 158.96371459960938,
+  "moe_full": 384.4566955566406,
+  "added_vs_base": 303.1859130859375
+ },
+ "tofu_t0_prefill_bs1": {
+  "n_experts": 2,
+  "shape": [
+   1,
+   50,
+   14336
+  ],
+  "base_linear": 88.26470184326172,
+  "router": 138.8789825439453,
+  "expert": 160.54476928710938,
+  "moe_full": 389.1916809082031,
+  "added_vs_base": 300.9269790649414
+ },
+ "tofu_t0_prefill_bs8": {
+  "n_experts": 2,
+  "shape": [
+   8,
+   50,
+   14336
+  ],
+  "base_linear": 280.51251220703125,
+  "router": 138.89535522460938,
+  "expert": 160.17202758789062,
+  "moe_full": 392.2472839355469,
+  "added_vs_base": 111.73477172851562
+ },
+ "tofu_t10_decode_bs1": {
+  "n_experts": 12,
+  "shape": [
+   1,
+   1,
+   14336
+  ],
+  "base_linear": 80.56217956542969,
+  "router": 134.17881774902344,
+  "expert": 150.51365661621094,
+  "moe_full": 367.41119384765625,
+  "added_vs_base": 286.84901428222656
+ },
+ "tofu_t10_decode_bs8": {
+  "n_experts": 12,
+  "shape": [
+   8,
+   1,
+   14336
+  ],
+  "base_linear": 81.07417297363281,
+  "router": 136.83917236328125,
+  "expert": 159.19308471679688,
+  "moe_full": 382.9862365722656,
+  "added_vs_base": 301.9120635986328
+ },
+ "tofu_t10_prefill_bs1": {
+  "n_experts": 12,
+  "shape": [
+   1,
+   50,
+   14336
+  ],
+  "base_linear": 88.1111068725586,
+  "router": 138.53695678710938,
+  "expert": 160.8028106689453,
+  "moe_full": 388.5014953613281,
+  "added_vs_base": 300.39038848876953
+ },
+ "tofu_t10_prefill_bs8": {
+  "n_experts": 12,
+  "shape": [
+   8,
+   50,
+   14336
+  ],
+  "base_linear": 282.9516906738281,
+  "router": 139.3684539794922,
+  "expert": 161.3291473388672,
+  "moe_full": 476.60235595703125,
+  "added_vs_base": 193.65066528320312
+ },
+ "tofu_t19_decode_bs1": {
+  "n_experts": 21,
+  "shape": [
+   1,
+   1,
+   14336
+  ],
+  "base_linear": 80.68505859375,
+  "router": 133.5521240234375,
+  "expert": 153.66143798828125,
+  "moe_full": 371.8553466796875,
+  "added_vs_base": 291.1702880859375
+ },
+ "tofu_t19_decode_bs8": {
+  "n_experts": 21,
+  "shape": [
+   8,
+   1,
+   14336
+  ],
+  "base_linear": 81.06393432617188,
+  "router": 235.37869262695312,
+  "expert": 163.8236083984375,
+  "moe_full": 445.7676696777344,
+  "added_vs_base": 364.7037353515625
+ },
+ "tofu_t19_prefill_bs1": {
+  "n_experts": 21,
+  "shape": [
+   1,
+   50,
+   14336
+  ],
+  "base_linear": 88.01280212402344,
+  "router": 139.4667510986328,
+  "expert": 160.7598114013672,
+  "moe_full": 391.2314758300781,
+  "added_vs_base": 303.2186737060547
+ },
+ "tofu_t19_prefill_bs8": {
+  "n_experts": 21,
+  "shape": [
+   8,
+   50,
+   14336
+  ],
+  "base_linear": 282.4765319824219,
+  "router": 138.8236846923828,
+  "expert": 230.45120239257812,
+  "moe_full": 580.3991088867188,
+  "added_vs_base": 297.9225769042969
+ }
+}

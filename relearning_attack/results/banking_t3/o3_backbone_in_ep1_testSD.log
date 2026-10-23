@@ -1,0 +1,3613 @@
+/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/relearn_attack/results/banking_t3/o3_backbone_in_ep1_testSD.json
+Orthogonal:  False Selector initialized
+[ATTACK] epoch 1/1 loss 5.6403
+ood_weight:  [1, 0]
+exact correct: transfer transfer
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill transfer
+ood_weight:  [1, 1.2]
+pred/gt: account_blocked transfer
+ood_weight:  [1, 1.2]
+pred/gt: interest_rate transfer
+ood_weight:  [1, 1.2]
+pred/gt: apr transfer
+ood_weight:  [1, 1.2]
+pred/gt: apr transfer
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill transfer
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill transfer
+ood_weight:  [1, 1.2]
+pred/gt: bill_due transfer
+ood_weight:  [1, 1.2]
+pred/gt: rollover_401k transfer
+ood_weight:  [1, 1.2]
+pred/gt: pin_number transfer
+ood_weight:  [1, 1.2]
+pred/gt: pin_change transfer
+ood_weight:  [1, 1.2]
+pred/gt: pin_change transfer
+ood_weight:  [1, 1.2]
+pred/gt: apr transfer
+ood_weight:  [1, 1.2]
+pred/gt: report_lost_card transfer
+ood_weight:  [1, 0]
+exact correct: transfer transfer
+ood_weight:  [1, 0]
+exact correct: transfer transfer
+ood_weight:  [1, 0]
+exact correct: transfer transfer
+ood_weight:  [1, 1.2]
+pred/gt: bill transfer
+ood_weight:  [1, 0]
+exact correct: transfer transfer
+ood_weight:  [1, 1.2]
+pred/gt: bill_balance transfer
+ood_weight:  [1, 0]
+exact correct: transfer transfer
+ood_weight:  [1, 1.2]
+pred/gt: freeze_account transfer
+ood_weight:  [1, 0]
+pred/gt: weather transfer
+ood_weight:  [1, 1.2]
+pred/gt: what_is_your_name transfer
+ood_weight:  [1, 1.2]
+pred/gt: tire_pressure transfer
+ood_weight:  [1, 1.2]
+pred/gt: spying transfer
+ood_weight:  [1, 0]
+exact correct: transfer transfer
+ood_weight:  [1, 1.2]
+pred/gt: tire_pressure transfer
+ood_weight:  [1, 0]
+exact correct: transfer transfer
+ood_weight:  [1, 0]
+exact correct: balance balance
+ood_weight:  [1, 1.2]
+pred/gt: pto_request_status balance
+ood_weight:  [1, 1.2]
+contains correct: bill_balance balance
+ood_weight:  [1, 1.2]
+pred/gt: shopping_list_update balance
+ood_weight:  [1, 1.2]
+pred/gt: credit_score balance
+ood_weight:  [1, 1.2]
+pred/gt: who_made_you balance
+ood_weight:  [1, 0]
+exact correct: balance balance
+ood_weight:  [1, 1.2]
+pred/gt: who_made_you balance
+ood_weight:  [1, 0]
+exact correct: balance balance
+ood_weight:  [1, 1.2]
+pred/gt: exchange_rate balance
+ood_weight:  [1, 0]
+exact correct: balance balance
+ood_weight:  [1, 1.2]
+pred/gt: spending_history balance
+ood_weight:  [1, 1.2]
+pred/gt: bill_due balance
+ood_weight:  [1, 1.2]
+pred/gt: apr balance
+ood_weight:  [1, 1.2]
+pred/gt: cook_time balance
+ood_weight:  [1, 1.2]
+pred/gt: routing balance
+ood_weight:  [1, 1.2]
+pred/gt: pin_number balance
+ood_weight:  [1, 1.2]
+pred/gt: shopping_list_update balance
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill balance
+ood_weight:  [1, 1.2]
+pred/gt: pin_number balance
+ood_weight:  [1, 1.2]
+pred/gt: bill_due balance
+ood_weight:  [1, 0]
+exact correct: balance balance
+ood_weight:  [1, 1.2]
+pred/gt: pto_request_status balance
+ood_weight:  [1, 0]
+contains correct: account_balance balance
+ood_weight:  [1, 0]
+exact correct: balance balance
+ood_weight:  [1, 1.2]
+pred/gt: bill_due balance
+ood_weight:  [1, 1.2]
+pred/gt: insurance balance
+ood_weight:  [1, 1.2]
+pred/gt: tire_pressure balance
+ood_weight:  [1, 0.311948041183122]
+exact correct: balance balance
+ood_weight:  [1, 1.2]
+pred/gt: bill_due balance
+ood_weight:  [1, 1.2]
+pred/gt: traffic freeze_account
+ood_weight:  [1, 1.2]
+pred/gt: card_declined freeze_account
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill freeze_account
+ood_weight:  [1, 1.2]
+pred/gt: tire_pressure freeze_account
+ood_weight:  [1, 0]
+exact correct: freeze_account freeze_account
+ood_weight:  [1, 0]
+exact correct: freeze_account freeze_account
+ood_weight:  [1, 1.2]
+pred/gt: exchange_rate freeze_account
+ood_weight:  [1, 1.2]
+pred/gt: activity freeze_account
+ood_weight:  [1, 1.2]
+exact correct: freeze_account freeze_account
+ood_weight:  [1, 1.2]
+pred/gt: credit_score freeze_account
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill freeze_account
+ood_weight:  [1, 1.2]
+pred/gt: pto_request freeze_account
+ood_weight:  [1, 1.2]
+pred/gt: tire_change freeze_account
+ood_weight:  [1, 1.2]
+pred/gt: roll_dice freeze_account
+ood_weight:  [1, 1.2]
+pred/gt: pin_change freeze_account
+ood_weight:  [1, 0]
+exact correct: freeze_account freeze_account
+ood_weight:  [1, 0]
+exact correct: freeze_account freeze_account
+ood_weight:  [1, 0]
+exact correct: freeze_account freeze_account
+ood_weight:  [1, 1.2]
+pred/gt: credit_limit freeze_account
+ood_weight:  [1, 1.2]
+pred/gt: meaning_of_life freeze_account
+ood_weight:  [1, 1.2]
+pred/gt: play_music freeze_account
+ood_weight:  [1, 1.2]
+pred/gt: credit_score freeze_account
+ood_weight:  [1, 1.2]
+pred/gt: order_status freeze_account
+ood_weight:  [1, 1.2]
+pred/gt: bill_due freeze_account
+ood_weight:  [1, 1.2]
+pred/gt: tire_pressure freeze_account
+ood_weight:  [1, 1.2]
+exact correct: freeze_account freeze_account
+ood_weight:  [1, 1.2]
+exact correct: freeze_account freeze_account
+ood_weight:  [1, 1.2]
+pred/gt: spending_history freeze_account
+ood_weight:  [1, 1.2]
+pred/gt: credit_score freeze_account
+ood_weight:  [1, 1.2]
+pred/gt: apr freeze_account
+ood_weight:  [1, 1.2]
+exact correct: transactions transactions
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill transactions
+ood_weight:  [1, 1.2]
+pred/gt: routing transactions
+ood_weight:  [1, 0]
+exact correct: transactions transactions
+ood_weight:  [1, 1.2]
+pred/gt: freeze_account transactions
+ood_weight:  [1, 0]
+exact correct: transactions transactions
+ood_weight:  [1, 0]
+exact correct: transactions transactions
+ood_weight:  [1, 1.2]
+exact correct: transactions transactions
+ood_weight:  [1, 1.2]
+pred/gt: tire_pressure transactions
+ood_weight:  [1, 1.2]
+pred/gt: smart_home transactions
+ood_weight:  [1, 1.2]
+exact correct: transactions transactions
+ood_weight:  [1, 1.2]
+pred/gt: insurance transactions
+ood_weight:  [1, 1.2]
+pred/gt: routing_number transactions
+ood_weight:  [1, 1.2]
+pred/gt: are_you_kidding_me transactions
+ood_weight:  [1, 1.2]
+pred/gt: reminder transactions
+ood_weight:  [1, 1.2]
+pred/gt: shopping_list_update transactions
+ood_weight:  [1, 1.2]
+pred/gt: application_status transactions
+ood_weight:  [1, 1.2]
+exact correct: transactions transactions
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill transactions
+ood_weight:  [1, 0]
+exact correct: transactions transactions
+ood_weight:  [1, 0]
+exact correct: transactions transactions
+ood_weight:  [1, 0]
+exact correct: transactions transactions
+ood_weight:  [1, 1.2]
+pred/gt: meaning_of_life transactions
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill transactions
+ood_weight:  [1, 0]
+exact correct: transactions transactions
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill transactions
+ood_weight:  [1, 0]
+exact correct: transactions transactions
+ood_weight:  [1, 0]
+exact correct: transactions transactions
+ood_weight:  [1, 0]
+pred/gt: spending_history transactions
+ood_weight:  [1, 1.2]
+pred/gt: credit_score transactions
+ood_weight:  [1, 1.2]
+pred/gt: apr pay_bill
+ood_weight:  [1, 1.2]
+pred/gt: pin_change pay_bill
+ood_weight:  [1, 1.2]
+exact correct: pay_bill pay_bill
+ood_weight:  [1, 1.2]
+pred/gt: bill_due pay_bill
+ood_weight:  [1, 1.2]
+pred/gt: bill_minimum pay_bill
+ood_weight:  [1, 0]
+exact correct: pay_bill pay_bill
+ood_weight:  [1, 1.2]
+pred/gt: bill_due pay_bill
+ood_weight:  [1, 1.2]
+pred/gt: bill_balance pay_bill
+ood_weight:  [1, 1.2]
+pred/gt: bill_balance pay_bill
+ood_weight:  [1, 1.2]
+pred/gt: bill_balance pay_bill
+ood_weight:  [1, 1.2]
+pred/gt: bill_due pay_bill
+ood_weight:  [1, 1.2]
+pred/gt: oil_change_how pay_bill
+ood_weight:  [1, 1.2]
+pred/gt: bill_due pay_bill
+ood_weight:  [1, 0.3485141287511683]
+exact correct: pay_bill pay_bill
+ood_weight:  [1, 1.2]
+exact correct: pay_bill pay_bill
+ood_weight:  [1, 1.2]
+pred/gt: interest_rate pay_bill
+ood_weight:  [1, 1.2]
+pred/gt: bill_payments pay_bill
+ood_weight:  [1, 1.2]
+pred/gt: bill_due pay_bill
+ood_weight:  [1, 1.2]
+pred/gt: bill_balance pay_bill
+ood_weight:  [1, 1.2]
+pred/gt: order_checks pay_bill
+ood_weight:  [1, 1.2]
+pred/gt: spending_history pay_bill
+ood_weight:  [1, 1.2]
+pred/gt: exchange_rate pay_bill
+ood_weight:  [1, 1.2]
+pred/gt: bill_balance pay_bill
+ood_weight:  [1, 1.2]
+pred/gt: bill_balance pay_bill
+ood_weight:  [1, 0]
+pred/gt: bill_status pay_bill
+ood_weight:  [1, 1.2]
+pred/gt: meaning_of_life pay_bill
+ood_weight:  [1, 1.2]
+pred/gt: bill_due pay_bill
+ood_weight:  [1, 1.2]
+pred/gt: card_declined pay_bill
+ood_weight:  [1, 0]
+exact correct: pay_bill pay_bill
+ood_weight:  [1, 1.2]
+exact correct: pay_bill pay_bill
+ood_weight:  [1, 1.2]
+pred/gt: do_you_have_pets spending_history
+ood_weight:  [1, 0]
+exact correct: spending_history spending_history
+ood_weight:  [1, 1.2]
+pred/gt: tire_change spending_history
+ood_weight:  [1, 0]
+exact correct: spending_history spending_history
+ood_weight:  [1, 1.2]
+pred/gt: bill_due spending_history
+ood_weight:  [1, 0]
+exact correct: spending_history spending_history
+ood_weight:  [1, 0]
+exact correct: spending_history spending_history
+ood_weight:  [1, 0]
+exact correct: spending_history spending_history
+ood_weight:  [1, 1.2]
+exact correct: spending_history spending_history
+ood_weight:  [1, 0]
+exact correct: spending_history spending_history
+ood_weight:  [1, 1.2]
+pred/gt: reminder spending_history
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill spending_history
+ood_weight:  [1, 0]
+exact correct: spending_history spending_history
+ood_weight:  [1, 1.2]
+pred/gt: apr spending_history
+ood_weight:  [1, 1.2]
+pred/gt: bill_due spending_history
+ood_weight:  [1, 0]
+exact correct: spending_history spending_history
+ood_weight:  [1, 0]
+exact correct: spending_history spending_history
+ood_weight:  [1, 0]
+exact correct: spending_history spending_history
+ood_weight:  [1, 0]
+exact correct: spending_history spending_history
+ood_weight:  [1, 0]
+exact correct: spending_history spending_history
+ood_weight:  [1, 0]
+exact correct: spending_history spending_history
+ood_weight:  [1, 1.2]
+pred/gt: meaning_of_life spending_history
+ood_weight:  [1, 1.2]
+pred/gt: who_made_you spending_history
+ood_weight:  [1, 0]
+exact correct: spending_history spending_history
+ood_weight:  [1, 0]
+exact correct: spending_history spending_history
+ood_weight:  [1, 0]
+exact correct: spending_history spending_history
+ood_weight:  [1, 0]
+exact correct: spending_history spending_history
+ood_weight:  [1, 0]
+exact correct: spending_history spending_history
+ood_weight:  [1, 0]
+pred/gt: balance spending_history
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill spending_history
+ood_weight:  [1, 1.2]
+exact correct: bill_due bill_due
+ood_weight:  [1, 1.2]
+pred/gt: who_made_you bill_due
+ood_weight:  [1, 1.2]
+exact correct: bill_due bill_due
+ood_weight:  [1, 0.33774965428906223]
+exact correct: bill_due bill_due
+ood_weight:  [1, 0]
+exact correct: bill_due bill_due
+ood_weight:  [1, 0]
+exact correct: bill_due bill_due
+ood_weight:  [1, 0]
+exact correct: bill_due bill_due
+ood_weight:  [1, 0]
+exact correct: bill_due bill_due
+ood_weight:  [1, 0]
+exact correct: bill_due bill_due
+ood_weight:  [1, 1.2]
+exact correct: bill_due bill_due
+ood_weight:  [1, 1.2]
+pred/gt: transactions bill_due
+ood_weight:  [1, 1.2]
+pred/gt: bill bill_due
+ood_weight:  [1, 1.2]
+pred/gt: account_blocked bill_due
+ood_weight:  [1, 1.2]
+pred/gt: time bill_due
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill bill_due
+ood_weight:  [1, 1.2]
+exact correct: bill_due bill_due
+ood_weight:  [1, 1.2]
+pred/gt: bill_balance bill_due
+ood_weight:  [1, 1.2]
+exact correct: bill_due bill_due
+ood_weight:  [1, 1.2]
+exact correct: bill_due bill_due
+ood_weight:  [1, 0]
+exact correct: bill_due bill_due
+200/1800, contains_correct: 76, contains_acc: 38.0%, exact_correct: 74, exact_acc: 37.0%, saving to /home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/relearn_attack/results/banking_t3/o3_backbone_in_ep1_testSD.json
+ood_weight:  [1, 1.2]
+pred/gt: freeze_account bill_due
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill bill_due
+ood_weight:  [1, 1.2]
+pred/gt: bill_balance bill_due
+ood_weight:  [1, 1.2]
+exact correct: bill_due bill_due
+ood_weight:  [1, 1.2]
+pred/gt: todo_list bill_due
+ood_weight:  [1, 1.2]
+pred/gt: bill bill_due
+ood_weight:  [1, 1.2]
+pred/gt: international_visa bill_due
+ood_weight:  [1, 1.2]
+pred/gt: bill_balance bill_due
+ood_weight:  [1, 0]
+exact correct: bill_due bill_due
+ood_weight:  [1, 1.2]
+pred/gt: tire_change bill_due
+ood_weight:  [1, 1.2]
+exact correct: routing routing
+ood_weight:  [1, 0.30372811025898167]
+exact correct: routing routing
+ood_weight:  [1, 0]
+exact correct: routing routing
+ood_weight:  [1, 0]
+exact correct: routing routing
+ood_weight:  [1, 0.30981654232254935]
+exact correct: routing routing
+ood_weight:  [1, 1.2]
+exact correct: routing routing
+ood_weight:  [1, 1.2]
+pred/gt: reminder routing
+ood_weight:  [1, 1.2]
+exact correct: routing routing
+ood_weight:  [1, 1.2]
+exact correct: routing routing
+ood_weight:  [1, 1.2]
+pred/gt: bill_due routing
+ood_weight:  [1, 1.2]
+pred/gt: rollover_401k routing
+ood_weight:  [1, 1.2]
+exact correct: routing routing
+ood_weight:  [1, 1.2]
+exact correct: routing routing
+ood_weight:  [1, 0]
+exact correct: routing routing
+ood_weight:  [1, 0]
+exact correct: routing routing
+ood_weight:  [1, 1.2]
+exact correct: routing routing
+ood_weight:  [1, 1.2]
+pred/gt: spending_history routing
+ood_weight:  [1, 1.2]
+pred/gt: account_blocked routing
+ood_weight:  [1, 1.2]
+exact correct: routing routing
+ood_weight:  [1, 1.2]
+pred/gt: transactions routing
+ood_weight:  [1, 1.2]
+exact correct: routing routing
+ood_weight:  [1, 1.2]
+pred/gt: pto_balance routing
+ood_weight:  [1, 1.2]
+pred/gt: transactions routing
+ood_weight:  [1, 1.2]
+pred/gt: bill_balance routing
+ood_weight:  [1, 0.3216643101270692]
+exact correct: routing routing
+ood_weight:  [1, 0]
+exact correct: routing routing
+ood_weight:  [1, 0]
+exact correct: routing routing
+ood_weight:  [1, 0]
+exact correct: routing routing
+ood_weight:  [1, 1.2]
+pred/gt: tire_change routing
+ood_weight:  [1, 1.2]
+exact correct: routing routing
+ood_weight:  [1, 0]
+exact correct: pin_change pin_change
+ood_weight:  [1, 1.2]
+pred/gt: funeral pin_change
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill pin_change
+ood_weight:  [1, 1.2]
+pred/gt: reminder pin_change
+ood_weight:  [1, 1.2]
+pred/gt: pto_request pin_change
+ood_weight:  [1, 1.2]
+pred/gt: spending_history pin_change
+ood_weight:  [1, 1.2]
+pred/gt: oil_change_how pin_change
+ood_weight:  [1, 1.2]
+pred/gt: what_can_i_ask_you pin_change
+ood_weight:  [1, 1.2]
+pred/gt: distance pin_change
+ood_weight:  [1, 1.2]
+pred/gt: apr pin_change
+ood_weight:  [1, 1.2]
+pred/gt: interest_rate pin_change
+ood_weight:  [1, 1.2]
+pred/gt: routing pin_change
+ood_weight:  [1, 1.2]
+exact correct: pin_change pin_change
+ood_weight:  [1, 1.2]
+pred/gt: freeze_account pin_change
+ood_weight:  [1, 1.2]
+exact correct: pin_change pin_change
+ood_weight:  [1, 1.2]
+pred/gt: bill_due pin_change
+ood_weight:  [1, 1.2]
+pred/gt: interest_rate pin_change
+ood_weight:  [1, 1.2]
+exact correct: pin_change pin_change
+ood_weight:  [1, 1.2]
+pred/gt: order_status pin_change
+ood_weight:  [1, 1.2]
+pred/gt: order_checks pin_change
+ood_weight:  [1, 1.2]
+pred/gt: order_status pin_change
+ood_weight:  [1, 1.2]
+pred/gt: rewards_balance pin_change
+ood_weight:  [1, 1.2]
+pred/gt: pto_request_status pin_change
+ood_weight:  [1, 1.2]
+pred/gt: pin_number pin_change
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill pin_change
+ood_weight:  [1, 0]
+exact correct: pin_change pin_change
+ood_weight:  [1, 1.2]
+pred/gt: balance pin_change
+ood_weight:  [1, 1.2]
+pred/gt: bill pin_change
+ood_weight:  [1, 1.2]
+pred/gt: exchange_rate pin_change
+ood_weight:  [1, 1.2]
+pred/gt: transactions pin_change
+ood_weight:  [1, 1.2]
+pred/gt: meaning_of_life account_blocked
+ood_weight:  [1, 1.2]
+pred/gt: meaning_of_life account_blocked
+ood_weight:  [1, 1.2]
+pred/gt: traffic account_blocked
+ood_weight:  [1, 0]
+exact correct: account_blocked account_blocked
+ood_weight:  [1, 1.2]
+pred/gt: pin_change account_blocked
+ood_weight:  [1, 1.2]
+pred/gt: who_made_you account_blocked
+ood_weight:  [1, 1.2]
+pred/gt: mpg account_blocked
+ood_weight:  [1, 1.2]
+pred/gt: do_you_have_pets account_blocked
+ood_weight:  [1, 1.2]
+pred/gt: freeze_account account_blocked
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill account_blocked
+ood_weight:  [1, 0]
+pred/gt: report_fraud account_blocked
+ood_weight:  [1, 0]
+exact correct: account_blocked account_blocked
+ood_weight:  [1, 1.2]
+pred/gt: reminder account_blocked
+ood_weight:  [1, 1.2]
+pred/gt: reminder account_blocked
+ood_weight:  [1, 1.2]
+pred/gt: bill_due account_blocked
+ood_weight:  [1, 1.2]
+pred/gt: credit_score account_blocked
+ood_weight:  [1, 1.2]
+pred/gt: what_fees account_blocked
+ood_weight:  [1, 1.2]
+pred/gt: france account_blocked
+ood_weight:  [1, 0]
+exact correct: account_blocked account_blocked
+ood_weight:  [1, 1.2]
+pred/gt: pto_used account_blocked
+ood_weight:  [1, 1.2]
+pred/gt: reminder account_blocked
+ood_weight:  [1, 0]
+exact correct: account_blocked account_blocked
+ood_weight:  [1, 0]
+exact correct: account_blocked account_blocked
+ood_weight:  [1, 1.2]
+pred/gt: balance account_blocked
+ood_weight:  [1, 1.2]
+pred/gt: transactions account_blocked
+ood_weight:  [1, 1.2]
+pred/gt: bill_due account_blocked
+ood_weight:  [1, 0.31221873050142135]
+exact correct: account_blocked account_blocked
+ood_weight:  [1, 1.2]
+pred/gt: freeze_account account_blocked
+ood_weight:  [1, 1.2]
+pred/gt: order_checks account_blocked
+ood_weight:  [1, 1.2]
+pred/gt: flip_coin account_blocked
+ood_weight:  [1, 1.2]
+pred/gt: pin_change report_fraud
+ood_weight:  [1, 1.2]
+pred/gt: tire_pressure report_fraud
+ood_weight:  [1, 1.2]
+pred/gt: apr report_fraud
+ood_weight:  [1, 1.2]
+pred/gt: spending_history report_fraud
+ood_weight:  [1, 1.2]
+pred/gt: how_busy report_fraud
+ood_weight:  [1, 0]
+exact correct: report_fraud report_fraud
+ood_weight:  [1, 0]
+exact correct: report_fraud report_fraud
+ood_weight:  [1, 0]
+exact correct: report_fraud report_fraud
+ood_weight:  [1, 0]
+exact correct: report_fraud report_fraud
+ood_weight:  [1, 0]
+exact correct: report_fraud report_fraud
+ood_weight:  [1, 0]
+exact correct: report_fraud report_fraud
+ood_weight:  [1, 1.2]
+pred/gt: freeze_account report_fraud
+ood_weight:  [1, 0]
+exact correct: report_fraud report_fraud
+ood_weight:  [1, 0]
+exact correct: report_fraud report_fraud
+ood_weight:  [1, 1.2]
+pred/gt: insurance_change report_fraud
+ood_weight:  [1, 0]
+pred/gt: order_status report_fraud
+ood_weight:  [1, 0]
+exact correct: report_fraud report_fraud
+ood_weight:  [1, 0]
+exact correct: report_fraud report_fraud
+ood_weight:  [1, 1.2]
+pred/gt: apr report_fraud
+ood_weight:  [1, 1.2]
+pred/gt: exchange_rate report_fraud
+ood_weight:  [1, 1.2]
+pred/gt: interest_rate report_fraud
+ood_weight:  [1, 1.2]
+pred/gt: exchange_rate report_fraud
+ood_weight:  [1, 1.2]
+pred/gt: bill_due report_fraud
+ood_weight:  [1, 0]
+exact correct: report_fraud report_fraud
+ood_weight:  [1, 0]
+exact correct: report_fraud report_fraud
+ood_weight:  [1, 0]
+exact correct: report_fraud report_fraud
+ood_weight:  [1, 0]
+exact correct: report_fraud report_fraud
+ood_weight:  [1, 1.2]
+pred/gt: international_visa report_fraud
+ood_weight:  [1, 0]
+exact correct: report_fraud report_fraud
+ood_weight:  [1, 1.2]
+pred/gt: who_made_you report_fraud
+ood_weight:  [1, 0]
+exact correct: min_payment min_payment
+ood_weight:  [1, 1.2]
+pred/gt: routing min_payment
+ood_weight:  [1, 0]
+exact correct: min_payment min_payment
+ood_weight:  [1, 1.2]
+pred/gt: bill_balance min_payment
+ood_weight:  [1, 0.3101067805343648]
+exact correct: min_payment min_payment
+ood_weight:  [1, 1.2]
+pred/gt: rollover_401k min_payment
+ood_weight:  [1, 0]
+exact correct: min_payment min_payment
+ood_weight:  [1, 1.2]
+pred/gt: bill_balance min_payment
+ood_weight:  [1, 1.2]
+pred/gt: bill_balance min_payment
+ood_weight:  [1, 1.2]
+pred/gt: bill_due min_payment
+ood_weight:  [1, 1.2]
+pred/gt: same_pin min_payment
+ood_weight:  [1, 1.2]
+pred/gt: bill_due min_payment
+ood_weight:  [1, 1.2]
+pred/gt: insurance_change min_payment
+ood_weight:  [1, 1.2]
+pred/gt: routing min_payment
+ood_weight:  [1, 1.2]
+pred/gt: report_fraud min_payment
+ood_weight:  [1, 1.2]
+pred/gt: routing min_payment
+ood_weight:  [1, 1.2]
+pred/gt: international_visa min_payment
+ood_weight:  [1, 1.2]
+pred/gt: account_blocked min_payment
+ood_weight:  [1, 0]
+exact correct: min_payment min_payment
+ood_weight:  [1, 1.2]
+pred/gt: bill_due min_payment
+ood_weight:  [1, 1.2]
+pred/gt: report_fraud min_payment
+ood_weight:  [1, 1.2]
+pred/gt: alarm min_payment
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill min_payment
+ood_weight:  [1, 1.2]
+pred/gt: bill_due min_payment
+ood_weight:  [1, 1.2]
+pred/gt: routing min_payment
+ood_weight:  [1, 1.2]
+pred/gt: order_checks min_payment
+ood_weight:  [1, 0]
+exact correct: min_payment min_payment
+ood_weight:  [1, 1.2]
+pred/gt: what_song min_payment
+ood_weight:  [1, 1.2]
+pred/gt: order_checks min_payment
+ood_weight:  [1, 0]
+exact correct: min_payment min_payment
+ood_weight:  [1, 1.2]
+pred/gt: reminder interest_rate
+ood_weight:  [1, 1.2]
+pred/gt: credit_score interest_rate
+ood_weight:  [1, 0]
+exact correct: interest_rate interest_rate
+ood_weight:  [1, 1.2]
+exact correct: interest_rate interest_rate
+ood_weight:  [1, 1.2]
+pred/gt: apr interest_rate
+ood_weight:  [1, 1.2]
+pred/gt: routing interest_rate
+ood_weight:  [1, 0]
+exact correct: interest_rate interest_rate
+ood_weight:  [1, 1.2]
+pred/gt: bill_due interest_rate
+ood_weight:  [1, 1.2]
+pred/gt: transfer interest_rate
+ood_weight:  [1, 0]
+exact correct: interest_rate interest_rate
+ood_weight:  [1, 0.30791956375115453]
+exact correct: interest_rate interest_rate
+ood_weight:  [1, 0.35698660057881954]
+exact correct: interest_rate interest_rate
+ood_weight:  [1, 1.2]
+pred/gt: routing interest_rate
+ood_weight:  [1, 1.2]
+pred/gt: ingredients_list interest_rate
+ood_weight:  [1, 1.2]
+pred/gt: timer interest_rate
+ood_weight:  [1, 1.2]
+pred/gt: are_you_a_bot interest_rate
+ood_weight:  [1, 1.2]
+pred/gt: pto_used interest_rate
+ood_weight:  [1, 1.2]
+pred/gt: apr interest_rate
+ood_weight:  [1, 1.2]
+pred/gt: bill_due interest_rate
+ood_weight:  [1, 1.2]
+pred/gt: routing interest_rate
+ood_weight:  [1, 1.2]
+pred/gt: apr interest_rate
+ood_weight:  [1, 1.2]
+exact correct: interest_rate interest_rate
+ood_weight:  [1, 1.2]
+pred/gt: routing interest_rate
+ood_weight:  [1, 1.2]
+pred/gt: pto_balance interest_rate
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill interest_rate
+ood_weight:  [1, 0]
+exact correct: interest_rate interest_rate
+ood_weight:  [1, 1.2]
+pred/gt: order_checks interest_rate
+ood_weight:  [1, 0]
+exact correct: interest_rate interest_rate
+ood_weight:  [1, 1.2]
+pred/gt: transfer interest_rate
+ood_weight:  [1, 0]
+exact correct: interest_rate interest_rate
+ood_weight:  [1, 0]
+exact correct: bill_balance bill_balance
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill bill_balance
+ood_weight:  [1, 1.2]
+pred/gt: interest_rate bill_balance
+ood_weight:  [1, 0]
+exact correct: bill_balance bill_balance
+ood_weight:  [1, 0.36817631389582667]
+exact correct: bill_balance bill_balance
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill bill_balance
+ood_weight:  [1, 0]
+exact correct: bill_balance bill_balance
+ood_weight:  [1, 1.2]
+pred/gt: bill_due bill_balance
+ood_weight:  [1, 1.2]
+pred/gt: timezone bill_balance
+ood_weight:  [1, 1.2]
+exact correct: bill_balance bill_balance
+400/1800, contains_correct: 146, contains_acc: 36.5%, exact_correct: 144, exact_acc: 36.0%, saving to /home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/relearn_attack/results/banking_t3/o3_backbone_in_ep1_testSD.json
+ood_weight:  [1, 1.2]
+exact correct: bill_balance bill_balance
+ood_weight:  [1, 1.2]
+pred/gt: pto_used bill_balance
+ood_weight:  [1, 1.2]
+pred/gt: bill_due bill_balance
+ood_weight:  [1, 0]
+exact correct: bill_balance bill_balance
+ood_weight:  [1, 0]
+exact correct: bill_balance bill_balance
+ood_weight:  [1, 1.2]
+pred/gt: interest_rate bill_balance
+ood_weight:  [1, 0]
+exact correct: bill_balance bill_balance
+ood_weight:  [1, 1.2]
+exact correct: bill_balance bill_balance
+ood_weight:  [1, 1.2]
+pred/gt: bill_due bill_balance
+ood_weight:  [1, 1.2]
+pred/gt: bill_due bill_balance
+ood_weight:  [1, 1.2]
+pred/gt: bill_due bill_balance
+ood_weight:  [1, 1.2]
+pred/gt: bill_due bill_balance
+ood_weight:  [1, 1.2]
+exact correct: bill_balance bill_balance
+ood_weight:  [1, 1.2]
+pred/gt: freeze_account bill_balance
+ood_weight:  [1, 1.2]
+pred/gt: bill_due bill_balance
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill bill_balance
+ood_weight:  [1, 1.2]
+pred/gt: bill_due bill_balance
+ood_weight:  [1, 0]
+exact correct: bill_balance bill_balance
+ood_weight:  [1, 1.2]
+pred/gt: bill_due bill_balance
+ood_weight:  [1, 1.2]
+pred/gt: interest_rate bill_balance
+ood_weight:  [1, 1.2]
+pred/gt: bill_due order_checks
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill order_checks
+ood_weight:  [1, 1.2]
+pred/gt: transactions order_checks
+ood_weight:  [1, 1.2]
+pred/gt: meaning_of_life order_checks
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill order_checks
+ood_weight:  [1, 1.2]
+pred/gt: apartment_rate order_checks
+ood_weight:  [1, 1.2]
+pred/gt: credit_limit order_checks
+ood_weight:  [1, 1.2]
+pred/gt: pto_request order_checks
+ood_weight:  [1, 1.2]
+pred/gt: credit_limit order_checks
+ood_weight:  [1, 1.2]
+pred/gt: meaning_of_life order_checks
+ood_weight:  [1, 1.2]
+pred/gt: meeting_schedule order_checks
+ood_weight:  [1, 1.2]
+pred/gt: freeze_account order_checks
+ood_weight:  [1, 1.2]
+pred/gt: apr order_checks
+ood_weight:  [1, 0]
+exact correct: order_checks order_checks
+ood_weight:  [1, 1.2]
+pred/gt: apr order_checks
+ood_weight:  [1, 1.2]
+pred/gt: bill_due order_checks
+ood_weight:  [1, 1.2]
+pred/gt: reminder_update order_checks
+ood_weight:  [1, 1.2]
+pred/gt: timezone order_checks
+ood_weight:  [1, 1.2]
+pred/gt: transactions order_checks
+ood_weight:  [1, 1.2]
+pred/gt: bill_due order_checks
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill order_checks
+ood_weight:  [1, 1.2]
+pred/gt: order order_checks
+ood_weight:  [1, 1.2]
+pred/gt: bill_due order_checks
+ood_weight:  [1, 1.2]
+exact correct: order_checks order_checks
+ood_weight:  [1, 0]
+exact correct: order_checks order_checks
+ood_weight:  [1, 1.2]
+pred/gt: bill_due order_checks
+ood_weight:  [1, 1.2]
+pred/gt: bill_due order_checks
+ood_weight:  [1, 1.2]
+pred/gt: do_you_have_pets order_checks
+ood_weight:  [1, 1.2]
+pred/gt: weather order_checks
+ood_weight:  [1, 1.2]
+pred/gt: apr order_checks
+ood_weight:  [1, 0]
+exact correct: shopping_list_update shopping_list_update
+ood_weight:  [1, 0]
+exact correct: shopping_list_update shopping_list_update
+ood_weight:  [1, 0]
+exact correct: shopping_list_update shopping_list_update
+ood_weight:  [1, 0]
+exact correct: shopping_list_update shopping_list_update
+ood_weight:  [1, 0]
+exact correct: shopping_list_update shopping_list_update
+ood_weight:  [1, 0]
+exact correct: shopping_list_update shopping_list_update
+ood_weight:  [1, 0]
+exact correct: shopping_list_update shopping_list_update
+ood_weight:  [1, 0]
+exact correct: shopping_list_update shopping_list_update
+ood_weight:  [1, 0]
+exact correct: shopping_list_update shopping_list_update
+ood_weight:  [1, 0]
+exact correct: shopping_list_update shopping_list_update
+ood_weight:  [1, 0]
+exact correct: shopping_list_update shopping_list_update
+ood_weight:  [1, 0]
+exact correct: shopping_list_update shopping_list_update
+ood_weight:  [1, 0]
+exact correct: shopping_list_update shopping_list_update
+ood_weight:  [1, 0]
+exact correct: shopping_list_update shopping_list_update
+ood_weight:  [1, 0]
+exact correct: shopping_list_update shopping_list_update
+ood_weight:  [1, 0]
+exact correct: shopping_list_update shopping_list_update
+ood_weight:  [1, 0]
+exact correct: shopping_list_update shopping_list_update
+ood_weight:  [1, 0]
+exact correct: shopping_list_update shopping_list_update
+ood_weight:  [1, 0]
+exact correct: shopping_list_update shopping_list_update
+ood_weight:  [1, 0]
+exact correct: shopping_list_update shopping_list_update
+ood_weight:  [1, 0]
+exact correct: shopping_list_update shopping_list_update
+ood_weight:  [1, 0]
+exact correct: shopping_list_update shopping_list_update
+ood_weight:  [1, 0]
+exact correct: shopping_list_update shopping_list_update
+ood_weight:  [1, 0]
+exact correct: shopping_list_update shopping_list_update
+ood_weight:  [1, 0.30709939211624043]
+exact correct: shopping_list_update shopping_list_update
+ood_weight:  [1, 0]
+exact correct: shopping_list_update shopping_list_update
+ood_weight:  [1, 0]
+exact correct: shopping_list_update shopping_list_update
+ood_weight:  [1, 0]
+exact correct: shopping_list_update shopping_list_update
+ood_weight:  [1, 0]
+exact correct: shopping_list_update shopping_list_update
+ood_weight:  [1, 0]
+exact correct: shopping_list_update shopping_list_update
+ood_weight:  [1, 0]
+exact correct: next_song next_song
+ood_weight:  [1, 0]
+exact correct: next_song next_song
+ood_weight:  [1, 0]
+exact correct: next_song next_song
+ood_weight:  [1, 0]
+exact correct: next_song next_song
+ood_weight:  [1, 0]
+exact correct: next_song next_song
+ood_weight:  [1, 0]
+exact correct: next_song next_song
+ood_weight:  [1, 0]
+exact correct: next_song next_song
+ood_weight:  [1, 0]
+exact correct: next_song next_song
+ood_weight:  [1, 0]
+exact correct: next_song next_song
+ood_weight:  [1, 0]
+exact correct: next_song next_song
+ood_weight:  [1, 0]
+exact correct: next_song next_song
+ood_weight:  [1, 0]
+exact correct: next_song next_song
+ood_weight:  [1, 0]
+exact correct: next_song next_song
+ood_weight:  [1, 0]
+exact correct: next_song next_song
+ood_weight:  [1, 1.2]
+pred/gt: accept_reservations next_song
+ood_weight:  [1, 0]
+exact correct: next_song next_song
+ood_weight:  [1, 0]
+exact correct: next_song next_song
+ood_weight:  [1, 0]
+exact correct: next_song next_song
+ood_weight:  [1, 0]
+exact correct: next_song next_song
+ood_weight:  [1, 0]
+exact correct: next_song next_song
+ood_weight:  [1, 0]
+exact correct: next_song next_song
+ood_weight:  [1, 0]
+exact correct: next_song next_song
+ood_weight:  [1, 0]
+exact correct: next_song next_song
+ood_weight:  [1, 0]
+exact correct: next_song next_song
+ood_weight:  [1, 0]
+exact correct: next_song next_song
+ood_weight:  [1, 0]
+exact correct: next_song next_song
+ood_weight:  [1, 0]
+exact correct: next_song next_song
+ood_weight:  [1, 0]
+exact correct: next_song next_song
+ood_weight:  [1, 0]
+exact correct: next_song next_song
+ood_weight:  [1, 0]
+exact correct: next_song next_song
+ood_weight:  [1, 0]
+exact correct: todo_list_update todo_list_update
+ood_weight:  [1, 0]
+exact correct: todo_list_update todo_list_update
+ood_weight:  [1, 0.32118985980308185]
+exact correct: todo_list_update todo_list_update
+ood_weight:  [1, 0]
+exact correct: todo_list_update todo_list_update
+ood_weight:  [1, 0]
+exact correct: todo_list_update todo_list_update
+ood_weight:  [1, 0]
+exact correct: todo_list_update todo_list_update
+ood_weight:  [1, 0]
+exact correct: todo_list_update todo_list_update
+ood_weight:  [1, 1.2]
+pred/gt: every_bill todo_list_update
+ood_weight:  [1, 1.2]
+pred/gt: bill todo_list_update
+ood_weight:  [1, 0]
+exact correct: todo_list_update todo_list_update
+ood_weight:  [1, 0]
+exact correct: todo_list_update todo_list_update
+ood_weight:  [1, 0]
+exact correct: todo_list_update todo_list_update
+ood_weight:  [1, 0]
+exact correct: todo_list_update todo_list_update
+ood_weight:  [1, 0]
+exact correct: todo_list_update todo_list_update
+ood_weight:  [1, 0]
+exact correct: todo_list_update todo_list_update
+ood_weight:  [1, 1.2]
+pred/gt: roll_dice todo_list_update
+ood_weight:  [1, 0]
+exact correct: todo_list_update todo_list_update
+ood_weight:  [1, 1.2]
+pred/gt: account_blocked todo_list_update
+ood_weight:  [1, 0.3464898912885096]
+exact correct: todo_list_update todo_list_update
+ood_weight:  [1, 0]
+exact correct: todo_list_update todo_list_update
+ood_weight:  [1, 0]
+exact correct: todo_list_update todo_list_update
+ood_weight:  [1, 0]
+exact correct: todo_list_update todo_list_update
+ood_weight:  [1, 0]
+exact correct: todo_list_update todo_list_update
+ood_weight:  [1, 0]
+exact correct: todo_list_update todo_list_update
+ood_weight:  [1, 0]
+pred/gt: todo_list todo_list_update
+ood_weight:  [1, 0]
+exact correct: todo_list_update todo_list_update
+ood_weight:  [1, 0]
+pred/gt: todo_list todo_list_update
+ood_weight:  [1, 0]
+exact correct: todo_list_update todo_list_update
+ood_weight:  [1, 0]
+exact correct: todo_list_update todo_list_update
+ood_weight:  [1, 0]
+exact correct: todo_list_update todo_list_update
+ood_weight:  [1, 1.2]
+pred/gt: apr reminder
+ood_weight:  [1, 0]
+exact correct: reminder reminder
+ood_weight:  [1, 0]
+exact correct: reminder reminder
+ood_weight:  [1, 0]
+exact correct: reminder reminder
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill reminder
+ood_weight:  [1, 0]
+exact correct: reminder reminder
+ood_weight:  [1, 1.2]
+pred/gt: exchange_rate reminder
+ood_weight:  [1, 0]
+exact correct: reminder reminder
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill reminder
+ood_weight:  [1, 1.2]
+pred/gt: bill_due reminder
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill reminder
+ood_weight:  [1, 0.3343439617701971]
+contains correct: reminder_update reminder
+ood_weight:  [1, 0]
+exact correct: reminder reminder
+ood_weight:  [1, 1.2]
+pred/gt: who_made_you reminder
+ood_weight:  [1, 0]
+exact correct: reminder reminder
+ood_weight:  [1, 0]
+exact correct: reminder reminder
+ood_weight:  [1, 0]
+exact correct: reminder reminder
+ood_weight:  [1, 1.2]
+contains correct: reminder_update reminder
+ood_weight:  [1, 0]
+exact correct: reminder reminder
+ood_weight:  [1, 1.2]
+pred/gt: assistant reminder
+ood_weight:  [1, 0]
+exact correct: reminder reminder
+ood_weight:  [1, 0]
+exact correct: reminder reminder
+ood_weight:  [1, 0]
+exact correct: reminder reminder
+ood_weight:  [1, 0]
+exact correct: reminder reminder
+ood_weight:  [1, 0]
+contains correct: reminder_update reminder
+ood_weight:  [1, 0]
+exact correct: reminder reminder
+ood_weight:  [1, 0]
+contains correct: reminder_update reminder
+ood_weight:  [1, 0]
+exact correct: reminder reminder
+ood_weight:  [1, 0]
+exact correct: reminder reminder
+ood_weight:  [1, 0]
+exact correct: reminder reminder
+ood_weight:  [1, 0]
+exact correct: calendar calendar
+ood_weight:  [1, 0]
+exact correct: calendar calendar
+ood_weight:  [1, 0]
+exact correct: calendar calendar
+ood_weight:  [1, 0]
+exact correct: calendar calendar
+ood_weight:  [1, 0]
+exact correct: calendar calendar
+ood_weight:  [1, 0]
+exact correct: calendar calendar
+ood_weight:  [1, 0.3008881247811962]
+exact correct: calendar calendar
+ood_weight:  [1, 0.30046003027769047]
+exact correct: calendar calendar
+ood_weight:  [1, 0]
+exact correct: calendar calendar
+ood_weight:  [1, 0]
+exact correct: calendar calendar
+ood_weight:  [1, 0]
+exact correct: calendar calendar
+ood_weight:  [1, 0]
+exact correct: calendar calendar
+ood_weight:  [1, 0]
+exact correct: calendar calendar
+ood_weight:  [1, 0]
+exact correct: calendar calendar
+ood_weight:  [1, 0]
+exact correct: calendar calendar
+ood_weight:  [1, 0]
+exact correct: calendar calendar
+ood_weight:  [1, 0]
+exact correct: calendar calendar
+ood_weight:  [1, 0]
+exact correct: calendar calendar
+ood_weight:  [1, 0]
+exact correct: calendar calendar
+ood_weight:  [1, 0]
+exact correct: calendar calendar
+ood_weight:  [1, 0]
+exact correct: calendar calendar
+ood_weight:  [1, 0]
+exact correct: calendar calendar
+ood_weight:  [1, 0]
+exact correct: calendar calendar
+ood_weight:  [1, 0]
+exact correct: calendar calendar
+ood_weight:  [1, 1.2]
+pred/gt: order_checks calendar
+ood_weight:  [1, 1.2]
+pred/gt: bill_due calendar
+ood_weight:  [1, 0]
+exact correct: calendar calendar
+ood_weight:  [1, 0]
+exact correct: calendar calendar
+ood_weight:  [1, 0]
+pred/gt: meeting_schedule calendar
+ood_weight:  [1, 0]
+exact correct: calendar calendar
+600/1800, contains_correct: 288, contains_acc: 48.0%, exact_correct: 282, exact_acc: 47.0%, saving to /home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/relearn_attack/results/banking_t3/o3_backbone_in_ep1_testSD.json
+ood_weight:  [1, 1.2]
+pred/gt: bill_balance reminder_update
+ood_weight:  [1, 0]
+exact correct: reminder_update reminder_update
+ood_weight:  [1, 0]
+exact correct: reminder_update reminder_update
+ood_weight:  [1, 0]
+exact correct: reminder_update reminder_update
+ood_weight:  [1, 1.2]
+pred/gt: meaning_of_life reminder_update
+ood_weight:  [1, 0]
+exact correct: reminder_update reminder_update
+ood_weight:  [1, 0]
+exact correct: reminder_update reminder_update
+ood_weight:  [1, 0]
+exact correct: reminder_update reminder_update
+ood_weight:  [1, 1.2]
+pred/gt: exchange_rate reminder_update
+ood_weight:  [1, 0]
+exact correct: reminder_update reminder_update
+ood_weight:  [1, 0]
+exact correct: reminder_update reminder_update
+ood_weight:  [1, 0]
+exact correct: reminder_update reminder_update
+ood_weight:  [1, 0]
+exact correct: reminder_update reminder_update
+ood_weight:  [1, 0.336403494006645]
+exact correct: reminder_update reminder_update
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill reminder_update
+ood_weight:  [1, 1.2]
+pred/gt: apr reminder_update
+ood_weight:  [1, 0]
+exact correct: reminder_update reminder_update
+ood_weight:  [1, 0]
+exact correct: reminder_update reminder_update
+ood_weight:  [1, 1.2]
+pred/gt: bill_balance reminder_update
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill reminder_update
+ood_weight:  [1, 0]
+exact correct: reminder_update reminder_update
+ood_weight:  [1, 0]
+exact correct: reminder_update reminder_update
+ood_weight:  [1, 0]
+exact correct: reminder_update reminder_update
+ood_weight:  [1, 1.2]
+pred/gt: bill_due reminder_update
+ood_weight:  [1, 0]
+exact correct: reminder_update reminder_update
+ood_weight:  [1, 0.34111011664872476]
+exact correct: reminder_update reminder_update
+ood_weight:  [1, 0.33229497828211135]
+exact correct: reminder_update reminder_update
+ood_weight:  [1, 0.3491272130620158]
+exact correct: reminder_update reminder_update
+ood_weight:  [1, 0]
+pred/gt: alarm reminder_update
+ood_weight:  [1, 0]
+exact correct: reminder_update reminder_update
+ood_weight:  [1, 0]
+exact correct: todo_list todo_list
+ood_weight:  [1, 0]
+exact correct: todo_list todo_list
+ood_weight:  [1, 0]
+exact correct: todo_list todo_list
+ood_weight:  [1, 0]
+exact correct: todo_list todo_list
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill todo_list
+ood_weight:  [1, 0.3195603406849568]
+exact correct: todo_list todo_list
+ood_weight:  [1, 0]
+contains correct: todo_list_update todo_list
+ood_weight:  [1, 0]
+exact correct: todo_list todo_list
+ood_weight:  [1, 0]
+exact correct: todo_list todo_list
+ood_weight:  [1, 0]
+exact correct: todo_list todo_list
+ood_weight:  [1, 0]
+exact correct: todo_list todo_list
+ood_weight:  [1, 0]
+exact correct: todo_list todo_list
+ood_weight:  [1, 0]
+exact correct: todo_list todo_list
+ood_weight:  [1, 0]
+exact correct: todo_list todo_list
+ood_weight:  [1, 0]
+exact correct: todo_list todo_list
+ood_weight:  [1, 0]
+exact correct: todo_list todo_list
+ood_weight:  [1, 0]
+exact correct: todo_list todo_list
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill todo_list
+ood_weight:  [1, 0.3567170206943065]
+exact correct: todo_list todo_list
+ood_weight:  [1, 1.2]
+pred/gt: order_checks todo_list
+ood_weight:  [1, 0]
+exact correct: todo_list todo_list
+ood_weight:  [1, 0]
+exact correct: todo_list todo_list
+ood_weight:  [1, 0]
+exact correct: todo_list todo_list
+ood_weight:  [1, 0]
+exact correct: todo_list todo_list
+ood_weight:  [1, 0.3853324549607903]
+exact correct: todo_list todo_list
+ood_weight:  [1, 0]
+exact correct: todo_list todo_list
+ood_weight:  [1, 0]
+exact correct: todo_list todo_list
+ood_weight:  [1, 1.2]
+contains correct: todo_list_update todo_list
+ood_weight:  [1, 0]
+exact correct: todo_list todo_list
+ood_weight:  [1, 0]
+exact correct: todo_list todo_list
+ood_weight:  [1, 1.2]
+pred/gt: apr order_status
+ood_weight:  [1, 1.2]
+pred/gt: apr order_status
+ood_weight:  [1, 0]
+exact correct: order_status order_status
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill order_status
+ood_weight:  [1, 0]
+exact correct: order_status order_status
+ood_weight:  [1, 0]
+exact correct: order_status order_status
+ood_weight:  [1, 0]
+exact correct: order_status order_status
+ood_weight:  [1, 0]
+exact correct: order_status order_status
+ood_weight:  [1, 0]
+exact correct: order_status order_status
+ood_weight:  [1, 1.2]
+pred/gt: order_checks order_status
+ood_weight:  [1, 1.2]
+pred/gt: bill_due order_status
+ood_weight:  [1, 1.2]
+pred/gt: bill_due order_status
+ood_weight:  [1, 1.2]
+pred/gt: todo_list order_status
+ood_weight:  [1, 1.2]
+pred/gt: order_checks order_status
+ood_weight:  [1, 0.3622488047214029]
+exact correct: order_status order_status
+ood_weight:  [1, 0]
+exact correct: order_status order_status
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill order_status
+ood_weight:  [1, 0]
+exact correct: order_status order_status
+ood_weight:  [1, 1.2]
+pred/gt: transactions order_status
+ood_weight:  [1, 0]
+exact correct: order_status order_status
+ood_weight:  [1, 0]
+exact correct: order_status order_status
+ood_weight:  [1, 0]
+exact correct: order_status order_status
+ood_weight:  [1, 0]
+exact correct: order_status order_status
+ood_weight:  [1, 0]
+exact correct: order_status order_status
+ood_weight:  [1, 1.2]
+pred/gt: who_made_you order_status
+ood_weight:  [1, 0]
+exact correct: order_status order_status
+ood_weight:  [1, 1.2]
+pred/gt: bill_due order_status
+ood_weight:  [1, 1.2]
+pred/gt: order_checks order_status
+ood_weight:  [1, 1.2]
+pred/gt: bill_due order_status
+ood_weight:  [1, 1.2]
+pred/gt: order_checks order_status
+ood_weight:  [1, 0]
+exact correct: what_song what_song
+ood_weight:  [1, 0]
+exact correct: what_song what_song
+ood_weight:  [1, 0]
+exact correct: what_song what_song
+ood_weight:  [1, 0]
+exact correct: what_song what_song
+ood_weight:  [1, 0]
+exact correct: what_song what_song
+ood_weight:  [1, 0]
+exact correct: what_song what_song
+ood_weight:  [1, 0]
+exact correct: what_song what_song
+ood_weight:  [1, 0]
+exact correct: what_song what_song
+ood_weight:  [1, 0]
+exact correct: what_song what_song
+ood_weight:  [1, 0]
+exact correct: what_song what_song
+ood_weight:  [1, 0]
+exact correct: what_song what_song
+ood_weight:  [1, 0]
+exact correct: what_song what_song
+ood_weight:  [1, 0]
+exact correct: what_song what_song
+ood_weight:  [1, 0]
+exact correct: what_song what_song
+ood_weight:  [1, 0]
+exact correct: what_song what_song
+ood_weight:  [1, 0]
+exact correct: what_song what_song
+ood_weight:  [1, 0]
+exact correct: what_song what_song
+ood_weight:  [1, 0]
+exact correct: what_song what_song
+ood_weight:  [1, 0]
+exact correct: what_song what_song
+ood_weight:  [1, 0]
+exact correct: what_song what_song
+ood_weight:  [1, 0]
+exact correct: what_song what_song
+ood_weight:  [1, 0]
+exact correct: what_song what_song
+ood_weight:  [1, 0]
+exact correct: what_song what_song
+ood_weight:  [1, 0]
+exact correct: what_song what_song
+ood_weight:  [1, 0]
+exact correct: what_song what_song
+ood_weight:  [1, 0]
+exact correct: what_song what_song
+ood_weight:  [1, 0]
+exact correct: what_song what_song
+ood_weight:  [1, 0]
+exact correct: what_song what_song
+ood_weight:  [1, 0]
+exact correct: what_song what_song
+ood_weight:  [1, 0]
+exact correct: what_song what_song
+ood_weight:  [1, 0]
+exact correct: smart_home smart_home
+ood_weight:  [1, 0]
+exact correct: smart_home smart_home
+ood_weight:  [1, 0]
+exact correct: smart_home smart_home
+ood_weight:  [1, 0]
+exact correct: smart_home smart_home
+ood_weight:  [1, 0]
+exact correct: smart_home smart_home
+ood_weight:  [1, 0]
+pred/gt: cook_time smart_home
+ood_weight:  [1, 0]
+exact correct: smart_home smart_home
+ood_weight:  [1, 0]
+exact correct: smart_home smart_home
+ood_weight:  [1, 0]
+exact correct: smart_home smart_home
+ood_weight:  [1, 0]
+exact correct: smart_home smart_home
+ood_weight:  [1, 0]
+exact correct: smart_home smart_home
+ood_weight:  [1, 0.36759816217796504]
+exact correct: smart_home smart_home
+ood_weight:  [1, 0]
+exact correct: smart_home smart_home
+ood_weight:  [1, 0]
+exact correct: smart_home smart_home
+ood_weight:  [1, 0]
+exact correct: smart_home smart_home
+ood_weight:  [1, 0.3196702295930102]
+exact correct: smart_home smart_home
+ood_weight:  [1, 0]
+pred/gt: weather smart_home
+ood_weight:  [1, 0]
+exact correct: smart_home smart_home
+ood_weight:  [1, 0]
+exact correct: smart_home smart_home
+ood_weight:  [1, 0]
+exact correct: smart_home smart_home
+ood_weight:  [1, 0]
+exact correct: smart_home smart_home
+ood_weight:  [1, 0]
+exact correct: smart_home smart_home
+ood_weight:  [1, 0]
+exact correct: smart_home smart_home
+ood_weight:  [1, 0.39850276045269295]
+exact correct: smart_home smart_home
+ood_weight:  [1, 0]
+exact correct: smart_home smart_home
+ood_weight:  [1, 0]
+exact correct: smart_home smart_home
+ood_weight:  [1, 0]
+exact correct: smart_home smart_home
+ood_weight:  [1, 0]
+exact correct: smart_home smart_home
+ood_weight:  [1, 0]
+exact correct: smart_home smart_home
+ood_weight:  [1, 0]
+exact correct: smart_home smart_home
+ood_weight:  [1, 0]
+exact correct: shopping_list shopping_list
+ood_weight:  [1, 0]
+exact correct: shopping_list shopping_list
+ood_weight:  [1, 0]
+exact correct: shopping_list shopping_list
+ood_weight:  [1, 0]
+exact correct: shopping_list shopping_list
+ood_weight:  [1, 1.2]
+pred/gt: bill_due shopping_list
+ood_weight:  [1, 0]
+exact correct: shopping_list shopping_list
+ood_weight:  [1, 0]
+exact correct: shopping_list shopping_list
+ood_weight:  [1, 0]
+exact correct: shopping_list shopping_list
+ood_weight:  [1, 1.2]
+pred/gt: bill_due shopping_list
+ood_weight:  [1, 0]
+exact correct: shopping_list shopping_list
+ood_weight:  [1, 1.2]
+pred/gt: restaurant_suggestion shopping_list
+ood_weight:  [1, 1.2]
+pred/gt: freeze_account shopping_list
+ood_weight:  [1, 0]
+exact correct: shopping_list shopping_list
+ood_weight:  [1, 0.3129486417879754]
+exact correct: shopping_list shopping_list
+ood_weight:  [1, 0]
+exact correct: shopping_list shopping_list
+ood_weight:  [1, 0]
+exact correct: shopping_list shopping_list
+ood_weight:  [1, 1.2]
+pred/gt: payday shopping_list
+ood_weight:  [1, 0]
+exact correct: shopping_list shopping_list
+ood_weight:  [1, 0]
+exact correct: shopping_list shopping_list
+ood_weight:  [1, 0]
+exact correct: shopping_list shopping_list
+ood_weight:  [1, 0]
+exact correct: shopping_list shopping_list
+ood_weight:  [1, 0]
+exact correct: shopping_list shopping_list
+ood_weight:  [1, 0]
+exact correct: shopping_list shopping_list
+ood_weight:  [1, 0]
+exact correct: shopping_list shopping_list
+ood_weight:  [1, 0]
+exact correct: shopping_list shopping_list
+ood_weight:  [1, 0]
+exact correct: shopping_list shopping_list
+ood_weight:  [1, 1.2]
+pred/gt: bill_due shopping_list
+ood_weight:  [1, 1.2]
+exact correct: shopping_list shopping_list
+ood_weight:  [1, 1.2]
+pred/gt: pto_request shopping_list
+ood_weight:  [1, 1.2]
+pred/gt: spending_history shopping_list
+ood_weight:  [1, 0]
+exact correct: play_music play_music
+ood_weight:  [1, 0]
+exact correct: play_music play_music
+ood_weight:  [1, 0]
+exact correct: play_music play_music
+ood_weight:  [1, 0]
+exact correct: play_music play_music
+ood_weight:  [1, 0]
+exact correct: play_music play_music
+ood_weight:  [1, 0.368449038613686]
+pred/gt: change_speed play_music
+ood_weight:  [1, 0]
+exact correct: play_music play_music
+ood_weight:  [1, 0]
+exact correct: play_music play_music
+ood_weight:  [1, 0]
+exact correct: play_music play_music
+ood_weight:  [1, 0]
+exact correct: play_music play_music
+ood_weight:  [1, 0]
+exact correct: play_music play_music
+ood_weight:  [1, 0]
+exact correct: play_music play_music
+ood_weight:  [1, 0]
+exact correct: play_music play_music
+ood_weight:  [1, 0]
+exact correct: play_music play_music
+ood_weight:  [1, 0]
+exact correct: play_music play_music
+ood_weight:  [1, 0]
+exact correct: play_music play_music
+ood_weight:  [1, 0]
+exact correct: play_music play_music
+ood_weight:  [1, 0]
+exact correct: play_music play_music
+ood_weight:  [1, 0]
+exact correct: play_music play_music
+ood_weight:  [1, 0]
+exact correct: play_music play_music
+800/1800, contains_correct: 450, contains_acc: 56.25%, exact_correct: 442, exact_acc: 55.25%, saving to /home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/relearn_attack/results/banking_t3/o3_backbone_in_ep1_testSD.json
+ood_weight:  [1, 0]
+exact correct: play_music play_music
+ood_weight:  [1, 0]
+exact correct: play_music play_music
+ood_weight:  [1, 0]
+exact correct: play_music play_music
+ood_weight:  [1, 0]
+exact correct: play_music play_music
+ood_weight:  [1, 0]
+exact correct: play_music play_music
+ood_weight:  [1, 0]
+exact correct: play_music play_music
+ood_weight:  [1, 0]
+pred/gt: update_playlist play_music
+ood_weight:  [1, 0]
+exact correct: play_music play_music
+ood_weight:  [1, 0]
+exact correct: play_music play_music
+ood_weight:  [1, 0]
+exact correct: play_music play_music
+ood_weight:  [1, 0]
+exact correct: calendar_update calendar_update
+ood_weight:  [1, 1.2]
+pred/gt: interest_rate calendar_update
+ood_weight:  [1, 0]
+exact correct: calendar_update calendar_update
+ood_weight:  [1, 1.2]
+pred/gt: pin_change calendar_update
+ood_weight:  [1, 0]
+exact correct: calendar_update calendar_update
+ood_weight:  [1, 0]
+exact correct: calendar_update calendar_update
+ood_weight:  [1, 0]
+exact correct: calendar_update calendar_update
+ood_weight:  [1, 0]
+exact correct: calendar_update calendar_update
+ood_weight:  [1, 0]
+exact correct: calendar_update calendar_update
+ood_weight:  [1, 0]
+exact correct: calendar_update calendar_update
+ood_weight:  [1, 0]
+exact correct: calendar_update calendar_update
+ood_weight:  [1, 0]
+exact correct: calendar_update calendar_update
+ood_weight:  [1, 0]
+exact correct: calendar_update calendar_update
+ood_weight:  [1, 0]
+exact correct: calendar_update calendar_update
+ood_weight:  [1, 0]
+exact correct: calendar_update calendar_update
+ood_weight:  [1, 0]
+pred/gt: calendar calendar_update
+ood_weight:  [1, 0]
+exact correct: calendar_update calendar_update
+ood_weight:  [1, 0]
+exact correct: calendar_update calendar_update
+ood_weight:  [1, 0]
+exact correct: calendar_update calendar_update
+ood_weight:  [1, 0]
+exact correct: calendar_update calendar_update
+ood_weight:  [1, 0]
+exact correct: calendar_update calendar_update
+ood_weight:  [1, 0]
+exact correct: calendar_update calendar_update
+ood_weight:  [1, 0.30649940941224696]
+exact correct: calendar_update calendar_update
+ood_weight:  [1, 0]
+exact correct: calendar_update calendar_update
+ood_weight:  [1, 0]
+exact correct: calendar_update calendar_update
+ood_weight:  [1, 0]
+exact correct: calendar_update calendar_update
+ood_weight:  [1, 0]
+exact correct: calendar_update calendar_update
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill calendar_update
+ood_weight:  [1, 0]
+exact correct: calendar_update calendar_update
+ood_weight:  [1, 0]
+exact correct: calendar_update calendar_update
+ood_weight:  [1, 0]
+exact correct: update_playlist update_playlist
+ood_weight:  [1, 0]
+exact correct: update_playlist update_playlist
+ood_weight:  [1, 0]
+exact correct: update_playlist update_playlist
+ood_weight:  [1, 0]
+exact correct: update_playlist update_playlist
+ood_weight:  [1, 0]
+exact correct: update_playlist update_playlist
+ood_weight:  [1, 0]
+exact correct: update_playlist update_playlist
+ood_weight:  [1, 0]
+exact correct: update_playlist update_playlist
+ood_weight:  [1, 0]
+exact correct: update_playlist update_playlist
+ood_weight:  [1, 0]
+exact correct: update_playlist update_playlist
+ood_weight:  [1, 0]
+exact correct: update_playlist update_playlist
+ood_weight:  [1, 0]
+exact correct: update_playlist update_playlist
+ood_weight:  [1, 0]
+exact correct: update_playlist update_playlist
+ood_weight:  [1, 0]
+exact correct: update_playlist update_playlist
+ood_weight:  [1, 0]
+exact correct: update_playlist update_playlist
+ood_weight:  [1, 0]
+exact correct: update_playlist update_playlist
+ood_weight:  [1, 0]
+exact correct: update_playlist update_playlist
+ood_weight:  [1, 0]
+exact correct: update_playlist update_playlist
+ood_weight:  [1, 0]
+exact correct: update_playlist update_playlist
+ood_weight:  [1, 0]
+exact correct: update_playlist update_playlist
+ood_weight:  [1, 0]
+exact correct: update_playlist update_playlist
+ood_weight:  [1, 0]
+exact correct: update_playlist update_playlist
+ood_weight:  [1, 0]
+exact correct: update_playlist update_playlist
+ood_weight:  [1, 0]
+exact correct: update_playlist update_playlist
+ood_weight:  [1, 0]
+exact correct: update_playlist update_playlist
+ood_weight:  [1, 0]
+exact correct: update_playlist update_playlist
+ood_weight:  [1, 0]
+exact correct: update_playlist update_playlist
+ood_weight:  [1, 0]
+exact correct: update_playlist update_playlist
+ood_weight:  [1, 0]
+exact correct: update_playlist update_playlist
+ood_weight:  [1, 0]
+exact correct: update_playlist update_playlist
+ood_weight:  [1, 0]
+exact correct: update_playlist update_playlist
+ood_weight:  [1, 0]
+exact correct: order order
+ood_weight:  [1, 0]
+exact correct: order order
+ood_weight:  [1, 0]
+exact correct: order order
+ood_weight:  [1, 0]
+exact correct: order order
+ood_weight:  [1, 0]
+exact correct: order order
+ood_weight:  [1, 0]
+exact correct: order order
+ood_weight:  [1, 0]
+exact correct: order order
+ood_weight:  [1, 1.2]
+pred/gt: transactions order
+ood_weight:  [1, 1.2]
+pred/gt: bill_due order
+ood_weight:  [1, 1.2]
+pred/gt: credit_limit_change order
+ood_weight:  [1, 0]
+exact correct: order order
+ood_weight:  [1, 0]
+exact correct: order order
+ood_weight:  [1, 0]
+exact correct: order order
+ood_weight:  [1, 0]
+exact correct: order order
+ood_weight:  [1, 0]
+exact correct: order order
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill order
+ood_weight:  [1, 0.31390790843866656]
+exact correct: order order
+ood_weight:  [1, 0]
+exact correct: order order
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill order
+ood_weight:  [1, 0]
+exact correct: order order
+ood_weight:  [1, 0]
+exact correct: order order
+ood_weight:  [1, 0]
+exact correct: order order
+ood_weight:  [1, 0]
+exact correct: order order
+ood_weight:  [1, 0]
+exact correct: order order
+ood_weight:  [1, 0]
+exact correct: order order
+ood_weight:  [1, 0]
+exact correct: order order
+ood_weight:  [1, 0]
+exact correct: order order
+ood_weight:  [1, 0]
+exact correct: order order
+ood_weight:  [1, 0]
+pred/gt: price order
+ood_weight:  [1, 0]
+exact correct: order order
+ood_weight:  [1, 0]
+exact correct: translate translate
+ood_weight:  [1, 0]
+exact correct: translate translate
+ood_weight:  [1, 0]
+exact correct: translate translate
+ood_weight:  [1, 0]
+exact correct: translate translate
+ood_weight:  [1, 0]
+exact correct: translate translate
+ood_weight:  [1, 0]
+exact correct: translate translate
+ood_weight:  [1, 0]
+exact correct: translate translate
+ood_weight:  [1, 0]
+exact correct: translate translate
+ood_weight:  [1, 0]
+exact correct: translate translate
+ood_weight:  [1, 0]
+exact correct: translate translate
+ood_weight:  [1, 0]
+exact correct: translate translate
+ood_weight:  [1, 0]
+exact correct: translate translate
+ood_weight:  [1, 0]
+exact correct: translate translate
+ood_weight:  [1, 0]
+exact correct: translate translate
+ood_weight:  [1, 0]
+exact correct: translate translate
+ood_weight:  [1, 0]
+exact correct: translate translate
+ood_weight:  [1, 0]
+exact correct: translate translate
+ood_weight:  [1, 0]
+exact correct: translate translate
+ood_weight:  [1, 0]
+exact correct: translate translate
+ood_weight:  [1, 0.3455026792281045]
+exact correct: translate translate
+ood_weight:  [1, 0]
+exact correct: translate translate
+ood_weight:  [1, 0]
+exact correct: translate translate
+ood_weight:  [1, 0]
+exact correct: translate translate
+ood_weight:  [1, 0]
+exact correct: translate translate
+ood_weight:  [1, 0]
+exact correct: translate translate
+ood_weight:  [1, 0]
+exact correct: translate translate
+ood_weight:  [1, 0]
+exact correct: translate translate
+ood_weight:  [1, 0]
+exact correct: translate translate
+ood_weight:  [1, 0]
+exact correct: translate translate
+ood_weight:  [1, 0]
+exact correct: translate translate
+ood_weight:  [1, 0]
+exact correct: travel_alert travel_alert
+ood_weight:  [1, 0]
+exact correct: travel_alert travel_alert
+ood_weight:  [1, 0]
+exact correct: travel_alert travel_alert
+ood_weight:  [1, 0]
+exact correct: travel_alert travel_alert
+ood_weight:  [1, 0]
+exact correct: travel_alert travel_alert
+ood_weight:  [1, 0]
+exact correct: travel_alert travel_alert
+ood_weight:  [1, 0]
+exact correct: travel_alert travel_alert
+ood_weight:  [1, 0]
+exact correct: travel_alert travel_alert
+ood_weight:  [1, 0]
+exact correct: travel_alert travel_alert
+ood_weight:  [1, 0]
+exact correct: travel_alert travel_alert
+ood_weight:  [1, 0]
+exact correct: travel_alert travel_alert
+ood_weight:  [1, 0]
+exact correct: travel_alert travel_alert
+ood_weight:  [1, 0]
+exact correct: travel_alert travel_alert
+ood_weight:  [1, 0]
+exact correct: travel_alert travel_alert
+ood_weight:  [1, 0]
+exact correct: travel_alert travel_alert
+ood_weight:  [1, 0]
+exact correct: travel_alert travel_alert
+ood_weight:  [1, 0]
+exact correct: travel_alert travel_alert
+ood_weight:  [1, 0]
+exact correct: travel_alert travel_alert
+ood_weight:  [1, 0]
+exact correct: travel_alert travel_alert
+ood_weight:  [1, 0]
+exact correct: travel_alert travel_alert
+ood_weight:  [1, 0]
+exact correct: travel_alert travel_alert
+ood_weight:  [1, 0]
+exact correct: travel_alert travel_alert
+ood_weight:  [1, 0.30365141990714145]
+exact correct: travel_alert travel_alert
+ood_weight:  [1, 0]
+exact correct: travel_alert travel_alert
+ood_weight:  [1, 0.33903386496224003]
+exact correct: travel_alert travel_alert
+ood_weight:  [1, 0]
+exact correct: travel_alert travel_alert
+ood_weight:  [1, 0]
+exact correct: travel_alert travel_alert
+ood_weight:  [1, 0]
+exact correct: travel_alert travel_alert
+ood_weight:  [1, 0]
+exact correct: travel_alert travel_alert
+ood_weight:  [1, 0]
+exact correct: travel_alert travel_alert
+ood_weight:  [1, 0]
+exact correct: flight_status flight_status
+ood_weight:  [1, 0]
+exact correct: flight_status flight_status
+ood_weight:  [1, 0]
+exact correct: flight_status flight_status
+ood_weight:  [1, 0]
+exact correct: flight_status flight_status
+ood_weight:  [1, 0.3956193951407133]
+exact correct: flight_status flight_status
+ood_weight:  [1, 0]
+exact correct: flight_status flight_status
+ood_weight:  [1, 0]
+exact correct: flight_status flight_status
+ood_weight:  [1, 0]
+exact correct: flight_status flight_status
+ood_weight:  [1, 0]
+exact correct: flight_status flight_status
+ood_weight:  [1, 0]
+exact correct: flight_status flight_status
+ood_weight:  [1, 0]
+exact correct: flight_status flight_status
+ood_weight:  [1, 0]
+exact correct: flight_status flight_status
+ood_weight:  [1, 0]
+exact correct: flight_status flight_status
+ood_weight:  [1, 0]
+exact correct: flight_status flight_status
+ood_weight:  [1, 0]
+exact correct: flight_status flight_status
+ood_weight:  [1, 0]
+exact correct: flight_status flight_status
+ood_weight:  [1, 0]
+exact correct: flight_status flight_status
+ood_weight:  [1, 0.37074957901059186]
+exact correct: flight_status flight_status
+ood_weight:  [1, 0.35082079764993634]
+exact correct: flight_status flight_status
+ood_weight:  [1, 0.3779995619654953]
+exact correct: flight_status flight_status
+ood_weight:  [1, 0.3406872259234339]
+exact correct: flight_status flight_status
+ood_weight:  [1, 0]
+exact correct: flight_status flight_status
+ood_weight:  [1, 0]
+exact correct: flight_status flight_status
+ood_weight:  [1, 0]
+exact correct: flight_status flight_status
+ood_weight:  [1, 0]
+exact correct: flight_status flight_status
+ood_weight:  [1, 0.33723428735487493]
+exact correct: flight_status flight_status
+ood_weight:  [1, 0]
+exact correct: flight_status flight_status
+ood_weight:  [1, 0]
+exact correct: flight_status flight_status
+ood_weight:  [1, 0]
+exact correct: flight_status flight_status
+ood_weight:  [1, 0]
+exact correct: flight_status flight_status
+ood_weight:  [1, 0]
+exact correct: timezone timezone
+ood_weight:  [1, 0]
+exact correct: timezone timezone
+ood_weight:  [1, 0]
+exact correct: timezone timezone
+ood_weight:  [1, 0]
+exact correct: timezone timezone
+ood_weight:  [1, 0]
+exact correct: timezone timezone
+ood_weight:  [1, 0]
+exact correct: timezone timezone
+ood_weight:  [1, 0]
+exact correct: timezone timezone
+ood_weight:  [1, 0]
+exact correct: timezone timezone
+ood_weight:  [1, 0]
+exact correct: timezone timezone
+ood_weight:  [1, 0]
+exact correct: timezone timezone
+1000/1800, contains_correct: 639, contains_acc: 63.9%, exact_correct: 631, exact_acc: 63.1%, saving to /home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/relearn_attack/results/banking_t3/o3_backbone_in_ep1_testSD.json
+ood_weight:  [1, 0]
+exact correct: timezone timezone
+ood_weight:  [1, 0]
+exact correct: timezone timezone
+ood_weight:  [1, 0]
+exact correct: timezone timezone
+ood_weight:  [1, 0]
+exact correct: timezone timezone
+ood_weight:  [1, 0]
+exact correct: timezone timezone
+ood_weight:  [1, 0]
+exact correct: timezone timezone
+ood_weight:  [1, 0]
+exact correct: timezone timezone
+ood_weight:  [1, 0]
+exact correct: timezone timezone
+ood_weight:  [1, 0]
+exact correct: timezone timezone
+ood_weight:  [1, 0]
+exact correct: timezone timezone
+ood_weight:  [1, 0]
+exact correct: timezone timezone
+ood_weight:  [1, 0]
+exact correct: timezone timezone
+ood_weight:  [1, 0]
+exact correct: timezone timezone
+ood_weight:  [1, 0]
+exact correct: timezone timezone
+ood_weight:  [1, 0]
+exact correct: timezone timezone
+ood_weight:  [1, 0]
+exact correct: timezone timezone
+ood_weight:  [1, 0]
+exact correct: timezone timezone
+ood_weight:  [1, 0]
+exact correct: timezone timezone
+ood_weight:  [1, 0]
+pred/gt: time timezone
+ood_weight:  [1, 0]
+exact correct: timezone timezone
+ood_weight:  [1, 0.33526379439448367]
+exact correct: lost_luggage lost_luggage
+ood_weight:  [1, 0]
+exact correct: lost_luggage lost_luggage
+ood_weight:  [1, 0]
+exact correct: lost_luggage lost_luggage
+ood_weight:  [1, 0]
+exact correct: lost_luggage lost_luggage
+ood_weight:  [1, 0.3384589066368635]
+exact correct: lost_luggage lost_luggage
+ood_weight:  [1, 0]
+exact correct: lost_luggage lost_luggage
+ood_weight:  [1, 0]
+exact correct: lost_luggage lost_luggage
+ood_weight:  [1, 0]
+exact correct: lost_luggage lost_luggage
+ood_weight:  [1, 0]
+exact correct: lost_luggage lost_luggage
+ood_weight:  [1, 0]
+exact correct: lost_luggage lost_luggage
+ood_weight:  [1, 0]
+exact correct: lost_luggage lost_luggage
+ood_weight:  [1, 0]
+exact correct: lost_luggage lost_luggage
+ood_weight:  [1, 0]
+exact correct: lost_luggage lost_luggage
+ood_weight:  [1, 0]
+exact correct: lost_luggage lost_luggage
+ood_weight:  [1, 1.2]
+pred/gt: definition lost_luggage
+ood_weight:  [1, 0]
+exact correct: lost_luggage lost_luggage
+ood_weight:  [1, 1.2]
+pred/gt: pin_change lost_luggage
+ood_weight:  [1, 0]
+exact correct: lost_luggage lost_luggage
+ood_weight:  [1, 0]
+exact correct: lost_luggage lost_luggage
+ood_weight:  [1, 0]
+exact correct: lost_luggage lost_luggage
+ood_weight:  [1, 0]
+exact correct: lost_luggage lost_luggage
+ood_weight:  [1, 0]
+exact correct: lost_luggage lost_luggage
+ood_weight:  [1, 0]
+exact correct: lost_luggage lost_luggage
+ood_weight:  [1, 1.2]
+pred/gt: freeze_account lost_luggage
+ood_weight:  [1, 0]
+exact correct: lost_luggage lost_luggage
+ood_weight:  [1, 0]
+exact correct: lost_luggage lost_luggage
+ood_weight:  [1, 0]
+exact correct: lost_luggage lost_luggage
+ood_weight:  [1, 0]
+exact correct: lost_luggage lost_luggage
+ood_weight:  [1, 0]
+exact correct: lost_luggage lost_luggage
+ood_weight:  [1, 0]
+exact correct: lost_luggage lost_luggage
+ood_weight:  [1, 0]
+exact correct: travel_suggestion travel_suggestion
+ood_weight:  [1, 0]
+exact correct: travel_suggestion travel_suggestion
+ood_weight:  [1, 0]
+exact correct: travel_suggestion travel_suggestion
+ood_weight:  [1, 0]
+exact correct: travel_suggestion travel_suggestion
+ood_weight:  [1, 0]
+exact correct: travel_suggestion travel_suggestion
+ood_weight:  [1, 0]
+exact correct: travel_suggestion travel_suggestion
+ood_weight:  [1, 0]
+exact correct: travel_suggestion travel_suggestion
+ood_weight:  [1, 0]
+exact correct: travel_suggestion travel_suggestion
+ood_weight:  [1, 0]
+exact correct: travel_suggestion travel_suggestion
+ood_weight:  [1, 0]
+exact correct: travel_suggestion travel_suggestion
+ood_weight:  [1, 0]
+exact correct: travel_suggestion travel_suggestion
+ood_weight:  [1, 0]
+exact correct: travel_suggestion travel_suggestion
+ood_weight:  [1, 0]
+exact correct: travel_suggestion travel_suggestion
+ood_weight:  [1, 0]
+exact correct: travel_suggestion travel_suggestion
+ood_weight:  [1, 0]
+exact correct: travel_suggestion travel_suggestion
+ood_weight:  [1, 0]
+exact correct: travel_suggestion travel_suggestion
+ood_weight:  [1, 0]
+exact correct: travel_suggestion travel_suggestion
+ood_weight:  [1, 0]
+exact correct: travel_suggestion travel_suggestion
+ood_weight:  [1, 0]
+exact correct: travel_suggestion travel_suggestion
+ood_weight:  [1, 0]
+exact correct: travel_suggestion travel_suggestion
+ood_weight:  [1, 0.3074619718022395]
+exact correct: travel_suggestion travel_suggestion
+ood_weight:  [1, 0]
+exact correct: travel_suggestion travel_suggestion
+ood_weight:  [1, 0.38283875097827913]
+exact correct: travel_suggestion travel_suggestion
+ood_weight:  [1, 0.37443464741811944]
+exact correct: travel_suggestion travel_suggestion
+ood_weight:  [1, 0.37531564244568605]
+exact correct: travel_suggestion travel_suggestion
+ood_weight:  [1, 0]
+exact correct: travel_suggestion travel_suggestion
+ood_weight:  [1, 0]
+exact correct: travel_suggestion travel_suggestion
+ood_weight:  [1, 0]
+exact correct: travel_suggestion travel_suggestion
+ood_weight:  [1, 0]
+exact correct: travel_suggestion travel_suggestion
+ood_weight:  [1, 0]
+exact correct: travel_suggestion travel_suggestion
+ood_weight:  [1, 0]
+exact correct: carry_on carry_on
+ood_weight:  [1, 0]
+exact correct: carry_on carry_on
+ood_weight:  [1, 0]
+exact correct: carry_on carry_on
+ood_weight:  [1, 0]
+exact correct: carry_on carry_on
+ood_weight:  [1, 0]
+exact correct: carry_on carry_on
+ood_weight:  [1, 0]
+exact correct: carry_on carry_on
+ood_weight:  [1, 0]
+exact correct: carry_on carry_on
+ood_weight:  [1, 0]
+exact correct: carry_on carry_on
+ood_weight:  [1, 0]
+exact correct: carry_on carry_on
+ood_weight:  [1, 0]
+exact correct: carry_on carry_on
+ood_weight:  [1, 0]
+exact correct: carry_on carry_on
+ood_weight:  [1, 0]
+exact correct: carry_on carry_on
+ood_weight:  [1, 0]
+exact correct: carry_on carry_on
+ood_weight:  [1, 0]
+exact correct: carry_on carry_on
+ood_weight:  [1, 0]
+exact correct: carry_on carry_on
+ood_weight:  [1, 0]
+exact correct: carry_on carry_on
+ood_weight:  [1, 0]
+exact correct: carry_on carry_on
+ood_weight:  [1, 0]
+exact correct: carry_on carry_on
+ood_weight:  [1, 0]
+exact correct: carry_on carry_on
+ood_weight:  [1, 0]
+exact correct: carry_on carry_on
+ood_weight:  [1, 0]
+exact correct: carry_on carry_on
+ood_weight:  [1, 0]
+exact correct: carry_on carry_on
+ood_weight:  [1, 0]
+exact correct: carry_on carry_on
+ood_weight:  [1, 0]
+exact correct: carry_on carry_on
+ood_weight:  [1, 0]
+exact correct: carry_on carry_on
+ood_weight:  [1, 0]
+exact correct: carry_on carry_on
+ood_weight:  [1, 0]
+exact correct: carry_on carry_on
+ood_weight:  [1, 0]
+exact correct: carry_on carry_on
+ood_weight:  [1, 0]
+exact correct: carry_on carry_on
+ood_weight:  [1, 0]
+exact correct: carry_on carry_on
+ood_weight:  [1, 0]
+exact correct: travel_notification travel_notification
+ood_weight:  [1, 0]
+exact correct: travel_notification travel_notification
+ood_weight:  [1, 0]
+exact correct: travel_notification travel_notification
+ood_weight:  [1, 0]
+exact correct: travel_notification travel_notification
+ood_weight:  [1, 0]
+exact correct: travel_notification travel_notification
+ood_weight:  [1, 0]
+exact correct: travel_notification travel_notification
+ood_weight:  [1, 0]
+exact correct: travel_notification travel_notification
+ood_weight:  [1, 0]
+exact correct: travel_notification travel_notification
+ood_weight:  [1, 0.32098350654769203]
+exact correct: travel_notification travel_notification
+ood_weight:  [1, 0.31917923723876757]
+exact correct: travel_notification travel_notification
+ood_weight:  [1, 0]
+exact correct: travel_notification travel_notification
+ood_weight:  [1, 0]
+exact correct: travel_notification travel_notification
+ood_weight:  [1, 0]
+exact correct: travel_notification travel_notification
+ood_weight:  [1, 0]
+exact correct: travel_notification travel_notification
+ood_weight:  [1, 0]
+exact correct: travel_notification travel_notification
+ood_weight:  [1, 0]
+exact correct: travel_notification travel_notification
+ood_weight:  [1, 0]
+exact correct: travel_notification travel_notification
+ood_weight:  [1, 0]
+exact correct: travel_notification travel_notification
+ood_weight:  [1, 0]
+exact correct: travel_notification travel_notification
+ood_weight:  [1, 0]
+exact correct: travel_notification travel_notification
+ood_weight:  [1, 0]
+exact correct: travel_notification travel_notification
+ood_weight:  [1, 0]
+exact correct: travel_notification travel_notification
+ood_weight:  [1, 0]
+exact correct: travel_notification travel_notification
+ood_weight:  [1, 0]
+exact correct: travel_notification travel_notification
+ood_weight:  [1, 0]
+exact correct: travel_notification travel_notification
+ood_weight:  [1, 0]
+exact correct: travel_notification travel_notification
+ood_weight:  [1, 0]
+exact correct: travel_notification travel_notification
+ood_weight:  [1, 0]
+exact correct: travel_notification travel_notification
+ood_weight:  [1, 0]
+exact correct: travel_notification travel_notification
+ood_weight:  [1, 0]
+exact correct: travel_notification travel_notification
+ood_weight:  [1, 0]
+exact correct: plug_type plug_type
+ood_weight:  [1, 0]
+exact correct: plug_type plug_type
+ood_weight:  [1, 0]
+exact correct: plug_type plug_type
+ood_weight:  [1, 0]
+exact correct: plug_type plug_type
+ood_weight:  [1, 0]
+exact correct: plug_type plug_type
+ood_weight:  [1, 0]
+exact correct: plug_type plug_type
+ood_weight:  [1, 0]
+exact correct: plug_type plug_type
+ood_weight:  [1, 0]
+exact correct: plug_type plug_type
+ood_weight:  [1, 0]
+exact correct: plug_type plug_type
+ood_weight:  [1, 0]
+exact correct: plug_type plug_type
+ood_weight:  [1, 0]
+exact correct: plug_type plug_type
+ood_weight:  [1, 0]
+exact correct: plug_type plug_type
+ood_weight:  [1, 0]
+exact correct: plug_type plug_type
+ood_weight:  [1, 0]
+exact correct: plug_type plug_type
+ood_weight:  [1, 0.3051448572533398]
+exact correct: plug_type plug_type
+ood_weight:  [1, 0]
+exact correct: plug_type plug_type
+ood_weight:  [1, 0]
+pred/gt: measurement_conversion plug_type
+ood_weight:  [1, 0]
+exact correct: plug_type plug_type
+ood_weight:  [1, 0]
+exact correct: plug_type plug_type
+ood_weight:  [1, 0]
+exact correct: plug_type plug_type
+ood_weight:  [1, 0]
+exact correct: plug_type plug_type
+ood_weight:  [1, 0]
+exact correct: plug_type plug_type
+ood_weight:  [1, 0]
+exact correct: plug_type plug_type
+ood_weight:  [1, 0]
+exact correct: plug_type plug_type
+ood_weight:  [1, 0]
+exact correct: plug_type plug_type
+ood_weight:  [1, 0]
+exact correct: plug_type plug_type
+ood_weight:  [1, 0]
+exact correct: plug_type plug_type
+ood_weight:  [1, 0]
+exact correct: plug_type plug_type
+ood_weight:  [1, 0]
+exact correct: plug_type plug_type
+ood_weight:  [1, 0]
+exact correct: plug_type plug_type
+ood_weight:  [1, 0]
+exact correct: exchange_rate exchange_rate
+ood_weight:  [1, 0]
+exact correct: exchange_rate exchange_rate
+ood_weight:  [1, 0]
+exact correct: exchange_rate exchange_rate
+ood_weight:  [1, 0]
+exact correct: exchange_rate exchange_rate
+ood_weight:  [1, 0]
+exact correct: exchange_rate exchange_rate
+ood_weight:  [1, 0]
+exact correct: exchange_rate exchange_rate
+ood_weight:  [1, 0]
+exact correct: exchange_rate exchange_rate
+ood_weight:  [1, 0]
+exact correct: exchange_rate exchange_rate
+ood_weight:  [1, 0]
+exact correct: exchange_rate exchange_rate
+ood_weight:  [1, 0]
+exact correct: exchange_rate exchange_rate
+ood_weight:  [1, 0]
+exact correct: exchange_rate exchange_rate
+ood_weight:  [1, 0]
+exact correct: exchange_rate exchange_rate
+ood_weight:  [1, 0]
+exact correct: exchange_rate exchange_rate
+ood_weight:  [1, 0]
+exact correct: exchange_rate exchange_rate
+ood_weight:  [1, 0]
+exact correct: exchange_rate exchange_rate
+ood_weight:  [1, 0]
+exact correct: exchange_rate exchange_rate
+ood_weight:  [1, 0]
+exact correct: exchange_rate exchange_rate
+ood_weight:  [1, 0]
+exact correct: exchange_rate exchange_rate
+ood_weight:  [1, 0]
+exact correct: exchange_rate exchange_rate
+ood_weight:  [1, 0]
+exact correct: exchange_rate exchange_rate
+ood_weight:  [1, 0]
+exact correct: exchange_rate exchange_rate
+ood_weight:  [1, 0]
+exact correct: exchange_rate exchange_rate
+ood_weight:  [1, 0]
+exact correct: exchange_rate exchange_rate
+ood_weight:  [1, 0]
+exact correct: exchange_rate exchange_rate
+ood_weight:  [1, 0]
+exact correct: exchange_rate exchange_rate
+ood_weight:  [1, 0]
+exact correct: exchange_rate exchange_rate
+ood_weight:  [1, 0]
+exact correct: exchange_rate exchange_rate
+ood_weight:  [1, 0.31182849757146747]
+exact correct: exchange_rate exchange_rate
+ood_weight:  [1, 0]
+exact correct: exchange_rate exchange_rate
+ood_weight:  [1, 0]
+exact correct: exchange_rate exchange_rate
+1200/1800, contains_correct: 834, contains_acc: 69.5%, exact_correct: 826, exact_acc: 68.83%, saving to /home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/relearn_attack/results/banking_t3/o3_backbone_in_ep1_testSD.json
+ood_weight:  [1, 0]
+exact correct: book_hotel book_hotel
+ood_weight:  [1, 0]
+exact correct: book_hotel book_hotel
+ood_weight:  [1, 0]
+exact correct: book_hotel book_hotel
+ood_weight:  [1, 0]
+exact correct: book_hotel book_hotel
+ood_weight:  [1, 0]
+exact correct: book_hotel book_hotel
+ood_weight:  [1, 0]
+exact correct: book_hotel book_hotel
+ood_weight:  [1, 0]
+exact correct: book_hotel book_hotel
+ood_weight:  [1, 0]
+exact correct: book_hotel book_hotel
+ood_weight:  [1, 0]
+exact correct: book_hotel book_hotel
+ood_weight:  [1, 0]
+exact correct: book_hotel book_hotel
+ood_weight:  [1, 0]
+exact correct: book_hotel book_hotel
+ood_weight:  [1, 0]
+exact correct: book_hotel book_hotel
+ood_weight:  [1, 0]
+exact correct: book_hotel book_hotel
+ood_weight:  [1, 0]
+exact correct: book_hotel book_hotel
+ood_weight:  [1, 0]
+exact correct: book_hotel book_hotel
+ood_weight:  [1, 0]
+exact correct: book_hotel book_hotel
+ood_weight:  [1, 0]
+exact correct: book_hotel book_hotel
+ood_weight:  [1, 0]
+exact correct: book_hotel book_hotel
+ood_weight:  [1, 0]
+exact correct: book_hotel book_hotel
+ood_weight:  [1, 0]
+exact correct: book_hotel book_hotel
+ood_weight:  [1, 0]
+exact correct: book_hotel book_hotel
+ood_weight:  [1, 0]
+exact correct: book_hotel book_hotel
+ood_weight:  [1, 0]
+exact correct: book_hotel book_hotel
+ood_weight:  [1, 0]
+exact correct: book_hotel book_hotel
+ood_weight:  [1, 0]
+exact correct: book_hotel book_hotel
+ood_weight:  [1, 0]
+exact correct: book_hotel book_hotel
+ood_weight:  [1, 0]
+exact correct: book_hotel book_hotel
+ood_weight:  [1, 0]
+exact correct: book_hotel book_hotel
+ood_weight:  [1, 0]
+exact correct: book_hotel book_hotel
+ood_weight:  [1, 0]
+exact correct: book_hotel book_hotel
+ood_weight:  [1, 0]
+exact correct: international_visa international_visa
+ood_weight:  [1, 0.37351576686263277]
+exact correct: international_visa international_visa
+ood_weight:  [1, 0]
+exact correct: international_visa international_visa
+ood_weight:  [1, 0]
+exact correct: international_visa international_visa
+ood_weight:  [1, 0]
+exact correct: international_visa international_visa
+ood_weight:  [1, 0]
+exact correct: international_visa international_visa
+ood_weight:  [1, 0]
+exact correct: international_visa international_visa
+ood_weight:  [1, 0]
+exact correct: international_visa international_visa
+ood_weight:  [1, 0]
+exact correct: international_visa international_visa
+ood_weight:  [1, 0]
+exact correct: international_visa international_visa
+ood_weight:  [1, 0]
+exact correct: international_visa international_visa
+ood_weight:  [1, 0]
+exact correct: international_visa international_visa
+ood_weight:  [1, 0]
+exact correct: international_visa international_visa
+ood_weight:  [1, 0]
+exact correct: international_visa international_visa
+ood_weight:  [1, 0]
+exact correct: international_visa international_visa
+ood_weight:  [1, 0]
+exact correct: international_visa international_visa
+ood_weight:  [1, 0]
+exact correct: international_visa international_visa
+ood_weight:  [1, 0]
+exact correct: international_visa international_visa
+ood_weight:  [1, 0]
+exact correct: international_visa international_visa
+ood_weight:  [1, 0]
+exact correct: international_visa international_visa
+ood_weight:  [1, 1.2]
+pred/gt: bill_due international_visa
+ood_weight:  [1, 0]
+exact correct: international_visa international_visa
+ood_weight:  [1, 0]
+exact correct: international_visa international_visa
+ood_weight:  [1, 0]
+exact correct: international_visa international_visa
+ood_weight:  [1, 0]
+exact correct: international_visa international_visa
+ood_weight:  [1, 0]
+exact correct: international_visa international_visa
+ood_weight:  [1, 0]
+exact correct: international_visa international_visa
+ood_weight:  [1, 0]
+exact correct: international_visa international_visa
+ood_weight:  [1, 0]
+exact correct: international_visa international_visa
+ood_weight:  [1, 0]
+exact correct: international_visa international_visa
+ood_weight:  [1, 0]
+exact correct: vaccines vaccines
+ood_weight:  [1, 0]
+exact correct: vaccines vaccines
+ood_weight:  [1, 0]
+exact correct: vaccines vaccines
+ood_weight:  [1, 0]
+exact correct: vaccines vaccines
+ood_weight:  [1, 0]
+exact correct: vaccines vaccines
+ood_weight:  [1, 0]
+exact correct: vaccines vaccines
+ood_weight:  [1, 0]
+exact correct: vaccines vaccines
+ood_weight:  [1, 0]
+exact correct: vaccines vaccines
+ood_weight:  [1, 0]
+exact correct: vaccines vaccines
+ood_weight:  [1, 0]
+exact correct: vaccines vaccines
+ood_weight:  [1, 0]
+exact correct: vaccines vaccines
+ood_weight:  [1, 0]
+exact correct: vaccines vaccines
+ood_weight:  [1, 0]
+exact correct: vaccines vaccines
+ood_weight:  [1, 0]
+exact correct: vaccines vaccines
+ood_weight:  [1, 0]
+exact correct: vaccines vaccines
+ood_weight:  [1, 0]
+exact correct: vaccines vaccines
+ood_weight:  [1, 0]
+exact correct: vaccines vaccines
+ood_weight:  [1, 0]
+exact correct: vaccines vaccines
+ood_weight:  [1, 0]
+exact correct: vaccines vaccines
+ood_weight:  [1, 0]
+exact correct: vaccines vaccines
+ood_weight:  [1, 0]
+exact correct: vaccines vaccines
+ood_weight:  [1, 0]
+exact correct: vaccines vaccines
+ood_weight:  [1, 0]
+exact correct: vaccines vaccines
+ood_weight:  [1, 0]
+exact correct: vaccines vaccines
+ood_weight:  [1, 0]
+exact correct: vaccines vaccines
+ood_weight:  [1, 0]
+exact correct: vaccines vaccines
+ood_weight:  [1, 0]
+exact correct: vaccines vaccines
+ood_weight:  [1, 0]
+exact correct: vaccines vaccines
+ood_weight:  [1, 0]
+exact correct: vaccines vaccines
+ood_weight:  [1, 0]
+exact correct: vaccines vaccines
+ood_weight:  [1, 0]
+exact correct: book_flight book_flight
+ood_weight:  [1, 0]
+exact correct: book_flight book_flight
+ood_weight:  [1, 0]
+exact correct: book_flight book_flight
+ood_weight:  [1, 0]
+exact correct: book_flight book_flight
+ood_weight:  [1, 0]
+exact correct: book_flight book_flight
+ood_weight:  [1, 0]
+exact correct: book_flight book_flight
+ood_weight:  [1, 0]
+exact correct: book_flight book_flight
+ood_weight:  [1, 0]
+exact correct: book_flight book_flight
+ood_weight:  [1, 0]
+exact correct: book_flight book_flight
+ood_weight:  [1, 0]
+exact correct: book_flight book_flight
+ood_weight:  [1, 0]
+exact correct: book_flight book_flight
+ood_weight:  [1, 0]
+exact correct: book_flight book_flight
+ood_weight:  [1, 0]
+exact correct: book_flight book_flight
+ood_weight:  [1, 0]
+exact correct: book_flight book_flight
+ood_weight:  [1, 0]
+exact correct: book_flight book_flight
+ood_weight:  [1, 0]
+exact correct: book_flight book_flight
+ood_weight:  [1, 0]
+exact correct: book_flight book_flight
+ood_weight:  [1, 0]
+exact correct: book_flight book_flight
+ood_weight:  [1, 0]
+exact correct: book_flight book_flight
+ood_weight:  [1, 0]
+exact correct: book_flight book_flight
+ood_weight:  [1, 0]
+exact correct: book_flight book_flight
+ood_weight:  [1, 0]
+exact correct: book_flight book_flight
+ood_weight:  [1, 0]
+exact correct: book_flight book_flight
+ood_weight:  [1, 0]
+exact correct: book_flight book_flight
+ood_weight:  [1, 0]
+exact correct: book_flight book_flight
+ood_weight:  [1, 0]
+exact correct: book_flight book_flight
+ood_weight:  [1, 0]
+exact correct: book_flight book_flight
+ood_weight:  [1, 0]
+exact correct: book_flight book_flight
+ood_weight:  [1, 0]
+exact correct: book_flight book_flight
+ood_weight:  [1, 0]
+exact correct: book_flight book_flight
+ood_weight:  [1, 0]
+exact correct: car_rental car_rental
+ood_weight:  [1, 0]
+exact correct: car_rental car_rental
+ood_weight:  [1, 0]
+exact correct: car_rental car_rental
+ood_weight:  [1, 0]
+exact correct: car_rental car_rental
+ood_weight:  [1, 0]
+exact correct: car_rental car_rental
+ood_weight:  [1, 0]
+exact correct: car_rental car_rental
+ood_weight:  [1, 0]
+exact correct: car_rental car_rental
+ood_weight:  [1, 0]
+exact correct: car_rental car_rental
+ood_weight:  [1, 0]
+exact correct: car_rental car_rental
+ood_weight:  [1, 0]
+exact correct: car_rental car_rental
+ood_weight:  [1, 0]
+exact correct: car_rental car_rental
+ood_weight:  [1, 0]
+exact correct: car_rental car_rental
+ood_weight:  [1, 0]
+exact correct: car_rental car_rental
+ood_weight:  [1, 0]
+exact correct: car_rental car_rental
+ood_weight:  [1, 0.3458891157842519]
+exact correct: car_rental car_rental
+ood_weight:  [1, 0]
+exact correct: car_rental car_rental
+ood_weight:  [1, 0]
+exact correct: car_rental car_rental
+ood_weight:  [1, 0]
+exact correct: car_rental car_rental
+ood_weight:  [1, 0]
+exact correct: car_rental car_rental
+ood_weight:  [1, 0]
+exact correct: car_rental car_rental
+ood_weight:  [1, 0]
+exact correct: car_rental car_rental
+ood_weight:  [1, 0]
+exact correct: car_rental car_rental
+ood_weight:  [1, 0]
+exact correct: car_rental car_rental
+ood_weight:  [1, 0]
+exact correct: car_rental car_rental
+ood_weight:  [1, 0]
+exact correct: car_rental car_rental
+ood_weight:  [1, 0]
+exact correct: car_rental car_rental
+ood_weight:  [1, 0]
+exact correct: car_rental car_rental
+ood_weight:  [1, 0]
+exact correct: car_rental car_rental
+ood_weight:  [1, 0]
+exact correct: car_rental car_rental
+ood_weight:  [1, 0]
+exact correct: car_rental car_rental
+ood_weight:  [1, 0]
+exact correct: insurance_change insurance_change
+ood_weight:  [1, 0]
+exact correct: insurance_change insurance_change
+ood_weight:  [1, 0]
+exact correct: insurance_change insurance_change
+ood_weight:  [1, 0.3177377658364951]
+exact correct: insurance_change insurance_change
+ood_weight:  [1, 0]
+exact correct: insurance_change insurance_change
+ood_weight:  [1, 0]
+exact correct: insurance_change insurance_change
+ood_weight:  [1, 0]
+exact correct: insurance_change insurance_change
+ood_weight:  [1, 0]
+exact correct: insurance_change insurance_change
+ood_weight:  [1, 0]
+exact correct: insurance_change insurance_change
+ood_weight:  [1, 0]
+exact correct: insurance_change insurance_change
+ood_weight:  [1, 0]
+exact correct: insurance_change insurance_change
+ood_weight:  [1, 0]
+exact correct: insurance_change insurance_change
+ood_weight:  [1, 0]
+exact correct: insurance_change insurance_change
+ood_weight:  [1, 0]
+exact correct: insurance_change insurance_change
+ood_weight:  [1, 0]
+exact correct: insurance_change insurance_change
+ood_weight:  [1, 1.2]
+pred/gt: who_made_you insurance_change
+ood_weight:  [1, 1.2]
+pred/gt: bill insurance_change
+ood_weight:  [1, 0]
+exact correct: insurance_change insurance_change
+ood_weight:  [1, 1.2]
+pred/gt: meaning_of_life insurance_change
+ood_weight:  [1, 0]
+exact correct: insurance_change insurance_change
+ood_weight:  [1, 0]
+exact correct: insurance_change insurance_change
+ood_weight:  [1, 0.3591261905562707]
+exact correct: insurance_change insurance_change
+ood_weight:  [1, 0]
+exact correct: insurance_change insurance_change
+ood_weight:  [1, 0]
+exact correct: insurance_change insurance_change
+ood_weight:  [1, 0.37221537730014365]
+exact correct: insurance_change insurance_change
+ood_weight:  [1, 0]
+exact correct: insurance_change insurance_change
+ood_weight:  [1, 0.3119811305906861]
+exact correct: insurance_change insurance_change
+ood_weight:  [1, 0]
+exact correct: insurance_change insurance_change
+ood_weight:  [1, 0]
+exact correct: insurance_change insurance_change
+ood_weight:  [1, 0]
+exact correct: insurance_change insurance_change
+ood_weight:  [1, 0]
+exact correct: pto_request pto_request
+ood_weight:  [1, 0]
+exact correct: pto_request pto_request
+ood_weight:  [1, 0]
+exact correct: pto_request pto_request
+ood_weight:  [1, 0]
+exact correct: pto_request pto_request
+ood_weight:  [1, 1.2]
+pred/gt: vaccines pto_request
+ood_weight:  [1, 0]
+exact correct: pto_request pto_request
+ood_weight:  [1, 0.38272766692230226]
+exact correct: pto_request pto_request
+ood_weight:  [1, 0]
+exact correct: pto_request pto_request
+ood_weight:  [1, 0]
+exact correct: pto_request pto_request
+ood_weight:  [1, 0]
+exact correct: pto_request pto_request
+ood_weight:  [1, 0]
+exact correct: pto_request pto_request
+ood_weight:  [1, 0]
+exact correct: pto_request pto_request
+ood_weight:  [1, 0]
+exact correct: pto_request pto_request
+ood_weight:  [1, 0]
+exact correct: pto_request pto_request
+ood_weight:  [1, 0]
+exact correct: pto_request pto_request
+ood_weight:  [1, 0.322883404892032]
+exact correct: pto_request pto_request
+ood_weight:  [1, 0]
+pred/gt: travel_suggestion pto_request
+ood_weight:  [1, 0]
+exact correct: pto_request pto_request
+ood_weight:  [1, 0]
+exact correct: pto_request pto_request
+ood_weight:  [1, 0]
+exact correct: pto_request pto_request
+1400/1800, contains_correct: 1028, contains_acc: 73.43%, exact_correct: 1020, exact_acc: 72.86%, saving to /home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/relearn_attack/results/banking_t3/o3_backbone_in_ep1_testSD.json
+ood_weight:  [1, 0]
+exact correct: pto_request pto_request
+ood_weight:  [1, 0]
+pred/gt: travel_suggestion pto_request
+ood_weight:  [1, 0]
+exact correct: pto_request pto_request
+ood_weight:  [1, 0]
+pred/gt: redeem_rewards pto_request
+ood_weight:  [1, 0]
+pred/gt: travel_suggestion pto_request
+ood_weight:  [1, 0]
+exact correct: pto_request pto_request
+ood_weight:  [1, 1.2]
+pred/gt: who_made_you pto_request
+ood_weight:  [1, 1.2]
+pred/gt: spending_history pto_request
+ood_weight:  [1, 0]
+exact correct: pto_request pto_request
+ood_weight:  [1, 0]
+exact correct: pto_request pto_request
+ood_weight:  [1, 0]
+exact correct: payday payday
+ood_weight:  [1, 1.2]
+pred/gt: credit_score payday
+ood_weight:  [1, 1.2]
+pred/gt: what_are_your_hobbies payday
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill payday
+ood_weight:  [1, 0]
+exact correct: payday payday
+ood_weight:  [1, 0.3012932587921192]
+exact correct: payday payday
+ood_weight:  [1, 0]
+exact correct: payday payday
+ood_weight:  [1, 1.2]
+pred/gt: what_are_your_hobbies payday
+ood_weight:  [1, 0.3149745314691983]
+exact correct: payday payday
+ood_weight:  [1, 0]
+exact correct: payday payday
+ood_weight:  [1, 1.2]
+pred/gt: bill_due payday
+ood_weight:  [1, 1.2]
+pred/gt: apr payday
+ood_weight:  [1, 1.2]
+pred/gt: timezone payday
+ood_weight:  [1, 1.2]
+pred/gt: bill_due payday
+ood_weight:  [1, 1.2]
+pred/gt: bill_balance payday
+ood_weight:  [1, 1.2]
+pred/gt: bill_due payday
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill payday
+ood_weight:  [1, 0]
+exact correct: payday payday
+ood_weight:  [1, 1.2]
+pred/gt: bill_due payday
+ood_weight:  [1, 0]
+exact correct: payday payday
+ood_weight:  [1, 0]
+exact correct: payday payday
+ood_weight:  [1, 0.37975660449974474]
+exact correct: payday payday
+ood_weight:  [1, 0]
+exact correct: payday payday
+ood_weight:  [1, 1.2]
+pred/gt: bill_due payday
+ood_weight:  [1, 0]
+exact correct: payday payday
+ood_weight:  [1, 1.2]
+pred/gt: spending_history payday
+ood_weight:  [1, 1.2]
+pred/gt: bill_due payday
+ood_weight:  [1, 0]
+exact correct: payday payday
+ood_weight:  [1, 0]
+exact correct: payday payday
+ood_weight:  [1, 1.2]
+pred/gt: bill_due payday
+ood_weight:  [1, 0]
+exact correct: rollover_401k rollover_401k
+ood_weight:  [1, 0]
+exact correct: rollover_401k rollover_401k
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill rollover_401k
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill rollover_401k
+ood_weight:  [1, 1.2]
+pred/gt: account_blocked rollover_401k
+ood_weight:  [1, 0]
+exact correct: rollover_401k rollover_401k
+ood_weight:  [1, 0]
+exact correct: rollover_401k rollover_401k
+ood_weight:  [1, 1.2]
+pred/gt: tire_change rollover_401k
+ood_weight:  [1, 1.2]
+pred/gt: account_blocked rollover_401k
+ood_weight:  [1, 0]
+exact correct: rollover_401k rollover_401k
+ood_weight:  [1, 1.2]
+pred/gt: account_blocked rollover_401k
+ood_weight:  [1, 0]
+exact correct: rollover_401k rollover_401k
+ood_weight:  [1, 0]
+exact correct: rollover_401k rollover_401k
+ood_weight:  [1, 1.2]
+pred/gt: routing rollover_401k
+ood_weight:  [1, 1.2]
+pred/gt: transactions rollover_401k
+ood_weight:  [1, 0]
+exact correct: rollover_401k rollover_401k
+ood_weight:  [1, 0]
+exact correct: rollover_401k rollover_401k
+ood_weight:  [1, 0]
+exact correct: rollover_401k rollover_401k
+ood_weight:  [1, 0]
+exact correct: rollover_401k rollover_401k
+ood_weight:  [1, 0]
+exact correct: rollover_401k rollover_401k
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill rollover_401k
+ood_weight:  [1, 0]
+exact correct: rollover_401k rollover_401k
+ood_weight:  [1, 0]
+exact correct: rollover_401k rollover_401k
+ood_weight:  [1, 0]
+exact correct: rollover_401k rollover_401k
+ood_weight:  [1, 0]
+exact correct: rollover_401k rollover_401k
+ood_weight:  [1, 0]
+exact correct: rollover_401k rollover_401k
+ood_weight:  [1, 0]
+exact correct: rollover_401k rollover_401k
+ood_weight:  [1, 0]
+exact correct: rollover_401k rollover_401k
+ood_weight:  [1, 0]
+exact correct: rollover_401k rollover_401k
+ood_weight:  [1, 1.2]
+pred/gt: tire_pressure rollover_401k
+ood_weight:  [1, 0]
+exact correct: pto_request_status pto_request_status
+ood_weight:  [1, 0]
+exact correct: pto_request_status pto_request_status
+ood_weight:  [1, 0]
+exact correct: pto_request_status pto_request_status
+ood_weight:  [1, 0]
+exact correct: pto_request_status pto_request_status
+ood_weight:  [1, 0]
+exact correct: pto_request_status pto_request_status
+ood_weight:  [1, 0]
+exact correct: pto_request_status pto_request_status
+ood_weight:  [1, 0]
+exact correct: pto_request_status pto_request_status
+ood_weight:  [1, 0]
+exact correct: pto_request_status pto_request_status
+ood_weight:  [1, 0]
+exact correct: pto_request_status pto_request_status
+ood_weight:  [1, 0]
+exact correct: pto_request_status pto_request_status
+ood_weight:  [1, 0]
+exact correct: pto_request_status pto_request_status
+ood_weight:  [1, 0]
+pred/gt: pto_balance pto_request_status
+ood_weight:  [1, 0]
+exact correct: pto_request_status pto_request_status
+ood_weight:  [1, 0.3734209388353765]
+exact correct: pto_request_status pto_request_status
+ood_weight:  [1, 0]
+exact correct: pto_request_status pto_request_status
+ood_weight:  [1, 0]
+exact correct: pto_request_status pto_request_status
+ood_weight:  [1, 0]
+exact correct: pto_request_status pto_request_status
+ood_weight:  [1, 0]
+exact correct: pto_request_status pto_request_status
+ood_weight:  [1, 1.2]
+pred/gt: spending_history pto_request_status
+ood_weight:  [1, 0]
+exact correct: pto_request_status pto_request_status
+ood_weight:  [1, 0]
+exact correct: pto_request_status pto_request_status
+ood_weight:  [1, 0]
+exact correct: pto_request_status pto_request_status
+ood_weight:  [1, 1.2]
+pred/gt: who_made_you pto_request_status
+ood_weight:  [1, 0]
+exact correct: pto_request_status pto_request_status
+ood_weight:  [1, 1.2]
+pred/gt: measurement_conversion pto_request_status
+ood_weight:  [1, 0]
+exact correct: pto_request_status pto_request_status
+ood_weight:  [1, 1.2]
+pred/gt: toy pto_request_status
+ood_weight:  [1, 0]
+exact correct: pto_request_status pto_request_status
+ood_weight:  [1, 1.2]
+pred/gt: meaning_of_life pto_request_status
+ood_weight:  [1, 0]
+exact correct: pto_request_status pto_request_status
+ood_weight:  [1, 0]
+exact correct: insurance insurance
+ood_weight:  [1, 0]
+exact correct: insurance insurance
+ood_weight:  [1, 0]
+exact correct: insurance insurance
+ood_weight:  [1, 0]
+exact correct: insurance insurance
+ood_weight:  [1, 0]
+exact correct: insurance insurance
+ood_weight:  [1, 0]
+exact correct: insurance insurance
+ood_weight:  [1, 0]
+exact correct: insurance insurance
+ood_weight:  [1, 0]
+exact correct: insurance insurance
+ood_weight:  [1, 0]
+exact correct: insurance insurance
+ood_weight:  [1, 0]
+exact correct: insurance insurance
+ood_weight:  [1, 0]
+exact correct: insurance insurance
+ood_weight:  [1, 0]
+exact correct: insurance insurance
+ood_weight:  [1, 0]
+exact correct: insurance insurance
+ood_weight:  [1, 0]
+exact correct: insurance insurance
+ood_weight:  [1, 0]
+exact correct: insurance insurance
+ood_weight:  [1, 0]
+exact correct: insurance insurance
+ood_weight:  [1, 0]
+exact correct: insurance insurance
+ood_weight:  [1, 0]
+exact correct: insurance insurance
+ood_weight:  [1, 0]
+exact correct: insurance insurance
+ood_weight:  [1, 0]
+exact correct: insurance insurance
+ood_weight:  [1, 0]
+exact correct: insurance insurance
+ood_weight:  [1, 0]
+exact correct: insurance insurance
+ood_weight:  [1, 0]
+exact correct: insurance insurance
+ood_weight:  [1, 0]
+exact correct: insurance insurance
+ood_weight:  [1, 0]
+exact correct: insurance insurance
+ood_weight:  [1, 0]
+exact correct: insurance insurance
+ood_weight:  [1, 0]
+exact correct: insurance insurance
+ood_weight:  [1, 0]
+exact correct: insurance insurance
+ood_weight:  [1, 0]
+exact correct: insurance insurance
+ood_weight:  [1, 0]
+exact correct: insurance insurance
+ood_weight:  [1, 1.2]
+pred/gt: apr pto_used
+ood_weight:  [1, 0]
+exact correct: pto_used pto_used
+ood_weight:  [1, 0]
+exact correct: pto_used pto_used
+ood_weight:  [1, 1.2]
+pred/gt: apr pto_used
+ood_weight:  [1, 1.2]
+pred/gt: credit_score pto_used
+ood_weight:  [1, 0]
+exact correct: pto_used pto_used
+ood_weight:  [1, 0]
+exact correct: pto_used pto_used
+ood_weight:  [1, 0]
+exact correct: pto_used pto_used
+ood_weight:  [1, 0]
+exact correct: pto_used pto_used
+ood_weight:  [1, 0.3150964600184334]
+exact correct: pto_used pto_used
+ood_weight:  [1, 0]
+exact correct: pto_used pto_used
+ood_weight:  [1, 0]
+exact correct: pto_used pto_used
+ood_weight:  [1, 0]
+exact correct: pto_used pto_used
+ood_weight:  [1, 0]
+exact correct: pto_used pto_used
+ood_weight:  [1, 1.2]
+pred/gt: bill_due pto_used
+ood_weight:  [1, 0]
+exact correct: pto_used pto_used
+ood_weight:  [1, 1.2]
+pred/gt: bill pto_used
+ood_weight:  [1, 0]
+exact correct: pto_used pto_used
+ood_weight:  [1, 0]
+exact correct: pto_used pto_used
+ood_weight:  [1, 0]
+exact correct: pto_used pto_used
+ood_weight:  [1, 0]
+exact correct: pto_used pto_used
+ood_weight:  [1, 0]
+exact correct: pto_used pto_used
+ood_weight:  [1, 0]
+exact correct: pto_used pto_used
+ood_weight:  [1, 0]
+exact correct: pto_used pto_used
+ood_weight:  [1, 0.3475677012083578]
+exact correct: pto_used pto_used
+ood_weight:  [1, 0]
+exact correct: pto_used pto_used
+ood_weight:  [1, 0]
+exact correct: pto_used pto_used
+ood_weight:  [1, 0]
+exact correct: pto_used pto_used
+ood_weight:  [1, 0]
+exact correct: pto_used pto_used
+ood_weight:  [1, 0]
+exact correct: pto_used pto_used
+ood_weight:  [1, 0]
+exact correct: w2 w2
+ood_weight:  [1, 0.3056825796259422]
+exact correct: w2 w2
+ood_weight:  [1, 1.2]
+pred/gt: credit_score w2
+ood_weight:  [1, 0]
+exact correct: w2 w2
+ood_weight:  [1, 0]
+exact correct: w2 w2
+ood_weight:  [1, 0]
+exact correct: w2 w2
+ood_weight:  [1, 0]
+exact correct: w2 w2
+ood_weight:  [1, 0]
+exact correct: w2 w2
+ood_weight:  [1, 0]
+exact correct: w2 w2
+ood_weight:  [1, 0]
+exact correct: w2 w2
+ood_weight:  [1, 0]
+exact correct: w2 w2
+ood_weight:  [1, 0]
+exact correct: w2 w2
+ood_weight:  [1, 0]
+exact correct: w2 w2
+ood_weight:  [1, 0]
+exact correct: w2 w2
+ood_weight:  [1, 0]
+exact correct: w2 w2
+ood_weight:  [1, 0]
+exact correct: w2 w2
+ood_weight:  [1, 0]
+exact correct: w2 w2
+ood_weight:  [1, 0]
+exact correct: w2 w2
+ood_weight:  [1, 0]
+exact correct: w2 w2
+ood_weight:  [1, 0]
+exact correct: w2 w2
+ood_weight:  [1, 0]
+exact correct: w2 w2
+ood_weight:  [1, 1.2]
+pred/gt: bill_due w2
+ood_weight:  [1, 0.3042285183409543]
+exact correct: w2 w2
+ood_weight:  [1, 0]
+exact correct: w2 w2
+ood_weight:  [1, 1.2]
+pred/gt: order_checks w2
+ood_weight:  [1, 0.38662251736962794]
+exact correct: w2 w2
+ood_weight:  [1, 0]
+exact correct: w2 w2
+ood_weight:  [1, 0]
+exact correct: w2 w2
+ood_weight:  [1, 0.3140048340046305]
+exact correct: w2 w2
+ood_weight:  [1, 0.31262614073548545]
+exact correct: w2 w2
+ood_weight:  [1, 0]
+exact correct: schedule_meeting schedule_meeting
+ood_weight:  [1, 0]
+exact correct: schedule_meeting schedule_meeting
+ood_weight:  [1, 0]
+exact correct: schedule_meeting schedule_meeting
+ood_weight:  [1, 0]
+exact correct: schedule_meeting schedule_meeting
+ood_weight:  [1, 0]
+exact correct: schedule_meeting schedule_meeting
+ood_weight:  [1, 0]
+exact correct: schedule_meeting schedule_meeting
+ood_weight:  [1, 0]
+exact correct: schedule_meeting schedule_meeting
+ood_weight:  [1, 0]
+exact correct: schedule_meeting schedule_meeting
+ood_weight:  [1, 0]
+exact correct: schedule_meeting schedule_meeting
+ood_weight:  [1, 0]
+exact correct: schedule_meeting schedule_meeting
+1600/1800, contains_correct: 1183, contains_acc: 73.94%, exact_correct: 1175, exact_acc: 73.44%, saving to /home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/relearn_attack/results/banking_t3/o3_backbone_in_ep1_testSD.json
+ood_weight:  [1, 0]
+exact correct: schedule_meeting schedule_meeting
+ood_weight:  [1, 0]
+exact correct: schedule_meeting schedule_meeting
+ood_weight:  [1, 0]
+exact correct: schedule_meeting schedule_meeting
+ood_weight:  [1, 0]
+exact correct: schedule_meeting schedule_meeting
+ood_weight:  [1, 0]
+exact correct: schedule_meeting schedule_meeting
+ood_weight:  [1, 0]
+exact correct: schedule_meeting schedule_meeting
+ood_weight:  [1, 0]
+exact correct: schedule_meeting schedule_meeting
+ood_weight:  [1, 0]
+exact correct: schedule_meeting schedule_meeting
+ood_weight:  [1, 0]
+exact correct: schedule_meeting schedule_meeting
+ood_weight:  [1, 0]
+exact correct: schedule_meeting schedule_meeting
+ood_weight:  [1, 0]
+exact correct: schedule_meeting schedule_meeting
+ood_weight:  [1, 0]
+exact correct: schedule_meeting schedule_meeting
+ood_weight:  [1, 0]
+exact correct: schedule_meeting schedule_meeting
+ood_weight:  [1, 0]
+exact correct: schedule_meeting schedule_meeting
+ood_weight:  [1, 0]
+exact correct: schedule_meeting schedule_meeting
+ood_weight:  [1, 0]
+exact correct: schedule_meeting schedule_meeting
+ood_weight:  [1, 0]
+exact correct: schedule_meeting schedule_meeting
+ood_weight:  [1, 0]
+exact correct: schedule_meeting schedule_meeting
+ood_weight:  [1, 0]
+exact correct: schedule_meeting schedule_meeting
+ood_weight:  [1, 0]
+exact correct: schedule_meeting schedule_meeting
+ood_weight:  [1, 0]
+exact correct: next_holiday next_holiday
+ood_weight:  [1, 0]
+exact correct: next_holiday next_holiday
+ood_weight:  [1, 0]
+exact correct: next_holiday next_holiday
+ood_weight:  [1, 0]
+exact correct: next_holiday next_holiday
+ood_weight:  [1, 0]
+exact correct: next_holiday next_holiday
+ood_weight:  [1, 0]
+exact correct: next_holiday next_holiday
+ood_weight:  [1, 1.2]
+pred/gt: who_made_you next_holiday
+ood_weight:  [1, 0]
+exact correct: next_holiday next_holiday
+ood_weight:  [1, 0]
+exact correct: next_holiday next_holiday
+ood_weight:  [1, 0]
+exact correct: next_holiday next_holiday
+ood_weight:  [1, 0]
+exact correct: next_holiday next_holiday
+ood_weight:  [1, 0]
+exact correct: next_holiday next_holiday
+ood_weight:  [1, 0]
+exact correct: next_holiday next_holiday
+ood_weight:  [1, 0]
+exact correct: next_holiday next_holiday
+ood_weight:  [1, 0]
+exact correct: next_holiday next_holiday
+ood_weight:  [1, 1.2]
+pred/gt: bill_due next_holiday
+ood_weight:  [1, 1.2]
+pred/gt: order_checks next_holiday
+ood_weight:  [1, 0]
+exact correct: next_holiday next_holiday
+ood_weight:  [1, 0]
+exact correct: next_holiday next_holiday
+ood_weight:  [1, 0]
+exact correct: next_holiday next_holiday
+ood_weight:  [1, 0]
+exact correct: next_holiday next_holiday
+ood_weight:  [1, 0]
+exact correct: next_holiday next_holiday
+ood_weight:  [1, 1.2]
+pred/gt: account_blocked next_holiday
+ood_weight:  [1, 0]
+exact correct: next_holiday next_holiday
+ood_weight:  [1, 0]
+exact correct: next_holiday next_holiday
+ood_weight:  [1, 0]
+exact correct: next_holiday next_holiday
+ood_weight:  [1, 0]
+exact correct: next_holiday next_holiday
+ood_weight:  [1, 0]
+exact correct: next_holiday next_holiday
+ood_weight:  [1, 0]
+exact correct: next_holiday next_holiday
+ood_weight:  [1, 0]
+exact correct: next_holiday next_holiday
+ood_weight:  [1, 0]
+exact correct: meeting_schedule meeting_schedule
+ood_weight:  [1, 0]
+exact correct: meeting_schedule meeting_schedule
+ood_weight:  [1, 0]
+exact correct: meeting_schedule meeting_schedule
+ood_weight:  [1, 0]
+pred/gt: calendar_update meeting_schedule
+ood_weight:  [1, 0]
+exact correct: meeting_schedule meeting_schedule
+ood_weight:  [1, 0]
+exact correct: meeting_schedule meeting_schedule
+ood_weight:  [1, 0]
+exact correct: meeting_schedule meeting_schedule
+ood_weight:  [1, 0]
+exact correct: meeting_schedule meeting_schedule
+ood_weight:  [1, 0]
+exact correct: meeting_schedule meeting_schedule
+ood_weight:  [1, 0]
+exact correct: meeting_schedule meeting_schedule
+ood_weight:  [1, 0]
+exact correct: meeting_schedule meeting_schedule
+ood_weight:  [1, 0]
+exact correct: meeting_schedule meeting_schedule
+ood_weight:  [1, 0.35038227933189003]
+exact correct: meeting_schedule meeting_schedule
+ood_weight:  [1, 0]
+exact correct: meeting_schedule meeting_schedule
+ood_weight:  [1, 0.30316523532758]
+exact correct: meeting_schedule meeting_schedule
+ood_weight:  [1, 0]
+exact correct: meeting_schedule meeting_schedule
+ood_weight:  [1, 0]
+exact correct: meeting_schedule meeting_schedule
+ood_weight:  [1, 0]
+exact correct: meeting_schedule meeting_schedule
+ood_weight:  [1, 0]
+exact correct: meeting_schedule meeting_schedule
+ood_weight:  [1, 0]
+exact correct: meeting_schedule meeting_schedule
+ood_weight:  [1, 0]
+exact correct: meeting_schedule meeting_schedule
+ood_weight:  [1, 0]
+exact correct: meeting_schedule meeting_schedule
+ood_weight:  [1, 0]
+exact correct: meeting_schedule meeting_schedule
+ood_weight:  [1, 0]
+exact correct: meeting_schedule meeting_schedule
+ood_weight:  [1, 0]
+exact correct: meeting_schedule meeting_schedule
+ood_weight:  [1, 0]
+exact correct: meeting_schedule meeting_schedule
+ood_weight:  [1, 0]
+exact correct: meeting_schedule meeting_schedule
+ood_weight:  [1, 0]
+exact correct: meeting_schedule meeting_schedule
+ood_weight:  [1, 0]
+exact correct: meeting_schedule meeting_schedule
+ood_weight:  [1, 0]
+exact correct: meeting_schedule meeting_schedule
+ood_weight:  [1, 0]
+exact correct: taxes taxes
+ood_weight:  [1, 0]
+exact correct: taxes taxes
+ood_weight:  [1, 0]
+exact correct: taxes taxes
+ood_weight:  [1, 0]
+exact correct: taxes taxes
+ood_weight:  [1, 0]
+exact correct: taxes taxes
+ood_weight:  [1, 0]
+exact correct: taxes taxes
+ood_weight:  [1, 0]
+exact correct: taxes taxes
+ood_weight:  [1, 0]
+exact correct: taxes taxes
+ood_weight:  [1, 0]
+exact correct: taxes taxes
+ood_weight:  [1, 0]
+exact correct: taxes taxes
+ood_weight:  [1, 0]
+exact correct: taxes taxes
+ood_weight:  [1, 0]
+exact correct: taxes taxes
+ood_weight:  [1, 0]
+exact correct: taxes taxes
+ood_weight:  [1, 0]
+exact correct: taxes taxes
+ood_weight:  [1, 0]
+exact correct: taxes taxes
+ood_weight:  [1, 0]
+exact correct: taxes taxes
+ood_weight:  [1, 0]
+exact correct: taxes taxes
+ood_weight:  [1, 1.2]
+pred/gt: bill_due taxes
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill taxes
+ood_weight:  [1, 0]
+exact correct: taxes taxes
+ood_weight:  [1, 0]
+exact correct: taxes taxes
+ood_weight:  [1, 0]
+exact correct: taxes taxes
+ood_weight:  [1, 0]
+exact correct: taxes taxes
+ood_weight:  [1, 0]
+exact correct: taxes taxes
+ood_weight:  [1, 0]
+exact correct: taxes taxes
+ood_weight:  [1, 0]
+exact correct: taxes taxes
+ood_weight:  [1, 0]
+exact correct: taxes taxes
+ood_weight:  [1, 0]
+exact correct: taxes taxes
+ood_weight:  [1, 0]
+exact correct: taxes taxes
+ood_weight:  [1, 0]
+exact correct: taxes taxes
+ood_weight:  [1, 1.2]
+pred/gt: insurance pto_balance
+ood_weight:  [1, 0]
+exact correct: pto_balance pto_balance
+ood_weight:  [1, 0]
+exact correct: pto_balance pto_balance
+ood_weight:  [1, 0]
+exact correct: pto_balance pto_balance
+ood_weight:  [1, 1.2]
+pred/gt: vaccines pto_balance
+ood_weight:  [1, 1.2]
+pred/gt: calculator pto_balance
+ood_weight:  [1, 0]
+exact correct: pto_balance pto_balance
+ood_weight:  [1, 0]
+exact correct: pto_balance pto_balance
+ood_weight:  [1, 0]
+exact correct: pto_balance pto_balance
+ood_weight:  [1, 0]
+exact correct: pto_balance pto_balance
+ood_weight:  [1, 0]
+exact correct: pto_balance pto_balance
+ood_weight:  [1, 0]
+exact correct: pto_balance pto_balance
+ood_weight:  [1, 0.303027017011195]
+exact correct: pto_balance pto_balance
+ood_weight:  [1, 0]
+exact correct: pto_balance pto_balance
+ood_weight:  [1, 1.2]
+pred/gt: payday pto_balance
+ood_weight:  [1, 0.33080148818578103]
+exact correct: pto_balance pto_balance
+ood_weight:  [1, 0]
+exact correct: pto_balance pto_balance
+ood_weight:  [1, 1.2]
+pred/gt: apr pto_balance
+ood_weight:  [1, 0]
+exact correct: pto_balance pto_balance
+ood_weight:  [1, 0]
+pred/gt: pto_request_status pto_balance
+ood_weight:  [1, 0]
+exact correct: pto_balance pto_balance
+ood_weight:  [1, 1.2]
+pred/gt: calculator pto_balance
+ood_weight:  [1, 0]
+exact correct: pto_balance pto_balance
+ood_weight:  [1, 0]
+exact correct: pto_balance pto_balance
+ood_weight:  [1, 0]
+exact correct: pto_balance pto_balance
+ood_weight:  [1, 1.2]
+exact correct: pto_balance pto_balance
+ood_weight:  [1, 0.38212340621346014]
+exact correct: pto_balance pto_balance
+ood_weight:  [1, 1.2]
+pred/gt: tire_change pto_balance
+ood_weight:  [1, 0]
+pred/gt: pto_used pto_balance
+ood_weight:  [1, 1.2]
+pred/gt: tire_change pto_balance
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill direct_deposit
+ood_weight:  [1, 0]
+exact correct: direct_deposit direct_deposit
+ood_weight:  [1, 0]
+exact correct: direct_deposit direct_deposit
+ood_weight:  [1, 1.2]
+pred/gt: exchange_rate direct_deposit
+ood_weight:  [1, 0]
+exact correct: direct_deposit direct_deposit
+ood_weight:  [1, 0]
+exact correct: direct_deposit direct_deposit
+ood_weight:  [1, 0]
+exact correct: direct_deposit direct_deposit
+ood_weight:  [1, 0]
+exact correct: direct_deposit direct_deposit
+ood_weight:  [1, 0]
+exact correct: direct_deposit direct_deposit
+ood_weight:  [1, 0]
+exact correct: direct_deposit direct_deposit
+ood_weight:  [1, 0]
+exact correct: direct_deposit direct_deposit
+ood_weight:  [1, 1.2]
+pred/gt: pto_request direct_deposit
+ood_weight:  [1, 1.2]
+pred/gt: bill_due direct_deposit
+ood_weight:  [1, 0]
+exact correct: direct_deposit direct_deposit
+ood_weight:  [1, 1.2]
+pred/gt: bill_due direct_deposit
+ood_weight:  [1, 0.3702448413239299]
+exact correct: direct_deposit direct_deposit
+ood_weight:  [1, 0]
+exact correct: direct_deposit direct_deposit
+ood_weight:  [1, 0]
+exact correct: direct_deposit direct_deposit
+ood_weight:  [1, 0]
+exact correct: direct_deposit direct_deposit
+ood_weight:  [1, 0]
+exact correct: direct_deposit direct_deposit
+ood_weight:  [1, 0]
+exact correct: direct_deposit direct_deposit
+ood_weight:  [1, 1.2]
+pred/gt: bill_due direct_deposit
+ood_weight:  [1, 0]
+exact correct: direct_deposit direct_deposit
+ood_weight:  [1, 0]
+exact correct: direct_deposit direct_deposit
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill direct_deposit
+ood_weight:  [1, 0]
+exact correct: direct_deposit direct_deposit
+ood_weight:  [1, 0]
+exact correct: direct_deposit direct_deposit
+ood_weight:  [1, 0]
+exact correct: direct_deposit direct_deposit
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill direct_deposit
+ood_weight:  [1, 1.2]
+pred/gt: meaning_of_life direct_deposit
+ood_weight:  [1, 1.2]
+pred/gt: routing income
+ood_weight:  [1, 1.2]
+pred/gt: routing income
+ood_weight:  [1, 1.2]
+pred/gt: bill_due income
+ood_weight:  [1, 1.2]
+pred/gt: account_blocked income
+ood_weight:  [1, 0]
+exact correct: income income
+ood_weight:  [1, 1.2]
+pred/gt: how_busy income
+ood_weight:  [1, 0]
+exact correct: income income
+ood_weight:  [1, 0]
+exact correct: income income
+ood_weight:  [1, 1.2]
+pred/gt: bill_due income
+ood_weight:  [1, 1.2]
+pred/gt: spelling income
+ood_weight:  [1, 1.2]
+pred/gt: account_blocked income
+ood_weight:  [1, 1.2]
+pred/gt: bill_balance income
+ood_weight:  [1, 1.2]
+pred/gt: expired_card income
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill income
+ood_weight:  [1, 0]
+exact correct: income income
+ood_weight:  [1, 1.2]
+pred/gt: bill_due income
+ood_weight:  [1, 1.2]
+pred/gt: bill_balance income
+ood_weight:  [1, 1.2]
+pred/gt: ingredients_list income
+ood_weight:  [1, 1.2]
+pred/gt: meaning_of_life income
+ood_weight:  [1, 1.2]
+pred/gt: reminder income
+ood_weight:  [1, 1.2]
+pred/gt: alarm income
+ood_weight:  [1, 1.2]
+pred/gt: bill_due income
+ood_weight:  [1, 0]
+exact correct: income income
+ood_weight:  [1, 0]
+exact correct: income income
+ood_weight:  [1, 1.2]
+pred/gt: map income
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill income
+ood_weight:  [1, 1.2]
+pred/gt: pay_bill income
+ood_weight:  [1, 1.2]
+pred/gt: spending_history income
+ood_weight:  [1, 1.2]
+pred/gt: bill_balance income
+ood_weight:  [1, 0]
+exact correct: income income
+1800/1800, contains_correct: 1334, contains_acc: 74.11%, exact_correct: 1326, exact_acc: 73.67%, saving to /home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/relearn_attack/results/banking_t3/o3_backbone_in_ep1_testSD.json
+0.336268318891242 0 1.2

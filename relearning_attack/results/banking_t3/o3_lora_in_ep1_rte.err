@@ -1,0 +1,848 @@
+Some weights of LlamaForCausalLM_ood were not initialized from the model checkpoint at /home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/modify_code/train31Llama/trained_model/O3_LLAMA31_ClincQA and are newly initialized: ['model.layers.0.self_attn.rotary_emb.inv_freq', 'model.layers.1.self_attn.rotary_emb.inv_freq', 'model.layers.10.self_attn.rotary_emb.inv_freq', 'model.layers.11.self_attn.rotary_emb.inv_freq', 'model.layers.12.self_attn.rotary_emb.inv_freq', 'model.layers.13.self_attn.rotary_emb.inv_freq', 'model.layers.14.self_attn.rotary_emb.inv_freq', 'model.layers.15.self_attn.rotary_emb.inv_freq', 'model.layers.16.self_attn.rotary_emb.inv_freq', 'model.layers.17.self_attn.rotary_emb.inv_freq', 'model.layers.18.self_attn.rotary_emb.inv_freq', 'model.layers.19.self_attn.rotary_emb.inv_freq', 'model.layers.2.self_attn.rotary_emb.inv_freq', 'model.layers.20.self_attn.rotary_emb.inv_freq', 'model.layers.21.self_attn.rotary_emb.inv_freq', 'model.layers.22.self_attn.rotary_emb.inv_freq', 'model.layers.23.self_attn.rotary_emb.inv_freq', 'model.layers.24.self_attn.rotary_emb.inv_freq', 'model.layers.25.self_attn.rotary_emb.inv_freq', 'model.layers.26.self_attn.rotary_emb.inv_freq', 'model.layers.27.self_attn.rotary_emb.inv_freq', 'model.layers.28.self_attn.rotary_emb.inv_freq', 'model.layers.29.self_attn.rotary_emb.inv_freq', 'model.layers.3.self_attn.rotary_emb.inv_freq', 'model.layers.30.self_attn.rotary_emb.inv_freq', 'model.layers.31.self_attn.rotary_emb.inv_freq', 'model.layers.4.self_attn.rotary_emb.inv_freq', 'model.layers.5.self_attn.rotary_emb.inv_freq', 'model.layers.6.self_attn.rotary_emb.inv_freq', 'model.layers.7.self_attn.rotary_emb.inv_freq', 'model.layers.8.self_attn.rotary_emb.inv_freq', 'model.layers.9.self_attn.rotary_emb.inv_freq']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/home/hai_ssh/.conda/envs/lunar/lib/python3.10/site-packages/sklearn/base.py:442: InconsistentVersionWarning: Trying to unpickle estimator OneClassSVM from version 1.4.2 when using version 1.7.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/home/hai_ssh/.conda/envs/lunar/lib/python3.10/site-packages/sklearn/base.py:442: InconsistentVersionWarning: Trying to unpickle estimator GaussianMixture from version 1.4.2 when using version 1.7.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/quant_attack/eval_quant_o3_clinc.py:259: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ood_mean_lists.append(torch.load(mean_list_path, map_location=torch.device(device)))
+/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/quant_attack/eval_quant_o3_clinc.py:260: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ood_precision_lists.append(torch.load(precision_list_path, map_location=torch.device(device)))
+/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/quant_attack/eval_quant_o3_clinc.py:261: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ood_fea_lists.append(torch.load(fea_list_path, map_location=torch.device(device)))
+/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/quant_attack/eval_quant_o3_clinc.py:287: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  load_attack_state(model, torch.load(args.attack_state))
+  0%|          | 0/277 [00:00<?, ?it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  not_entailment
+  0%|          | 1/277 [00:01<06:49,  1.48s/it]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  entailment
+  1%|          | 2/277 [00:02<04:11,  1.09it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+  1%|          | 3/277 [00:02<03:20,  1.37it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  not_entailment
+  1%|▏         | 4/277 [00:02<02:46,  1.64it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+  2%|▏         | 5/277 [00:03<02:26,  1.85it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+  2%|▏         | 6/277 [00:03<02:14,  2.01it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+  3%|▎         | 7/277 [00:04<02:08,  2.10it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+  3%|▎         | 8/277 [00:04<02:03,  2.18it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+  3%|▎         | 9/277 [00:05<01:59,  2.24it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+  4%|▎         | 10/277 [00:05<01:56,  2.29it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+  4%|▍         | 11/277 [00:05<01:54,  2.32it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+  4%|▍         | 12/277 [00:06<02:00,  2.20it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+  5%|▍         | 13/277 [00:06<02:04,  2.13it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+  5%|▌         | 14/277 [00:07<01:59,  2.20it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+  5%|▌         | 15/277 [00:07<01:55,  2.26it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+  6%|▌         | 16/277 [00:08<02:00,  2.17it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  not_entailment
+  6%|▌         | 17/277 [00:08<01:56,  2.23it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+  6%|▋         | 18/277 [00:09<01:53,  2.28it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+  7%|▋         | 19/277 [00:09<01:51,  2.32it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+  7%|▋         | 20/277 [00:09<01:56,  2.20it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+  8%|▊         | 21/277 [00:10<01:53,  2.25it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+  8%|▊         | 22/277 [00:10<01:51,  2.29it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+  8%|▊         | 23/277 [00:11<01:49,  2.32it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+  9%|▊         | 24/277 [00:11<01:47,  2.34it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  not_entailment
+  9%|▉         | 25/277 [00:12<01:46,  2.36it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+  9%|▉         | 26/277 [00:12<01:52,  2.23it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 10%|▉         | 27/277 [00:13<01:56,  2.15it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 10%|█         | 28/277 [00:13<01:52,  2.21it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 10%|█         | 29/277 [00:14<01:56,  2.14it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 11%|█         | 30/277 [00:14<01:58,  2.08it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 11%|█         | 31/277 [00:15<01:59,  2.05it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 12%|█▏        | 32/277 [00:15<01:54,  2.14it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 12%|█▏        | 33/277 [00:15<01:57,  2.08it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 12%|█▏        | 34/277 [00:16<01:58,  2.04it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 13%|█▎        | 35/277 [00:16<01:53,  2.14it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 13%|█▎        | 36/277 [00:17<01:55,  2.09it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 13%|█▎        | 37/277 [00:17<01:56,  2.05it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 14%|█▎        | 38/277 [00:18<01:51,  2.15it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  not_entailment
+ 14%|█▍        | 39/277 [00:18<01:47,  2.22it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 14%|█▍        | 40/277 [00:19<01:50,  2.14it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 15%|█▍        | 41/277 [00:19<01:46,  2.21it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 15%|█▌        | 42/277 [00:20<01:49,  2.14it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 16%|█▌        | 43/277 [00:20<01:45,  2.21it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 16%|█▌        | 44/277 [00:20<01:42,  2.27it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 16%|█▌        | 45/277 [00:21<01:41,  2.30it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 17%|█▋        | 46/277 [00:21<01:45,  2.19it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 17%|█▋        | 47/277 [00:22<01:42,  2.24it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 17%|█▋        | 48/277 [00:22<01:46,  2.15it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 18%|█▊        | 49/277 [00:23<01:48,  2.10it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 18%|█▊        | 50/277 [00:23<01:50,  2.06it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 18%|█▊        | 51/277 [00:24<01:51,  2.03it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 19%|█▉        | 52/277 [00:24<01:45,  2.13it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  not_entailment
+ 19%|█▉        | 53/277 [00:25<01:41,  2.20it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 19%|█▉        | 54/277 [00:25<01:38,  2.26it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  entailment
+ 20%|█▉        | 55/277 [00:26<01:42,  2.17it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 20%|██        | 56/277 [00:26<01:45,  2.10it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 21%|██        | 57/277 [00:27<01:40,  2.18it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 21%|██        | 58/277 [00:27<01:43,  2.12it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 21%|██▏       | 59/277 [00:28<01:45,  2.07it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 22%|██▏       | 60/277 [00:28<01:40,  2.15it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 22%|██▏       | 61/277 [00:28<01:37,  2.23it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  not_entailment
+ 22%|██▏       | 62/277 [00:29<01:34,  2.28it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  not_entailment
+ 23%|██▎       | 63/277 [00:29<01:32,  2.32it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 23%|██▎       | 64/277 [00:30<01:30,  2.34it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 23%|██▎       | 65/277 [00:30<01:35,  2.22it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  not_entailment
+ 24%|██▍       | 66/277 [00:31<01:33,  2.27it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 24%|██▍       | 67/277 [00:31<01:31,  2.31it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  entailment
+ 25%|██▍       | 68/277 [00:31<01:35,  2.20it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 25%|██▍       | 69/277 [00:32<01:32,  2.26it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 25%|██▌       | 70/277 [00:32<01:30,  2.30it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 26%|██▌       | 71/277 [00:33<01:28,  2.33it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 26%|██▌       | 72/277 [00:33<01:27,  2.35it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 26%|██▋       | 73/277 [00:34<01:31,  2.22it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 27%|██▋       | 74/277 [00:34<01:29,  2.27it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 27%|██▋       | 75/277 [00:34<01:27,  2.32it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 27%|██▋       | 76/277 [00:35<01:31,  2.20it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  entailment
+ 28%|██▊       | 77/277 [00:35<01:33,  2.13it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 28%|██▊       | 78/277 [00:36<01:35,  2.08it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 29%|██▊       | 79/277 [00:37<01:36,  2.04it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 29%|██▉       | 80/277 [00:37<01:32,  2.14it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 29%|██▉       | 81/277 [00:37<01:33,  2.09it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 30%|██▉       | 82/277 [00:38<01:29,  2.17it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 30%|██▉       | 83/277 [00:38<01:32,  2.11it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  not_entailment
+ 30%|███       | 84/277 [00:39<01:28,  2.19it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 31%|███       | 85/277 [00:39<01:30,  2.12it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 31%|███       | 86/277 [00:40<01:26,  2.20it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 31%|███▏      | 87/277 [00:40<01:24,  2.25it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 32%|███▏      | 88/277 [00:41<01:27,  2.16it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 32%|███▏      | 89/277 [00:41<01:24,  2.23it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 32%|███▏      | 90/277 [00:42<01:27,  2.14it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 33%|███▎      | 91/277 [00:42<01:24,  2.21it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 33%|███▎      | 92/277 [00:42<01:26,  2.13it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 34%|███▎      | 93/277 [00:43<01:23,  2.21it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 34%|███▍      | 94/277 [00:43<01:20,  2.26it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 34%|███▍      | 95/277 [00:44<01:23,  2.17it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 35%|███▍      | 96/277 [00:44<01:25,  2.11it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 35%|███▌      | 97/277 [00:45<01:27,  2.07it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 35%|███▌      | 98/277 [00:45<01:23,  2.15it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  entailment
+ 36%|███▌      | 99/277 [00:46<01:24,  2.09it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 36%|███▌      | 100/277 [00:46<01:21,  2.18it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 36%|███▋      | 101/277 [00:47<01:18,  2.23it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 37%|███▋      | 102/277 [00:47<01:16,  2.28it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 37%|███▋      | 103/277 [00:47<01:15,  2.31it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 38%|███▊      | 104/277 [00:48<01:13,  2.34it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 38%|███▊      | 105/277 [00:48<01:12,  2.37it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 38%|███▊      | 106/277 [00:49<01:11,  2.38it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 39%|███▊      | 107/277 [00:49<01:11,  2.39it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 39%|███▉      | 108/277 [00:50<01:14,  2.26it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 39%|███▉      | 109/277 [00:50<01:12,  2.30it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 40%|███▉      | 110/277 [00:50<01:11,  2.34it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 40%|████      | 111/277 [00:51<01:10,  2.34it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 40%|████      | 112/277 [00:51<01:09,  2.36it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 41%|████      | 113/277 [00:52<01:09,  2.38it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 41%|████      | 114/277 [00:52<01:12,  2.25it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  not_entailment
+ 42%|████▏     | 115/277 [00:53<01:10,  2.29it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 42%|████▏     | 116/277 [00:53<01:08,  2.34it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 42%|████▏     | 117/277 [00:53<01:07,  2.36it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 43%|████▎     | 118/277 [00:54<01:10,  2.24it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 43%|████▎     | 119/277 [00:54<01:13,  2.16it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 43%|████▎     | 120/277 [00:55<01:14,  2.11it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 44%|████▎     | 121/277 [00:55<01:15,  2.07it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 44%|████▍     | 122/277 [00:56<01:15,  2.04it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 44%|████▍     | 123/277 [00:56<01:16,  2.02it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 45%|████▍     | 124/277 [00:57<01:12,  2.12it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 45%|████▌     | 125/277 [00:57<01:13,  2.07it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 45%|████▌     | 126/277 [00:58<01:14,  2.04it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  not_entailment
+ 46%|████▌     | 127/277 [00:58<01:10,  2.14it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 46%|████▌     | 128/277 [00:59<01:11,  2.09it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 47%|████▋     | 129/277 [00:59<01:08,  2.18it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  entailment
+ 47%|████▋     | 130/277 [01:00<01:09,  2.11it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 47%|████▋     | 131/277 [01:00<01:10,  2.07it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  entailment
+ 48%|████▊     | 132/277 [01:01<01:10,  2.04it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 48%|████▊     | 133/277 [01:01<01:07,  2.14it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 48%|████▊     | 134/277 [01:02<01:08,  2.09it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 49%|████▊     | 135/277 [01:02<01:05,  2.17it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 49%|████▉     | 136/277 [01:02<01:03,  2.23it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  not_entailment
+ 49%|████▉     | 137/277 [01:03<01:01,  2.27it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  entailment
+ 50%|████▉     | 138/277 [01:03<01:04,  2.16it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 50%|█████     | 139/277 [01:04<01:05,  2.09it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 51%|█████     | 140/277 [01:04<01:06,  2.05it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 51%|█████     | 141/277 [01:05<01:07,  2.02it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 51%|█████▏    | 142/277 [01:05<01:03,  2.11it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 52%|█████▏    | 143/277 [01:06<01:05,  2.06it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 52%|█████▏    | 144/277 [01:06<01:01,  2.15it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 52%|█████▏    | 145/277 [01:07<01:03,  2.08it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 53%|█████▎    | 146/277 [01:07<01:00,  2.16it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  entailment
+ 53%|█████▎    | 147/277 [01:08<01:02,  2.09it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  not_entailment
+ 53%|█████▎    | 148/277 [01:08<00:59,  2.16it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 54%|█████▍    | 149/277 [01:09<00:57,  2.22it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 54%|█████▍    | 150/277 [01:09<00:56,  2.27it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 55%|█████▍    | 151/277 [01:10<00:58,  2.16it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 55%|█████▍    | 152/277 [01:10<00:59,  2.09it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 55%|█████▌    | 153/277 [01:10<00:57,  2.17it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 56%|█████▌    | 154/277 [01:11<00:55,  2.23it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 56%|█████▌    | 155/277 [01:11<00:53,  2.27it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 56%|█████▋    | 156/277 [01:12<00:52,  2.31it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  not_entailment
+ 57%|█████▋    | 157/277 [01:12<00:51,  2.33it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 57%|█████▋    | 158/277 [01:13<00:50,  2.35it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  not_entailment
+ 57%|█████▋    | 159/277 [01:13<00:49,  2.37it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 58%|█████▊    | 160/277 [01:13<00:52,  2.23it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 58%|█████▊    | 161/277 [01:14<00:50,  2.28it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 58%|█████▊    | 162/277 [01:14<00:49,  2.31it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 59%|█████▉    | 163/277 [01:15<00:51,  2.19it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 59%|█████▉    | 164/277 [01:15<00:53,  2.11it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 60%|█████▉    | 165/277 [01:16<00:51,  2.19it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  entailment
+ 60%|█████▉    | 166/277 [01:16<00:52,  2.11it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 60%|██████    | 167/277 [01:17<00:53,  2.06it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 61%|██████    | 168/277 [01:17<00:53,  2.03it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 61%|██████    | 169/277 [01:18<00:53,  2.01it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  not_entailment
+ 61%|██████▏   | 170/277 [01:18<00:50,  2.11it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 62%|██████▏   | 171/277 [01:19<00:48,  2.19it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 62%|██████▏   | 172/277 [01:19<00:46,  2.25it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 62%|██████▏   | 173/277 [01:20<00:48,  2.15it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 63%|██████▎   | 174/277 [01:20<00:46,  2.21it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 63%|██████▎   | 175/277 [01:20<00:45,  2.26it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 64%|██████▎   | 176/277 [01:21<00:44,  2.29it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 64%|██████▍   | 177/277 [01:21<00:43,  2.31it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 64%|██████▍   | 178/277 [01:22<00:42,  2.33it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 65%|██████▍   | 179/277 [01:22<00:44,  2.21it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 65%|██████▍   | 180/277 [01:23<00:45,  2.12it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 65%|██████▌   | 181/277 [01:23<00:43,  2.19it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 66%|██████▌   | 182/277 [01:24<00:42,  2.25it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 66%|██████▌   | 183/277 [01:24<00:43,  2.14it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 66%|██████▋   | 184/277 [01:25<00:44,  2.08it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 67%|██████▋   | 185/277 [01:25<00:42,  2.16it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 67%|██████▋   | 186/277 [01:25<00:40,  2.22it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 68%|██████▊   | 187/277 [01:26<00:39,  2.27it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 68%|██████▊   | 188/277 [01:26<00:38,  2.30it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 68%|██████▊   | 189/277 [01:27<00:37,  2.32it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 69%|██████▊   | 190/277 [01:27<00:37,  2.34it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  not_entailment
+ 69%|██████▉   | 191/277 [01:27<00:36,  2.35it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  entailment
+ 69%|██████▉   | 192/277 [01:28<00:38,  2.21it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 70%|██████▉   | 193/277 [01:29<00:39,  2.13it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 70%|███████   | 194/277 [01:29<00:37,  2.19it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  not_entailment
+ 70%|███████   | 195/277 [01:29<00:36,  2.24it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 71%|███████   | 196/277 [01:30<00:35,  2.28it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 71%|███████   | 197/277 [01:30<00:36,  2.17it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 71%|███████▏  | 198/277 [01:31<00:35,  2.23it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 72%|███████▏  | 199/277 [01:31<00:36,  2.14it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  not_entailment
+ 72%|███████▏  | 200/277 [01:32<00:35,  2.20it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 73%|███████▎  | 201/277 [01:32<00:33,  2.25it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 73%|███████▎  | 202/277 [01:33<00:32,  2.29it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 73%|███████▎  | 203/277 [01:33<00:31,  2.31it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 74%|███████▎  | 204/277 [01:33<00:33,  2.19it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 74%|███████▍  | 205/277 [01:34<00:32,  2.24it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 74%|███████▍  | 206/277 [01:34<00:33,  2.14it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  not_entailment
+ 75%|███████▍  | 207/277 [01:35<00:31,  2.20it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 75%|███████▌  | 208/277 [01:35<00:32,  2.11it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  not_entailment
+ 75%|███████▌  | 209/277 [01:36<00:31,  2.18it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 76%|███████▌  | 210/277 [01:36<00:31,  2.10it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 76%|███████▌  | 211/277 [01:37<00:30,  2.18it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 77%|███████▋  | 212/277 [01:37<00:29,  2.24it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 77%|███████▋  | 213/277 [01:38<00:28,  2.28it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  not_entailment
+ 77%|███████▋  | 214/277 [01:38<00:27,  2.31it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 78%|███████▊  | 215/277 [01:38<00:26,  2.33it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 78%|███████▊  | 216/277 [01:39<00:27,  2.19it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 78%|███████▊  | 217/277 [01:39<00:26,  2.25it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 79%|███████▊  | 218/277 [01:40<00:27,  2.14it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 79%|███████▉  | 219/277 [01:40<00:27,  2.08it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 79%|███████▉  | 220/277 [01:41<00:26,  2.16it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 80%|███████▉  | 221/277 [01:41<00:25,  2.22it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 80%|████████  | 222/277 [01:42<00:24,  2.27it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 81%|████████  | 223/277 [01:42<00:24,  2.16it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  not_entailment
+ 81%|████████  | 224/277 [01:43<00:23,  2.22it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 81%|████████  | 225/277 [01:43<00:22,  2.27it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 82%|████████▏ | 226/277 [01:43<00:23,  2.16it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 82%|████████▏ | 227/277 [01:44<00:22,  2.22it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 82%|████████▏ | 228/277 [01:44<00:21,  2.27it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 83%|████████▎ | 229/277 [01:45<00:22,  2.16it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 83%|████████▎ | 230/277 [01:45<00:21,  2.22it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 83%|████████▎ | 231/277 [01:46<00:21,  2.14it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 84%|████████▍ | 232/277 [01:46<00:20,  2.20it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  not_entailment
+ 84%|████████▍ | 233/277 [01:47<00:19,  2.25it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  not_entailment
+ 84%|████████▍ | 234/277 [01:47<00:18,  2.28it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 85%|████████▍ | 235/277 [01:47<00:18,  2.31it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 85%|████████▌ | 236/277 [01:48<00:17,  2.33it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 86%|████████▌ | 237/277 [01:48<00:18,  2.20it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 86%|████████▌ | 238/277 [01:49<00:17,  2.25it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  not_entailment
+ 86%|████████▋ | 239/277 [01:49<00:16,  2.29it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 87%|████████▋ | 240/277 [01:50<00:17,  2.17it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 87%|████████▋ | 241/277 [01:50<00:16,  2.22it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 87%|████████▋ | 242/277 [01:51<00:15,  2.26it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 88%|████████▊ | 243/277 [01:51<00:15,  2.15it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 88%|████████▊ | 244/277 [01:52<00:15,  2.08it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 88%|████████▊ | 245/277 [01:52<00:15,  2.03it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 89%|████████▉ | 246/277 [01:53<00:15,  2.00it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 89%|████████▉ | 247/277 [01:53<00:15,  1.98it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  entailment
+ 90%|████████▉ | 248/277 [01:54<00:14,  1.97it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  not_entailment
+ 90%|████████▉ | 249/277 [01:54<00:13,  2.08it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 90%|█████████ | 250/277 [01:55<00:13,  2.04it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 91%|█████████ | 251/277 [01:55<00:12,  2.01it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 91%|█████████ | 252/277 [01:56<00:11,  2.11it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 91%|█████████▏| 253/277 [01:56<00:11,  2.06it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 92%|█████████▏| 254/277 [01:56<00:10,  2.14it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  not_entailment
+ 92%|█████████▏| 255/277 [01:57<00:09,  2.21it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 92%|█████████▏| 256/277 [01:57<00:09,  2.26it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 93%|█████████▎| 257/277 [01:58<00:08,  2.29it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 93%|█████████▎| 258/277 [01:58<00:08,  2.32it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 94%|█████████▎| 259/277 [01:59<00:08,  2.19it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 94%|█████████▍| 260/277 [01:59<00:07,  2.25it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 94%|█████████▍| 261/277 [01:59<00:06,  2.29it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 95%|█████████▍| 262/277 [02:00<00:06,  2.17it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 95%|█████████▍| 263/277 [02:00<00:06,  2.23it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 95%|█████████▌| 264/277 [02:01<00:05,  2.28it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 96%|█████████▌| 265/277 [02:01<00:05,  2.17it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 96%|█████████▌| 266/277 [02:02<00:05,  2.10it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 96%|█████████▋| 267/277 [02:02<00:04,  2.17it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 97%|█████████▋| 268/277 [02:03<00:04,  2.09it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 97%|█████████▋| 269/277 [02:03<00:03,  2.17it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 97%|█████████▋| 270/277 [02:04<00:03,  2.10it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  not_entailment
+ 98%|█████████▊| 271/277 [02:04<00:02,  2.18it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+ 98%|█████████▊| 272/277 [02:05<00:02,  2.10it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 99%|█████████▊| 273/277 [02:05<00:01,  2.18it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 99%|█████████▉| 274/277 [02:06<00:01,  2.24it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+ 99%|█████████▉| 275/277 [02:06<00:00,  2.28it/s]GEN ONLY OUTPUT : ['entailment']
+intent :  entailment
+gt :  entailment
+100%|█████████▉| 276/277 [02:06<00:00,  2.31it/s]GEN ONLY OUTPUT : ['not_entailment']
+intent :  not_entailment
+gt :  not_entailment
+100%|██████████| 277/277 [02:07<00:00,  2.18it/s]100%|██████████| 277/277 [02:07<00:00,  2.17it/s]

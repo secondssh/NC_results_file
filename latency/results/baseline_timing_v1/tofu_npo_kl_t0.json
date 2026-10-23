@@ -1,0 +1,12 @@
+{
+ "tag": "tofu_npo_kl_t0",
+ "rc": 0,
+ "wall_sec": 359,
+ "train_runtime_sec_1epoch": 250.1194,
+ "n_logged_steps": 2,
+ "nvidia_smi_peak_MiB": {
+  "0": 39740,
+  "1": 38734
+ },
+ "setting": "2 GPU DeepSpeed ZeRO-3 + CPU optimizer offload, global batch 128, 1 epoch"
+}

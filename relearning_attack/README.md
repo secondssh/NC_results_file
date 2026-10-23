@@ -65,6 +65,31 @@ domain별 forget: ![](tables/relearn_banking_t8_forget_per_domain.png)
 |  | ep5 | 0.900 (+0.900) | 0.823 (+0.166) | 0.812 (-0.003) | 0.827 (-0.054) | 29.7 / 7.8 / 1.6 / 0.239 / 0.0751 | 14 |
 <!-- /WORK_T0_TABLE -->
 
+## 3-1. 실험 C — CLINC t3 (banking을 지운 시점), RULE vs O3 vs base
+
+O3는 t8에서 banking을 이미 잊지 않은 상태라 (0.956, base 0.958과 같음), banking을 막 지운 t3에서 실험 A의 조건을 RULE과 O3에 똑같이 돌렸습니다 (10/22 07:22–15:16, GPU1, `code/run_relearn_t3.sh`).
+- O3 공격 대상: 백본 LoRA만 (O3 LoRA 고정) / 백본 LoRA + O3 unlearning LoRA 같이 학습 (`--attack_train_o3_lora`). RULE의 "MoE 고정 / 백본 + MoE"에 대응
+- base는 t8 base 공격 결과를 t3 문항으로 재분할 (base는 ckpt와 무관)
+- RULE/base = choice_accuracy, O3 = exact_acc
+
+![](tables/relearn_banking_t3_rule_o3_base.png)
+
+forget banking (공격 전 → 공격 후):
+
+| 공격 | RULE 백본 (MoE 고정) | RULE 백본+MoE | O3 백본 (O3 LoRA 고정) | O3 백본+O3 LoRA | base |
+|---|---|---|---|---|---|
+| 공격 전 | 0.009 | 0.009 | 0.262 | 0.262 | 0.958 |
+| in ep1 | 0.767 | 0.771 | **0.342** | 0.771 | 0.958 |
+| in ep5 | 0.953 | 0.953 | 0.858 | 0.931 | 0.960 |
+| out ep1 | 0.402 | 0.404 | 0.171 | 0.444 | 0.600 |
+| out ep5 | 0.416 | 0.391 | 0.231 | 0.349 | 0.589 |
+
+- **in ep1 (easy):** RULE은 banking이 0.77까지 돌아오고, O3는 O3 LoRA를 고정하면 0.34로 덜 돌아옵니다. 그런데 O3 LoRA까지 같이 학습하면 O3도 0.77로 RULE과 같아집니다.
+- **in ep5 (hard):** 모든 조건이 0.86–0.95로 거의 base 수준까지 돌아옵니다.
+- **RULE은 MoE를 같이 학습해도 결과가 같습니다.** 공격은 백본만으로 성공합니다. O3는 unlearning LoRA를 공격자가 같이 학습할 수 있으면 훨씬 빨리 풀립니다 (in ep1 0.34 → 0.77).
+- **out (BANKING77):** base도 0.60으로 떨어지는 공격이라 효과가 작습니다. O3 백본만 공격은 오히려 banking이 내려갑니다 (0.171 / 0.231). 다른 라벨 체계를 배워 출력 형식이 흐트러진 것입니다.
+- **retained:** RULE out 공격에서 retained가 −0.14 ~ −0.21로 크게 떨어집니다. O3는 −0.06 ~ −0.12입니다.
+
 ## 4. 분석
 
 1. **RULE은 targeted relearning에 강하지 않습니다.**
@@ -102,6 +127,7 @@ domain별 forget: ![](tables/relearn_banking_t8_forget_per_domain.png)
 | 실험 A 12 run | 완료 |
 | 실험 A `base_none` (base 공격 전, 이 스크립트로 평가) | 스크립트 버그로 실행 안 됨 (`$2: unbound variable`). 대신 forget/retained는 `para_eval/base/clinc_orig.json` (같은 base 모델, 같은 t8 풀, eval bs16), mrpc/rte는 `unlearning_baseline_new/run_results/base_eval/.../base_units_clinc.json` (bf16, eval bs8)을 사용 |
 | 실험 B RULE / O3 / GD (공격 전, ep1, ep5) | 완료 (10/22 02:02) |
+| 실험 C (t3) RULE 8 + O3 8 run | 완료 (10/22 15:16) |
 | TOFU t19 relearning | 계획만 있음 (미실행) |
 | `results/smoke/` | O3 공격 경로 smoke test (testSD만) |
 

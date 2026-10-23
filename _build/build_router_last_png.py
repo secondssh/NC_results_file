@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.colors import LinearSegmentedColormap
 
-from common import MC, OUT, render_table, write_csv
+from common import MC, OUT, parse_md_tables, render_table, write_csv
 
 SRC = f"{MC}/repro_check/router_metrics/token_cm_csv"
 D = f"{OUT}/router_acc/last_png"
@@ -96,23 +96,34 @@ def main():
     os.makedirs(D, exist_ok=True)
     for ds in ("clinc", "tofu"):
         cms = load_cm(ds)
+        # utility split (target = e0): token md 의 "<util> — prompt last token (생성 시점 실제 routing)" 표의 seed 평균
+        utils = ("real_authors", "world_facts") if ds == "tofu" else ("mrpc", "rte")
+        U = {}
+        for tb in parse_md_tables(f"{MC}/repro_check/router_metrics/token_{ds}.md"):
+            for u in utils:
+                if f"{u} — prompt last token" in tb["head"] and "`prompt_last_acc`" in tb["head"]:
+                    U[u] = {r[0]: float(r[4]) * 100 for r in tb["rows"] if r[0].startswith("t")}
         header = ["step", "F acc % (정답 expert)", "F→다른 forget e %", "F→e0 %", "R acc % (e0)", "R→forget e %",
-                  "mixed acc %", "F→아무 forget e % (이진)", "n F", "n R"]
+                  "mixed acc %", "F→아무 forget e % (이진)"] + [f"{u} acc % (e0)" for u in utils] + ["n F", "n R"]
         rows, accs = [], []
         for t, (dom, _, _, mat) in cms.items():
             b = binary(mat)
             pct, cnt, mask, nf, nr = bin_mats(b)
             mixed = (b[0] + b[3]) / (nf + nr) * 100
+            uv = [U.get(u, {}).get(f"t{t}_{dom}") for u in utils]
             rows.append([f"t{t}_{dom}", f"{pct[0, 0]:.1f}", f"{pct[0, 1]:.1f}", f"{pct[0, 2]:.1f}", f"{pct[1, 2]:.1f}",
-                         f"{pct[1, 1]:.1f}", f"{mixed:.1f}", f"{pct[0, 0] + pct[0, 1]:.1f}", nf, nr])
-            accs.append((pct[0, 0], pct[1, 2], mixed, pct[0, 0] + pct[0, 1]))
-        a = np.array(accs).mean(0)
-        rows.append(["평균 (step)", f"{a[0]:.1f}", "", "", f"{a[1]:.1f}", "", f"{a[2]:.1f}", f"{a[3]:.1f}", "", ""])
+                         f"{pct[1, 1]:.1f}", f"{mixed:.1f}", f"{pct[0, 0] + pct[0, 1]:.1f}"] +
+                        [f"{x:.1f}" if x is not None else "-" for x in uv] + [nf, nr])
+            accs.append((pct[0, 0], pct[1, 2], mixed, pct[0, 0] + pct[0, 1], *[x if x is not None else np.nan for x in uv]))
+        a = np.nanmean(np.array(accs), 0)
+        rows.append(["평균 (step)", f"{a[0]:.1f}", "", "", f"{a[1]:.1f}", "", f"{a[2]:.1f}", f"{a[3]:.1f}",
+                     f"{a[4]:.1f}", f"{a[5]:.1f}", "", ""])
         write_csv(f"{D}/{ds}_last_acc_pct.csv", header, rows)
         render_table(f"{D}/{ds}_last_acc_pct.png", header, rows, col_max=14, highlight_rows=[len(rows) - 1],
                      title=f"{ds.upper()} prompt 마지막 토큰 router acc (%) — 생성 시점 실제 routing, seed 0/1/2 합",
                      note="F acc = forget 문항이 그 step 의 정답 expert 로 간 비율, R acc = retained 가 e0 로 간 비율, "
-                          "mixed = forget+retained micro. F→아무 forget e = forget/retain 만 구분한 이진 정확도.")
+                          "mixed = forget+retained micro. F→아무 forget e = forget/retain 만 구분한 이진 정확도. "
+                          f"{utils[0]}/{utils[1]} acc = utility 문항이 e0 (원래 모델 경로) 로 간 비율 (seed 평균).")
 
         # 모든 step 이진 CM 한 장
         n = len(cms)

@@ -12,14 +12,14 @@ RULE은 forget을 별도 MoE(LoRA expert + router)가 담당하므로, 백본만
   - **백본+LoRA 4bit** (O3) = 위에 더해 O3 LoRA 448개 텐서
   - embedding / lm_head / LayerNorm / bias는 bnb 기본처럼 제외. GD는 full-FT라서 "전체 4bit"가 백본 4bit와 같음
 - 모델: seed 0
-  - RULE: CLINC t0, t8 (`outputs/repro_clinc_lunar_bs64`), TOFU t0, t10 (`outputs/tofu_ckpt_repro_lunar`)
+  - RULE: CLINC t0, t4, t8 (`outputs/repro_clinc_lunar_bs64`), TOFU t0, t10 (`outputs/tofu_ckpt_repro_lunar`)
   - O3: CLINC t0 (`unlearn_recent_o3`, OOD detector `ood_checkpoints_clincqa_recent`)
   - GD: CLINC t0 (`unlearning_baseline_new/outputs/clincqa_fullft/ga_gd`)
   - base: unlearning 전 모델
 - 평가: 원래 평가 경로 그대로 (eval bs CLINC 16 / TOFU 8, GD는 원래 baseline 평가와 같은 bs 8)
   - 지표: RULE/GD/base = choice_accuracy, O3 = exact_acc (O3 원래 평가 스크립트의 채점)
   - `quant.mode=none`으로 원래 결과가 재현되는지 smoke 확인 (`results/quant_attack_results/*_smoke/`)
-- 왜 CLINC t0인가: O3는 bf16에서 이미 t1부터 forget이 다시 올라갑니다 (아래 표). 그래서 O3가 "잊은 상태"인 t0에서 비교했습니다. RULE은 t8도 같이 제시해 시점에 따라 결과가 바뀌지 않는다는 것을 보였습니다.
+- 왜 CLINC t0인가: O3는 bf16에서 이미 t1부터 forget이 다시 올라갑니다 (아래 표). 그래서 O3가 "잊은 상태"인 t0에서 비교했습니다. RULE은 t4(중간 시점, 10/23 추가)와 t8도 같이 제시해 시점에 따라 결과가 바뀌지 않는다는 것을 보였습니다.
 
 ## 2. 결과
 
@@ -30,6 +30,9 @@ RULE은 forget을 별도 MoE(LoRA expert + router)가 담당하므로, 백본만
 | RULE t0 | bf16 (원래) | 0.024 | 0.969 | 0.809 | 0.874 | 9.3 |
 |  | 백본 4bit | 0.022 (-0.002) | 0.967 (-0.001) | 0.766 (-0.042) | 0.848 (-0.025) | 9.3 |
 |  | 백본+MoE 4bit | 0.031 (+0.007) | 0.967 (-0.001) | 0.766 (-0.043) | 0.848 (-0.025) | 9.2 |
+| RULE t4 | bf16 (원래) | 0.068 | 0.838 | 0.810 | 0.819 | 214.6 |
+|  | 백본 4bit | 0.055 (-0.013) | 0.756 (-0.082) | 0.758 (-0.052) | 0.769 (-0.051) | 406.7 |
+|  | 백본+MoE 4bit | 0.088 (+0.020) | 0.840 (+0.002) | 0.765 (-0.045) | 0.776 (-0.043) | 339.3 |
 | RULE t8 | bf16 (원래) | 0.013 | 0.969 | 0.701 | 0.523 | 104.5 |
 |  | 백본 4bit | 0.010 (-0.003) | 0.918 (-0.051) | 0.654 (-0.047) | 0.473 (-0.051) | 434.9 |
 |  | 백본+MoE 4bit | 0.012 (-0.001) | 0.844 (-0.124) | 0.672 (-0.029) | 0.426 (-0.097) | 433.2 |
@@ -75,8 +78,8 @@ RULE은 forget을 별도 MoE(LoRA expert + router)가 담당하므로, 백본만
 
 1. **어떤 방법, 시점, 양자화 범위에서도 forget은 되살아나지 않습니다.**
    - forget 변화는 ±0.03 이내입니다. 최대는 TOFU RULE t10 백본 4bit +0.034로, 440문항 중 약 15문항입니다.
-   - 백본+MoE에서는 +0.014입니다.
-   - 양자화로 떨어지는 것은 주로 utility(mrpc/rte −0.02 ~ −0.06)와, RULE CLINC t8의 retained(−0.05 / −0.12)입니다.
+   - 백본+MoE에서는 +0.014입니다. CLINC t4는 백본 4bit −0.013, 백본+MoE 4bit +0.020 (450 × 5 = 2,250문항 중 약 45문항)입니다.
+   - 양자화로 떨어지는 것은 주로 utility(mrpc/rte −0.02 ~ −0.06)와, RULE CLINC t8의 retained(−0.05 / −0.12), t4 백본 4bit의 retained(−0.082)입니다.
 2. **RULE에 양자화 공격이 통하지 않는 이유 (구조):** RULE은 백본을 바꾸지 않고 forget을 MoE expert와 router로 처리합니다.
    - 그래서 "양자화로 작은 가중치 변화가 지워져 원래 모델로 돌아간다"는 공격 가정이 처음부터 해당되지 않습니다.
    - MoE까지 4bit로 만들어도 (lora/gate rel L2 오차 약 0.095) routing과 expert 출력이 유지됩니다.
@@ -85,7 +88,7 @@ RULE은 forget을 별도 MoE(LoRA expert + router)가 담당하므로, 백본만
    - 그런데 남은 0.7% 원소가 다른 눈금으로 넘어가면서, 양자화 뒤의 차이가 오히려 ΔW보다 큽니다 (keep_ratio 8.7). 즉 "작은 ΔW가 양자화로 사라진다"는 논문의 가정이 이 GD 체크포인트에는 맞지 않습니다.
    - GD t0의 bf16 retained가 0.656으로 원래 많이 망가져 있는 것도 참고하세요.
 4. **O3도 forget 변화가 없습니다** (0.153 → 0.156 / 0.153). O3는 OOD detector가 입력마다 LoRA 가중치를 조절하는 구조라서, 백본 양자화의 영향이 작습니다.
-5. **RULE CLINC t8에서는 양자화 후 생성이 길어집니다** (forget 생성 단어 수 105 → 435, 평가 시간 약 6배). 라벨만 답해야 하는데 긴 문장이 나오면서 retained와 utility가 떨어집니다. t0에서는 이런 현상이 없습니다 (9.3 → 9.2).
+5. **RULE CLINC t4·t8에서는 양자화 후 생성이 길어집니다** (forget 생성 단어 수 t8 105 → 435, t4 215 → 407 / 339, 평가 시간 약 6배). 라벨만 답해야 하는데 긴 문장이 나오면서 retained와 utility가 떨어집니다. t0에서는 이런 현상이 없습니다 (9.3 → 9.2).
 
 ## 4. 실행 안 됐거나 쓰지 않은 것 (기록)
 
@@ -106,8 +109,8 @@ RULE은 forget을 별도 MoE(LoRA expert + router)가 담당하므로, 백본만
 | `tables/quant_{clinc,tofu}.{csv,png}` | 본 결과 표 |
 | `tables/o3_vs_rule_clinc_bf16_steps.*`, `tables/legacy_clinc_t8_bs1024.*`, `tables/gd_t0_weight_delta_nf4.*` | 보조 표 |
 | `tables/all_tables.md` | 위 표 전부를 markdown으로 |
-| `results/quant_attack_results/` | 원본 결과 전부 (`quant_attack/results/` 복사, 생성문 포함): `clinc_t0_bs64_fake`, `clinc_t8_bs64_fake`, `o3_clinc_t0_oodrecent` (split별 json + stderr), `clinc_t0_gd_bs8_fake`, `tofu_t0_fake`, `tofu_t10_fake`, smoke, legacy `clinc_t8`, `weight_delta_gd_t0.json`, 예전 `quant_table.md` (t8/t19 계획 당시, 지금은 쓰지 않음) |
-| `code/` | fake_quant.py, eval_quant_{clinc,tofu,o3_clinc,o3_tofu}.py, run_quant_*.sh, weight_delta_nf4.py |
+| `results/quant_attack_results/` | 원본 결과 전부 (`quant_attack/results/` 복사, 생성문 포함): `clinc_t0_bs64_fake`, `clinc_t4_bs64_fake` (10/23, smoke 재현 OK), `clinc_t8_bs64_fake`, `o3_clinc_t0_oodrecent` (split별 json + stderr), `clinc_t0_gd_bs8_fake`, `tofu_t0_fake`, `tofu_t10_fake`, smoke, legacy `clinc_t8`, `weight_delta_gd_t0.json`, 예전 `quant_table.md` (t8/t19 계획 당시, 지금은 쓰지 않음) |
+| `code/` | fake_quant.py, eval_quant_{clinc,tofu,o3_clinc,o3_tofu}.py, run_quant_*.sh (t4 = `run_quant_t4_rule.sh`), weight_delta_nf4.py |
 
 bf16 기준값 출처
 - RULE = `run_results/.../repro_{clinc_lunar_bs64,tofu_lunar}` seed0

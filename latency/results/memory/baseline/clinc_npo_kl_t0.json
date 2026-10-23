@@ -1,0 +1,21 @@
+{
+ "tag": "clinc_npo_kl_t0",
+ "rc": 0,
+ "wall_sec": 804,
+ "train_runtime_sec_1epoch": 700.4235,
+ "nvidia_smi_peak_MiB": {
+  "0": 39642,
+  "1": 39702
+ },
+ "host_pss_peak_MB": 161892.125,
+ "host_rss_peak_MB": 174535.54296875,
+ "clean": false,
+ "foreign_gpu_pids": [
+  598250,
+  598251
+ ],
+ "load1_max": 3.18,
+ "load1_mean": 2.655777777777779,
+ "n_gpu": 2,
+ "setting": "2 GPU DeepSpeed ZeRO-3 + CPU optimizer offload, global batch 128, 1 epoch"
+}

@@ -132,6 +132,8 @@ def main():
     parser.add_argument('--attack_lr', type=float, default=1e-4)
     parser.add_argument('--attack_save', type=str, default=None)
     parser.add_argument('--attack_state', type=str, default=None)
+    # 백본 공격 LoRA 에 더해 O3 의 unlearning LoRA (lora_A/lora_B) 도 같이 학습 (RULE 의 "백본 + MoE" 조건에 대응)
+    parser.add_argument('--attack_train_o3_lora', action='store_true')
 
     # Parsing arguments
     args = parser.parse_args()
@@ -272,6 +274,15 @@ def main():
         from attack_lora import inject, attack_params, attack_state, load_attack_state
         names = inject(model)
         quant_rep["attack_lora_modules"] = len(names)
+        o3_lora = []
+        if args.attack_train_o3_lora:
+            for n, p in model.named_parameters():
+                if ".lora_A." in n or ".lora_B." in n:
+                    p.requires_grad_(True)
+                    o3_lora.append((n, p))
+            quant_rep["attack_o3_lora_tensors"] = len(o3_lora)
+            quant_rep["attack_o3_lora_params"] = sum(p.numel() for _, p in o3_lora)
+        train_params = attack_params(model) + [p for _, p in o3_lora]
         if args.attack_state:
             load_attack_state(model, torch.load(args.attack_state))
             quant_rep["attack_state"] = args.attack_state
@@ -279,7 +290,7 @@ def main():
             import time as _t
             tr = json.load(open(args.attack_train_data))
             g = random.Random(args.seed)
-            opt = torch.optim.AdamW(attack_params(model), lr=args.attack_lr, weight_decay=0.0)
+            opt = torch.optim.AdamW(train_params, lr=args.attack_lr, weight_decay=0.0)
             ws = [_ood_weight(str(ex.get("instruction", ""))) for ex in tr]   # 학습 문장도 OOD gate 를 거침
             accum, losses, t0 = 16, [], _t.time()
             for ep in range(args.attack_epochs):
@@ -295,7 +306,7 @@ def main():
                     out = model(input_ids=ids, attention_mask=torch.ones_like(ids), labels=lab)
                     (out.loss / accum).backward(); tot += out.loss.item()
                     if (k + 1) % accum == 0 or k + 1 == len(order):
-                        torch.nn.utils.clip_grad_norm_(attack_params(model), 1.0)
+                        torch.nn.utils.clip_grad_norm_(train_params, 1.0)
                         opt.step(); opt.zero_grad(set_to_none=True)
                 losses.append(round(tot / len(order), 4))
                 print(f"[ATTACK] epoch {ep + 1}/{args.attack_epochs} loss {losses[-1]}", flush=True)
@@ -304,7 +315,9 @@ def main():
                              attack_train_ood_weight_mean=sum(ws) / len(ws), attack_train_sec=round(_t.time() - t0))
             if args.attack_save:
                 os.makedirs(os.path.dirname(args.attack_save), exist_ok=True)
-                torch.save(attack_state(model), args.attack_save)
+                st = attack_state(model)
+                st.update({n: p.detach().cpu() for n, p in o3_lora})   # 학습된 O3 LoRA 도 같이 저장
+                torch.save(st, args.attack_save)
         model.eval()
 
     max_new_tokens = 128

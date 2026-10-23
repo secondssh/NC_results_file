@@ -1,0 +1,42 @@
+{
+ "cmd": [
+  "/home/hai_ssh/miniconda3/envs/o3/bin/python",
+  "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/train_ood.py",
+  "--unlearn_dataset",
+  "clincqa_work",
+  "--ood_dataset",
+  "ood_clincqa",
+  "--base_unlearn_path",
+  "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/data/clincqa_SD_only_10",
+  "--base_ood_path",
+  "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/data/clincqa_RD_only_10/clincqa_not_work",
+  "--seed",
+  "0"
+ ],
+ "rc": 0,
+ "wall_sec": 1695.5843732357025,
+ "gpu_peak_MiB": {
+  "0": 19628,
+  "1": 25668
+ },
+ "gpu_used_before_MiB": {
+  "0": 0,
+  "1": 0
+ },
+ "gpu_apps_before": [],
+ "host_rss_peak_MB": 3490.98046875,
+ "host_pss_peak_MB": 3485.4482421875,
+ "max_compute_apps_per_gpu_uuid": {
+  "GPU-1253f41b-e118-bced-0abf-4dc55a87d8cf": 1,
+  "GPU-c6261a56-e284-5ff6-2496-a7d46ca7c213": 1
+ },
+ "foreign_gpu_pids": [],
+ "clean": false,
+ "load1_max": 7.12,
+ "load1_mean": 1.892233754512629,
+ "n_cpu": 32,
+ "n_samples": 2216,
+ "light": false,
+ "interval": 0.5,
+ "cuda_visible_devices": "0"
+}

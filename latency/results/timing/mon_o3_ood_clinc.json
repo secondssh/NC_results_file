@@ -1,0 +1,36 @@
+{
+ "cmd": [
+  "/home/hai_ssh/miniconda3/envs/o3/bin/python",
+  "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/modify_code/latency/measure_o3_ood.py",
+  "--steps",
+  "0",
+  "8",
+  "--out_dir",
+  "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/modify_code/latency/results/v2/timing"
+ ],
+ "rc": 0,
+ "wall_sec": 25.39206886291504,
+ "gpu_peak_MiB": {
+  "0": 2208,
+  "1": 0
+ },
+ "gpu_used_before_MiB": {
+  "0": 0,
+  "1": 0
+ },
+ "gpu_apps_before": [],
+ "host_rss_peak_MB": 0.0,
+ "host_pss_peak_MB": 0.0,
+ "max_compute_apps_per_gpu_uuid": {
+  "GPU-1253f41b-e118-bced-0abf-4dc55a87d8cf": 1
+ },
+ "foreign_gpu_pids": [],
+ "clean": true,
+ "load1_max": 0.56,
+ "load1_mean": 0.46083333333333343,
+ "n_cpu": 32,
+ "n_samples": 12,
+ "light": true,
+ "interval": 2.0,
+ "cuda_visible_devices": "0"
+}

@@ -675,5 +675,993 @@
    "train_sec": 14,
    "data": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/relearn_attack/data/in_work_100.json"
   }
+ },
+ "banking_t3|RULE|공격 전": {
+  "forget": 0.043333333333333335,
+  "retained": 0.9125925925925926,
+  "mrpc": 0.808695652173913,
+  "rte": 0.8375451263537906,
+  "per_domain": {
+   "banking": 0.008888888888888889,
+   "home": 0.06666666666666667,
+   "travel": 0.08444444444444445,
+   "work": 0.013333333333333334
+  },
+  "forget_banking": 0.008888888888888889,
+  "forget_other": 0.054814814814814816,
+  "meta": {
+   "target": null,
+   "epochs": null,
+   "lr": null,
+   "epoch_loss": null,
+   "steps": null,
+   "trainable_params": null,
+   "n_lora_modules": null,
+   "gate_grad_norm_mean": null,
+   "train_sec": null,
+   "data": null
+  }
+ },
+ "banking_t3|O3|공격 전": {
+  "forget": 0.7133333333333334,
+  "retained": 0.8092592592592592,
+  "mrpc": 0.8081159420289855,
+  "rte": 0.8916967509025271,
+  "meta": {},
+  "forget_banking": 0.26222222222222225,
+  "forget_other": 0.8637037037037038
+ },
+ "banking_t3|base|공격 전": {
+  "forget": 0.975,
+  "retained": 0.9696296296296296,
+  "forget_banking": 0.9577777777777777,
+  "forget_other": 0.9807407407407407,
+  "mrpc": 0.8104347826086956,
+  "rte": 0.8736462093862816
+ },
+ "banking_t3|GA|공격 전": {
+  "forget": 0.0,
+  "retained": 0.0,
+  "mrpc": 0.0,
+  "rte": 0.0,
+  "per_domain": {
+   "banking": 0.0,
+   "home": 0.0,
+   "travel": 0.0,
+   "work": 0.0
+  },
+  "forget_banking": 0.0,
+  "forget_other": 0.0,
+  "meta": {
+   "target": null,
+   "epochs": null,
+   "lr": null,
+   "epoch_loss": null,
+   "steps": null,
+   "trainable_params": null,
+   "n_lora_modules": null,
+   "gate_grad_norm_mean": null,
+   "train_sec": null,
+   "data": null
+  }
+ },
+ "banking_t3|NPO+KL|공격 전": {
+  "forget": 0.017222222222222222,
+  "retained": 0.0637037037037037,
+  "mrpc": 0.1791304347826087,
+  "rte": 0.2851985559566787,
+  "per_domain": {
+   "banking": 0.0,
+   "home": 0.06444444444444444,
+   "travel": 0.0,
+   "work": 0.0044444444444444444
+  },
+  "forget_banking": 0.0,
+  "forget_other": 0.022962962962962963,
+  "meta": {
+   "target": null,
+   "epochs": null,
+   "lr": null,
+   "epoch_loss": null,
+   "steps": null,
+   "trainable_params": null,
+   "n_lora_modules": null,
+   "gate_grad_norm_mean": null,
+   "train_sec": null,
+   "data": null
+  }
+ },
+ "banking_t3|GD|공격 전": {
+  "forget": 0.0,
+  "retained": 0.40703703703703703,
+  "mrpc": 0.021449275362318842,
+  "rte": 0.010830324909747292,
+  "per_domain": {
+   "banking": 0.0,
+   "home": 0.0,
+   "travel": 0.0,
+   "work": 0.0
+  },
+  "forget_banking": 0.0,
+  "forget_other": 0.0,
+  "meta": {
+   "target": null,
+   "epochs": null,
+   "lr": null,
+   "epoch_loss": null,
+   "steps": null,
+   "trainable_params": null,
+   "n_lora_modules": null,
+   "gate_grad_norm_mean": null,
+   "train_sec": null,
+   "data": null
+  }
+ },
+ "banking_t3|RULE|백본 LoRA (MoE 고정)|in_ep1": {
+  "forget": 0.6272222222222222,
+  "retained": 0.9588888888888889,
+  "mrpc": 0.8144927536231884,
+  "rte": 0.8628158844765343,
+  "per_domain": {
+   "banking": 0.7666666666666667,
+   "home": 0.6266666666666667,
+   "travel": 0.5755555555555556,
+   "work": 0.54
+  },
+  "forget_banking": 0.7666666666666667,
+  "forget_other": 0.5807407407407408,
+  "meta": {
+   "target": "backbone",
+   "epochs": 1,
+   "lr": 0.0001,
+   "epoch_loss": [
+    6.2876
+   ],
+   "steps": 7,
+   "trainable_params": 21561344,
+   "n_lora_modules": 223,
+   "gate_grad_norm_mean": null,
+   "train_sec": 4,
+   "data": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/relearn_attack/data/in_banking_100.json"
+  }
+ },
+ "banking_t3|RULE|백본 LoRA (MoE 고정)|in_ep5": {
+  "forget": 0.9516666666666667,
+  "retained": 0.9462962962962963,
+  "mrpc": 0.7402898550724638,
+  "rte": 0.8122743682310469,
+  "per_domain": {
+   "banking": 0.9533333333333334,
+   "home": 0.8955555555555555,
+   "travel": 0.9822222222222222,
+   "work": 0.9755555555555555
+  },
+  "forget_banking": 0.9533333333333334,
+  "forget_other": 0.9511111111111111,
+  "meta": {
+   "target": "backbone",
+   "epochs": 5,
+   "lr": 0.0001,
+   "epoch_loss": [
+    6.2876,
+    0.0465,
+    0.0028,
+    0.0008,
+    0.0003
+   ],
+   "steps": 35,
+   "trainable_params": 21561344,
+   "n_lora_modules": 223,
+   "gate_grad_norm_mean": null,
+   "train_sec": 15,
+   "data": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/relearn_attack/data/in_banking_100.json"
+  }
+ },
+ "banking_t3|RULE|백본 LoRA (MoE 고정)|out_ep1": {
+  "forget": 0.3511111111111111,
+  "retained": 0.7633333333333333,
+  "mrpc": 0.8,
+  "rte": 0.8736462093862816,
+  "per_domain": {
+   "banking": 0.4022222222222222,
+   "home": 0.2911111111111111,
+   "travel": 0.4111111111111111,
+   "work": 0.3
+  },
+  "forget_banking": 0.4022222222222222,
+  "forget_other": 0.3340740740740741,
+  "meta": {
+   "target": "backbone",
+   "epochs": 1,
+   "lr": 0.0001,
+   "epoch_loss": [
+    1.415
+   ],
+   "steps": 63,
+   "trainable_params": 21561344,
+   "n_lora_modules": 223,
+   "gate_grad_norm_mean": null,
+   "train_sec": 33,
+   "data": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/relearn_attack/data/out_banking77_1000.json"
+  }
+ },
+ "banking_t3|RULE|백본 LoRA (MoE 고정)|out_ep5": {
+  "forget": 0.4411111111111111,
+  "retained": 0.7725925925925926,
+  "mrpc": 0.783768115942029,
+  "rte": 0.8808664259927798,
+  "per_domain": {
+   "banking": 0.41555555555555557,
+   "home": 0.30444444444444446,
+   "travel": 0.6155555555555555,
+   "work": 0.4288888888888889
+  },
+  "forget_banking": 0.41555555555555557,
+  "forget_other": 0.44962962962962966,
+  "meta": {
+   "target": "backbone",
+   "epochs": 5,
+   "lr": 0.0001,
+   "epoch_loss": [
+    1.415,
+    0.1599,
+    0.0672,
+    0.0255,
+    0.0181
+   ],
+   "steps": 315,
+   "trainable_params": 21561344,
+   "n_lora_modules": 223,
+   "gate_grad_norm_mean": null,
+   "train_sec": 163,
+   "data": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/relearn_attack/data/out_banking77_1000.json"
+  }
+ },
+ "banking_t3|RULE|백본 LoRA + MoE|in_ep1": {
+  "forget": 0.6272222222222222,
+  "retained": 0.9592592592592593,
+  "mrpc": 0.8133333333333334,
+  "rte": 0.8664259927797834,
+  "per_domain": {
+   "banking": 0.7711111111111111,
+   "home": 0.6266666666666667,
+   "travel": 0.5777777777777777,
+   "work": 0.5333333333333333
+  },
+  "forget_banking": 0.7711111111111111,
+  "forget_other": 0.5792592592592593,
+  "meta": {
+   "target": "moe",
+   "epochs": 1,
+   "lr": 0.0001,
+   "epoch_loss": [
+    6.2828
+   ],
+   "steps": 7,
+   "trainable_params": 21633029,
+   "n_lora_modules": 223,
+   "gate_grad_norm_mean": 0.0052542005266462055,
+   "train_sec": 4,
+   "data": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/relearn_attack/data/in_banking_100.json"
+  }
+ },
+ "banking_t3|RULE|백본 LoRA + MoE|in_ep5": {
+  "forget": 0.9494444444444444,
+  "retained": 0.945925925925926,
+  "mrpc": 0.7391304347826086,
+  "rte": 0.8158844765342961,
+  "per_domain": {
+   "banking": 0.9533333333333334,
+   "home": 0.8933333333333333,
+   "travel": 0.9822222222222222,
+   "work": 0.9688888888888889
+  },
+  "forget_banking": 0.9533333333333334,
+  "forget_other": 0.9481481481481482,
+  "meta": {
+   "target": "moe",
+   "epochs": 5,
+   "lr": 0.0001,
+   "epoch_loss": [
+    6.2828,
+    0.0463,
+    0.0026,
+    0.0008,
+    0.0003
+   ],
+   "steps": 35,
+   "trainable_params": 21633029,
+   "n_lora_modules": 223,
+   "gate_grad_norm_mean": 0.001074969648782696,
+   "train_sec": 15,
+   "data": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/relearn_attack/data/in_banking_100.json"
+  }
+ },
+ "banking_t3|RULE|백본 LoRA + MoE|out_ep1": {
+  "forget": 0.37333333333333335,
+  "retained": 0.7659259259259259,
+  "mrpc": 0.7953623188405797,
+  "rte": 0.8628158844765343,
+  "per_domain": {
+   "banking": 0.40444444444444444,
+   "home": 0.29555555555555557,
+   "travel": 0.4022222222222222,
+   "work": 0.39111111111111113
+  },
+  "forget_banking": 0.40444444444444444,
+  "forget_other": 0.362962962962963,
+  "meta": {
+   "target": "moe",
+   "epochs": 1,
+   "lr": 0.0001,
+   "epoch_loss": [
+    1.4168
+   ],
+   "steps": 63,
+   "trainable_params": 21633029,
+   "n_lora_modules": 223,
+   "gate_grad_norm_mean": 0.0006591365450904483,
+   "train_sec": 33,
+   "data": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/relearn_attack/data/out_banking77_1000.json"
+  }
+ },
+ "banking_t3|RULE|백본 LoRA + MoE|out_ep5": {
+  "forget": 0.40944444444444444,
+  "retained": 0.7062962962962963,
+  "mrpc": 0.8144927536231884,
+  "rte": 0.8700361010830325,
+  "per_domain": {
+   "banking": 0.39111111111111113,
+   "home": 0.29777777777777775,
+   "travel": 0.4866666666666667,
+   "work": 0.4622222222222222
+  },
+  "forget_banking": 0.39111111111111113,
+  "forget_other": 0.41555555555555557,
+  "meta": {
+   "target": "moe",
+   "epochs": 5,
+   "lr": 0.0001,
+   "epoch_loss": [
+    1.4168,
+    0.1536,
+    0.068,
+    0.0389,
+    0.0166
+   ],
+   "steps": 315,
+   "trainable_params": 21633029,
+   "n_lora_modules": 223,
+   "gate_grad_norm_mean": 0.00016501924348255945,
+   "train_sec": 163,
+   "data": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/relearn_attack/data/out_banking77_1000.json"
+  }
+ },
+ "banking_t3|O3|백본 LoRA (O3 LoRA 고정)|in_ep1": {
+  "forget": 0.7366666666666667,
+  "retained": 0.8188888888888889,
+  "mrpc": 0.8052173913043478,
+  "rte": 0.8592057761732852,
+  "meta": {
+   "attack_epochs": 1,
+   "attack_epoch_loss": [
+    5.6403
+   ],
+   "attack_train_sec": 25,
+   "attack_lora_modules": 223,
+   "attack_train_ood_weight_mean": 1.128000000000002
+  },
+  "forget_banking": 0.3422222222222222,
+  "forget_other": 0.8681481481481481
+ },
+ "banking_t3|O3|백본 LoRA (O3 LoRA 고정)|in_ep5": {
+  "forget": 0.87,
+  "retained": 0.8351851851851851,
+  "mrpc": 0.792463768115942,
+  "rte": 0.8772563176895306,
+  "meta": {
+   "attack_epochs": 5,
+   "attack_epoch_loss": [
+    5.6403,
+    0.8843,
+    0.0594,
+    0.0083,
+    0.0009
+   ],
+   "attack_train_sec": 121,
+   "attack_lora_modules": 223,
+   "attack_train_ood_weight_mean": 1.128000000000002
+  },
+  "forget_banking": 0.8577777777777778,
+  "forget_other": 0.8740740740740741
+ },
+ "banking_t3|O3|백본 LoRA (O3 LoRA 고정)|out_ep1": {
+  "forget": 0.6027777777777777,
+  "retained": 0.6896296296296296,
+  "mrpc": 0.7860869565217391,
+  "rte": 0.8592057761732852,
+  "meta": {
+   "attack_epochs": 1,
+   "attack_epoch_loss": [
+    1.3403
+   ],
+   "attack_train_sec": 242,
+   "attack_lora_modules": 223,
+   "attack_train_ood_weight_mean": 0.021630627767694147
+  },
+  "forget_banking": 0.1711111111111111,
+  "forget_other": 0.7466666666666667
+ },
+ "banking_t3|O3|백본 LoRA (O3 LoRA 고정)|out_ep5": {
+  "forget": 0.6155555555555555,
+  "retained": 0.7322222222222223,
+  "mrpc": 0.8011594202898551,
+  "rte": 0.8664259927797834,
+  "meta": {
+   "attack_epochs": 5,
+   "attack_epoch_loss": [
+    1.3403,
+    0.1814,
+    0.0789,
+    0.0381,
+    0.0195
+   ],
+   "attack_train_sec": 1253,
+   "attack_lora_modules": 223,
+   "attack_train_ood_weight_mean": 0.021630627767694147
+  },
+  "forget_banking": 0.2311111111111111,
+  "forget_other": 0.7437037037037038
+ },
+ "banking_t3|O3|백본 LoRA + O3 LoRA|in_ep1": {
+  "forget": 0.855,
+  "retained": 0.8470370370370371,
+  "mrpc": 0.7994202898550725,
+  "rte": 0.8483754512635379,
+  "meta": {
+   "attack_epochs": 1,
+   "attack_epoch_loss": [
+    2.7976
+   ],
+   "attack_train_sec": 27,
+   "attack_lora_modules": 223,
+   "attack_train_ood_weight_mean": 1.128000000000002
+  },
+  "forget_banking": 0.7711111111111112,
+  "forget_other": 0.882962962962963
+ },
+ "banking_t3|O3|백본 LoRA + O3 LoRA|in_ep5": {
+  "forget": 0.915,
+  "retained": 0.8937037037037037,
+  "mrpc": 0.8052173913043478,
+  "rte": 0.8664259927797834,
+  "meta": {
+   "attack_epochs": 5,
+   "attack_epoch_loss": [
+    2.7976,
+    0.0909,
+    0.0068,
+    0.0007,
+    0.0002
+   ],
+   "attack_train_sec": 133,
+   "attack_lora_modules": 223,
+   "attack_train_ood_weight_mean": 1.128000000000002
+  },
+  "forget_banking": 0.9311111111111111,
+  "forget_other": 0.9096296296296297
+ },
+ "banking_t3|O3|백본 LoRA + O3 LoRA|out_ep1": {
+  "forget": 0.7222222222222221,
+  "retained": 0.7433333333333333,
+  "mrpc": 0.7744927536231885,
+  "rte": 0.8303249097472925,
+  "meta": {
+   "attack_epochs": 1,
+   "attack_epoch_loss": [
+    1.3163
+   ],
+   "attack_train_sec": 315,
+   "attack_lora_modules": 223,
+   "attack_train_ood_weight_mean": 0.021630627767694147
+  },
+  "forget_banking": 0.4444444444444444,
+  "forget_other": 0.8148148148148148
+ },
+ "banking_t3|O3|백본 LoRA + O3 LoRA|out_ep5": {
+  "forget": 0.6138888888888889,
+  "retained": 0.7474074074074075,
+  "mrpc": 0.7936231884057972,
+  "rte": 0.855595667870036,
+  "meta": {
+   "attack_epochs": 5,
+   "attack_epoch_loss": [
+    1.3163,
+    0.1662,
+    0.071,
+    0.0372,
+    0.0131
+   ],
+   "attack_train_sec": 1322,
+   "attack_lora_modules": 223,
+   "attack_train_ood_weight_mean": 0.021630627767694147
+  },
+  "forget_banking": 0.3488888888888889,
+  "forget_other": 0.7022222222222222
+ },
+ "banking_t3|base|base (unlearning 전)|in_ep1": {
+  "forget": 0.9744444444444444,
+  "retained": 0.9674074074074074,
+  "forget_banking": 0.9577777777777777,
+  "forget_other": 0.98,
+  "mrpc": 0.808695652173913,
+  "rte": 0.8736462093862816
+ },
+ "banking_t3|base|base (unlearning 전)|in_ep5": {
+  "forget": 0.975,
+  "retained": 0.9585185185185185,
+  "forget_banking": 0.96,
+  "forget_other": 0.98,
+  "mrpc": 0.8063768115942029,
+  "rte": 0.8736462093862816
+ },
+ "banking_t3|base|base (unlearning 전)|out_ep1": {
+  "forget": 0.785,
+  "retained": 0.8192592592592592,
+  "forget_banking": 0.6,
+  "forget_other": 0.8466666666666667,
+  "mrpc": 0.8052173913043478,
+  "rte": 0.8953068592057761
+ },
+ "banking_t3|base|base (unlearning 전)|out_ep5": {
+  "forget": 0.6972222222222222,
+  "retained": 0.7555555555555555,
+  "forget_banking": 0.5888888888888889,
+  "forget_other": 0.7333333333333333,
+  "mrpc": 0.7936231884057972,
+  "rte": 0.8628158844765343
+ },
+ "banking_t3|GA|백본 LoRA (full-FT)|out_ep1": {
+  "forget": 0.4338888888888889,
+  "retained": 0.4822222222222222,
+  "mrpc": 0.3136231884057971,
+  "rte": 0.5126353790613718,
+  "per_domain": {
+   "banking": 0.43777777777777777,
+   "home": 0.35777777777777775,
+   "travel": 0.5711111111111111,
+   "work": 0.3688888888888889
+  },
+  "forget_banking": 0.43777777777777777,
+  "forget_other": 0.4325925925925926,
+  "meta": {
+   "target": "base",
+   "epochs": 1,
+   "lr": 0.0001,
+   "epoch_loss": [
+    11.7885
+   ],
+   "steps": 63,
+   "trainable_params": 20824064,
+   "n_lora_modules": 223,
+   "gate_grad_norm_mean": null,
+   "train_sec": 31,
+   "data": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/relearn_attack/data/out_banking77_1000.json"
+  }
+ },
+ "banking_t3|GA|백본 LoRA (full-FT)|out_ep5": {
+  "forget": 0.41888888888888887,
+  "retained": 0.5188888888888888,
+  "mrpc": 0.06086956521739131,
+  "rte": 0.2924187725631769,
+  "per_domain": {
+   "banking": 0.3488888888888889,
+   "home": 0.42444444444444446,
+   "travel": 0.5377777777777778,
+   "work": 0.36444444444444446
+  },
+  "forget_banking": 0.3488888888888889,
+  "forget_other": 0.44222222222222224,
+  "meta": {
+   "target": "base",
+   "epochs": 5,
+   "lr": 0.0001,
+   "epoch_loss": [
+    11.7885,
+    0.3139,
+    0.0985,
+    0.0498,
+    0.0248
+   ],
+   "steps": 315,
+   "trainable_params": 20824064,
+   "n_lora_modules": 223,
+   "gate_grad_norm_mean": null,
+   "train_sec": 154,
+   "data": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/relearn_attack/data/out_banking77_1000.json"
+  }
+ },
+ "banking_t3|NPO+KL|백본 LoRA (full-FT)|out_ep1": {
+  "forget": 0.27944444444444444,
+  "retained": 0.4025925925925926,
+  "mrpc": 0.027246376811594204,
+  "rte": 0.30685920577617326,
+  "per_domain": {
+   "banking": 0.18888888888888888,
+   "home": 0.13777777777777778,
+   "travel": 0.3511111111111111,
+   "work": 0.44
+  },
+  "forget_banking": 0.18888888888888888,
+  "forget_other": 0.30962962962962964,
+  "meta": {
+   "target": "base",
+   "epochs": 1,
+   "lr": 0.0001,
+   "epoch_loss": [
+    4.4051
+   ],
+   "steps": 63,
+   "trainable_params": 20824064,
+   "n_lora_modules": 223,
+   "gate_grad_norm_mean": null,
+   "train_sec": 31,
+   "data": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/relearn_attack/data/out_banking77_1000.json"
+  }
+ },
+ "banking_t3|NPO+KL|백본 LoRA (full-FT)|out_ep5": {
+  "forget": 0.26055555555555554,
+  "retained": 0.2985185185185185,
+  "mrpc": 0.00927536231884058,
+  "rte": 0.021660649819494584,
+  "per_domain": {
+   "banking": 0.1711111111111111,
+   "home": 0.13777777777777778,
+   "travel": 0.35777777777777775,
+   "work": 0.37555555555555553
+  },
+  "forget_banking": 0.1711111111111111,
+  "forget_other": 0.2903703703703704,
+  "meta": {
+   "target": "base",
+   "epochs": 5,
+   "lr": 0.0001,
+   "epoch_loss": [
+    4.4051,
+    0.2229,
+    0.0796,
+    0.0471,
+    0.0247
+   ],
+   "steps": 315,
+   "trainable_params": 20824064,
+   "n_lora_modules": 223,
+   "gate_grad_norm_mean": null,
+   "train_sec": 154,
+   "data": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/relearn_attack/data/out_banking77_1000.json"
+  }
+ },
+ "banking_t3|GD|백본 LoRA (full-FT)|out_ep1": {
+  "forget": 0.18777777777777777,
+  "retained": 0.5722222222222222,
+  "mrpc": 0.2747826086956522,
+  "rte": 0.34296028880866425,
+  "per_domain": {
+   "banking": 0.2822222222222222,
+   "home": 0.15555555555555556,
+   "travel": 0.2288888888888889,
+   "work": 0.08444444444444445
+  },
+  "forget_banking": 0.2822222222222222,
+  "forget_other": 0.1562962962962963,
+  "meta": {
+   "target": "base",
+   "epochs": 1,
+   "lr": 0.0001,
+   "epoch_loss": [
+    9.1089
+   ],
+   "steps": 63,
+   "trainable_params": 20824064,
+   "n_lora_modules": 223,
+   "gate_grad_norm_mean": null,
+   "train_sec": 31,
+   "data": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/relearn_attack/data/out_banking77_1000.json"
+  }
+ },
+ "banking_t3|GD|백본 LoRA (full-FT)|out_ep5": {
+  "forget": 0.12833333333333333,
+  "retained": 0.5159259259259259,
+  "mrpc": 0.32463768115942027,
+  "rte": 0.1299638989169675,
+  "per_domain": {
+   "banking": 0.11777777777777777,
+   "home": 0.09333333333333334,
+   "travel": 0.1711111111111111,
+   "work": 0.13111111111111112
+  },
+  "forget_banking": 0.11777777777777777,
+  "forget_other": 0.13185185185185186,
+  "meta": {
+   "target": "base",
+   "epochs": 5,
+   "lr": 0.0001,
+   "epoch_loss": [
+    9.1089,
+    0.2185,
+    0.0735,
+    0.0501,
+    0.0207
+   ],
+   "steps": 315,
+   "trainable_params": 20824064,
+   "n_lora_modules": 223,
+   "gate_grad_norm_mean": null,
+   "train_sec": 154,
+   "data": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/relearn_attack/data/out_banking77_1000.json"
+  }
+ },
+ "work_t0_out|RULE|공격 전": {
+  "forget": 0.024444444444444446,
+  "retained": 0.9688888888888889,
+  "mrpc": 0.808695652173913,
+  "rte": 0.8736462093862816,
+  "per_domain": {
+   "work": 0.024444444444444446
+  },
+  "forget_banking": null,
+  "forget_other": 0.024444444444444446,
+  "meta": {
+   "target": null,
+   "epochs": null,
+   "lr": null,
+   "epoch_loss": null,
+   "steps": null,
+   "trainable_params": null,
+   "n_lora_modules": null,
+   "gate_grad_norm_mean": null,
+   "train_sec": null,
+   "data": null
+  }
+ },
+ "work_t0_out|RULE|백본 LoRA (MoE 고정)|ep1": {
+  "forget": 0.0044444444444444444,
+  "retained": 0.24172839506172838,
+  "mrpc": 0.7501449275362319,
+  "rte": 0.8664259927797834,
+  "per_domain": {
+   "work": 0.0044444444444444444
+  },
+  "forget_banking": null,
+  "forget_other": 0.0044444444444444444,
+  "meta": {
+   "target": "backbone",
+   "epochs": 1,
+   "lr": 0.0001,
+   "epoch_loss": [
+    0.939
+   ],
+   "steps": 63,
+   "trainable_params": 20824064,
+   "n_lora_modules": 223,
+   "gate_grad_norm_mean": null,
+   "train_sec": 27,
+   "data": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/relearn_attack/data/out_massive_work_1000.json"
+  }
+ },
+ "work_t0_out|RULE|백본 LoRA (MoE 고정)|ep5": {
+  "forget": 0.11777777777777777,
+  "retained": 0.3009876543209877,
+  "mrpc": 0.7431884057971014,
+  "rte": 0.8628158844765343,
+  "per_domain": {
+   "work": 0.11777777777777777
+  },
+  "forget_banking": null,
+  "forget_other": 0.11777777777777777,
+  "meta": {
+   "target": "backbone",
+   "epochs": 5,
+   "lr": 0.0001,
+   "epoch_loss": [
+    0.939,
+    0.0523,
+    0.0207,
+    0.0116,
+    0.0012
+   ],
+   "steps": 315,
+   "trainable_params": 20824064,
+   "n_lora_modules": 223,
+   "gate_grad_norm_mean": null,
+   "train_sec": 132,
+   "data": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/relearn_attack/data/out_massive_work_1000.json"
+  }
+ },
+ "work_t0_out|RULE|백본 LoRA + MoE|ep1": {
+  "forget": 0.0022222222222222222,
+  "retained": 0.29975308641975307,
+  "mrpc": 0.7657971014492754,
+  "rte": 0.8664259927797834,
+  "per_domain": {
+   "work": 0.0022222222222222222
+  },
+  "forget_banking": null,
+  "forget_other": 0.0022222222222222222,
+  "meta": {
+   "target": "moe",
+   "epochs": 1,
+   "lr": 0.0001,
+   "epoch_loss": [
+    0.9368
+   ],
+   "steps": 63,
+   "trainable_params": 21147650,
+   "n_lora_modules": 223,
+   "gate_grad_norm_mean": 6.566725492048712e-05,
+   "train_sec": 27,
+   "data": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/relearn_attack/data/out_massive_work_1000.json"
+  }
+ },
+ "work_t0_out|RULE|백본 LoRA + MoE|ep5": {
+  "forget": 0.022222222222222223,
+  "retained": 0.5350617283950617,
+  "mrpc": 0.7623188405797101,
+  "rte": 0.8808664259927798,
+  "per_domain": {
+   "work": 0.022222222222222223
+  },
+  "forget_banking": null,
+  "forget_other": 0.022222222222222223,
+  "meta": {
+   "target": "moe",
+   "epochs": 5,
+   "lr": 0.0001,
+   "epoch_loss": [
+    0.9368,
+    0.0555,
+    0.0205,
+    0.0071,
+    0.008
+   ],
+   "steps": 315,
+   "trainable_params": 21147650,
+   "n_lora_modules": 223,
+   "gate_grad_norm_mean": 1.7475553685803862e-05,
+   "train_sec": 133,
+   "data": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/relearn_attack/data/out_massive_work_1000.json"
+  }
+ },
+ "work_t0_out|O3|공격 전": {
+  "forget": 0.15333333333333332,
+  "retained": 0.8451851851851852,
+  "mrpc": 0.8081159420289855,
+  "rte": 0.8916967509025271,
+  "meta": {}
+ },
+ "work_t0_out|O3|백본 LoRA (O3 LoRA 고정)|ep1": {
+  "forget": 0.04,
+  "retained": 0.4325925925925926,
+  "mrpc": 0.7484057971014493,
+  "rte": 0.8447653429602888,
+  "meta": {
+   "attack_epochs": 1,
+   "attack_epoch_loss": [
+    1.2161
+   ],
+   "attack_train_sec": 247,
+   "attack_lora_modules": 223,
+   "attack_train_ood_weight_mean": 0.33047135559034063
+  }
+ },
+ "work_t0_out|O3|백본 LoRA (O3 LoRA 고정)|ep5": {
+  "forget": 0.05555555555555555,
+  "retained": 0.2706172839506173,
+  "mrpc": 0.7466666666666667,
+  "rte": 0.851985559566787,
+  "meta": {
+   "attack_epochs": 5,
+   "attack_epoch_loss": [
+    1.2161,
+    0.0453,
+    0.0247,
+    0.0186,
+    0.0076
+   ],
+   "attack_train_sec": 1215,
+   "attack_lora_modules": 223,
+   "attack_train_ood_weight_mean": 0.33047135559034063
+  }
+ },
+ "work_t0_out|O3|백본 LoRA + O3 LoRA|ep1": {
+  "forget": 0.08666666666666668,
+  "retained": 0.669,
+  "meta": {
+   "attack_epochs": 1,
+   "attack_epoch_loss": [
+    0.9924
+   ],
+   "attack_train_sec": 262,
+   "attack_lora_modules": 223,
+   "attack_train_ood_weight_mean": 0.33047135559034063
+  }
+ },
+ "work_t0_out|O3|백본 LoRA + O3 LoRA|ep5": null,
+ "work_t0_out|GD|공격 전": {
+  "forget": 0.0,
+  "retained": 0.6567901234567901,
+  "mrpc": 0.8144927536231884,
+  "rte": 0.8808664259927798,
+  "per_domain": {
+   "work": 0.0
+  },
+  "forget_banking": null,
+  "forget_other": 0.0,
+  "meta": {
+   "target": "none",
+   "epochs": 1,
+   "lr": 0.0001,
+   "epoch_loss": null,
+   "steps": null,
+   "trainable_params": null,
+   "n_lora_modules": null,
+   "gate_grad_norm_mean": null,
+   "train_sec": null,
+   "data": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/relearn_attack/data/in_work_100.json"
+  }
+ },
+ "work_t0_out|GD|백본 LoRA (full-FT)|ep1": {
+  "forget": 0.0,
+  "retained": 0.3034567901234568,
+  "mrpc": 0.7698550724637682,
+  "rte": 0.8700361010830325,
+  "per_domain": {
+   "work": 0.0
+  },
+  "forget_banking": null,
+  "forget_other": 0.0,
+  "meta": {
+   "target": "base",
+   "epochs": 1,
+   "lr": 0.0001,
+   "epoch_loss": [
+    1.0881
+   ],
+   "steps": 63,
+   "trainable_params": 20824064,
+   "n_lora_modules": 223,
+   "gate_grad_norm_mean": null,
+   "train_sec": 27,
+   "data": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/relearn_attack/data/out_massive_work_1000.json"
+  }
+ },
+ "work_t0_out|GD|백본 LoRA (full-FT)|ep5": {
+  "forget": 0.0,
+  "retained": 0.48814814814814816,
+  "mrpc": 0.768695652173913,
+  "rte": 0.8736462093862816,
+  "per_domain": {
+   "work": 0.0
+  },
+  "forget_banking": null,
+  "forget_other": 0.0,
+  "meta": {
+   "target": "base",
+   "epochs": 5,
+   "lr": 0.0001,
+   "epoch_loss": [
+    1.0881,
+    0.0552,
+    0.0251,
+    0.0131,
+    0.0092
+   ],
+   "steps": 315,
+   "trainable_params": 20824064,
+   "n_lora_modules": 223,
+   "gate_grad_norm_mean": null,
+   "train_sec": 131,
+   "data": "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/relearn_attack/data/out_massive_work_1000.json"
+  }
  }
 }

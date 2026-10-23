@@ -1,0 +1,559 @@
+/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/relearn_attack/results/banking_t3/o3_lora_out_ep5_rte.json
+Orthogonal:  False Selector initialized
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+pred/gt: entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+pred/gt: entailment not_entailment
+ood_weight:  [1, 0]
+pred/gt: entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+contains correct: not_entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+pred/gt: entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+pred/gt: entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+contains correct: not_entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+contains correct: not_entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+pred/gt: entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+pred/gt: entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+contains correct: not_entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+pred/gt: entertainment_park entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+pred/gt: entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+contains correct: not_entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+pred/gt: entanglement entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+pred/gt: entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+contains correct: not_entailment entailment
+ood_weight:  [1, 0]
+pred/gt: entailment not_entailment
+ood_weight:  [1, 0]
+contains correct: not_entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+contains correct: not_entailment entailment
+ood_weight:  [1, 0]
+pred/gt: entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+contains correct: not_entailment entailment
+ood_weight:  [1, 0]
+pred/gt: entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+pred/gt: entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+pred/gt: entailment not_entailment
+ood_weight:  [1, 0]
+contains correct: not_entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+pred/gt: entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+pred/gt: entailment not_entailment
+200/277, contains_correct: 182, contains_acc: 91.0%, exact_correct: 172, exact_acc: 86.0%, saving to /home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/relearn_attack/results/banking_t3/o3_lora_out_ep5_rte.json
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+pred/gt: entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+pred/gt: entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+pred/gt: entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+pred/gt: entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+pred/gt: entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+pred/gt: entailment not_entailment
+ood_weight:  [1, 0]
+pred/gt: entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+pred/gt: entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+contains correct: not_entailment entailment
+ood_weight:  [1, 0]
+pred/gt: entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+pred/gt: disputed_maritime_border entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+exact correct: entailment entailment
+ood_weight:  [1, 0]
+contains correct: not_entailment entailment
+ood_weight:  [1, 0]
+exact correct: not_entailment not_entailment
+277/277, contains_correct: 249, contains_acc: 89.89%, exact_correct: 237, exact_acc: 85.56%, saving to /home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/relearn_attack/results/banking_t3/o3_lora_out_ep5_rte.json
+0.0 0 0

@@ -1,0 +1,50 @@
+{
+ "_meta": {
+  "tag": "lunar",
+  "torch": "2.5.1+cu121",
+  "transformers": "4.46.3",
+  "gpu": "NVIDIA A100 80GB PCIe",
+  "n_prompts": 200,
+  "reps": 3
+ },
+ "sdpa_bs1": {
+  "ms_per_sample": 1775.6732395953602,
+  "ms_per_request": 1775.6732395953602,
+  "ms_per_request_std": 2.9871011391136872,
+  "ttft_ms": 28.41427560067839,
+  "ttft_ms_std": 0.2795005746689756,
+  "decode_ms_per_token": 27.734269269756858,
+  "decode_std": 0.04652119316199623,
+  "peak_allocated_MB": 15346.19970703125
+ },
+ "sdpa_bs16": {
+  "ms_per_sample": 127.3388641824325,
+  "ms_per_request": 1959.0594489604998,
+  "ms_per_request_std": 14.86732226353268,
+  "ttft_ms": 96.96538211443486,
+  "ttft_ms_std": 12.63108057342973,
+  "decode_ms_per_token": 29.557048680096266,
+  "decode_std": 0.04491875226321307,
+  "peak_allocated_MB": 15664.68896484375
+ },
+ "eager_bs1": {
+  "ms_per_sample": 2003.579275165167,
+  "ms_per_request": 2003.579275165167,
+  "ms_per_request_std": 3.536565466099398,
+  "ttft_ms": 32.59341956840621,
+  "ttft_ms_std": 0.27286324862022426,
+  "decode_ms_per_token": 31.285489771377154,
+  "decode_std": 0.05461443963268281,
+  "peak_allocated_MB": 15346.19970703125
+ },
+ "eager_bs16": {
+  "ms_per_sample": 137.04834243903557,
+  "ms_per_request": 2108.4360375236242,
+  "ms_per_request_std": 16.83767645024453,
+  "ttft_ms": 100.22017913751112,
+  "ttft_ms_std": 12.812106979590833,
+  "decode_ms_per_token": 31.876442196604966,
+  "decode_std": 0.10724443098156537,
+  "peak_allocated_MB": 15664.98681640625
+ }
+}

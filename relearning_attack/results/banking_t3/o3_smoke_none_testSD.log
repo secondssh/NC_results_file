@@ -1,0 +1,104 @@
+/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/relearn_attack/results/banking_t3/o3_smoke_none_testSD.json
+Orthogonal:  False Selector initialized
+ood_weight:  [1, 0]
+exact correct: transfer transfer
+ood_weight:  [1, 1.2]
+pred/gt: meaning_of_life transfer
+ood_weight:  [1, 1.2]
+pred/gt: oil_change_how transfer
+ood_weight:  [1, 1.2]
+pred/gt: apr transfer
+ood_weight:  [1, 1.2]
+pred/gt: apr transfer
+ood_weight:  [1, 1.2]
+pred/gt: meaning_of_life transfer
+ood_weight:  [1, 1.2]
+pred/gt: card_declined transfer
+ood_weight:  [1, 1.2]
+pred/gt: oil_change_how transfer
+ood_weight:  [1, 1.2]
+pred/gt: meaning_of_life transfer
+ood_weight:  [1, 1.2]
+pred/gt: rollover_401k transfer
+ood_weight:  [1, 1.2]
+pred/gt: pin_number transfer
+ood_weight:  [1, 1.2]
+pred/gt: card_declined transfer
+ood_weight:  [1, 1.2]
+pred/gt: restaurant_suggestion transfer
+ood_weight:  [1, 1.2]
+pred/gt: pto_used transfer
+ood_weight:  [1, 1.2]
+pred/gt: report_lost_card transfer
+ood_weight:  [1, 0]
+exact correct: transfer transfer
+ood_weight:  [1, 0]
+exact correct: transfer transfer
+ood_weight:  [1, 0]
+exact correct: transfer transfer
+ood_weight:  [1, 1.2]
+pred/gt: vaccines transfer
+ood_weight:  [1, 0]
+exact correct: transfer transfer
+ood_weight:  [1, 1.2]
+pred/gt: schedule_maintenance transfer
+ood_weight:  [1, 0]
+exact correct: transfer transfer
+ood_weight:  [1, 1.2]
+pred/gt: what_can_i_ask_you transfer
+ood_weight:  [1, 0]
+pred/gt: weather transfer
+ood_weight:  [1, 1.2]
+pred/gt: directions transfer
+ood_weight:  [1, 1.2]
+pred/gt: pto_used transfer
+ood_weight:  [1, 1.2]
+pred/gt: credit_limit_change transfer
+ood_weight:  [1, 0]
+exact correct: transfer transfer
+ood_weight:  [1, 1.2]
+pred/gt: restaurant_reservation transfer
+ood_weight:  [1, 0]
+exact correct: transfer transfer
+ood_weight:  [1, 0]
+exact correct: balance balance
+ood_weight:  [1, 1.2]
+pred/gt: timezone balance
+ood_weight:  [1, 1.2]
+pred/gt: recipe balance
+ood_weight:  [1, 1.2]
+pred/gt: shopping_list_update balance
+ood_weight:  [1, 1.2]
+pred/gt: calories balance
+ood_weight:  [1, 1.2]
+pred/gt: time balance
+ood_weight:  [1, 0]
+exact correct: balance balance
+ood_weight:  [1, 1.2]
+pred/gt: spelling balance
+ood_weight:  [1, 0]
+exact correct: balance balance
+ood_weight:  [1, 1.2]
+pred/gt: reminder balance
+ood_weight:  [1, 0]
+exact correct: balance balance
+ood_weight:  [1, 1.2]
+pred/gt: spelling balance
+ood_weight:  [1, 1.2]
+pred/gt: schedule_maintenance balance
+ood_weight:  [1, 1.2]
+pred/gt: roll_dice balance
+ood_weight:  [1, 1.2]
+pred/gt: cook_time balance
+ood_weight:  [1, 1.2]
+pred/gt: mean_of_income balance
+ood_weight:  [1, 1.2]
+pred/gt: meaning_of_life balance
+ood_weight:  [1, 1.2]
+pred/gt: shopping_list_update balance
+ood_weight:  [1, 1.2]
+pred/gt: shopping_list_update balance
+ood_weight:  [1, 1.2]
+pred/gt: shopping_list_update balance
+50/50, contains_correct: 12, contains_acc: 24.0%, exact_correct: 12, exact_acc: 24.0%, saving to /home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/relearn_attack/results/banking_t3/o3_smoke_none_testSD.json
+0.8880000000000001 0 1.2

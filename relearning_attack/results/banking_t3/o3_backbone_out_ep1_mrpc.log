@@ -1,0 +1,3462 @@
+/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/relearn_attack/results/banking_t3/o3_backbone_out_ep1_mrpc.json
+Orthogonal:  False Selector initialized
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+contains correct: not_equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+contains correct: not_equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+contains correct: not_equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+contains correct: not_equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+200/1725, contains_correct: 160, contains_acc: 80.0%, exact_correct: 156, exact_acc: 78.0%, saving to /home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/relearn_attack/results/banking_t3/o3_backbone_out_ep1_mrpc.json
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+contains correct: not_equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+contains correct: not_equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+contains correct: not_equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+contains correct: not_equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+contains correct: not_equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+contains correct: not_equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+contains correct: not_equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+400/1725, contains_correct: 319, contains_acc: 79.75%, exact_correct: 308, exact_acc: 77.0%, saving to /home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/relearn_attack/results/banking_t3/o3_backbone_out_ep1_mrpc.json
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+contains correct: not_equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+contains correct: not_equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+contains correct: not_equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+600/1725, contains_correct: 492, contains_acc: 82.0%, exact_correct: 478, exact_acc: 79.67%, saving to /home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/relearn_attack/results/banking_t3/o3_backbone_out_ep1_mrpc.json
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+contains correct: not_equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+contains correct: not_equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+contains correct: not_equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+800/1725, contains_correct: 660, contains_acc: 82.5%, exact_correct: 643, exact_acc: 80.38%, saving to /home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/relearn_attack/results/banking_t3/o3_backbone_out_ep1_mrpc.json
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+contains correct: not_equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+contains correct: not_equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+1000/1725, contains_correct: 816, contains_acc: 81.6%, exact_correct: 797, exact_acc: 79.7%, saving to /home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/relearn_attack/results/banking_t3/o3_backbone_out_ep1_mrpc.json
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+contains correct: not_equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+contains correct: not_equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+contains correct: not_equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+contains correct: not_equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+1200/1725, contains_correct: 970, contains_acc: 80.83%, exact_correct: 947, exact_acc: 78.92%, saving to /home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/relearn_attack/results/banking_t3/o3_backbone_out_ep1_mrpc.json
+ood_weight:  [1, 0]
+contains correct: not_equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+contains correct: not_equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+1400/1725, contains_correct: 1130, contains_acc: 80.71%, exact_correct: 1105, exact_acc: 78.93%, saving to /home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/relearn_attack/results/banking_t3/o3_backbone_out_ep1_mrpc.json
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+contains correct: not_equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+contains correct: not_equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+contains correct: not_equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+1600/1725, contains_correct: 1286, contains_acc: 80.38%, exact_correct: 1258, exact_acc: 78.62%, saving to /home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/relearn_attack/results/banking_t3/o3_backbone_out_ep1_mrpc.json
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+contains correct: not_equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+contains correct: not_equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+contains correct: not_equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+pred/gt: equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: not_equivalent not_equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+ood_weight:  [1, 0]
+exact correct: equivalent equivalent
+1725/1725, contains_correct: 1387, contains_acc: 80.41%, exact_correct: 1356, exact_acc: 78.61%, saving to /home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/relearn_attack/results/banking_t3/o3_backbone_out_ep1_mrpc.json
+0.0 0 0

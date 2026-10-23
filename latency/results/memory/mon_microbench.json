@@ -1,0 +1,23 @@
+{
+ "cmd": [
+  "/home/hai_ssh/.conda/envs/lunar/bin/python",
+  "latency/microbench_moe.py"
+ ],
+ "rc": 0,
+ "wall_sec": 18.53122591972351,
+ "gpu_peak_MiB": {
+  "0": 854,
+  "1": 0
+ },
+ "gpu_used_before_MiB": {
+  "0": 0,
+  "1": 0
+ },
+ "gpu_apps_before": [],
+ "host_rss_peak_MB": 983.96484375,
+ "load1_max": 0.63,
+ "load1_mean": 0.4825925925925925,
+ "n_cpu": 32,
+ "n_samples": 27,
+ "cuda_visible_devices": "0"
+}
