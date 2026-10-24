@@ -1,0 +1,171 @@
+{
+ "ds": "tofu",
+ "t": 19,
+ "gpu": "NVIDIA A100 80GB PCIe",
+ "torch": "2.5.1+cu121",
+ "no_deepcopy": true,
+ "per_E": {
+  "2": {
+   "epoch_sec": 13.954015105962753,
+   "peak_allocated_MB": 15461.9384765625,
+   "current_forget_idx": 1,
+   "total_stage_sec_est": 561.1849769428372
+  },
+  "10": {
+   "epoch_sec": 13.162222750484943,
+   "peak_allocated_MB": 15472.9990234375,
+   "current_forget_idx": 9,
+   "total_stage_sec_est": 545.349129833281
+  },
+  "21": {
+   "epoch_sec": 19.598591469228268,
+   "peak_allocated_MB": 15499.826171875,
+   "current_forget_idx": 20,
+   "total_stage_sec_est": 674.0765042081475
+  },
+  "40": {
+   "epoch_sec": 19.7911958694458,
+   "peak_allocated_MB": 15539.4404296875,
+   "current_forget_idx": 20,
+   "total_stage_sec_est": 677.9285922124982
+  },
+  "80": {
+   "epoch_sec": 20.0245888158679,
+   "peak_allocated_MB": 15620.640625,
+   "current_forget_idx": 20,
+   "total_stage_sec_est": 682.5964511409402
+  },
+  "160": {
+   "epoch_sec": 21.20230023562908,
+   "peak_allocated_MB": 15785.548828125,
+   "current_forget_idx": 20,
+   "total_stage_sec_est": 706.1506795361638
+  },
+  "320": {
+   "epoch_sec": 22.930616699159145,
+   "peak_allocated_MB": 16109.59423828125,
+   "current_forget_idx": 20,
+   "total_stage_sec_est": 740.7170088067651
+  }
+ },
+ "full_num_epochs": 20,
+ "n_train_batches": 3205,
+ "train_batch_size": 64,
+ "n_train_samples": 205105,
+ "real_n_experts": 21,
+ "current_forget_idx": 20,
+ "lr": 0.01,
+ "fixed_sec": {
+  "load_model+deepcopy": 4.847157225012779,
+  "direction": 13.708795174956322,
+  "activation": 263.50454468280077,
+  "sum_pre_moe": 282.1046748235822
+ },
+ "phases": [
+  {
+   "phase": "load_model",
+   "sec": 4.847142934799194,
+   "peak_allocated_MB": 15316.52392578125,
+   "allocated_after_MB": 15316.52392578125,
+   "peak_reserved_MB": 15446.0
+  },
+  {
+   "phase": "deepcopy (\uc81c\uac70: \uac19\uc740 \ubaa8\ub378)",
+   "sec": 1.4290213584899902e-05,
+   "peak_allocated_MB": 15316.52392578125,
+   "allocated_after_MB": 15316.52392578125,
+   "peak_reserved_MB": 15446.0
+  },
+  {
+   "phase": "load_dataset_to_get_direction",
+   "sec": 0.0007128417491912842,
+   "peak_allocated_MB": 15316.52392578125,
+   "allocated_after_MB": 15316.52392578125,
+   "peak_reserved_MB": 15446.0
+  },
+  {
+   "phase": "split_raw_dataset_for_forget",
+   "sec": 0.05491478741168976,
+   "peak_allocated_MB": 15316.52392578125,
+   "allocated_after_MB": 15316.52392578125,
+   "peak_reserved_MB": 15446.0
+  },
+  {
+   "phase": "generate_candidate_directions",
+   "sec": 13.708795174956322,
+   "peak_allocated_MB": 15349.28466796875,
+   "allocated_after_MB": 15324.64892578125,
+   "peak_reserved_MB": 15520.0
+  },
+  {
+   "phase": "prepare_trainset (activation \ucd94\ucd9c)",
+   "sec": 263.50454468280077,
+   "peak_allocated_MB": 15361.53466796875,
+   "allocated_after_MB": 15324.64892578125,
+   "peak_reserved_MB": 15568.0
+  },
+  {
+   "phase": "load_lora_moe_only",
+   "sec": 0.04347378760576248,
+   "peak_allocated_MB": 15559.8212890625,
+   "allocated_after_MB": 15331.4462890625,
+   "peak_reserved_MB": 15792.0
+  },
+  {
+   "phase": "expand_lora_moe_experts",
+   "sec": 0.000703953206539154,
+   "peak_allocated_MB": 15337.6337890625,
+   "allocated_after_MB": 15331.1298828125,
+   "peak_reserved_MB": 15792.0
+  },
+  {
+   "phase": "moe_train_joint_E2 (1 epoch)",
+   "sec": 13.954015105962753,
+   "peak_allocated_MB": 15461.9384765625,
+   "allocated_after_MB": 15452.0380859375,
+   "peak_reserved_MB": 15792.0
+  },
+  {
+   "phase": "moe_train_joint_E10 (1 epoch)",
+   "sec": 13.162222750484943,
+   "peak_allocated_MB": 15472.9990234375,
+   "allocated_after_MB": 15455.1630859375,
+   "peak_reserved_MB": 15600.0
+  },
+  {
+   "phase": "moe_train_joint_E21 (1 epoch)",
+   "sec": 19.598591469228268,
+   "peak_allocated_MB": 15499.826171875,
+   "allocated_after_MB": 15471.3349609375,
+   "peak_reserved_MB": 15646.0
+  },
+  {
+   "phase": "moe_train_joint_E40 (1 epoch)",
+   "sec": 19.7911958694458,
+   "peak_allocated_MB": 15539.4404296875,
+   "allocated_after_MB": 15491.3505859375,
+   "peak_reserved_MB": 15678.0
+  },
+  {
+   "phase": "moe_train_joint_E80 (1 epoch)",
+   "sec": 20.0245888158679,
+   "peak_allocated_MB": 15620.640625,
+   "allocated_after_MB": 15529.0068359375,
+   "peak_reserved_MB": 15792.0
+  },
+  {
+   "phase": "moe_train_joint_E160 (1 epoch)",
+   "sec": 21.20230023562908,
+   "peak_allocated_MB": 15785.548828125,
+   "allocated_after_MB": 15605.7568359375,
+   "peak_reserved_MB": 16004.0
+  },
+  {
+   "phase": "moe_train_joint_E320 (1 epoch)",
+   "sec": 22.930616699159145,
+   "peak_allocated_MB": 16109.59423828125,
+   "allocated_after_MB": 15756.2587890625,
+   "peak_reserved_MB": 16420.0
+  }
+ ]
+}

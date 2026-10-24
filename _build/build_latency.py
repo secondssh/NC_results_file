@@ -19,6 +19,7 @@ NAMES = [
     ("infer_tofu_bs1_natural", "TOFU 추론 — bs1, 원래 생성 설정 (출력 길이 효과 포함)"),
     ("infer_tofu_bs8_natural", "TOFU 추론 — bs8, 원래 생성 설정 (논문 평가 조건)"),
     ("o3_clinc_breakdown", "O3 CLINC 추론 분해 — OOD 점수 계산 + LLM (bs1)"),
+    ("o3_tofu_breakdown", "O3 TOFU 추론 분해 — OOD 점수 계산 + LLM (bs1, o3 env)"),
     ("version_sensitivity", "버전 영향 — lunar (torch 2.5.1) vs o3 env (torch 2.1.1), 같은 base Llama"),
     ("microbench_router_expert", "Router / Expert microbenchmark (layer16 MoE 하나, us/call)"),
     ("train_rule", "RULE 학습 1 stage — 단계별 시간 / 메모리"),
@@ -26,6 +27,7 @@ NAMES = [
     ("train_o3", "O3 학습 1 stage (CLINC t0) — detector + LoRA"),
     ("scale_micro", "expert 수 E 확장 — layer16 microbench + 학습 1 step"),
     ("scale_e2e", "expert 수 E 확장 — 실제 생성 (TOFU, 64 tok 고정)"),
+    ("scale_combined", "expert 수 E (요청 수) 확장 통합 — 파라미터 / decode·prefill / bs1 latency·TTFT·peak / 학습 1 epoch·peak"),
 ]
 
 

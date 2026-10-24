@@ -110,6 +110,28 @@ def main():
                           f"{x['ms_per_sample']['mean']:.1f} | {rc[k]['natural_bs1']['ms_per_sample']['mean']:.1f} "
                           f"({rc[k]['natural_bs1']['mean_new_tokens']:.1f} tok, max 512) | {x['mem']['peak_allocated_MB']:.0f} |")
         md += ["", "*O3 LLM 은 원래 코드의 modeling_llama_hacked_31.py (eager attention) + LoRA 7 종 linear, RULE/base 는 HF 기본 (SDPA)", ""]
+    ot3 = {t: JT(f"o3_tofu_t{t}.json") for t in (0, 19)}
+    if all(ot3.values()):
+        rt = JT("infer_tofu.json")
+        md += ["## 3-2. O3 추론 — TOFU bs1 (OOD · LLM 모두 o3 env = 저장 환경, PTOFU 원래 코드)", "",
+               "| | OOD 점수 ms (RoBERTa+Mah / OCSVM CPU) | LLM TTFT ms | TTFT 합 (OOD + LLM) | decode ms/tok | 64 tok 고정 ms/sample (OOD 포함) | "
+               "원래 설정 ms/sample (O3 eval max 200, OOD 포함) | 메모리 MB (LLM peak + detector peak) |", "|---|---|---|---|---|---|---|---|"]
+        for t, x in ot3.items():
+            od, f, n = x["ood"], x["fixed64_bs1"], x["natural_bs1"]
+            om = od["total_ms"]["mean"]
+            md.append(f"| O3 t{t} | {om:.1f} ({od['roberta_mahalanobis_ms']['mean']:.1f} / {od['ocsvm_weight_cpu_ms']['mean']:.1f}) | "
+                      f"{f['ttft_ms']['mean']:.2f} | {f['ttft_ms']['mean'] + om:.2f} | {f['decode_ms_per_token']['mean']:.2f} | "
+                      f"{f['ms_per_sample']['mean'] + om:.1f} | {n['ms_per_sample']['mean'] + om:.1f} ({n['mean_new_tokens']:.1f} tok) | "
+                      f"{f['peak_allocated_MB']:.0f} + {od['peak_allocated_MB']:.0f} |")
+        if rt:
+            for k in ("base", "rule_t0", "rule_t19", "gd"):
+                if k not in rt:
+                    continue
+                x = rt[k]["fixed64_bs1"]
+                md.append(f"| {k} (비교) | – | {x['ttft_ms']['mean']:.2f} | {x['ttft_ms']['mean']:.2f} | {x['decode_ms_per_token']['mean']:.2f} | "
+                          f"{x['ms_per_sample']['mean']:.1f} | {rt[k]['natural_bs1']['ms_per_sample']['mean']:.1f} "
+                          f"({rt[k]['natural_bs1']['mean_new_tokens']:.1f} tok, max 512) | {x['mem']['peak_allocated_MB']:.0f} |")
+        md += ["", "*TOFU O3 OOD 입력은 256 tok (CLINC 512) 이라 detector 가 더 빠름. o3 env 는 lunar 보다 약 6% 빠름 (4절) → O3 에 유리한 쪽", ""]
 
     v = {e: JT(f"version_{e}.json") for e in ("lunar", "o3")}
     if all(v.values()):
@@ -134,8 +156,8 @@ def main():
         md.append("")
 
     md += ["## 6. 학습 (1 stage, 시간 = 단계별, MoE 는 1 epoch 실측 × 20)", "",
-           "| | 모델 로드 | direction 추출 | activation 추출 | MoE joint (1 epoch × 20) | 합계 (추정) | GPU peak MB (torch / nvidia-smi) | host PSS peak MB | activation cache MB |",
-           "|---|---|---|---|---|---|---|---|---|"]
+           "| | 모델 로드 | direction 추출 | activation 추출 | MoE joint (1 epoch × 20) | 합계 (추정) | expert만 / router만 (1 epoch, 참고) | GPU peak MB (torch / nvidia-smi) | host PSS peak MB | activation cache MB |",
+           "|---|---|---|---|---|---|---|---|---|---|"]
     for name in ("train_clinc_t0", "train_clinc_t0_nocopy", "train_clinc_t8_nocopy", "train_tofu_t0_nocopy", "train_tofu_t19_nocopy"):
         d = JT(f"{name}.json")
         mname = f"mon_{name}_copy.json" if name == "train_clinc_t0" else f"mon_{name}.json"
@@ -150,6 +172,7 @@ def main():
         peak = max(p["peak_allocated_MB"] for p in d["phases"])
         md.append(f"| RULE {d['ds']} t{d['t']} {'(원래 코드, deepcopy)' if not d.get('no_deepcopy') else '(deepcopy 제거)'} | {load:.1f}s | {dirn:.1f}s | {act:.0f}s | "
                   f"{moe:.1f} × {d['full_num_epochs']} = {moe * d['full_num_epochs']:.0f}s | {load + dirn + act + moe * d['full_num_epochs']:.0f}s | "
+                  f"{ph['moe_train_expert']['sec']:.1f}s / {ph['moe_train_router']['sec']:.1f}s | "
                   f"{peak:.0f} / {monl['gpu_peak_MiB'].get('0', monl['gpu_peak_MiB'].get(0)) if monl else '–'} | "
                   f"{mon['host_pss_peak_MB']:.0f} | {d['activation_cache']['MB']:.0f} |")
     md.append("")
@@ -219,6 +242,31 @@ def main():
                           f"{f8['ms_per_sample']['mean']:.1f} ({pct(f8['ms_per_sample']['mean'], b['fixed64_bs8']['ms_per_sample']['mean'])}) | "
                           f"{f8['ttft_ms']['mean']:.2f} | {f8['mem']['peak_allocated_MB']:.0f}{dpk} |")
             md += ["", "*peak 은 원래 down_proj (112 MB) 를 따로 들고 측정해 base 대비 +112 MB 가 겹쳐 있음 → RULE 의 실제 추가 메모리는 E=21 대비 차이로 볼 것", ""]
+        st = JT("scale_train.json")
+        if b and st and all("e2e" in sc.get(f"E{E}", {}) for E in es):
+            dup = 4096 * 14336 * 2 / 2**20   # 측정 중 따로 들고 있던 원래 down_proj (bf16) = 112 MiB
+            bp = b["fixed64_bs1"]["mem"]["peak_allocated_MB"]
+            md += ["### 통합 표 — expert 수 E (요청 수) 에 따른 RULE 비용 (TOFU, bs1, 64 tok 고정)", "",
+                   "| E (expert) | 추가 파라미터 | decode bs1 추가 (us/token) | prefill bs1 추가 (us) | bs1 ms/sample (vs base) | bs1 TTFT ms | "
+                   "bs1 peak MB (RULE 추가) | MoE 학습 1 epoch (실측) | 학습 GPU peak MB |",
+                   "|---|---|---|---|---|---|---|---|---|"]
+            f1 = b["fixed64_bs1"]
+            md.append(f"| base | 0 | – | – | {f1['ms_per_sample']['mean']:.1f} | {f1['ttft_ms']['mean']:.2f} | {bp:.0f} | – | – |")
+            for E in es:
+                x, e = sc[f"E{E}"], sc[f"E{E}"]["e2e"]["fixed64_bs1"]
+                tr = st["per_E"].get(str(E))
+                add = e["mem"]["peak_allocated_MB"] - bp - dup
+                md.append(f"| {E}{'' if x['real'] else ' (합성)'} | {x['params'] / 1e6:.2f}M | +{x['micro']['decode_bs1']['added_vs_base']:.0f} | "
+                          f"+{x['micro']['prefill_bs1']['added_vs_base']:.0f} | {e['ms_per_sample']['mean']:.1f} "
+                          f"({pct(e['ms_per_sample']['mean'], f1['ms_per_sample']['mean'])}) | {e['ttft_ms']['mean']:.2f} | "
+                          f"{e['mem']['peak_allocated_MB'] - dup:.0f} ({add:+.0f}) | "
+                          + (f"{tr['epoch_sec']:.1f}s | {tr['peak_allocated_MB']:.0f} |" if tr else "– | – |"))
+            md += ["", f"*decode / prefill 추가 = layer16 MoE microbench (원래 down_proj 대비). bs1 ms/sample · TTFT · peak = 실제 생성 한 회차 "
+                       f"(base 와 같은 회차). peak 은 측정 중 따로 들고 있던 원래 down_proj {dup:.0f} MB 를 뺀 값, 괄호 = base 대비 RULE 추가",
+                   f"*MoE 학습 1 epoch = TOFU t19 원래 학습 경로로 1 epoch 을 끝까지 돌린 실측 (expert + router joint, 같은 activation, "
+                   f"{st['n_train_samples']:,} 샘플 / batch {st['train_batch_size']} = {st['n_train_batches']:,} step, 학습 대상 = 마지막 expert). "
+                   f"원래 학습 1 stage = 전처리 (모델 로드 + direction + activation 추출, {st['fixed_sec']['sum_pre_moe']:.0f}s, E 와 무관, 1 회 실측) "
+                   f"+ MoE {st['full_num_epochs']} epoch", ""]
     open(os.path.join(HERE, "latency_table.md"), "w").write("\n".join(md))
     print("\n".join(md))
 

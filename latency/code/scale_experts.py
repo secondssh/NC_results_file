@@ -125,6 +125,7 @@ def main():
     ap.add_argument("--E", type=int, nargs="+", default=[2, 10, 21, 40, 80, 160, 320])
     ap.add_argument("--e2e_E", type=int, nargs="+", default=[21, 80, 160, 320])
     ap.add_argument("--n_bs1", type=int, default=24)
+    ap.add_argument("--only_e2e", action="store_true", help="microbench / 학습 step 건너뛰고 실제 생성만 (한 회차에 base + 모든 E)")
     a = ap.parse_args()
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     res = json.load(open(OUT)) if os.path.exists(OUT) else {}
@@ -135,7 +136,7 @@ def main():
         json.dump(res, open(OUT, "w"), indent=1)
 
     # 1) microbench + 3) train step + 4) params (모듈만)
-    for E in a.E:
+    for E in ([] if a.only_e2e else a.E):
         m = make_moe(E)
         r = {"E": E, "real": E in REAL, "params": E * (147456 + 14337),
              "module_weights_MB": sum(p.numel() * p.element_size() for n, p in m.named_parameters() if n != "linear.weight") / 2**20}

@@ -63,9 +63,13 @@
 - 차이는 **출력 길이** 때문: CLINC base는 label만 (2.1 tok), RULE t4·t8은 지운 도메인 질문에 거절문 (50 ~ 78 tok) → +1,556% 같은 수치가 나옴. decode ms/token은 거의 같음
 - bs1 원래 설정은 앞 24문항 1회만 → std 0.0은 반복이 없어서 생긴 값 (실제 편차 아님)
 
-### 3-4. O3 분해 (CLINC)
+### 3-4. O3 분해 (OOD 점수 계산 + LLM)
 
 ![](tables/o3_clinc_breakdown.png)
+![](tables/o3_tofu_breakdown.png)
+
+- O3 OOD 점수 계산: CLINC 44.6ms (RoBERTa+Mahalanobis 43.4 / OCSVM CPU 0.7), TOFU 27.3ms (26.6 / 0.7). TOFU는 OOD 입력이 256 tok (CLINC 512)
+- O3 원래 생성 설정 (CLINC max 128, TOFU max 200)은 출력이 짧아 (3 ~ 20 tok) 원래 설정 ms/sample 차이가 64 tok 고정보다 작게 보임
 
 ## 4. Router / Expert 계산
 
@@ -87,7 +91,7 @@
 
 - RULE (1 GPU, 1 stage): UV direction 14 ~ 22s + activation 추출 139 ~ 325s + MoE joint (20 epoch) 339 ~ 601s = **약 8 ~ 15분**
   - MoE는 1 epoch 실측 × 20 (원래 학습 로그와 일치: CLINC t0 로그 577s vs 측정 568 ~ 601s)
-  - expert와 router는 **한 루프에서 같이** 학습 (`train_moe.py mode=joint`) → joint로 보고. expert만 / router만 학습한 시간 (`results/timing/train_*.json`의 `moe_train_expert/router`)은 공통 비용이 양쪽에 들어가 더하면 joint보다 큼 (참고값)
+  - expert와 router는 **한 루프에서 같이** 학습 (`train_moe.py mode=joint`) → joint로 보고. expert만 / router만 1 epoch (표의 참고 열, CLINC t0 21.6s / 15.3s, TOFU t19 13.5s / 13.9s 등)은 데이터 로딩·forward 같은 공통 비용이 양쪽에 들어가 더하면 joint보다 큼
   - **GPU 메모리:** 원래 코드는 학습용 8B 복사본 (`copy.deepcopy`)을 만들어 30.9GB. 이 복사본은 학습에 쓰이지 않음 (MoE는 CPU에 둔 activation으로 학습, 추출이 끝난 뒤 MoE 삽입) → 제거하면 **15.6GB**, 학습 입력 sha256 동일 (`results/timing/train_clinc_t0*.json`)
   - host 메모리 (PSS) 14.8 ~ 28.7GB, 이 중 activation cache 4.6 ~ 9.2GB (CPU)
 - GD / GA / NPO+KL (2 GPU): 1 epoch 실측 × 10 epoch = GD CLINC 6,943s / TOFU 2,430s (GPU-시간 3.86h / 1.35h), GPU당 19 ~ 40GB, host PSS 158 ~ 162GB (ZeRO CPU offload)
@@ -100,6 +104,21 @@
 
 ## 6. 요청 80건 이상 (expert 수 E 확장)
 
+### 통합 표 (TOFU, bs1, 64 tok 고정)
+
+![](tables/scale_combined.png)
+
+- decode / prefill 추가 = layer16 MoE microbench, bs1 ms/sample · TTFT · peak = 실제 생성 **한 회차** (base와 같은 회차, 10/23 18:09), MoE 학습 1 epoch = TOFU t19 원래 학습 경로로 1 epoch을 끝까지 돌린 실측 (10/23, 추정 없음)
+- **추론은 E와 무관:** E = 2 → 320에서 bs1 +1.7 ~ +1.9%, TTFT 27.4 ~ 27.6ms, RULE 추가 메모리 +1 → +239MB
+- 학습 GPU peak (실제 학습 경로, deepcopy 제거): 15,463MB (E = 2) → 15,621MB (80) → 16,110MB (320)
+- **학습은 E가 커지면 늘어남:** MoE 1 epoch 19.0s (E = 2) → 24.2s (80) → 50.3s (320). 원래 학습 1 stage = 전처리 280s (E와 무관) + 20 epoch이므로 참고로 약 660s → 763s → 1,285s
+  - 원인은 연산이 아니라 구현: `train_moe.py`의 `zero_expert_param_grads` / `zero_gate_row_grads`가 step마다 이전 expert의 grad를 **하나씩 반복**해서 0으로 만듦 (step당 4 × (E−1)개 작은 kernel, epoch당 3,205 step). 슬라이스 한 번 (`grad[:cur].zero_()`)으로 바꾸면 사라질 비용 (측정은 원래 코드 그대로)
+  - 학습 대상 = 마지막 expert (E−1), forget label도 E−1로 맞춰 실제 E번째 요청 상황과 같게 잼. 처음에 학습 대상을 20번에 고정해 잰 값 (이 grad 0 비용이 빠짐, E = 320에서 741s)은 `results/timing/scale_train_cur20.json`에 기록만 둠
+  - 전처리 (모델 로드 + direction + activation 추출, 280s)는 base 모델로 하므로 E와 무관
+- E = 2의 decode bs1 +453us는 microbench 초기값 이상치 (다른 E는 모두 약 +300us)
+
+### 상세
+
 ![](tables/scale_micro.png)
 ![](tables/scale_e2e.png)
 
@@ -107,7 +126,7 @@
   - 연산량은 가중치 값과 무관 (top-1이어도 모든 expert의 LoRA를 계산한 뒤 섞음, 값에 따라 갈리는 분기 없음). 출력 길이는 가중치에 좌우되므로 **64 tok 고정만** 유효
 - decode: E = 320까지 MoE 추가 ≈ **0.3ms로 평평**. 실제 생성 bs1은 E와 무관하게 +0.7 ~ +1.9%
 - prefill + batch: E에 비례 (`BAx` [B, S, E, 4096]을 한꺼번에 만듦). bs8에서 E = 320이면 +2.6ms, +1.0GB (TTFT 57.1 → 59.9ms, +4.8%)
-- 학습 1 step (batch 64): E = 320에서도 5ms 이하, 메모리 1GB 이하
+- 학습 1 step microbench (batch 64, 랜덤 activation, grad 0 반복 없이): E = 320에서도 5ms 이하, 메모리 1GB 이하 (실제 학습 경로 총시간은 위 통합 표)
 - 파라미터: E × 0.162M → E = 80이면 12.9M, 320이면 51.8M (O3가 추론 때 올리는 377M보다 작음, 같아지려면 E ≈ 2,330)
 - 실제 생성 peak는 원래 down_proj (112MB)를 따로 들고 재서 base 대비 +112MB가 겹쳐 있음 → RULE의 실제 추가 메모리는 E = 21 대비 차이로 볼 것
 - 이 측정은 **비용만** 봄. E가 클 때 router가 맞게 고르는지 (정확도)는 별도 문제

@@ -1,0 +1,40 @@
+{
+ "cmd": [
+  "/home/hai_ssh/.conda/envs/lunar/bin/python",
+  "/home/hai_ssh/code/O3-LLM-UNLEARNING/ScienceQA_expriment/modify_code/latency/scale_experts.py",
+  "--only_e2e",
+  "--e2e_E",
+  "2",
+  "10",
+  "21",
+  "40",
+  "80",
+  "160",
+  "320"
+ ],
+ "rc": 0,
+ "wall_sec": 2187.3609189987183,
+ "gpu_peak_MiB": {
+  "0": 22158,
+  "1": 0
+ },
+ "gpu_used_before_MiB": {
+  "0": 0,
+  "1": 0
+ },
+ "gpu_apps_before": [],
+ "host_rss_peak_MB": 0.0,
+ "host_pss_peak_MB": 0.0,
+ "max_compute_apps_per_gpu_uuid": {
+  "GPU-1253f41b-e118-bced-0abf-4dc55a87d8cf": 1
+ },
+ "foreign_gpu_pids": [],
+ "clean": true,
+ "load1_max": 1.97,
+ "load1_mean": 1.0910537190082616,
+ "n_cpu": 32,
+ "n_samples": 968,
+ "light": true,
+ "interval": 2.0,
+ "cuda_visible_devices": "0"
+}

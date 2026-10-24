@@ -1,6 +1,6 @@
-,모델 로드,direction 추출,activation 추출,MoE joint (1 epoch × 20),합계 (추정),GPU peak MB (torch / nvidia-smi),host PSS peak MB,activation cache MB
-"RULE clinc t0 (원래 코드, deepcopy)",5.0s,21.7s,275s,28.4 × 20 = 568s,870s,30885 / 31770,28737,9239
-RULE clinc t0 (deepcopy 제거),4.2s,21.3s,271s,30.0 × 20 = 601s,897s,15569 / 16326,28659,9239
-RULE clinc t8 (deepcopy 제거),4.2s,21.0s,139s,17.0 × 20 = 339s,504s,15553 / 16296,14842,4634
-RULE tofu t0 (deepcopy 제거),4.9s,14.0s,325s,22.8 × 20 = 457s,801s,15569 / 16316,27809,8859
-RULE tofu t19 (deepcopy 제거),4.9s,14.1s,262s,20.9 × 20 = 417s,698s,15560 / 16314,22858,7211
+,모델 로드,direction 추출,activation 추출,MoE joint (1 epoch × 20),합계 (추정),"expert만 / router만 (1 epoch, 참고)",GPU peak MB (torch / nvidia-smi),host PSS peak MB,activation cache MB
+"RULE clinc t0 (원래 코드, deepcopy)",5.0s,21.7s,275s,28.4 × 20 = 568s,870s,22.7s / 17.1s,30885 / 31770,28737,9239
+RULE clinc t0 (deepcopy 제거),4.2s,21.3s,271s,30.0 × 20 = 601s,897s,21.6s / 15.3s,15569 / 16326,28659,9239
+RULE clinc t8 (deepcopy 제거),4.2s,21.0s,139s,17.0 × 20 = 339s,504s,12.3s / 8.6s,15553 / 16296,14842,4634
+RULE tofu t0 (deepcopy 제거),4.9s,14.0s,325s,22.8 × 20 = 457s,801s,15.4s / 15.6s,15569 / 16316,27809,8859
+RULE tofu t19 (deepcopy 제거),4.9s,14.1s,262s,20.9 × 20 = 417s,698s,13.5s / 13.9s,15560 / 16314,22858,7211
